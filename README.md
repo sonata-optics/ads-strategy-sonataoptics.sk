@@ -1,2 +1,2 @@
-# ads-strategy-donstaoptics.sk
+# ads-strategy-sonataoptics.sk
 Реклама Sonata Optics sk
