@@ -1,0 +1,38 @@
+{
+  "snapshot_date": "2026-11-14",
+  "market": "SK",
+  "website_product_urls": 14716,
+  "products_with_sourced_title": 8443,
+  "products_without_sourced_title": 6273,
+  "image_sitemap_products": 8443,
+  "merchant_products": 6077,
+  "merchant_pagination_pages": 25,
+  "merchant_pagination_exhausted": true,
+  "merchant_brands_nonempty": 58,
+  "merchant_brand_missing": 464,
+  "merchant_availability": {
+    "IN_STOCK": 4270,
+    "OUT_OF_STOCK": 1807
+  },
+  "category_urls": 553,
+  "brand_page_urls": 158,
+  "site_urls_missing_from_merchant": 8639,
+  "scope_candidates": 502,
+  "scope_candidates_in_merchant": 0,
+  "sources": [
+    "https://sonataoptics.sk/sitemap.xml",
+    "https://sonataoptics.sk/products1.xml",
+    "https://sonataoptics.sk/images1.xml",
+    "https://sonataoptics.sk/images2.xml",
+    "Google Merchant Center via authorized read-only connection"
+  ],
+  "limitations": [
+    "Website sitemap is a published URL inventory, not a backend inventory or confirmation of purchasability.",
+    "No CS-Cart backend API export, cost prices, margins, stock quantities or full specifications were available.",
+    "Prices and availability are available only for Merchant records and are a point-in-time snapshot. IN_STOCK does not prove physical Bratislava stock.",
+    "Titles from image sitemap are image metadata, not verified product H1 headings. url_label is a mechanical URL label, not an authoritative product name.",
+    "58 nonempty brands are represented in Merchant; this is not the complete website brand count.",
+    "All listed public product URLs were exported; the individual 14716 pages were not crawled.",
+    "Missing from Google does not mean missing from assortment or erroneous omission."
+  ]
+}
