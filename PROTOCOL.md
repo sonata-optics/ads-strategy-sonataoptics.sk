@@ -68,7 +68,7 @@
 ## 6. Резюме модератора и хранение
 
 Ответы сохраняются отдельно в discussions/round-01/, round-02/, round-03/:
-01_chatgpt_proposal.md → 02_grok_review.md → 03_gemini_review.md → 04_claude_cowork_review.md → 05_chatgpt_summary.md.
+01_chatgpt_proposal.md → 02_grok_review.md → 03_gemini_review.md → 04_claude_review.md → 05_chatgpt_summary.md.
 
 Сохранять оригинал ответа, не переписывать чужую позицию задним числом. Исправления — отдельным дополнением с датой. ChatGPT ведёт:
 - [Текущий статус и следующее задание](discussions/STATUS.md).
