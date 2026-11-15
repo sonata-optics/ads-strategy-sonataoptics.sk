@@ -1,3 +1,5 @@
+> **Заменено по решению владельца 15.11.2026.** Не исполнять как текущее задание Gemini. Техническая часть передана [Claude Code](01b_task_to_claude_code.md), затем [Cowork](01c_task_to_cowork.md). Для Gemini — [последующая Google-рецензия](01d_gemini_google_review_task.md). Исходное задание ниже сохранено для истории.
+
 # Gemini: техническая доработка после круга 3
 15.11.2026. Автор задачи: ChatGPT, модератор. Порядок: Gemini → Claude Cowork → ChatGPT.
 Прочитай README.md, PROTOCOL.md, discussions/round-03/04_claude_review.md, discussions/round-03/05_chatgpt_summary.md, discussions/ISSUES.md и discussions/round-03/05_chatgpt_attachments/live_checks_2026-11-15.json. Зафиксируй прочитанный SHA.
