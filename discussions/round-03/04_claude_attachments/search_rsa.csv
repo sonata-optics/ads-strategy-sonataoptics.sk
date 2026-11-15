@@ -1,0 +1,44 @@
+ad_group,asset_type,text,chars,limit,pin,status,conditional_note
+AG_103933_Leica_Trinovid_10x42_HD,HEADLINE,Leica Trinovid 10×42 HD,23,30,H1,OK,
+AG_103933_Leica_Trinovid_10x42_HD,HEADLINE,Binokulárny ďalekohľad Leica,28,30,,OK,
+AG_103933_Leica_Trinovid_10x42_HD,HEADLINE,"Zväčšenie 10×, objektív 42 mm",29,30,,OK,
+AG_103933_Leica_Trinovid_10x42_HD,HEADLINE,Prémiová optika Leica,21,30,,OK,
+AG_103933_Leica_Trinovid_10x42_HD,HEADLINE,Na pozorovanie prírody,22,30,,OK,
+AG_103933_Leica_Trinovid_10x42_HD,HEADLINE,Kúpte v Sonata Optics,21,30,,OK,
+AG_103933_Leica_Trinovid_10x42_HD,HEADLINE,Obchod s optikou,16,30,,OK,
+AG_103933_Leica_Trinovid_10x42_HD,HEADLINE,Trinovid HD 10×42 online,24,30,,OK,
+AG_103933_Leica_Trinovid_10x42_HD,DESCRIPTION,Leica Trinovid 10×42 HD – binokulárny ďalekohľad. Parametre a cenu nájdete na webe.,83,90,,OK,
+AG_103933_Leica_Trinovid_10x42_HD,DESCRIPTION,"Objednajte online v Sonata Optics, obchode s optikou.",53,90,,OK,
+AG_103933_Leica_Trinovid_10x42_HD,CONDITIONAL_HEADLINE,Cena {CUSTOMIZER.cena},22,30,,NOT_ACTIVE_UNTIL_SYNC,price customizer — only from the same source as landing price
+AG_103933_Leica_Trinovid_10x42_HD,CONDITIONAL_HEADLINE,Skladom – odosielame ihneď,26,30,,NOT_ACTIVE_UNTIL_SYNC,only with live stock sync + owner-confirmed dispatch time
+AG_26113_Levenhuk_Vegas_ED_10x42,HEADLINE,Levenhuk Vegas ED 10×42,23,30,H1,OK,
+AG_26113_Levenhuk_Vegas_ED_10x42,HEADLINE,Binokulárny ďalekohľad 10×42,28,30,,OK,
+AG_26113_Levenhuk_Vegas_ED_10x42,HEADLINE,Optika s ED sklom,17,30,,OK,
+AG_26113_Levenhuk_Vegas_ED_10x42,HEADLINE,"Zväčšenie 10×, objektív 42 mm",29,30,,OK,
+AG_26113_Levenhuk_Vegas_ED_10x42,HEADLINE,Kúpte v Sonata Optics,21,30,,OK,
+AG_26113_Levenhuk_Vegas_ED_10x42,HEADLINE,Obchod s optikou,16,30,,OK,
+AG_26113_Levenhuk_Vegas_ED_10x42,DESCRIPTION,Levenhuk Vegas ED 10×42 – binokulárny ďalekohľad s ED sklom. Parametre a cena na webe.,86,90,,OK,
+AG_26113_Levenhuk_Vegas_ED_10x42,DESCRIPTION,"Objednajte online v Sonata Optics, obchode s optikou.",53,90,,OK,
+AG_26113_Levenhuk_Vegas_ED_10x42,CONDITIONAL_HEADLINE,Cena {CUSTOMIZER.cena},22,30,,NOT_ACTIVE_UNTIL_SYNC,price customizer
+AG_26113_Levenhuk_Vegas_ED_10x42,CONDITIONAL_HEADLINE,Skladom,7,30,,NOT_ACTIVE_UNTIL_SYNC,only with live stock sync
+AG_103640_Levenhuk_New_Vegas_ED_10x42,HEADLINE,Levenhuk New Vegas ED 10×42,27,30,H1,OK,
+AG_103640_Levenhuk_New_Vegas_ED_10x42,HEADLINE,Nová rada Vegas ED,18,30,,OK,
+AG_103640_Levenhuk_New_Vegas_ED_10x42,HEADLINE,Binokulárny ďalekohľad 10×42,28,30,,OK,
+AG_103640_Levenhuk_New_Vegas_ED_10x42,HEADLINE,Optika s ED sklom,17,30,,OK,
+AG_103640_Levenhuk_New_Vegas_ED_10x42,HEADLINE,"Zväčšenie 10×, objektív 42 mm",29,30,,OK,
+AG_103640_Levenhuk_New_Vegas_ED_10x42,HEADLINE,Kúpte v Sonata Optics,21,30,,OK,
+AG_103640_Levenhuk_New_Vegas_ED_10x42,DESCRIPTION,Levenhuk New Vegas ED 10×42 – binokulárny ďalekohľad s ED sklom. Parametre na webe.,83,90,,OK,
+AG_103640_Levenhuk_New_Vegas_ED_10x42,DESCRIPTION,"Objednajte online v Sonata Optics, obchode s optikou.",53,90,,OK,
+AG_103640_Levenhuk_New_Vegas_ED_10x42,CONDITIONAL_HEADLINE,Cena {CUSTOMIZER.cena},22,30,,NOT_ACTIVE_UNTIL_SYNC,price customizer
+AG_103640_Levenhuk_New_Vegas_ED_10x42,CONDITIONAL_HEADLINE,Skladom,7,30,,NOT_ACTIVE_UNTIL_SYNC,only with live stock sync
+AG_47420_SkyWatcher_Explorer_150PDS_EQ3,HEADLINE,Sky-Watcher 150PDS EQ3,22,30,H1,OK,
+AG_47420_SkyWatcher_Explorer_150PDS_EQ3,HEADLINE,Explorer-150PDS na montáži EQ3,30,30,,OK,
+AG_47420_SkyWatcher_Explorer_150PDS_EQ3,HEADLINE,Newtonov reflektor 150/750,26,30,,OK,
+AG_47420_SkyWatcher_Explorer_150PDS_EQ3,HEADLINE,Dvojrýchlostné zaostrovanie,27,30,,OK,
+AG_47420_SkyWatcher_Explorer_150PDS_EQ3,HEADLINE,Hliníkový statív v balení,25,30,,OK,
+AG_47420_SkyWatcher_Explorer_150PDS_EQ3,HEADLINE,Kúpte v Sonata Optics,21,30,,OK,
+AG_47420_SkyWatcher_Explorer_150PDS_EQ3,HEADLINE,Obchod s optikou,16,30,,OK,
+AG_47420_SkyWatcher_Explorer_150PDS_EQ3,DESCRIPTION,Sky-Watcher Explorer-150PDS 150/750 na montáži EQ3 s hliníkovým statívom.,73,90,,OK,
+AG_47420_SkyWatcher_Explorer_150PDS_EQ3,DESCRIPTION,"Manuálna montáž EQ3, bez GoTo. Objednajte online v Sonata Optics.",65,90,,OK,
+AG_47420_SkyWatcher_Explorer_150PDS_EQ3,CONDITIONAL_HEADLINE,Cena {CUSTOMIZER.cena},22,30,,NOT_ACTIVE_UNTIL_SYNC,price customizer
+AG_47420_SkyWatcher_Explorer_150PDS_EQ3,CONDITIONAL_HEADLINE,Skladom,7,30,,NOT_ACTIVE_UNTIL_SYNC,only with live stock sync

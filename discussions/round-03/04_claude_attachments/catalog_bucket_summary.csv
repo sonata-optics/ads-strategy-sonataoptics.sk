@@ -1,0 +1,10 @@
+bucket,description,count,in_stock,out_of_stock,weapon_candidate_flag,false_trigger_title_flag,untitled
+MC-1,Merchant: policy review (7 SKU from round-1 risk list),7,2,5,7,0,0
+MC-2,"Merchant: IN_STOCK, brand filled, not in policy review",4209,4209,0,0,5,0
+MC-3,"Merchant: IN_STOCK, brand empty, not in policy review",59,59,0,0,0,0
+MC-4,"Merchant: OUT_OF_STOCK, brand filled, not in policy review",1397,0,1397,0,0,0
+MC-5,"Merchant: OUT_OF_STOCK, brand empty, not in policy review",405,0,405,0,3,0
+ST-1,Site only: heuristic weapon-optic candidate (needs manual role),771,0,0,771,0,181
+ST-2,"Site only: title known (image sitemap), not a candidate",1776,0,0,0,0,0
+ST-3,"Site only: no title/price/availability in snapshot, not a candidate",6092,0,0,0,0,6092
+TOTAL,,14716,,,,,

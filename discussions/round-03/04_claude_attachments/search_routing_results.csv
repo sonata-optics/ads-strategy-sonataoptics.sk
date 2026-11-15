@@ -1,0 +1,25 @@
+test_id,query,expected,simulated,reason,pass_
+T01,leica trinovid 10x42 hd,AG_103933_Leica_Trinovid_10x42_HD,AG_103933_Leica_Trinovid_10x42_HD,identical exact,True
+T02,leica trinovid 10x42 hd cena,AG_103933_Leica_Trinovid_10x42_HD,AG_103933_Leica_Trinovid_10x42_HD,phrase contains,True
+T03,ďalekohľad leica trinovid 10x42,AG_103933_Leica_Trinovid_10x42_HD,AG_103933_Leica_Trinovid_10x42_HD,identical exact,True
+T04,dalekohlad leica trinovid 10x42,AG_103933_Leica_Trinovid_10x42_HD,AG_103933_Leica_Trinovid_10x42_HD,phrase contains,True
+T05,leica trinovid 8x42 hd,NONE,NONE,blocked by negatives AG_103933_Leica_Trinovid_10x42_HD:phrase:8x42; AG_26113_Levenhuk_Vegas_ED_10x42:phrase:8x42; AG_103640_Levenhuk_New_Vegas_ED_10x42:phrase:8x42,True
+T06,leica trinovid 10x25 bca,NONE,NONE,blocked by negatives AG_103933_Leica_Trinovid_10x42_HD:phrase:10x25; AG_103933_Leica_Trinovid_10x42_HD:broad:bca,True
+T07,leica trinovid 10 x 42 hd,AG_103933_Leica_Trinovid_10x42_HD,AG_103933_Leica_Trinovid_10x42_HD,identical exact,True
+T08,levenhuk vegas ed 10x42,AG_26113_Levenhuk_Vegas_ED_10x42,AG_26113_Levenhuk_Vegas_ED_10x42,identical exact,True
+T09,levenhuk new vegas ed 10x42,AG_103640_Levenhuk_New_Vegas_ED_10x42,AG_103640_Levenhuk_New_Vegas_ED_10x42,identical exact,True
+T10,levenhuk vegas ed 10x42 cena,AG_26113_Levenhuk_Vegas_ED_10x42,AG_26113_Levenhuk_Vegas_ED_10x42,phrase contains,True
+T11,levenhuk vegas ed 10x50 monokular,NONE,NONE,blocked by negatives AG_103933_Leica_Trinovid_10x42_HD:broad:monokulár; AG_103933_Leica_Trinovid_10x42_HD:broad:monokular; AG_26113_Levenhuk_Vegas_ED_10x42:phrase:10x50; AG_26113_Levenhuk_Vegas_ED_10x42:broad:monokulár; AG_26113_Levenhuk_Vegas_ED_10x42:broad:monokular; AG_103640_Levenhuk_New_Vegas_ED_10x42:phrase:10x50; AG_103640_Levenhuk_New_Vegas_ED_10x42:broad:monokulár; AG_103640_Levenhuk_New_Vegas_ED_10x42:broad:monokular,True
+T12,new vegas ed 10x50,NONE,NONE,blocked by negatives AG_26113_Levenhuk_Vegas_ED_10x42:broad:new; AG_26113_Levenhuk_Vegas_ED_10x42:phrase:10x50; AG_103640_Levenhuk_New_Vegas_ED_10x42:phrase:10x50,True
+T13,levenhuk vegas 10x42,UNROUTED_BY_DESIGN,NONE,no literal match (close variants not simulated),True
+T14,sky watcher explorer 150pds eq3,AG_47420_SkyWatcher_Explorer_150PDS_EQ3,AG_47420_SkyWatcher_Explorer_150PDS_EQ3,identical exact,True
+T15,skywatcher explorer-150pds eq3,AG_47420_SkyWatcher_Explorer_150PDS_EQ3,AG_47420_SkyWatcher_Explorer_150PDS_EQ3,identical exact,True
+T16,sky-watcher 150pds eq3 goto,NONE,NONE,blocked by negatives AG_47420_SkyWatcher_Explorer_150PDS_EQ3:broad:goto,True
+T17,sky watcher 150p eq3,NONE,NONE,blocked by negatives AG_47420_SkyWatcher_Explorer_150PDS_EQ3:broad:150p,True
+T18,150pds eq3 cena,AG_47420_SkyWatcher_Explorer_150PDS_EQ3,AG_47420_SkyWatcher_Explorer_150PDS_EQ3,phrase contains,True
+T19,150pds eq3 pro synscan,NONE,NONE,blocked by negatives AG_47420_SkyWatcher_Explorer_150PDS_EQ3:broad:synscan; AG_47420_SkyWatcher_Explorer_150PDS_EQ3:phrase:eq3 pro,True
+T20,skywatcher 150pds ota,NONE,NONE,blocked by negatives AG_47420_SkyWatcher_Explorer_150PDS_EQ3:broad:ota,True
+T21,teleskop 150 pds eq3,AG_47420_SkyWatcher_Explorer_150PDS_EQ3,AG_47420_SkyWatcher_Explorer_150PDS_EQ3,phrase contains,True
+T22,leica trinovid 10x42 hd bazár,NONE,NONE,campaign negative,True
+T23,ďalekohľad,NONE,NONE,no literal match (close variants not simulated),True
+T24,teleskop pre začiatočníkov,NONE,NONE,no literal match (close variants not simulated),True

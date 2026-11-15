@@ -1,0 +1,28 @@
+field,required,meaning,why_needed,example_or_values,notes
+product_id,yes,CS-Cart internal product ID,stable join key,12345,
+offer_id_in_feed,yes,ID sent to Merchant as offerId,join to merchant-*.json and Google Ads item_id,103933,confirm mapping rule (product_id vs product_code vs variation)
+parent_product_id / variation_group_id,yes,variation parent or group,variants (size/kit) must not be merged,,empty for simple products
+product_code,yes,shop SKU code,join to supplier data; NOT automatically MPN,,
+mpn_manufacturer,yes,manufacturer part number if stored,Merchant identifier,,state which CS-Cart field/feature holds it
+ean_gtin,yes,EAN/GTIN if stored,Merchant identifier,13 digits,state source field; validate check digit
+brand,yes,brand/manufacturer as sent to feed,59 IN_STOCK Merchant items have empty brand,Leica,
+title_sk,yes,product name for lang_code=sk,feed title source,,one row per storefront+language
+lang_code,yes,language of text fields,multi-language store,sk,
+storefront_id / company_id,yes,storefront the URL belongs to,separate Sonata vs other storefronts (e.g. PulsarVision),,
+url_sk,yes,canonical product URL on sonataoptics.sk,join to 14716 sitemap URLs,https://sonataoptics.sk/...,
+status,yes,A/D/H (active/disabled/hidden),separate archive from live,A,
+amount,yes,stock quantity,availability truth,3,
+out_of_stock_action / tracking,yes,backorder/preorder policy,availability mapping,,
+supplier_lead_time_days,yes,delivery policy when amount=0,can item be sold OOS (preorder),,
+availability_sent_to_feed,yes,value the feed exporter writes,compare with Merchant,in_stock,
+price_with_vat,yes,current selling price incl. VAT,feed price,1275.00,
+list_price,optional,crossed-out price,sale annotations,,
+vat_rate,yes,VAT rate applied to the item,net value per line,23,do not assume 23% for all
+main_category_path,yes,main category breadcrumb,role mapping (observation vs weapon optic),Ďalekohľady > Leica,
+all_category_ids,optional,secondary categories,role mapping,,
+product_role (new column),proposed,observation/astro/micro/weapon_optic/mount/accessory/...,allowlist for Google/Meta,observation,filled manually or by rule then reviewed
+included_in_google_feed,yes,does exporter include the item,why 8639 URLs are outside Merchant,Y/N,with reason code if N
+feed_exclusion_reason,yes,reason the exporter skips the item,explain gaps,disabled/no_price/no_stock/filter,
+weight_kg / dimensions,optional,shipping cost driver,S_out in economics,,
+cost_price (COGS) — CLOSED,closed only,purchase cost ex VAT,CM_exp,,never publish in the public repo
+updated_at,yes,last change timestamp,freshness,2026-11-15T10:00:00,

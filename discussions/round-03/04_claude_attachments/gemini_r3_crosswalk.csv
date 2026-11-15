@@ -1,0 +1,10 @@
+gemini_set,gemini_count,claude_recount,match,claude_buckets,note
+M_RISK_HIGH_MED,7,7,True,MC-1,"2 IN_STOCK (107817,107671) + 5 OOS"
+M_FALSE_TRIGGER,8,8,True,MC-2+MC-5 flag,"5 from MC-2 (IN_STOCK, brand) + 3 from MC-5 (OOS, no brand); availability hidden by this set"
+M_IN_STOCK_WITH_BRAND,4204,4204,True,MC-2,MC-2 minus 5 false-trigger titles
+M_IN_STOCK_NO_BRAND,59,59,True,MC-3,
+M_OOS_WITH_BRAND,1397,1397,True,MC-4,
+M_OOS_NO_BRAND,402,402,True,MC-5,MC-5 minus 3 false-trigger titles
+NOT_M_WEAPON_CANDIDATE,771,771,True,ST-1,
+REST,7868,7868,True,ST-2+ST-3,ST-2 1776 titled + ST-3 6092 untitled — Gemini merges two different data situations
+TOTAL,14716,14716,True,,
