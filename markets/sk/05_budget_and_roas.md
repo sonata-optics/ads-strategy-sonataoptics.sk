@@ -59,3 +59,6 @@ Max CPL = P(оплата|квалифицированный лид) × CM_exp �
 - https://www.financnasprava.sk/sk/podnikatelia/dane/dan-z-pridanej-hodnoty/sadzby-dane/
 - https://support.google.com/google-ads/answer/11461796?hl=en
 - https://support.google.com/google-ads/answer/2390590 (eCPC недоступен для Search/Display с марта 2025; не распространять утверждение без проверки на все типы кампаний).
+
+## Уточнение владельца после 04c — 15.11.2026
+По воспоминанию владельца, текущий тег передаёт стоимость товаров с НДС, без доставки. Владелец не уверен: статус OWNER_REPORTED_UNVERIFIED. Это гипотеза для проверки конфигурации и обезличенного события, не доказательство фактического value и не изменение канонической базы формул. Источник покупки, скидки, возвраты и дубли ещё требуют проверки. [Контекст](../../discussions/round-04/04c_owner_clarifications.md).
