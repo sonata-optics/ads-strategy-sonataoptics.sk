@@ -1,0 +1,5 @@
+['WAIT:in-stock confirmation 1/2', 'ENABLE:in stock, paused by sync, confirmed']
+PROBLEM C1 same read twice -> 2nd run enables (should WAIT for a NEW read) | [] | [('AG_103933', 'ENABLE', 'paused-by-sync')]
+PROBLEM C2 raw resource_name (customers/.../shoppingProducts/...) is SKIPPED, OOS group stays enabled; fail-safe but silent — needs explicit parse + alert | [] | ['identity outside SK destination/merchant']
+PROBLEM C3 manual HOLD on a sync-paused group is not representable; sync enables it | [('AG_103933', 'ENABLE', 'paused-by-sync')] | 
+PROBLEM C4 manual override to keep OOS group enabled is not representable; sync pauses it | [('AG_103933', 'PAUSE', 'paused-by-sync')] | 

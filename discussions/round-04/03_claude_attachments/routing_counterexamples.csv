@@ -1,0 +1,15 @@
+id,query,why,account_neg_literal,account_neg_if_cv,search_literal,shopping,expected_shopping_reach,expected_search,verdict
+C01,poradiť leica trinovid 10x42 hd,advice intent = pre-purchase,BROAD:poradiť,BROAD:poradiť,NONE,BLOCKED,True,AG_103933_Leica_Trinovid_10x42_HD,FAIL
+C02,ake leica trinovid 10x42 hd,"""ake"" (aký without diacritics) also in account list; diff covers only aký",BROAD:ake,BROAD:ake,NONE,BLOCKED,True,AG_103933_Leica_Trinovid_10x42_HD,FAIL
+C03,leica trinovid 10x42 hd nie drahé,price-sensitive commercial,BROAD:nie drahé,BROAD:nie drahé,NONE,BLOCKED,True,AG_103933_Leica_Trinovid_10x42_HD,FAIL
+C04,správny ďalekohľad leica trinovid 10x42,"selection intent (""Správny"")",BROAD:Správny,BROAD:Správny,NONE,BLOCKED,True,AG_103933_Leica_Trinovid_10x42_HD,FAIL
+C05,levenhuk vegas ed 10x42 popis,spec/description lookup on product,BROAD:popis,BROAD:popis,NONE,BLOCKED,True,AG_26113_Levenhuk_Vegas_ED_10x42,FAIL
+C06,typy ďalekohľadov leica trinovid,research,BROAD:typy,BROAD:typy,NONE,BLOCKED,True,NONE,FAIL
+C07,termovízne drony autel,"catalog has 5 IN_STOCK Autel drones; account BROAD ""drony""",BROAD:drony,BROAD:drony,NONE,BLOCKED,True,NONE,FAIL
+C08,dalekohlad s fotoaparatom,catalog has Levenhuk Atom DNB300 digital binocular; account PHRASE,PHRASE:dalekohlad s fotoaparatom,PHRASE:dalekohlad s fotoaparatom,NONE,BLOCKED,True,NONE,FAIL
+C09,ďalekohľad s fotoaparátom,same query with diacritics: literal not blocked (inconsistency),,PHRASE:dalekohlad s fotoaparatom,NONE,REACHES_AUCTION,True,NONE,PASS
+C10,čo je leica trinovid 10x42 hd,"""Čo"" — informational; block acceptable",BROAD:Čo,BROAD:Čo,NONE,BLOCKED,False,NONE,PASS
+C11,leica trinovid 10x42 hd recenzia,review intent is not in account list,,,AG_103933_Leica_Trinovid_10x42_HD,REACHES_AUCTION,True,AG_103933_Leica_Trinovid_10x42_HD,PASS
+C12,leica trinovid 10x42 hd vs 8x42,comparison: 8x42 phrase negative blocks Search; Shopping ok,,,NONE,REACHES_AUCTION,True,NONE,PASS
+C13,nájsť leica trinovid 10x42 hd,"""Nájsť"" (find)",BROAD:Nájsť,BROAD:Nájsť,NONE,BLOCKED,True,AG_103933_Leica_Trinovid_10x42_HD,FAIL
+C14,trinowid 10x42,"typo: literal none, CV maybe",,,NONE,REACHES_AUCTION,True,NONE,PASS
