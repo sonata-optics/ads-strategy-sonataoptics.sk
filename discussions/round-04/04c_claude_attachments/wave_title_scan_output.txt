@@ -1,0 +1,17 @@
+plain/data-wave rows with weapon-adjacent title terms: 10
+   ('príslušenstvo pre mikroskopy', 'IN_STOCK') 4
+   ('pozorovacie ďalekohľady - spektívy', 'OUT_OF_STOCK') 3
+   ('astronomické príslušenstvo', 'IN_STOCK') 1
+   ('príslušenstvo pre mikroskopy', 'OUT_OF_STOCK') 1
+   ('meracie nástroje', 'IN_STOCK') 1
+27799 | OUT_OF_STOCK | pozorovacie ďalekohľady - spektívy | 1 | zameriava | Meade Wilderness 20–60x100 zameriavací spektiv
+27798 | OUT_OF_STOCK | pozorovacie ďalekohľady - spektívy | 1 | zameriava | Meade Wilderness 15–45x65 zameriavací spektiv
+27800 | OUT_OF_STOCK | pozorovacie ďalekohľady - spektívy | 1 | zameriava | Meade Wilderness 20–60x80 zameriavací spektiv
+45343 | IN_STOCK | príslušenstvo pre mikroskopy | 1 | Kalib | Levenhuk Objektträger zur Kalibrierung von Stereomikroskopen
+64800 | IN_STOCK | astronomické príslušenstvo | 1 | kolim | Celestron Cheshire okulár / 1,25" (drôtený kríž s dlhým kolimačným tubusom)
+94981 | IN_STOCK | príslušenstvo pre mikroskopy | 1 | Kalib | Kalibračné sklíčko Levenhuk MED
+94985 | OUT_OF_STOCK | príslušenstvo pre mikroskopy | 1 | Kalib | Kalibračné sklíčko Levenhuk MED X/Y
+95010 | IN_STOCK | meracie nástroje | 2 | lov  | Ermenrich Ping SM75 tester káblov s multimetrom
+95045 | IN_STOCK | príslušenstvo pre mikroskopy | 1 | Kalib | Kalibrační sklíčko pro stereomikroskopy MAGUS CSS2 (XY0,05)
+97819 | IN_STOCK | príslušenstvo pre mikroskopy | 1 | kalib | KERN ODC-A2403 — sklíčko na kalibráciu , , 0,01 mm
+titles missing for plan rows: 1

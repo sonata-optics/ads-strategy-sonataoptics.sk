@@ -1,0 +1,6 @@
+ 150  astronomické príslušenstvo (hint)
+  76  unclear -> owner
+  26  montáže a statívy (hint)
+  10  teleskopy (hint)
+   8  pozorovacie ďalekohľady - spektívy (hint)
+total 270

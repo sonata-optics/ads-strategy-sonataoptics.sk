@@ -1,0 +1,29 @@
+rows plan/source 6078 6078 | unique 6078 6078 | same key set True
+field mismatches none {}
+IN_STOCK 4269 [('IN_STOCK_NO_CAMPAIGN', 2376), ('COVERED_ELIGIBLE', 1886), ('IN_STOCK_OTHER_BLOCK', 7)]
+proposed_action x availability
+   ('ADD_AFTER_LABEL_POLICY_REVIEW', 'IN_STOCK') 112
+   ('ADD_AFTER_LABEL_POLICY_REVIEW', 'OUT_OF_STOCK') 10
+   ('ADD_IN_WAVE', 'IN_STOCK') 1955
+   ('ADD_IN_WAVE', 'OUT_OF_STOCK') 452
+   ('ADD_IN_WAVE_DATA_REVIEW', 'IN_STOCK') 21
+   ('ADD_IN_WAVE_DATA_REVIEW', 'OUT_OF_STOCK') 217
+   ('ADD_TO_TREE_FIX_DATA_FIRST', 'IN_STOCK') 8
+   ('ADD_TO_TREE_FIX_DATA_FIRST', 'OUT_OF_STOCK') 4
+   ('EXCLUDE_PENDING_POLICY_REVIEW', 'IN_STOCK') 10
+   ('EXCLUDE_PENDING_POLICY_REVIEW', 'OUT_OF_STOCK') 6
+   ('FIX_DATA_KEEP_IN_TREE', 'IN_STOCK') 7
+   ('FIX_DATA_KEEP_IN_TREE', 'OUT_OF_STOCK') 3
+   ('HOLD_ROLE_UNRESOLVED', 'IN_STOCK') 270
+   ('HOLD_ROLE_UNRESOLVED', 'OUT_OF_STOCK') 292
+   ('KEEP_CURRENT', 'IN_STOCK') 1885
+   ('KEEP_CURRENT_POLICY_REVIEW', 'IN_STOCK') 1
+   ('KEEP_CURRENT_SCOPE', 'OUT_OF_STOCK') 825
+wave (IN_STOCK) [('', 280), ('0', 1893), ('1', 1623), ('2', 427), ('3', 46)]
+rule violations {'ADD_IN_WAVE_with_merchant_issue_code': 2407, 'HOLD_with_campaign': 562}
+policy reasons [('label: flashlights may include weapon lights/mounts', 56), ('label: night vision: some devices are weapon-mountable', 27), ('label: thermal accessories may include weapon mounts/adapters', 24), ('label: hunting rangefinders: usually allowed, check weapon-mount variants', 13), ('guns_parts_policy_violation | label: 107671 here has guns_parts_policy_violation | heuristic 14.11: ir_illuminator | MC-1 policy review list', 5), ('guns_parts_policy_violation | label: flashlights may include weapon lights/mounts', 4), ('guns_parts_policy_violation', 4), ('heuristic 14.11: clip_on | MC-1 policy review list', 2), ('label: 107671 here has guns_parts_policy_violation', 2), ('guns_parts_policy_violation | label: 107671 here has guns_parts_policy_violation', 2), ('healthcare_pdt_policy_violation', 1), ('hacking_policy_violation', 1)]
+data reasons [('label: label is a supplier/source tag, not a product role', 548), ('brand empty in 14.11 snapshot', 451), ('image_unwanted_overlays', 11), ('label: label is a supplier/source tag, not a product role | brand empty in 14.11 snapshot', 9), ('image_decoding_error', 4), ('image_link_broken', 4), ('label: role not decided (0 in stock) | brand empty in 14.11 snapshot', 2), ('label: generic "other" label | brand empty in 14.11 snapshot', 2), ('image_link_pending_crawl', 2), ('not in 14.11 snapshot (new offer): brand/title unchecked', 1), ('image_decoding_error | label: label is a supplier/source tag, not a product role', 1), ('landing_page_error', 1)]
+upper bound (eligible now + plain/data waves) 3862 | +policy-review 3974 | +fix-first 3982
+wave1 by label0 [('príslušenstvo pre mikroskopy', 884), ('astronomické príslušenstvo', 342), ('montáže a statívy', 107), ('astrofotografia', 81), ('pozorovacie ďalekohľady - spektívy', 40), ('astronomické filtre', 33), ('okuláre na teleskopy', 29), ('lupy', 25)]
+HOLD_ROLE_UNRESOLVED label0 [('bresser.de', 558), ('knihy, mapy, postery', 2), ('iné', 2)]
+107817 [('KEEP_CURRENT_POLICY_REVIEW', 'heuristic 14.11: clip_on | MC-1 policy review list', '')]
