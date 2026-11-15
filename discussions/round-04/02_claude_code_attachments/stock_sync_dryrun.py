@@ -1,25 +1,39 @@
 #!/usr/bin/env python3
-"""Local dry-run model of the stock sync (R3-CLAUDE-06 / R3-CHATGPT-10). No network, no API calls.
+"""Local dry-run model of the stock sync (R3-CLAUDE-06 / R3-CHATGPT-10 / R4-CLAUDE-05). No network, no API calls.
 
-The planner is a pure function: (managed objects, Merchant availability read, config, now) -> actions + journal.
-It never calls Google Ads. Tests below exercise the rules of stock_sync_spec.md and write
-stock_sync_dryrun_log.csv (journal of every scenario) and print PASS/FAIL per scenario.
-Managed objects = model Search ad groups only. Shopping product groups are never paused by sync:
-Merchant availability already makes an OOS offer NOT_ELIGIBLE and the feed must stay truthful.
+v2 (04b, 15.11.2026) after Cowork counterexamples C1-C4 and ChatGPT R4-CHATGPT-04:
+  * plan() is PURE: it never mutates the objects it receives. It returns (actions, proposed_state).
+    State (confirmation history, labels) is committed only by commit() after a confirmed apply;
+    HALT, NO_OP or a failed apply leave the stored state unchanged.
+  * A confirmation needs a DISTINCT read_id, observed at least min_confirm_interval after the
+    previous one; replaying the same read, an older read or a read from the future never counts.
+    Unchanged (valid) availability is fine: no hash-change requirement.
+  * Freshness uses the upstream update time when the read provides it; otherwise fetch time, and the
+    journal says freshness_basis=fetch_time (weaker evidence).
+  * Identity: bare '<merchant>~<channel>~<lang>~<feed_label>~<offer>' or full
+    'customers/<cid>/shoppingProducts/<...>' are parsed and fully validated; anything else -> ALERT.
+  * 'sync-hold' (set by a human) freezes the object in BOTH directions.
+  * Pause ownership must be known: PAUSED with owner UNKNOWN/None is never enabled.
+Managed objects = model Search ad groups only. Shopping product groups are never paused by sync.
 """
-import csv, hashlib, json, os, sys, copy
+import copy, csv, json, os, re, sys
 from datetime import datetime, timedelta
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-SYNC_LABEL = 'paused-by-sync'
-DEFAULT_CFG = dict(kill_switch=False, max_age_hours=6, max_flip_share=0.30, min_flips_for_guard=2, enable_confirmations=2,
+SYNC_LABEL, HOLD_LABEL = 'paused-by-sync', 'sync-hold'
+DEFAULT_CFG = dict(kill_switch=False, max_age_hours=6, max_future_skew_minutes=5, min_confirm_interval_minutes=30,
+                   max_flip_share=0.30, min_flips_for_guard=2, enable_confirmations=2,
                    allowed_identity=dict(merchant_id='5831333799', channel='ONLINE', language='sk', feed_label='SK'))
+ID_RE = re.compile(r'^(?:customers/(\d+)/shoppingProducts/)?(\d+)~(ONLINE|LOCAL)~([a-z]{2})~([A-Z0-9_]+)~([^~/\s]+)$')
 
 
-def identity(resource):
-    """'5831333799~ONLINE~sk~SK~103645' -> dict. Composite key; offer_id alone is NOT an identity."""
-    m, ch, lang, fl, oid = resource.split('~')
-    return dict(merchant_id=m, channel=ch, language=lang, feed_label=fl, offer_id=oid)
+def parse_identity(raw):
+    """Returns dict or None. Accepts bare composite key or full shopping_product resource name."""
+    m = ID_RE.match(raw or '')
+    if not m:
+        return None
+    _, mid, ch, lang, fl, oid = m.groups()
+    return dict(merchant_id=mid, channel=ch, language=lang, feed_label=fl, offer_id=oid)
 
 
 def key(idt):
@@ -27,107 +41,167 @@ def key(idt):
 
 
 def plan(objects, read, cfg, now, journal, run_id):
-    """objects: list of dict(object_id, identity, status, pause_owner, allowlisted, in_stock_streak)
-    read: dict(ok, fetched_at, items: {identity_key: availability}) ; returns list of actions (dry-run)."""
-    def log(obj, decision, reason, action=None):
-        journal.append(dict(run_id=run_id, ts=now.isoformat(), object_id=obj and obj['object_id'] or '*',
-                            identity=obj and obj['identity'] or '*', decision=decision, reason=reason, action=action or ''))
+    """PURE planner. objects: list of dict(object_id, identity, status, pause_owner, labels, allowlisted,
+    confirmations=[{read_id, observed_at}]). read: dict(ok, read_id, fetched_at, items={key: {availability, upstream_updated_at?}}).
+    Returns (actions, proposed_state). Inputs are never modified."""
+    objects = copy.deepcopy(objects)            # guarantee: caller's state untouched
+    proposed = {}
+
+    def log(o, decision, reason, action='', basis=''):
+        journal.append(dict(run_id=run_id, ts=now.isoformat(), read_id=read.get('read_id', ''),
+                            object_id=o['object_id'] if o else '*', identity=o['identity'] if o else '*',
+                            decision=decision, reason=reason, action=action, freshness_basis=basis))
+
     if cfg['kill_switch']:
-        log(None, 'NO_OP', 'kill switch ON'); return []
+        log(None, 'NO_OP', 'kill switch ON'); return [], {}
     if not read.get('ok'):
-        log(None, 'NO_OP', 'API error: ' + read.get('error', 'unknown')); return []
+        log(None, 'NO_OP', 'API error: ' + read.get('error', 'unknown')); return [], {}
     if not read.get('items'):
-        log(None, 'NO_OP', 'empty response is not evidence of OOS'); return []
-    age = now - read['fetched_at']
-    if age > timedelta(hours=cfg['max_age_hours']):
-        log(None, 'NO_OP', f'stale read {age}'); return []
-    actions = []
-    allow = cfg['allowed_identity']
+        log(None, 'NO_OP', 'empty response is not evidence of OOS'); return [], {}
+    if not read.get('read_id'):
+        log(None, 'ALERT', 'read without read_id: provenance unknown, no action'); return [], {}
+    fetched = read['fetched_at']
+    if fetched > now + timedelta(minutes=cfg['max_future_skew_minutes']):
+        log(None, 'ALERT', f'read timestamp in the future ({fetched})'); return [], {}
+    if now - fetched > timedelta(hours=cfg['max_age_hours']):
+        log(None, 'NO_OP', f'stale fetch {now - fetched}'); return [], {}
+
+    actions, allow = [], cfg['allowed_identity']
     for o in objects:
-        idt = identity(o['identity'])
         if not o['allowlisted']:
             log(o, 'SKIP', 'not in allowlist'); continue
+        idt = parse_identity(o['identity'])
+        if idt is None:
+            log(o, 'ALERT', 'identity format not recognised'); continue
         if any(idt[k] != v for k, v in allow.items()):
             log(o, 'SKIP', 'identity outside SK destination/merchant'); continue
-        av = read['items'].get(key(idt))
-        if av is None:
+        if HOLD_LABEL in o.get('labels', []):
+            log(o, 'NO_OP', 'sync-hold: object frozen in both directions'); continue
+        item = read['items'].get(key(idt))
+        if item is None:
             log(o, 'ALERT', 'item missing from read: not treated as OOS'); continue
+        av = item.get('availability')
+        up = item.get('upstream_updated_at')
+        basis = 'upstream_updated_at' if up else 'fetch_time'
+        obs = up or fetched
+        if up and up > now + timedelta(minutes=cfg['max_future_skew_minutes']):
+            log(o, 'ALERT', 'upstream time in the future', basis=basis); continue
+        if now - obs > timedelta(hours=cfg['max_age_hours']):
+            log(o, 'NO_OP', f'stale {basis}', basis=basis); continue
         if av not in ('IN_STOCK', 'OUT_OF_STOCK', 'PREORDER', 'BACKORDER'):
-            log(o, 'ALERT', f'unknown availability {av}'); continue
+            log(o, 'ALERT', f'unknown availability {av}', basis=basis); continue
+        conf = list(o.get('confirmations', []))
         if av == 'OUT_OF_STOCK':
-            o['in_stock_streak'] = 0
+            proposed[o['object_id']] = dict(confirmations=[])
             if o['status'] == 'ENABLED':
-                actions.append((o['object_id'], 'PAUSE', SYNC_LABEL)); log(o, 'PAUSE', 'OOS and enabled', f'PAUSE+label {SYNC_LABEL}')
+                actions.append((o['object_id'], 'PAUSE', SYNC_LABEL))
+                log(o, 'PAUSE', 'OOS and enabled (manual enable alone does not authorise advertising OOS; use sync-hold)', f'PAUSE+label {SYNC_LABEL}', basis)
             else:
-                log(o, 'NO_OP', f'OOS, already paused (owner={o["pause_owner"]})')
+                log(o, 'NO_OP', f'OOS, already paused (owner={o.get("pause_owner")})', basis=basis)
             continue
-        # IN_STOCK / PREORDER / BACKORDER treated as sellable only for IN_STOCK; others need owner rule
         if av != 'IN_STOCK':
-            log(o, 'NO_OP', f'{av}: no automatic enable (owner rule required)'); continue
+            log(o, 'NO_OP', f'{av}: no automatic enable (owner rule required)', basis=basis); continue
         if o['status'] == 'ENABLED':
-            if o['pause_owner'] == 'SYNC':
-                log(o, 'CLEANUP', 'enabled manually while labelled; remove stale label', 'remove label only')
+            if SYNC_LABEL in o.get('labels', []):
                 actions.append((o['object_id'], 'REMOVE_LABEL', SYNC_LABEL))
+                log(o, 'CLEANUP', 'enabled by a human while labelled; remove stale label only', 'remove label', basis)
             else:
-                log(o, 'NO_OP', 'in stock and enabled')
+                log(o, 'NO_OP', 'in stock and enabled', basis=basis)
             continue
-        if o['pause_owner'] != 'SYNC':
-            log(o, 'NO_OP', f'paused by {o["pause_owner"]}: sync never enables it'); continue
-        o['in_stock_streak'] = o.get('in_stock_streak', 0) + 1
-        if o['in_stock_streak'] < cfg['enable_confirmations']:
-            log(o, 'WAIT', f'in-stock confirmation {o["in_stock_streak"]}/{cfg["enable_confirmations"]}'); continue
-        actions.append((o['object_id'], 'ENABLE', SYNC_LABEL)); log(o, 'ENABLE', 'in stock, paused by sync, confirmed', 'ENABLE+remove label')
+        if o.get('pause_owner') != 'SYNC' or SYNC_LABEL not in o.get('labels', []):
+            log(o, 'NO_OP', f'paused by {o.get("pause_owner") or "UNKNOWN"}: sync never enables it', basis=basis); continue
+        # confirmation bookkeeping (proposed only)
+        if any(c['read_id'] == read['read_id'] for c in conf):
+            log(o, 'WAIT', 'same read already counted: replay adds no confirmation', basis=basis); continue
+        if conf and obs <= conf[-1]['observed_at']:
+            log(o, 'WAIT', 'observation not newer than previous confirmation', basis=basis); continue
+        if conf and obs - conf[-1]['observed_at'] < timedelta(minutes=cfg['min_confirm_interval_minutes']):
+            log(o, 'WAIT', 'below minimum interval between confirmations', basis=basis); continue
+        conf.append(dict(read_id=read['read_id'], observed_at=obs))
+        proposed[o['object_id']] = dict(confirmations=conf)
+        if len(conf) < cfg['enable_confirmations']:
+            log(o, 'WAIT', f'in-stock confirmation {len(conf)}/{cfg["enable_confirmations"]}', basis=basis); continue
+        actions.append((o['object_id'], 'ENABLE', SYNC_LABEL))
+        log(o, 'ENABLE', 'in stock, paused by sync, confirmed by distinct reads', 'ENABLE+remove label', basis)
+
     flips = [a for a in actions if a[1] in ('PAUSE', 'ENABLE')]
     n_allow = sum(1 for o in objects if o['allowlisted']) or 1
     if len(flips) >= cfg['min_flips_for_guard'] and len(flips) / n_allow > cfg['max_flip_share']:
         log(None, 'HALT', f'{len(flips)}/{n_allow} objects would flip > {cfg["max_flip_share"]:.0%}: manual confirmation required')
-        return []
-    return actions
+        return [], {}
+    return actions, proposed
 
 
-def apply_simulated(objects, actions):
-    """Simulated state change used to test idempotency (never an API call)."""
-    by = {o['object_id']: o for o in objects}
+def commit(objects, actions, proposed, apply_ok=True):
+    """Return NEW state after a confirmed apply. If apply failed, return the original state unchanged."""
+    if not apply_ok:
+        return copy.deepcopy(objects)
+    new = copy.deepcopy(objects)
+    by = {o['object_id']: o for o in new}
+    for oid, st in proposed.items():
+        by[oid].update(copy.deepcopy(st))
     for oid, act, _ in actions:
+        o = by[oid]
+        labels = set(o.get('labels', []))
         if act == 'PAUSE':
-            by[oid]['status'], by[oid]['pause_owner'] = 'PAUSED', 'SYNC'
+            o['status'], o['pause_owner'] = 'PAUSED', 'SYNC'; labels.add(SYNC_LABEL); o['confirmations'] = []
         elif act == 'ENABLE':
-            by[oid]['status'], by[oid]['pause_owner'], by[oid]['in_stock_streak'] = 'ENABLED', None, 0
+            o['status'], o['pause_owner'] = 'ENABLED', None; labels.discard(SYNC_LABEL); o['confirmations'] = []
         elif act == 'REMOVE_LABEL':
-            by[oid]['pause_owner'] = None
+            labels.discard(SYNC_LABEL); o['pause_owner'] = None
+        o['labels'] = sorted(labels)
+    return new
 
 
-def obj(oid, offer, status='ENABLED', owner=None, allow=True, fl='SK'):
-    return dict(object_id=oid, identity=f'5831333799~ONLINE~sk~{fl}~{offer}', status=status, pause_owner=owner,
-                allowlisted=allow, in_stock_streak=0)
+# ---------------- test fixtures ----------------
+def obj(oid, offer, status='ENABLED', owner=None, allow=True, fl='SK', labels=None, conf=None, raw=None):
+    return dict(object_id=oid, identity=raw or f'5831333799~ONLINE~sk~{fl}~{offer}', status=status, pause_owner=owner,
+                labels=labels if labels is not None else ([SYNC_LABEL] if owner == 'SYNC' else []),
+                allowlisted=allow, confirmations=conf or [])
 
 
-def rd(now, items, ok=True, age_h=1, err=''):
-    return dict(ok=ok, fetched_at=now - timedelta(hours=age_h), error=err,
-                items={f'5831333799~ONLINE~sk~SK~{k}': v for k, v in items.items()})
+def rd(now, items, ok=True, age_h=1, err='', read_id='R1', upstream=None):
+    return dict(ok=ok, read_id=read_id, fetched_at=now - timedelta(hours=age_h), error=err,
+                items={f'5831333799~ONLINE~sk~SK~{k}': dict(availability=v, **({'upstream_updated_at': upstream} if upstream else {}))
+                       for k, v in items.items()})
 
 
 def scenarios():
     now = datetime(2026, 11, 15, 12, 0)
     cfg = copy.deepcopy(DEFAULT_CFG)
-    S = []
     base = lambda: [obj('AG_103933', '103933'), obj('AG_26113', '26113'), obj('AG_103640', '103640'), obj('AG_47420', '47420')]
-    S.append(('S01', 'OOS enabled group is paused and labelled', base(), rd(now, {'103933': 'OUT_OF_STOCK', '26113': 'IN_STOCK', '103640': 'IN_STOCK', '47420': 'IN_STOCK'}), cfg,
-              [('AG_103933', 'PAUSE')]))
-    S.append(('S02', 'API error -> no action', base(), rd(now, {}, ok=False, err='500'), cfg, []))
-    S.append(('S03', 'empty response is not OOS', base(), rd(now, {}), cfg, []))
-    S.append(('S04', 'stale read (8 h) -> no action', base(), rd(now, {'103933': 'OUT_OF_STOCK'}, age_h=8), cfg, []))
-    k = copy.deepcopy(cfg); k['kill_switch'] = True
-    S.append(('S05', 'kill switch -> no action', base(), rd(now, {'103933': 'OUT_OF_STOCK'}), k, []))
-    S.append(('S06', 'manual pause is never auto-enabled', [obj('AG_103933', '103933', 'PAUSED', 'MANUAL')], rd(now, {'103933': 'IN_STOCK'}), cfg, []))
-    S.append(('S07', 'new group created PAUSED for review is never labelled or enabled', [obj('AG_26130', '26130', 'PAUSED', 'REVIEW')], rd(now, {'26130': 'IN_STOCK'}), cfg, []))
-    S.append(('S08', 'sync-paused group needs 2 consecutive IN_STOCK reads (first run waits)', [obj('AG_47420', '47420', 'PAUSED', 'SYNC')], rd(now, {'47420': 'IN_STOCK'}), cfg, []))
-    S.append(('S09', 'item missing from read -> alert, not OOS', base(), rd(now, {'26113': 'IN_STOCK', '103640': 'IN_STOCK', '47420': 'IN_STOCK'}), cfg, []))
-    S.append(('S10', 'identity outside SK (feed_label AT) ignored even if offer_id equal', [obj('AG_X', '103933', fl='AT')], rd(now, {'103933': 'OUT_OF_STOCK'}), cfg, []))
-    S.append(('S11', 'non-allowlisted object untouched', [obj('AG_OLD', '103933', allow=False)], rd(now, {'103933': 'OUT_OF_STOCK'}), cfg, []))
-    S.append(('S12', 'mass flip >30% halts the run', base(), rd(now, {'103933': 'OUT_OF_STOCK', '26113': 'OUT_OF_STOCK', '103640': 'IN_STOCK', '47420': 'IN_STOCK'}), cfg, []))
-    S.append(('S13', 'manually enabled while labelled -> only remove stale label', [obj('AG_103640', '103640', 'ENABLED', 'SYNC')], rd(now, {'103640': 'IN_STOCK'}), cfg, [('AG_103640', 'REMOVE_LABEL')]))
-    S.append(('S14', 'PREORDER/BACKORDER never auto-enable', [obj('AG_47420', '47420', 'PAUSED', 'SYNC')], rd(now, {'47420': 'BACKORDER'}), cfg, []))
+    allin = {'103933': 'IN_STOCK', '26113': 'IN_STOCK', '103640': 'IN_STOCK', '47420': 'IN_STOCK'}
+    S = [
+        ('S01', 'OOS enabled group is paused and labelled', base(), rd(now, dict(allin, **{'103933': 'OUT_OF_STOCK'})), cfg, [('AG_103933', 'PAUSE')]),
+        ('S02', 'API error -> no action', base(), rd(now, {}, ok=False, err='500'), cfg, []),
+        ('S03', 'empty response is not OOS', base(), rd(now, {}), cfg, []),
+        ('S04', 'stale read (8 h) -> no action', base(), rd(now, {'103933': 'OUT_OF_STOCK'}, age_h=8), cfg, []),
+        ('S05', 'kill switch -> no action', base(), rd(now, {'103933': 'OUT_OF_STOCK'}), dict(cfg, kill_switch=True), []),
+        ('S06', 'manual pause is never auto-enabled', [obj('AG_103933', '103933', 'PAUSED', 'MANUAL')], rd(now, {'103933': 'IN_STOCK'}), cfg, []),
+        ('S07', 'new group created PAUSED for review is never labelled or enabled', [obj('AG_26130', '26130', 'PAUSED', 'REVIEW')], rd(now, {'26130': 'IN_STOCK'}), cfg, []),
+        ('S08', 'first IN_STOCK read only waits', [obj('AG_47420', '47420', 'PAUSED', 'SYNC')], rd(now, {'47420': 'IN_STOCK'}), cfg, []),
+        ('S09', 'item missing from read -> alert, not OOS', base(), rd(now, {'26113': 'IN_STOCK'}), cfg, []),
+        ('S10', 'identity outside SK (feed_label AT) ignored even if offer_id equal', [obj('AG_X', '103933', fl='AT')], rd(now, {'103933': 'OUT_OF_STOCK'}), cfg, []),
+        ('S11', 'non-allowlisted object untouched', [obj('AG_OLD', '103933', allow=False)], rd(now, {'103933': 'OUT_OF_STOCK'}), cfg, []),
+        ('S12', 'mass flip >30% halts the run', base(), rd(now, dict(allin, **{'103933': 'OUT_OF_STOCK', '26113': 'OUT_OF_STOCK'})), cfg, []),
+        ('S13', 'manually enabled while labelled -> only remove stale label', [obj('AG_103640', '103640', 'ENABLED', None, labels=[SYNC_LABEL])], rd(now, {'103640': 'IN_STOCK'}), cfg, [('AG_103640', 'REMOVE_LABEL')]),
+        ('S14', 'PREORDER/BACKORDER never auto-enable', [obj('AG_47420', '47420', 'PAUSED', 'SYNC')], rd(now, {'47420': 'BACKORDER'}), cfg, []),
+        # Cowork C1-C4 and ChatGPT R4-CHATGPT-04 regressions
+        ('C2a', 'full resource_name is parsed and acted on (OOS -> PAUSE)', [obj('AG_103933', '103933', raw='customers/1/shoppingProducts/5831333799~ONLINE~sk~SK~103933')],
+         rd(now, {'103933': 'OUT_OF_STOCK'}), cfg, [('AG_103933', 'PAUSE')]),
+        ('C2b', 'unknown identity format -> ALERT, no action', [obj('AG_103933', '103933', raw='103933')], rd(now, {'103933': 'OUT_OF_STOCK'}), cfg, []),
+        ('C3', 'sync-hold on a sync-paused group blocks enable', [obj('AG_103933', '103933', 'PAUSED', 'SYNC', labels=[SYNC_LABEL, HOLD_LABEL],
+                                                                     conf=[dict(read_id='R0', observed_at=now - timedelta(hours=3))])],
+         rd(now, {'103933': 'IN_STOCK'}), cfg, []),
+        ('C4a', 'sync-hold on an enabled OOS group blocks pause', [obj('AG_103933', '103933', 'ENABLED', 'MANUAL', labels=[HOLD_LABEL])], rd(now, {'103933': 'OUT_OF_STOCK'}), cfg, []),
+        ('C4b', 'manual enable WITHOUT hold does not authorise OOS advertising -> PAUSE', [obj('AG_103933', '103933', 'ENABLED', 'MANUAL')], rd(now, {'103933': 'OUT_OF_STOCK'}), cfg, [('AG_103933', 'PAUSE')]),
+        ('U1', 'paused with UNKNOWN owner is never enabled', [obj('AG_103933', '103933', 'PAUSED', None, labels=[])], rd(now, {'103933': 'IN_STOCK'}), cfg, []),
+        ('U2', 'owner SYNC but label missing -> treated as unknown, no enable', [obj('AG_103933', '103933', 'PAUSED', 'SYNC', labels=[], conf=[dict(read_id='R0', observed_at=now - timedelta(hours=3))])],
+         rd(now, {'103933': 'IN_STOCK'}), cfg, []),
+        ('F1', 'read timestamp in the future -> ALERT', base(), dict(rd(now, {'103933': 'OUT_OF_STOCK'}), fetched_at=now + timedelta(hours=1)), cfg, []),
+        ('F2', 'read without read_id -> ALERT', base(), dict(rd(now, {'103933': 'OUT_OF_STOCK'}), read_id=''), cfg, []),
+        ('F3', 'stale upstream time even with fresh fetch -> no action', [obj('AG_103933', '103933')], rd(now, {'103933': 'OUT_OF_STOCK'}, upstream=now - timedelta(hours=10)), cfg, []),
+    ]
     return now, S
 
 
@@ -136,27 +210,49 @@ def main():
     now, S = scenarios()
     journal, results = [], []
     for sid, desc, objs, read, cfg, expected in S:
-        acts = plan(objs, read, cfg, now, journal, sid)
+        before = copy.deepcopy(objs)
+        acts, _ = plan(objs, read, cfg, now, journal, sid)
         got = [(a[0], a[1]) for a in acts]
-        results.append((sid, desc, got == expected, got, expected))
-    # S15 idempotency: apply S01 actions in simulation, rerun same read -> 0 actions
+        results.append((sid, desc, got == expected and objs == before, got, expected))
+    cfg = DEFAULT_CFG
+    allin = {'103933': 'IN_STOCK', '26113': 'IN_STOCK', '103640': 'IN_STOCK', '47420': 'IN_STOCK'}
+    # S15 idempotency through commit
     objs = [obj('AG_103933', '103933'), obj('AG_26113', '26113'), obj('AG_103640', '103640'), obj('AG_47420', '47420')]
-    r = rd(now, {'103933': 'OUT_OF_STOCK', '26113': 'IN_STOCK', '103640': 'IN_STOCK', '47420': 'IN_STOCK'})
-    a1 = plan(objs, r, DEFAULT_CFG, now, journal, 'S15a'); apply_simulated(objs, a1)
-    a2 = plan(objs, r, DEFAULT_CFG, now, journal, 'S15b')
-    results.append(('S15', 'idempotent: same input twice -> second run 0 actions', len(a1) == 1 and a2 == [], a2, []))
-    # S16 two consecutive in-stock reads re-enable a sync-paused group
-    objs = [obj('AG_47420', '47420', 'PAUSED', 'SYNC')]
-    r = rd(now, {'47420': 'IN_STOCK'})
-    b1 = plan(objs, r, DEFAULT_CFG, now, journal, 'S16a')
-    b2 = plan(objs, rd(now + timedelta(hours=1), {'47420': 'IN_STOCK'}), DEFAULT_CFG, now + timedelta(hours=1), journal, 'S16b')
-    results.append(('S16', 'second confirmed IN_STOCK read enables sync-paused group', b1 == [] and [(x[0], x[1]) for x in b2] == [('AG_47420', 'ENABLE')], b2, [('AG_47420', 'ENABLE')]))
+    r = rd(now, dict(allin, **{'103933': 'OUT_OF_STOCK'}))
+    a1, p1 = plan(objs, r, cfg, now, journal, 'S15a'); st = commit(objs, a1, p1)
+    a2, _ = plan(st, r, cfg, now, journal, 'S15b')
+    results.append(('S15', 'idempotent: same input after commit -> 0 actions', len(a1) == 1 and a2 == [], a2, []))
+    # C1: same read twice must not give two confirmations (even after commit of the first)
+    objs = [obj('AG_103933', '103933', 'PAUSED', 'SYNC')]
+    r = rd(now, {'103933': 'IN_STOCK'}, read_id='R7')
+    a1, p1 = plan(objs, r, cfg, now, journal, 'C1a'); st = commit(objs, a1, p1)
+    a2, p2 = plan(st, r, cfg, now + timedelta(minutes=5), journal, 'C1b')
+    results.append(('C1', 'replaying the same read adds no confirmation', a1 == [] and a2 == [], a2, []))
+    # S16: two distinct reads >= interval apart enable; valid unchanged availability does not block
+    st = commit(objs, a1, p1)
+    r2 = rd(now + timedelta(hours=1), {'103933': 'IN_STOCK'}, read_id='R8')
+    a3, p3 = plan(st, r2, cfg, now + timedelta(hours=1), journal, 'S16')
+    results.append(('S16', 'second distinct fresh read (unchanged IN_STOCK) enables', [(x[0], x[1]) for x in a3] == [('AG_103933', 'ENABLE')], a3, [('AG_103933', 'ENABLE')]))
+    # I1: distinct read too soon (10 min) does not confirm
+    r3 = rd(now - timedelta(minutes=50), {'103933': 'IN_STOCK'}, read_id='R9', age_h=0)   # observed 10 min after R7
+    a4, _ = plan(st, r3, cfg, now, journal, 'I1')
+    results.append(('I1', 'distinct read below minimum interval does not confirm', a4 == [], a4, []))
+    # M1: planner does not mutate input, including on HALT
+    objs = [obj('AG_103933', '103933'), obj('AG_26113', '26113'), obj('AG_103640', '103640'), obj('AG_47420', '47420')]
+    snap = copy.deepcopy(objs)
+    a5, p5 = plan(objs, rd(now, dict(allin, **{'103933': 'OUT_OF_STOCK', '26113': 'OUT_OF_STOCK'})), cfg, now, journal, 'M1')
+    results.append(('M1', 'HALT: no actions, no proposed state, input unchanged', a5 == [] and p5 == {} and objs == snap, a5, []))
+    # M2: failed apply keeps confirmation history unchanged
+    objs = [obj('AG_103933', '103933', 'PAUSED', 'SYNC')]
+    a6, p6 = plan(objs, rd(now, {'103933': 'IN_STOCK'}, read_id='R10'), cfg, now, journal, 'M2')
+    st = commit(objs, a6, p6, apply_ok=False)
+    results.append(('M2', 'failed apply -> stored confirmations not advanced', st == objs and st[0]['confirmations'] == [], st[0]['confirmations'], []))
     with open(os.path.join(HERE, 'stock_sync_dryrun_log.csv'), 'w', newline='', encoding='utf-8') as f:
         w = csv.DictWriter(f, fieldnames=list(journal[0].keys())); w.writeheader(); w.writerows(journal)
     with open(os.path.join(HERE, 'stock_sync_dryrun_results.csv'), 'w', newline='', encoding='utf-8') as f:
         w = csv.writer(f); w.writerow(['scenario', 'description', 'result', 'actions', 'expected'])
         for sid, desc, ok, got, exp in results:
-            w.writerow([sid, desc, 'PASS' if ok else 'FAIL', json.dumps(got), json.dumps(exp)])
+            w.writerow([sid, desc, 'PASS' if ok else 'FAIL', json.dumps(got, default=str), json.dumps(exp)])
     for sid, desc, ok, got, exp in results:
         print(sid, 'PASS' if ok else 'FAIL', desc)
     print('scenarios', sum(1 for x in results if x[2]), '/', len(results))

@@ -21,7 +21,8 @@ def cm_doc(P_n, C, r, F, S_out, H, S_back, H_ret, L, D_n=0.0, D_ret=0.0):
 
 
 def thresholds(P_n, r, cm, desired_profit=0.0):
-    """Returns (BE_ROAS_adjusted, BE_ROAS_value_before_returns, target_CPA). None = not attainable."""
+    """Returns (BE_ROAS_adjusted_value_without_VAT, BE_ROAS_value_before_returns_without_VAT, target_CPA).
+    Both thresholds use value WITHOUT VAT (DPH). None = not attainable."""
     if cm <= 0:
         return None, None, None
     v_adj = (1 - r) * P_n
@@ -55,15 +56,15 @@ def recheck():
         p = {'103933': (8, 3, 0.10), '26113': (5, 3, 0.10), '103640': (5, 3, 0.10), '47420': (25, 8, 0.15)}[a['offer_id']]
         H_ret_base, H, lshare = {'103933': 8, '26113': 5, '103640': 5, '47420': 15}[a['offer_id']], p[1], p[2]
         cm_i = cm_doc(P_n, C, r, FEE * Pg, float(a['S_out']), H, float(a['S_back']), H_ret_base, lshare * C)
-        be_adj, be_gross, _ = thresholds(P_n, r, cm_i)
+        be_adj, be_before_returns, _ = thresholds(P_n, r, cm_i)
         same_rerun = all(a[k] == b[k] for k in a)
         rows.append(dict(offer_id=a['offer_id'], margin=m, scenario=a['scenario'], CM_published=a['CM_exp'], CM_rerun=b['CM_exp'],
                          CM_independent=round(cm_i, 2), rerun_identical=same_rerun,
                          abs_diff_independent=round(abs(cm_i - float(a['CM_exp'])), 4),
-                         BE_ROAS_adj_published=a['BE_ROAS_adjusted'], BE_ROAS_adj_independent=round(be_adj, 2) if be_adj else 'n/a',
-                         BE_ROAS_gross_published=a['BE_ROAS_value_before_returns'], BE_ROAS_gross_independent=round(be_gross, 2) if be_gross else 'n/a',
+                         BE_ROAS_adjusted_value_without_VAT_published=a['BE_ROAS_adjusted'], BE_ROAS_adjusted_value_without_VAT_independent=round(be_adj, 2) if be_adj else 'n/a',
+                         BE_ROAS_value_before_returns_without_VAT_published=a['BE_ROAS_value_before_returns'], BE_ROAS_value_before_returns_without_VAT_independent=round(be_before_returns, 2) if be_before_returns else 'n/a',
                          breakeven_margin_pct=round(100 * breakeven_margin(Pg, r, FEE * Pg, float(a['S_out']), H, float(a['S_back']), H_ret_base, lshare), 2),
-                         data_status='SCENARIO (Cowork r3), not Sonata data'))
+                         data_status='SCENARIO (Cowork r3 assumptions), not actual Sonata costs'))
     return rows
 
 
@@ -81,9 +82,9 @@ def edge_tests():
         T.append(dict(test_id=tid, description=desc, inputs=inputs, expected=expected, actual=actual, result='PASS' if ok else 'FAIL'))
     # doc example
     cm = cm_doc(100, 60, 0.10, 2, 5, 3, 4, 2, 6)
-    be_adj, be_gross, _ = thresholds(100, 0.10, cm)
-    add('E01', 'Method example 05_budget_and_roas', 'P_n=100 C=60 r=.1 F=2 S_out=5 H=3 S_back=4 H_ret=2 L=6', 'CM=24.8; BE adj 3.629; BE gross 4.032',
-        f'CM={cm:.2f}; {be_adj:.3f}; {be_gross:.3f}', abs(cm - 24.8) < 1e-9 and round(be_adj, 3) == 3.629 and round(be_gross, 3) == 4.032)
+    be_adj, be_before_returns, _ = thresholds(100, 0.10, cm)
+    add('E01', 'Method example 05_budget_and_roas', 'P_n=100 C=60 r=.1 F=2 S_out=5 H=3 S_back=4 H_ret=2 L=6', 'CM=24.8; BE adjusted value w/o VAT 3.629; BE value before returns w/o VAT 4.032',
+        f'CM={cm:.2f}; {be_adj:.3f}; {be_before_returns:.3f}', abs(cm - 24.8) < 1e-9 and round(be_adj, 3) == 3.629 and round(be_before_returns, 3) == 4.032)
     profit = 100 * cm - 2480
     add('E02', '100 initial orders, spend 2480 -> zero contribution after ads in both bases', 'as E01', '0', f'{profit:.6f}', abs(profit) < 1e-6)
     # zero / negative margin
@@ -102,11 +103,11 @@ def edge_tests():
         all(x > y for x, y in zip(cms, cms[1:])))
     # base mixing
     cm = cm_doc(100, 60, 0.10, 2, 5, 3, 4, 2, 6); _, _, _ = thresholds(100, 0.1, cm)
-    observed_gross_roas = 3.8   # between 3.629 (adjusted) and 4.032 (gross)
-    wrong = observed_gross_roas >= 90 / cm      # comparing gross value with adjusted threshold
-    right = observed_gross_roas >= 100 / cm
-    add('E07', 'Mixing bases flips the verdict: gross ROAS 3.8 vs adjusted threshold says profitable, vs own threshold says loss',
-        'gross ROAS=3.8', 'wrong=profitable, right=loss', f'wrong={wrong}; right={right}', wrong and not right)
+    observed_roas_before_returns = 3.8   # between 3.629 (adjusted) and 4.032 (before returns), both w/o VAT
+    wrong = observed_roas_before_returns >= 90 / cm      # compared with the adjusted-value threshold
+    right = observed_roas_before_returns >= 100 / cm
+    add('E07', 'Mixing bases flips the verdict: ROAS on value-before-returns (w/o VAT) 3.8 vs adjusted-value threshold says profitable, vs its own threshold says loss',
+        'ROAS value_before_returns_without_VAT=3.8', 'wrong=profitable, right=loss', f'wrong={wrong}; right={right}', wrong and not right)
     # remaining-purchase threshold
     cm = 24.8; r = 0.10
     add('E08', 'Ads removes returned conversions: CPA threshold per remaining purchase = CM/(1-r)', 'CM=24.8 r=.1', '27.56',
@@ -138,6 +139,14 @@ def edge_tests():
     exact = (1 - p) ** (k / p)
     add('E14', 'Cowork: P(0 purchases) when spend = k*CM at break-even CPC ~ e^-k', 'k=2 p=.02', 'close to e^-2=0.135',
         f'{exact:.4f}', abs(exact - math.exp(-k)) < 0.005)
+    # VAT-inclusive value: a threshold on the same base is valid; mixing with a w/o-VAT report is the error
+    cm = 24.8; P_n = 100.0; P_g = P_n * 1.23
+    thr_wo, thr_incl = P_n / cm, P_g / cm
+    roas_incl_report = 4.5             # report value includes VAT
+    consistent = roas_incl_report >= thr_incl          # 4.5 < 4.96 -> loss
+    mixed = roas_incl_report >= thr_wo                  # 4.5 >= 4.03 -> 'profitable' (wrong)
+    add('E15', 'Value incl. VAT: compare only with a threshold on the same base (separate scenario, not canonical)', 'report ROAS incl VAT=4.5; P_n=100',
+        'same base -> loss; mixed with w/o-VAT threshold -> wrongly profitable', f'thr_incl={thr_incl:.2f} consistent={consistent}; thr_wo={thr_wo:.2f} mixed={mixed}', (not consistent) and mixed)
     return T
 
 

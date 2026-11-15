@@ -152,6 +152,23 @@ TESTS = [
  ('R45', 'excluded', 'leica trinovid 10x42 hd zadarmo', 'NONE', False, '-', ''),
  ('R46', 'generic', 'ďalekohľad 10x42', 'NONE', True, 'ANY', 'generic, Shopping only'),
  ('R47', 'generic', 'teleskop pre začiatočníkov', 'NONE', True, 'ANY', ''),
+ ('R48', 'accessory', 'leica trinovid 10x42 hd s puzdrom', AG['T'], True, '103933', 'bundle wording: accessory negatives must not block "model s puzdrom"'),
+ ('R49', 'accessory', 'puzdro na leica trinovid 10x42', 'NONE', True, 'ACCESSORY', 'accessory itself'),
+ # Cowork round-4 counterexamples C01-C14 (03_claude_attachments/routing_counterexamples.py), expectations as Cowork wrote them
+ ('C01', 'cowork_counterexample', 'poradiť leica trinovid 10x42 hd', AG['T'], True, '103933', 'advice intent = pre-purchase'),
+ ('C02', 'cowork_counterexample', 'ake leica trinovid 10x42 hd', AG['T'], True, '103933', 'ake = aký without diacritics'),
+ ('C03', 'cowork_counterexample', 'leica trinovid 10x42 hd nie drahé', AG['T'], True, '103933', 'price-sensitive commercial'),
+ ('C04', 'cowork_counterexample', 'správny ďalekohľad leica trinovid 10x42', AG['T'], True, '103933', 'selection intent'),
+ ('C05', 'cowork_counterexample', 'levenhuk vegas ed 10x42 popis', AG['V'], True, '26113', 'spec lookup'),
+ ('C06', 'cowork_counterexample', 'typy ďalekohľadov leica trinovid', 'NONE', True, 'ANY', 'research; owner decision (Cowork)'),
+ ('C07', 'cowork_counterexample', 'termovízne drony autel', 'NONE', True, 'drones in stock', 'account BROAD drony vs catalogue'),
+ ('C08', 'cowork_counterexample', 'dalekohlad s fotoaparatom', 'NONE', True, 'Atom DNB300', 'account PHRASE vs catalogue'),
+ ('C09', 'cowork_counterexample', 'ďalekohľad s fotoaparátom', 'NONE', True, 'Atom DNB300', 'diacritic form not blocked (inconsistency)'),
+ ('C10', 'cowork_counterexample', 'čo je leica trinovid 10x42 hd', 'NONE', False, '-', 'informational; block acceptable'),
+ ('C11', 'cowork_counterexample', 'leica trinovid 10x42 hd recenzia', AG['T'], True, '103933', 'review intent'),
+ ('C12', 'cowork_counterexample', 'leica trinovid 10x42 hd vs 8x42', 'NONE', True, '103933|55858', 'comparison'),
+ ('C13', 'cowork_counterexample', 'nájsť leica trinovid 10x42 hd', AG['T'], True, '103933', 'find intent'),
+ ('C14', 'cowork_counterexample', 'trinowid 10x42', 'NONE', True, '103933', 'typo; literal none'),
 ]
 
 
@@ -223,67 +240,67 @@ def main(outdir):
         w.writeheader()
         w.writerows(rows)
 
-    # ---- negative diff: PROPOSALS ONLY. Every account negative that blocks a commercial test must appear.
+    # ---- negative diff: PROPOSALS ONLY (v2, 04b). Commercial modifiers are OWNER_DECISION with options;
+    # nothing here is a final instruction. Full 258-word review: ../04b_claude_code_attachments/account_negatives_review.csv
+    OPT = ('Options (owner, after 90-day search terms of ALL campaigns): A keep in account list; '
+           'B remove from account list (opens the word for every Search/Shopping campaign); '
+           'C narrow to specific PHRASE forms; D move the word from the account list to campaign lists of chosen campaigns '
+           '(leaves it blocked there for the rest of the catalogue; it is a way to limit the experiment, not a fix). No option is pre-selected.')
+
+    def CM(word, tests, risk):
+        return ('OWNER_DECISION', OPT, f'{word} blocks commercial/pre-purchase model queries ({tests}) in Search AND Shopping', risk,
+                f'search_term_view 90 d with {word}; rerun routing_tests')
     RATIONALE = {
-        'BROAD:kde': ('REPLACE', 'kde (BROAD) -> remove; add PHRASE: "kde sa nachádza", "kde pozorovať", "kde je" after search-term review',
-                      'kde blocks every "kde kúpiť <model>" query in Search AND Shopping (account list applies to both)',
-                      'Informational "kde ..." traffic returns; mitigate with phrase negatives from real search terms',
-                      'Before: search_term_view 90 d for terms containing kde (count, clicks, conv). After approval: weekly search terms; test R07-R09 must PASS'),
-        'BROAD:lacno': ('OWNER_DECISION', 'lacno (BROAD) -> keep or remove; if removed keep "zadarmo","free" etc.',
-                        'blocks "<model> lacno" price-intent queries (R13)', 'Low-margin bargain hunters; price-comparison traffic',
-                        'Check historical conversion of lacno terms in old reports (private data) before deciding'),
-        'BROAD:stary': ('REPLACE', 'stary (BROAD) -> PHRASE "stary dalekohlad", "stary teleskop" or remove; Search old-generation intent goes to AG_26113',
-                        'blocks explicit old-generation queries ("vegas ed stary model", R17) while "starý" with diacritics is NOT blocked (R18): inconsistent',
-                        'Antique/used optics traffic; bazar/použitý negatives already cover used',
-                        'R17 and R18 must give the same route after change; review search terms with star*'),
-        'BROAD:heureka': ('OWNER_DECISION', 'heureka (BROAD) -> keep (likely intended) or remove for model queries',
-                          'blocks "<model> heureka" comparison queries (R42); Heureka is a separate channel',
-                          'Removing may buy clicks from users who will buy on Heureka anyway', 'Owner/Heureka channel decision; no change by default'),
-        'BROAD:aký': ('REPLACE', 'aký (BROAD) -> PHRASE "aký je", "aký zvoliť" only after review; keep for non-model generic terms',
-                      'blocks "aký ďalekohľad <model>" comparison queries (R40)', 'More research traffic',
-                      'search_term_view for aký/ake/ktoré; R40 PASS after change'),
-        'BROAD:Ktoré': ('REVIEW', 'Ktoré (BROAD): case-insensitive, matches only the exact form "ktoré"; keep but note "ktorý/ktorá" not covered',
-                        'blocks "ktoré leica trinovid 10x42 alebo 8x42" (R41); expected Search=NONE anyway, Shopping blocked',
-                        'Low', 'Decide together with aký'),
+        'BROAD:kde': CM('kde', 'R07-R09', 'informational "kde ..." traffic returns if removed/narrowed'),
+        'BROAD:aký': CM('aký', 'R40', 'research traffic; note "ake" is a separate entry'),
+        'BROAD:ake': CM('ake', 'C02', 'same as aký; diacritic forms are separate negatives'),
+        'BROAD:lacno': CM('lacno', 'R13', 'bargain hunters'),
+        'BROAD:nie drahé': CM('nie drahé', 'C03', 'bargain hunters'),
+        'BROAD:poradiť': CM('poradiť', 'C01', 'advice seekers; some convert'),
+        'BROAD:Správny': CM('Správny', 'C04', 'selection intent'),
+        'BROAD:Nájsť': CM('Nájsť', 'C13', 'navigational/find intent'),
+        'BROAD:popis': CM('popis', 'C05', 'spec lookup, mixed intent'),
+        'BROAD:heureka': CM('heureka', 'R42', 'buyers may purchase on Heureka anyway; separate channel decision'),
+        'BROAD:Ktoré': CM('Ktoré', 'R41', 'comparison intent; only the exact form "ktoré" is covered'),
+        'BROAD:typy': CM('typy', 'C06', 'research intent; Cowork marks it a possible correct block'),
+        'BROAD:stary': ('OWNER_DECISION', OPT + ' Consistency: if kept, add "starý"; if removed, both forms open.',
+                        'blocks explicit old-generation model queries (R17) while "starý" passes (R18)', 'antique/used traffic (bazar/použitý already blocked)',
+                        'R17 and R18 must route identically'),
+        'BROAD:drony': ('OWNER_DECISION_CATALOG', 'Catalogue sells drones (label drony, 5 IN_STOCK 15.11): remove from account list or narrow to unrelated forms after search terms',
+                        'BROAD drony blocks queries for products in stock (C07)', 'toy/hobby drone traffic', 'C07 reaches Shopping after change; check drone search terms'),
+        'PHRASE:dalekohlad s fotoaparatom': ('OWNER_DECISION_CATALOG', 'Catalogue sells a digital binocular (Levenhuk Atom DNB300): remove; the diacritic form is not blocked anyway (C09)',
+                                             'blocks a product-type query (C08) and is inconsistent with C09', 'camera-binocular queries for products not sold', 'C08 = C09 after change'),
     }
     extra = [
-        ('ACCOUNT', 'BROAD', 'keyword_text', 'REMOVE', 'remove', 'Looks like a CSV header imported as a keyword', 'None expected (no real query contains keyword_text)', 'Confirm the entry exists in UI list before removal'),
-        ('ACCOUNT', 'BROAD', 'bazár', 'ADD', 'add BROAD bazár next to existing bazar', 'Account list has bazar but not bazár; negatives do not match variants (R43 relies on campaign negative only)', 'Very low', 'R43 blocked by account list after change'),
-        ('ACCOUNT', 'BROAD', 'starý', 'NO_CHANGE_UNLESS_stary_KEPT', 'if owner keeps stary, add starý for consistency', 'R17/R18 inconsistency', 'Same as stary', 'R17 = R18'),
-        ('SEARCH_AG_26113', 'EXACT', 'levenhuk vegas ed 10×42', 'ADD_KEYWORD_PROPOSAL', 'positive keyword in the form the owner typed, if Google Ads accepts the × character; otherwise rely on close variants and verify in search terms', 'R03 routes only under the close-variant assumption', 'None if rejected by editor', 'Editor validation; search_term_view after approved launch'),
-        ('SEARCH_AG_47420', 'EXACT', 'skywatcher explorer-150pds eq3; sky-watcher explorer-150pds eq3', 'ADD_KEYWORD_PROPOSAL', 'positive keywords with hyphen as typed by owner', 'R04/R35 route only under the close-variant assumption', 'Low', 'R04/R35 literal PASS'),
-        ('SEARCH_AG_103933', 'EXACT', 'leica trinovid 10 x 42 hd', 'ADD_KEYWORD_PROPOSAL', 'spaced magnification form', 'R38 routes only under the close-variant assumption', 'Low', 'R38 literal PASS'),
+        ('ACCOUNT', 'BROAD', 'keyword_text', 'REMOVE', 'remove', 'Looks like a CSV header imported as a keyword', 'None expected (no real query contains keyword_text)', 'Confirm the entry exists in UI list before removal', '-'),
+        ('ACCOUNT', 'BROAD', 'bazár', 'ADD', 'add BROAD bazár next to existing bazar', 'Account list has bazar but not bazár; negatives do not match variants (R43 relies on campaign negative only)', 'Very low', 'R43 blocked by account list after change', 'R43'),
+        ('SEARCH_AG_26113', 'EXACT', 'levenhuk vegas ed 10×42', 'ADD_KEYWORD_PROPOSAL', 'positive keyword in the form the owner typed, if Google Ads accepts the × character; otherwise rely on close variants and verify in search terms', 'R03 routes only under the close-variant assumption', 'None if rejected by editor', 'Editor validation; search_term_view after approved launch', 'R03'),
+        ('SEARCH_AG_47420', 'EXACT', 'skywatcher explorer-150pds eq3; sky-watcher explorer-150pds eq3', 'ADD_KEYWORD_PROPOSAL', 'positive keywords with hyphen as typed by owner', 'R04/R35 route only under the close-variant assumption', 'Low', 'R04/R35 literal PASS', 'R04;R35'),
+        ('SEARCH_AG_103933', 'EXACT', 'leica trinovid 10 x 42 hd', 'ADD_KEYWORD_PROPOSAL', 'spaced magnification form', 'R38 routes only under the close-variant assumption', 'Low', 'R38 literal PASS', 'R38'),
         ('PILOT_SHOPPING+NEW_SEARCH', 'PHRASE', 'návod, navod, manuál, manual, pdf, servis, oprava, náhradné diely', 'COPY_TO_NEW_CAMPAIGNS', 'copy the existing Search campaign phrase negatives into the pilot Shopping and the new model Search campaign',
-         'R44: these negatives exist only in old Search campaigns 24341095320/24425793295 and are NOT inherited by new campaigns; account list has none of them', 'Blocks rare "<model> manual" buyers; low', 'R44 blocked in both surfaces'),
-        ('PILOT_SHOPPING', 'BROAD', 'bazár/bazar/použitý/pouzity', 'ADD_IN_NEW_CAMPAIGN', 'as Cowork r3', 'used goods', 'Low', 'R43'),
-        ('SEARCH_AG_103640', 'EXACT', 'levenhuk nový vegas ed 10x42', 'ADD_KEYWORD_PROPOSAL', 'positive keyword, not a negative', 'R16: Slovak "nový" is negated in AG_26113 and absent in AG_103640 -> no Search route', 'Duplicate-intent with New keywords; low', 'R16 routes to AG_103640'),
-        ('SEARCH_AG_ALL', 'BROAD', 'puzdro, popruh, okulár, protizávažie, filter, adaptér', 'ADD_AD_GROUP_NEGATIVES', 'accessory words in each model group',
-         'R31-R34: phrase keywords "trinovid 10x42"/"150pds eq3" capture accessory queries (false positive)', 'Loses rare "binocular with case" bundle queries', 'R31-R34 Search=NONE after change; Shopping still reaches auction (accessory SKUs)'),
+         'R44: these negatives exist only in old Search campaigns 24341095320/24425793295 and are NOT inherited by new campaigns; account list has none of them', 'Blocks rare "<model> manual" buyers; low', 'R44 blocked in both surfaces', 'R44'),
+        ('PILOT_SHOPPING', 'BROAD', 'bazár/bazar/použitý/pouzity', 'ADD_IN_NEW_CAMPAIGN', 'as Cowork r3', 'used goods', 'Low', 'R43', 'R43'),
+        ('SEARCH_AG_103640', 'EXACT', 'levenhuk nový vegas ed 10x42', 'ADD_KEYWORD_PROPOSAL', 'positive keyword, not a negative', 'R16: Slovak "nový" is negated in AG_26113 and absent in AG_103640 -> no Search route', 'Duplicate-intent with New keywords; low', 'R16 routes to AG_103640', 'R16'),
+        ('SEARCH_AG_ALL', 'BROAD', 'puzdro, popruh, okulár, protizávažie, filter, adaptér', 'ADD_AD_GROUP_NEGATIVES', 'accessory nouns (base form) in each model Search group; NOT in Shopping',
+         'R31-R34: phrase keywords capture accessory queries (false positive)', 'Bundle wording "s puzdrom" stays open only because negatives do not match inflected forms (R48); verify in search terms', 'R31-R34 Search=NONE, R48 still routes, R49 blocked', 'R31;R32;R33;R34;R48;R49'),
     ]
     diff = []
     for h, tids in sorted(acc_blockers.items()):
         mt, term = h.split(':', 1)
-        if h in RATIONALE:
-            act, prop, basis, risk, check = RATIONALE[h]
-        else:
-            act, prop, basis, risk, check = ('UNREVIEWED', '-', 'blocks a commercial test', '-', 'review needed')
+        act, prop, basis, risk, check = RATIONALE.get(h, ('UNREVIEWED', '-', 'blocks a commercial test', '-', 'review needed'))
         diff.append(dict(level='ACCOUNT', match_type=mt, negative=term, action=act, proposal=prop,
                          basis=basis, example_tests=';'.join(tids), risk=risk, verification=check, status='PROPOSAL_NOT_APPLIED'))
-    for lvl, mt, term, act, prop, basis, risk, check in extra:
+    for lvl, mt, term, act, prop, basis, risk, check, ex in extra:
         diff.append(dict(level=lvl, match_type=mt, negative=term, action=act, proposal=prop, basis=basis,
-                         example_tests={'keyword_text': '-', 'bazár': 'R43', 'starý': 'R17;R18', 'levenhuk vegas ed 10×42': 'R03', 'leica trinovid 10 x 42 hd': 'R38'}.get(term, 'R16' if 'nový' in term else ('R31;R32;R33;R34' if 'puzdro' in term else ('R04;R35' if 'explorer-150pds' in term else ('R44' if 'návod' in term else 'R43')))),
-                         risk=risk, verification=check, status='PROPOSAL_NOT_APPLIED'))
+                         example_tests=ex, risk=risk, verification=check, status='PROPOSAL_NOT_APPLIED'))
     assert 'keyword_text' in [t for _, t in acc], 'keyword_text no longer in account list'
     with open(os.path.join(outdir, 'negative_keyword_diff.csv'), 'w', newline='', encoding='utf-8') as fh:
         w = csv.DictWriter(fh, fieldnames=list(diff[0].keys()))
         w.writeheader()
         w.writerows(diff)
 
-    # ---- counterfactual: apply only the NON-owner-decision proposals in simulation (nothing is applied live)
+    # ---- two SIMULATED scenarios (nothing applied live; neither pre-decides owner words)
     import copy
-    acc2 = [(m, t) for m, t in acc if (m, t) not in {('BROAD', 'kde'), ('BROAD', 'stary'), ('BROAD', 'aký'), ('BROAD', 'keyword_text')}]
-    acc2 += [('PHRASE', 'kde sa nachádza'), ('PHRASE', 'kde pozorovať'), ('PHRASE', 'kde je'), ('BROAD', 'bazár'),
-             ('PHRASE', 'stary dalekohlad'), ('PHRASE', 'stary teleskop'), ('PHRASE', 'aký je'), ('PHRASE', 'aký zvoliť')]
     g2 = copy.deepcopy(groups)
     g2[AG['V']]['exact'].append('levenhuk vegas ed 10×42')
     g2[AG['S']]['exact'] += ['skywatcher explorer-150pds eq3', 'sky-watcher explorer-150pds eq3']
@@ -292,18 +309,35 @@ def main(outdir):
     manual = [('PHRASE', t) for t in ('návod', 'navod', 'manuál', 'manual', 'pdf', 'servis', 'oprava', 'náhradné diely')]
     for g in g2.values():
         g['neg'] += [('BROAD', t) for t in ('puzdro', 'popruh', 'okulár', 'protizávažie', 'filter', 'adaptér')]
-    rows2, _ = evaluate(acc2, camp, g2, search_camp_neg + manual, PILOT_SHOP_CAMPAIGN_NEG + manual)
+    acc_a = [(m, t) for m, t in acc if t != 'keyword_text'] + [('BROAD', 'bazár')]
+    rows_a, _ = evaluate(acc_a, camp, g2, search_camp_neg + manual, PILOT_SHOP_CAMPAIGN_NEG + manual)
+    owner_words = {h for h, v in RATIONALE.items() if v[0].startswith('OWNER_DECISION')}
+    acc_b = [(m, t) for m, t in acc_a if f'{m}:{t}' not in owner_words]
+    rows_b, _ = evaluate(acc_b, camp, g2, search_camp_neg + manual, PILOT_SHOP_CAMPAIGN_NEG + manual)
     with open(os.path.join(outdir, 'routing_tests_after_proposed_diff.csv'), 'w', newline='', encoding='utf-8') as fh:
         w = csv.writer(fh)
-        w.writerow(['test_id', 'query', 'verdict_now', 'verdict_after_simulated_diff', 'search_after', 'shopping_pilot_after', 'remaining_problem', 'note'])
-        for a, b in zip(rows, rows2):
-            w.writerow([a['test_id'], a['query'], a['verdict'], b['verdict'], b['search_route_literal_final'], b['shopping_pilot'], b['problems'],
-                        'SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions'])
+        w.writerow(['test_id', 'query', 'verdict_now', 'verdict_A_technical_fixes_only', 'verdict_B_upper_bound_owner_words_removed',
+                    'resolution', 'remaining_problem_A', 'note'])
+        for a, b, c in zip(rows, rows_a, rows_b):
+            blk = [h for h in b['account_neg_hits_literal'].split(';') if h]
+            if a['verdict'] in ('PASS', 'PASS_LITERAL_RISK_CV'):
+                res = 'NO_CHANGE_NEEDED'
+            elif a['verdict'] == 'OWNER_DECISION':
+                res = 'OWNER_DECISION:R3-CLAUDE-09'
+            elif b['verdict'] in ('PASS', 'PASS_LITERAL_RISK_CV'):
+                res = 'FIXED_BY_TECHNICAL_PROPOSAL (not applied)'
+            elif blk and all(h in owner_words for h in blk):
+                res = 'OWNER_DECISION:' + ','.join(blk)
+            else:
+                res = 'OPEN'
+            w.writerow([a['test_id'], a['query'], a['verdict'], b['verdict'], c['verdict'], res, b['problems'],
+                        'SIMULATION ONLY. A = keywords, ad-group/campaign negatives, keyword_text, bazár. B = A + every OWNER_DECISION word removed from account list: upper bound of effect, not a recommendation'])
     from collections import Counter
-    print('after simulated diff', Counter(r['verdict'] for r in rows2), [r['test_id'] for r in rows2 if r['verdict'] == 'FAIL'])
+    print('scenario A', Counter(r['verdict'] for r in rows_a), [r['test_id'] for r in rows_a if r['verdict'] == 'FAIL'])
+    print('scenario B', Counter(r['verdict'] for r in rows_b), [r['test_id'] for r in rows_b if r['verdict'] == 'FAIL'])
     print('tests', len(rows), Counter(r['verdict'] for r in rows))
     for r in rows:
-        print(r['test_id'], r['verdict'], '| acc:', r['account_neg_hits_literal'] or '-', '| S:', r['search_route_literal_final'], '| cv:', r['search_route_assumed_cv'], '| shop:', r['shopping_pilot'], '|', r['problems'])
+        print(r['test_id'], r['verdict'], '| acc:', r['account_neg_hits_literal'] or '-', '| S:', r['search_route_literal_final'], '| shop:', r['shopping_pilot'], '|', r['problems'])
     print('diff rows', len(diff), [d['negative'] + ':' + d['action'] for d in diff])
     unreviewed = [d for d in diff if d['action'] == 'UNREVIEWED']
     print('UNREVIEWED account blockers:', len(unreviewed))

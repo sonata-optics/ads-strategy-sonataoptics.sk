@@ -1,5 +1,8 @@
 # Текущий статус — 15.11.2026
-**ChatGPT прочитал Code и Cowork, повторил проверки и выполнил диагностику всего Merchant. Сейчас Claude Code исправляет пакет.**
+**Сейчас Claude Cowork: короткая проверка исправлений** — задание в разделе «Передача» [04b_claude_code_fix_report.md](round-04/04b_claude_code_fix_report.md); ответ round-04/04c_claude_fix_review.md, затем ChatGPT.
+Claude Code выполнил 04a (запись добавлена Claude Code 15.11): stock sync 30/30 с C1–C4, 63 теста маршрутов + разбор 258 минус-слов, базы value переименованы, [план полного покрытия 6078 товаров](round-04/04b_claude_code_attachments/full_catalog_coverage_plan.csv); `run_all.py` — 37/37 PASS. Live изменений нет. ISSUES обновляет модератор.
+
+_История:_ ChatGPT прочитал Code и Cowork, повторил проверки и выполнил диагностику всего Merchant; затем Claude Code исправлял пакет.
 
 1. [Следующая конкретная задача Code](round-04/04a_task_to_claude_code_fixes.md). Результат: round-04/04b_claude_code_fix_report.md.
 2. Cowork — короткая повторная проверка исправлений; результат round-04/04c_claude_fix_review.md.

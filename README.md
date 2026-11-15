@@ -124,3 +124,5 @@ ads-strategy-sonataoptics/
 По решению владельца техническое задание передано [Claude Code](discussions/round-04/01b_task_to_claude_code.md). Затем [проверка Cowork](discussions/round-04/01c_task_to_cowork.md), сводка ChatGPT и [Google-рецензия Gemini без Python](discussions/round-04/01d_gemini_google_review_task.md). Этот порядок имеет приоритет над историческими указаниями выше.
 
 **15.11.2026, Claude Code:** [технический пакет круга 4](discussions/round-04/02_claude_code_report.md) опубликован; следующий — [Claude Cowork](discussions/round-04/01c_task_to_cowork.md).
+
+**15.11.2026, Claude Code:** [исправления 04b и план полного покрытия](discussions/round-04/04b_claude_code_fix_report.md); следующий — короткая проверка Cowork.
