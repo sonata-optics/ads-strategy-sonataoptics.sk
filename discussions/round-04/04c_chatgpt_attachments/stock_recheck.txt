@@ -1,0 +1,28 @@
+ChatGPT verification at input SHA 8c6b53cd2f8bf12305caddfe03d677e064e047a4
+Command: python3 -I -B stock_sync_counterexamples_v2.py <02_claude_code_attachments>
+OK      C1a   same read_id replayed after commit adds no confirmation | ['WAIT:same read already counted: replay adds no confirmation']
+OK      C1b   new read_id but same fetched_at (re-labelled replay) -> WAIT | ['WAIT:observation not newer than previous confirmation']
+OK      C1c   distinct read only 10 min newer -> WAIT (min interval 30) | ['WAIT:below minimum interval between confirmations']
+OK      C1d   distinct read 40 min newer -> ENABLE | ['ENABLE:in stock, paused by sync, confirmed by distinct reads']
+OK      C1e   ENABLE planned but apply failed -> stored state unchanged (still 1 confirmation, PAUSED) | {'object_id': 'AG_103933', 'identity': '5831333799~ONLINE~sk~SK~103933', 'status': 'PAUSED', 'pause_owner': 'SYNC', 'labels': ['paused-by-sync'], 'allowlisted': True, 'confirmations': [{'read_id': 'R1', 'observed_at': datetime.datetime(2026, 11, 15, 11, 0)}]}
+OK      C1f   older read arriving late -> WAIT | ['WAIT:observation not newer than previous confirmation']
+OK      C1g   OOS between two IN_STOCK reads resets confirmations -> WAIT | ['WAIT:in-stock confirmation 1/2']
+OK      C2a   full resource_name parsed -> PAUSE | ['PAUSE:OOS and enabled (manual enable alone does not authorise advertising OOS; use sync-hold)']
+OK      C2b   bare offer_id -> ALERT, no action | ['ALERT:identity format not recognised']
+OK      C2c   feed label with hyphen (allowed by Merchant Center) -> ALERT (fail-safe, but would block a real label) | ['ALERT:identity format not recognised']
+PROBLEM C2d   resource_name of ANOTHER Google Ads customer id is accepted (customer id not validated) | ['PAUSE:OOS and enabled (manual enable alone does not authorise advertising OOS; use sync-hold)']
+OK      C3    sync-hold on sync-paused group blocks ENABLE | ['NO_OP:sync-hold: object frozen in both directions']
+OK      C4a   sync-hold on enabled OOS group blocks PAUSE | ['NO_OP:sync-hold: object frozen in both directions']
+OK      C4b   manual enable without hold -> PAUSE (documented rule) | ['PAUSE:OOS and enabled (manual enable alone does not authorise advertising OOS; use sync-hold)']
+PROBLEM C3x   5-day-old confirmation (e.g. kept through a sync-hold) + ONE fresh read -> ENABLE | ['ENABLE:in stock, paused by sync, confirmed by distinct reads']
+OK      U1    PAUSED with unknown owner never enabled | ['NO_OP:paused by UNKNOWN: sync never enables it']
+OK      U2    owner SYNC without label -> no enable | ['NO_OP:paused by SYNC: sync never enables it']
+OK      F1    fetch time in the future -> ALERT | ['ALERT:read timestamp in the future (2026-11-15 13:00:00)']
+OK      F2    no read_id -> ALERT | ['ALERT:read without read_id: provenance unknown, no action']
+OK      F3    stale upstream with fresh fetch -> no action | ['NO_OP:stale upstream_updated_at']
+OK      F4    upstream time in the future -> ALERT | ['ALERT:upstream time in the future']
+OK      F5    journal records freshness_basis | ['fetch_time']
+OK      M1    mass flip -> HALT, nothing proposed | ['HALT']
+OK      M3    plan() does not mutate its input | 
+
+24 checks, 2 PROBLEM
