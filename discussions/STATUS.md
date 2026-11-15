@@ -1,20 +1,16 @@
 # Текущий статус — 15.11.2026
-**Сейчас задача у Claude Cowork: проверка технического пакета круга 4** по [01c_task_to_cowork.md](round-04/01c_task_to_cowork.md).
-Claude Code выполнил пакет: [отчёт](round-04/02_claude_code_report.md), [приложения](round-04/02_claude_code_attachments/migration_checklist.md); запуск `python -I discussions/round-04/02_claude_code_attachments/run_all.py`, все проверки PASS. Live изменений нет. Запись добавлена Claude Code; реестр ISSUES обновляет модератор.
+**ChatGPT прочитал Code и Cowork, повторил проверки и выполнил диагностику всего Merchant. Сейчас Claude Code исправляет пакет.**
 
-_История:_ задача была у Claude Code: технический пакет круга 4.
-Владелец перепоручил исполнение: Gemini выдаёт Python вместо готового результата. Фрагмент кода не считается выполненным ревью.
+1. [Следующая конкретная задача Code](round-04/04a_task_to_claude_code_fixes.md). Результат: round-04/04b_claude_code_fix_report.md.
+2. Cowork — короткая повторная проверка исправлений; результат round-04/04c_claude_fix_review.md.
+3. ChatGPT — проверка и передача готового пакета Gemini.
+4. Gemini — Google-рецензия обычным текстом по [01d](round-04/01d_gemini_google_review_task.md) и [пакету модератора](round-04/04_chatgpt_handoff_to_gemini.md). Без Python; результат 05_gemini_google_review.md.
+5. ChatGPT — итог и реализационное ТЗ по подтверждённому объёму.
 
-## Последовательность
-1. **Claude Code** — [выполнить и проверить пакет](round-04/01b_task_to_claude_code.md). Ответ: round-04/02_claude_code_report.md + 02_claude_code_attachments/.
-2. **Claude Cowork** — [проверить математику, данные и риски](round-04/01c_task_to_cowork.md). Ответ: round-04/03_claude_review.md.
-3. **ChatGPT** — свести исправления и подготовить round-04/04_chatgpt_handoff_to_gemini.md.
-4. **Gemini** — [Google-рецензия обычным текстом](round-04/01d_gemini_google_review_task.md) после готовности входов. Целевой файл: round-04/05_gemini_google_review.md; при отсутствии записи текст сохраняет ChatGPT.
-5. **ChatGPT** — итог round-04/06_chatgpt_summary.md и ТЗ по готовому объёму.
-
-## Проверенная база
-[Итог круга 3](round-03/05_chatgpt_summary.md), [технический снимок 15.11](round-03/05_chatgpt_attachments/live_checks_2026-11-15.json), [ISSUES](ISSUES.md).
-В снимке четыре контрольные модели ELIGIBLE; 26130 IN_STOCK без рекламирующей кампании; 258 глобальных минус-слов.
-Все открытые замечания сохраняются. Приоритет: полный допустимый ассортимент, товарные карточки по моделям, затем Search.
-Подготовка не означает утверждения стратегии или запуска. Разрешение на live изменения, расходы, freeze и MC-1 не добавлено. Реальные маржи, бюджет/окно запуска и неоднозначный Vegas остаются открытыми.
-Ответы передаются через владельца/GitHub; публикация задания не означает автоматического запуска внешней сессии модели.
+## Новые факты
+Основной Merchant: 6078 товаров, 4269 IN_STOCK; 2376 имеют not_eligible_in_any_campaign (55,7%), ещё 7 блокируются по иным причинам, 1886 eligible. Нельзя массово включать 2376: есть сопутствующие policy/технические ошибки.
+Три старые Shopping-кампании закончились 03.11 при статусе ENABLED. У них 0 eligible products.
+[Итог и критика](round-04/04_chatgpt_handoff_to_gemini.md), [полная таблица](round-04/04_chatgpt_attachments/catalog_coverage_2026-11-15.csv), [ISSUES](ISSUES.md).
+Экономика сценарная воспроизведена, C1–C4 stock-sync дефекты подтверждены. Общий PASS прежнего набора не закрывает контрпримеры.
+Live изменения не выполнены; полный допустимый ассортимент остаётся целью. Пилот 26 SKU — проверка конструкции, не замена покрытия всего каталога.
+Расходы/убыток, маржи, окно запуска и спорные SKU не утверждены. Ответы через владельца/GitHub; внешние сессии не запускаются публикацией файла.

@@ -1,0 +1,220 @@
+{
+  "checked_date": "2026-11-15",
+  "input_sha": "115689c65f2b620c59f5a530d1f9a5686598ecad",
+  "account": "9492722541",
+  "merchant": "5831333799",
+  "totals": {
+    "total": 6078,
+    "inStock": 4269,
+    "eligibleInStock": 1886,
+    "notEligibleInStock": 2383,
+    "inStockNoCampaign": 2376,
+    "inStockOtherBlock": 7
+  },
+  "otherMerchantRowsExcluded": 166,
+  "method": "shopping_product account scope: disjoint LIKE digit-prefix partitions LIMIT500 recursively split until <500, nonnumeric NOT REGEXP_MATCH partition; split-prefix exact IDs checked (0). Full resourceName deduplication. Five scoped campaigns fetched in full. Three ended campaigns: end dates and zero ELIGIBLE/ELIGIBLE_LIMITED rows verified; full NOT_ELIGIBLE trees not exported due response size.",
+  "completeness": {
+    "uniqueAccountResources": 6244,
+    "selectedMerchantResources": 6078,
+    "maxLeafRows": 431,
+    "accountTimeSnapshotNotAtomic": true
+  },
+  "campaignDates": [
+    {
+      "resourceName": "customers/9492722541/campaigns/24341660055",
+      "status": "ENABLED",
+      "advertisingChannelType": "SHOPPING",
+      "id": "24341660055",
+      "startDateTime": "2026-10-12 18:52:21",
+      "endDateTime": "2026-11-03 23:59:59"
+    },
+    {
+      "resourceName": "customers/9492722541/campaigns/24346760069",
+      "status": "ENABLED",
+      "advertisingChannelType": "SHOPPING",
+      "id": "24346760069",
+      "startDateTime": "2026-10-12 18:52:22",
+      "endDateTime": "2026-11-03 23:59:59"
+    },
+    {
+      "resourceName": "customers/9492722541/campaigns/24346760072",
+      "status": "ENABLED",
+      "advertisingChannelType": "SHOPPING",
+      "id": "24346760072",
+      "startDateTime": "2026-10-12 18:52:22",
+      "endDateTime": "2026-11-03 23:59:59"
+    },
+    {
+      "resourceName": "customers/9492722541/campaigns/24440851839",
+      "status": "ENABLED",
+      "advertisingChannelType": "SHOPPING",
+      "id": "24440851839",
+      "startDateTime": "2026-11-08 21:19:57"
+    },
+    {
+      "resourceName": "customers/9492722541/campaigns/24440851881",
+      "status": "ENABLED",
+      "advertisingChannelType": "SHOPPING",
+      "id": "24440851881",
+      "startDateTime": "2026-11-08 21:20:09"
+    },
+    {
+      "resourceName": "customers/9492722541/campaigns/24446149352",
+      "status": "ENABLED",
+      "advertisingChannelType": "SHOPPING",
+      "id": "24446149352",
+      "startDateTime": "2026-11-08 21:20:13"
+    },
+    {
+      "resourceName": "customers/9492722541/campaigns/24451885423",
+      "status": "ENABLED",
+      "advertisingChannelType": "SHOPPING",
+      "id": "24451885423",
+      "startDateTime": "2026-11-08 21:20:02"
+    },
+    {
+      "resourceName": "customers/9492722541/campaigns/24451886281",
+      "status": "ENABLED",
+      "advertisingChannelType": "SHOPPING",
+      "id": "24451886281",
+      "startDateTime": "2026-11-08 21:20:05"
+    }
+  ],
+  "scopedCampaignCounts": [
+    {
+      "id": "24440851839",
+      "count": 139
+    },
+    {
+      "id": "24440851881",
+      "count": 513
+    },
+    {
+      "id": "24446149352",
+      "count": 86
+    },
+    {
+      "id": "24451885423",
+      "count": 1037
+    },
+    {
+      "id": "24451886281",
+      "count": 948
+    }
+  ],
+  "endedCampaignEligibleCounts": [
+    {
+      "id": "24341660055",
+      "count": 0
+    },
+    {
+      "id": "24346760069",
+      "count": 0
+    },
+    {
+      "id": "24346760072",
+      "count": 0
+    }
+  ],
+  "riskChecks": [
+    {
+      "campaign": "24341660055",
+      "products": [
+        {
+          "id": "107671",
+          "status": "NOT_ELIGIBLE",
+          "issues": [
+            "guns_parts_policy_violation",
+            "not_eligible_excluded_product_listing_group",
+            "not_eligible_campaign_ended"
+          ]
+        },
+        {
+          "id": "107817",
+          "status": "NOT_ELIGIBLE",
+          "issues": [
+            "not_eligible_excluded_product_listing_group",
+            "not_eligible_campaign_ended"
+          ]
+        }
+      ]
+    },
+    {
+      "campaign": "24346760069",
+      "products": [
+        {
+          "id": "107671",
+          "status": "NOT_ELIGIBLE",
+          "issues": [
+            "guns_parts_policy_violation",
+            "not_eligible_excluded_product_listing_group",
+            "not_eligible_campaign_ended"
+          ]
+        },
+        {
+          "id": "107817",
+          "status": "NOT_ELIGIBLE",
+          "issues": [
+            "not_eligible_excluded_product_listing_group",
+            "not_eligible_campaign_ended"
+          ]
+        }
+      ]
+    },
+    {
+      "campaign": "24346760072",
+      "products": [
+        {
+          "id": "107671",
+          "status": "NOT_ELIGIBLE",
+          "issues": [
+            "guns_parts_policy_violation",
+            "not_eligible_excluded_product_listing_group",
+            "not_eligible_campaign_ended"
+          ]
+        },
+        {
+          "id": "107817",
+          "status": "NOT_ELIGIBLE",
+          "issues": [
+            "not_eligible_excluded_product_listing_group",
+            "not_eligible_campaign_ended"
+          ]
+        }
+      ]
+    },
+    {
+      "campaign": "24440851839",
+      "products": [
+        {
+          "id": "107817",
+          "status": "ELIGIBLE",
+          "issues": []
+        }
+      ]
+    },
+    {
+      "campaign": "24440851881",
+      "products": []
+    },
+    {
+      "campaign": "24446149352",
+      "products": []
+    },
+    {
+      "campaign": "24451885423",
+      "products": []
+    },
+    {
+      "campaign": "24451886281",
+      "products": []
+    }
+  ],
+  "limitations": [
+    "Counts describe current Ads eligibility, not impressions or guaranteed policy permission.",
+    "2376 no-campaign products can also have other blocking issues; do not mass-enable.",
+    "No financial metrics, customer information, or credentials published.",
+    "6078 current Merchant rows differ from 6077 snapshot on 14 November; preserve dates.",
+    "Older/other Merchant entries not merged into Sonata denominator."
+  ]
+}

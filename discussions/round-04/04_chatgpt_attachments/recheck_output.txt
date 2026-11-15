@@ -1,0 +1,191 @@
+ChatGPT independent rerun; input repository SHA 115689c65f2b620c59f5a530d1f9a5686598ecad
+Local verification copy; no live mutation.
+
+### package
+repo HEAD at run time: UNKNOWN
+
+$ python -I coverage_map.py  (exit 0)
+rows 32 {'COVERED_ELIGIBLE': 21, 'GAP_IN_STOCK_NO_CAMPAIGN': 1, 'GAP_OOS_AND_NO_CAMPAIGN': 1, 'NOT_ELIGIBLE_OOS': 3, 'SITE_ONLY_UNKNOWN': 6}
+
+$ python -I routing_tests.py  (exit 0)
+after simulated diff Counter({'PASS': 43, 'FAIL': 3, 'OWNER_DECISION': 1}) ['R13', 'R41', 'R42']
+tests 47 Counter({'PASS': 27, 'FAIL': 13, 'CV_DEPENDENT': 4, 'PASS_LITERAL_RISK_CV': 2, 'OWNER_DECISION': 1})
+R01 PASS | acc: - | S: AG_103933_Leica_Trinovid_10x42_HD | cv: AG_103933_Leica_Trinovid_10x42_HD | shop: REACHES_AUCTION | 
+R02 PASS | acc: - | S: AG_26113_Levenhuk_Vegas_ED_10x42 | cv: AG_26113_Levenhuk_Vegas_ED_10x42 | shop: REACHES_AUCTION | 
+R03 CV_DEPENDENT | acc: - | S: NONE | cv: AG_26113_Levenhuk_Vegas_ED_10x42 | shop: REACHES_AUCTION | Search literal=NONE expected=AG_26113_Levenhuk_Vegas_ED_10x42
+R04 CV_DEPENDENT | acc: - | S: NONE | cv: AG_47420_SkyWatcher_Explorer_150PDS_EQ3 | shop: REACHES_AUCTION | Search literal=NONE expected=AG_47420_SkyWatcher_Explorer_150PDS_EQ3
+R05 PASS | acc: - | S: AG_103640_Levenhuk_New_Vegas_ED_10x42 | cv: AG_103640_Levenhuk_New_Vegas_ED_10x42 | shop: REACHES_AUCTION | 
+R06 PASS | acc: - | S: AG_47420_SkyWatcher_Explorer_150PDS_EQ3 | cv: AG_47420_SkyWatcher_Explorer_150PDS_EQ3 | shop: REACHES_AUCTION | 
+R07 FAIL | acc: BROAD:kde | S: NONE | cv: AG_103933_Leica_Trinovid_10x42_HD | shop: BLOCKED | Search literal=NONE expected=AG_103933_Leica_Trinovid_10x42_HD / Shopping pilot=BLOCKED expected_reach=True
+R08 FAIL | acc: BROAD:kde | S: NONE | cv: AG_26113_Levenhuk_Vegas_ED_10x42 | shop: BLOCKED | Search literal=NONE expected=AG_26113_Levenhuk_Vegas_ED_10x42 / Shopping pilot=BLOCKED expected_reach=True
+R09 FAIL | acc: BROAD:kde | S: NONE | cv: AG_47420_SkyWatcher_Explorer_150PDS_EQ3 | shop: BLOCKED | Search literal=NONE expected=AG_47420_SkyWatcher_Explorer_150PDS_EQ3 / Shopping pilot=BLOCKED expected_reach=True
+R10 PASS | acc: - | S: AG_103933_Leica_Trinovid_10x42_HD | cv: AG_103933_Leica_Trinovid_10x42_HD | shop: REACHES_AUCTION | 
+R11 PASS | acc: - | S: AG_47420_SkyWatcher_Explorer_150PDS_EQ3 | cv: AG_47420_SkyWatcher_Explorer_150PDS_EQ3 | shop: REACHES_AUCTION | 
+R12 PASS | acc: - | S: AG_103640_Levenhuk_New_Vegas_ED_10x42 | cv: AG_103640_Levenhuk_New_Vegas_ED_10x42 | shop: REACHES_AUCTION | 
+R13 FAIL | acc: BROAD:lacno | S: NONE | cv: AG_103933_Leica_Trinovid_10x42_HD | shop: BLOCKED | Search literal=NONE expected=AG_103933_Leica_Trinovid_10x42_HD / Shopping pilot=BLOCKED expected_reach=True
+R14 OWNER_DECISION | acc: - | S: NONE | cv: NONE | shop: REACHES_AUCTION | 
+R15 PASS | acc: - | S: AG_103640_Levenhuk_New_Vegas_ED_10x42 | cv: AG_103640_Levenhuk_New_Vegas_ED_10x42 | shop: REACHES_AUCTION | 
+R16 FAIL | acc: - | S: NONE | cv: NONE | shop: REACHES_AUCTION | Search literal=NONE expected=AG_103640_Levenhuk_New_Vegas_ED_10x42
+R17 FAIL | acc: BROAD:stary | S: NONE | cv: AG_26113_Levenhuk_Vegas_ED_10x42 | shop: BLOCKED | Search literal=NONE expected=AG_26113_Levenhuk_Vegas_ED_10x42 / Shopping pilot=BLOCKED expected_reach=True
+R18 PASS_LITERAL_RISK_CV | acc: - | S: AG_26113_Levenhuk_Vegas_ED_10x42 | cv: AG_26113_Levenhuk_Vegas_ED_10x42 | shop: REACHES_AUCTION | 
+R19 PASS | acc: - | S: NONE | cv: NONE | shop: REACHES_AUCTION | 
+R20 PASS | acc: - | S: NONE | cv: NONE | shop: REACHES_AUCTION | 
+R21 PASS | acc: - | S: NONE | cv: NONE | shop: REACHES_AUCTION | 
+R22 PASS | acc: - | S: NONE | cv: NONE | shop: REACHES_AUCTION | 
+R23 PASS | acc: - | S: NONE | cv: NONE | shop: REACHES_AUCTION | 
+R24 PASS | acc: - | S: NONE | cv: NONE | shop: REACHES_AUCTION | 
+R25 PASS | acc: - | S: NONE | cv: NONE | shop: REACHES_AUCTION | 
+R26 PASS | acc: - | S: NONE | cv: NONE | shop: REACHES_AUCTION | 
+R27 PASS | acc: - | S: NONE | cv: NONE | shop: REACHES_AUCTION | 
+R28 PASS | acc: - | S: NONE | cv: NONE | shop: REACHES_AUCTION | 
+R29 PASS | acc: - | S: NONE | cv: NONE | shop: REACHES_AUCTION | 
+R30 PASS | acc: - | S: NONE | cv: NONE | shop: REACHES_AUCTION | 
+R31 FAIL | acc: - | S: AG_103933_Leica_Trinovid_10x42_HD | cv: AG_103933_Leica_Trinovid_10x42_HD | shop: REACHES_AUCTION | Search literal=AG_103933_Leica_Trinovid_10x42_HD expected=NONE
+R32 FAIL | acc: - | S: AG_103933_Leica_Trinovid_10x42_HD | cv: AG_103933_Leica_Trinovid_10x42_HD | shop: REACHES_AUCTION | Search literal=AG_103933_Leica_Trinovid_10x42_HD expected=NONE
+R33 FAIL | acc: - | S: AG_47420_SkyWatcher_Explorer_150PDS_EQ3 | cv: AG_47420_SkyWatcher_Explorer_150PDS_EQ3 | shop: REACHES_AUCTION | Search literal=AG_47420_SkyWatcher_Explorer_150PDS_EQ3 expected=NONE
+R34 PASS | acc: - | S: NONE | cv: NONE | shop: REACHES_AUCTION | 
+R35 CV_DEPENDENT | acc: - | S: NONE | cv: AG_47420_SkyWatcher_Explorer_150PDS_EQ3 | shop: REACHES_AUCTION | Search literal=NONE expected=AG_47420_SkyWatcher_Explorer_150PDS_EQ3
+R36 PASS | acc: - | S: AG_47420_SkyWatcher_Explorer_150PDS_EQ3 | cv: AG_47420_SkyWatcher_Explorer_150PDS_EQ3 | shop: REACHES_AUCTION | 
+R37 PASS | acc: - | S: AG_103933_Leica_Trinovid_10x42_HD | cv: AG_103933_Leica_Trinovid_10x42_HD | shop: REACHES_AUCTION | 
+R38 CV_DEPENDENT | acc: - | S: NONE | cv: AG_103933_Leica_Trinovid_10x42_HD | shop: REACHES_AUCTION | Search literal=NONE expected=AG_103933_Leica_Trinovid_10x42_HD
+R39 PASS | acc: - | S: AG_103933_Leica_Trinovid_10x42_HD | cv: AG_103933_Leica_Trinovid_10x42_HD | shop: REACHES_AUCTION | 
+R40 FAIL | acc: BROAD:aký | S: NONE | cv: AG_103933_Leica_Trinovid_10x42_HD | shop: BLOCKED | Search literal=NONE expected=AG_103933_Leica_Trinovid_10x42_HD / Shopping pilot=BLOCKED expected_reach=True
+R41 FAIL | acc: BROAD:Ktoré | S: NONE | cv: NONE | shop: BLOCKED | Shopping pilot=BLOCKED expected_reach=True
+R42 FAIL | acc: BROAD:heureka | S: NONE | cv: AG_103933_Leica_Trinovid_10x42_HD | shop: BLOCKED | Search literal=NONE expected=AG_103933_Leica_Trinovid_10x42_HD / Shopping pilot=BLOCKED expected_reach=True
+R43 PASS_LITERAL_RISK_CV | acc: - | S: NONE | cv: AG_103933_Leica_Trinovid_10x42_HD | shop: BLOCKED | 
+R44 FAIL | acc: - | S: AG_26113_Levenhuk_Vegas_ED_10x42 | cv: AG_26113_Levenhuk_Vegas_ED_10x42 | shop: REACHES_AUCTION | Search literal=AG_26113_Levenhuk_Vegas_ED_10x42 expected=NONE / Shopping pilot=REACHES_AUCTION expected_reach=False
+R45 PASS | acc: BROAD:zadarmo | S: NONE | cv: AG_103933_Leica_Trinovid_10x42_HD | shop: BLOCKED | 
+R46 PASS | acc: - | S: NONE | cv: NONE | shop: REACHES_AUCTION | 
+R47 PASS | acc: - | S: NONE | cv: NONE | shop: REACHES_AUCTION | 
+diff rows 16 ['Ktoré:REVIEW', 'aký:REPLACE', 'heureka:OWNER_DECISION', 'kde:REPLACE', 'lacno:OWNER_DECISION', 'stary:REPLACE', 'keyword_text:REMOVE', 'bazár:ADD', 'starý:NO_CHANGE_UNLESS_stary_KEPT', 'levenhuk vegas ed 10×42:ADD_KEYWORD_PROPOSAL', 'skywatcher explorer-150pds eq3; sky-watcher explorer-150pds eq3:ADD_KEYWORD_PROPOSAL', 'leica trinovid 10 x 42 hd:ADD_KEYWORD_PROPOSAL', 'návod, navod, manuál, manual, pdf, servis, oprava, náhradné diely:COPY_TO_NEW_CAMPAIGNS', 'bazár/bazar/použitý/pouzity:ADD_IN_NEW_CAMPAIGN', 'levenhuk nový vegas ed 10x42:ADD_KEYWORD_PROPOSAL', 'puzdro, popruh, okulár, protizávažie, filter, adaptér:ADD_AD_GROUP_NEGATIVES']
+UNREVIEWED account blockers: 0
+
+$ python -I economics_recheck.py  (exit 0)
+recheck rows 24 rerun identical: True max |indep - published| CM: 0.005
+  103933 215.23 215.23 BE margin % 3.46
+  26113 49.5 49.5 BE margin % 5.68
+  103640 28.5 28.5 BE margin % 7.52
+  47420 87.23 87.23 BE margin % 8.93
+edge tests 14 / 14 []
+
+$ python -I stock_sync_dryrun.py  (exit 0)
+S01 PASS OOS enabled group is paused and labelled
+S02 PASS API error -> no action
+S03 PASS empty response is not OOS
+S04 PASS stale read (8 h) -> no action
+S05 PASS kill switch -> no action
+S06 PASS manual pause is never auto-enabled
+S07 PASS new group created PAUSED for review is never labelled or enabled
+S08 PASS sync-paused group needs 2 consecutive IN_STOCK reads (first run waits)
+S09 PASS item missing from read -> alert, not OOS
+S10 PASS identity outside SK (feed_label AT) ignored even if offer_id equal
+S11 PASS non-allowlisted object untouched
+S12 PASS mass flip >30% halts the run
+S13 PASS manually enabled while labelled -> only remove stale label
+S14 PASS PREORDER/BACKORDER never auto-enable
+S15 PASS idempotent: same input twice -> second run 0 actions
+S16 PASS second confirmed IN_STOCK read enables sync-paused group
+scenarios 16 / 16
+
+=== package checks ===
+PASS coverage: exactly 32 rows  [32]
+PASS coverage: 26 non-empty offerIds, all unique  [26/26]
+PASS coverage: 6 site-only rows
+PASS coverage: site-only never claimed absent from current Merchant / CS-Cart error
+PASS coverage: site-only availability stays UNKNOWN (no zeros / no invented status)
+PASS 26130 is monocular with label monokuláre, not relabelled
+PASS 26130 rollback boundary states there is no previous ad
+PASS 26130 classified as in-stock gap without campaign
+PASS snapshot columns: 14.11 values are labelled by date, live columns separate
+PASS no coverage row uses the word live for a 14.11 value
+PASS every Merchant row has acceptance + rollback
+PASS pilot proposal never changes old campaigns in pilot phase
+PASS join keeps several campaign rows per offerId (unit)
+PASS coverage: Claude Code recheck keeps all campaign memberships  [each offerId listed for 3 old unscoped campaigns + its scoped one]
+PASS routing: 47 tests produced  [{'PASS': 27, 'CV_DEPENDENT': 4, 'FAIL': 13, 'OWNER_DECISION': 1, 'PASS_LITERAL_RISK_CV': 2}]
+PASS routing: all required categories covered
+PASS routing: three owner queries present verbatim
+PASS routing: literal and close-variant results kept in separate columns
+PASS diff: every row is a proposal, nothing applied
+PASS diff: every row has basis, example, risk and verification
+PASS diff: every account negative that blocks a commercial test is reviewed
+PASS simulated diff leaves only owner-decision failures  [['R13', 'R41', 'R42']]
+PASS economics: all edge tests pass  [14/14]
+PASS economics: Cowork script rerun identical to published CSV
+PASS economics: independent formula within rounding (<=0.01 EUR)
+PASS economics: all rows marked SCENARIO
+PASS stock sync: all dry-run scenarios pass  [16/16]
+PASS markdown relative links resolve
+
+RESULT: ALL CHECKS PASS
+
+
+### economics
+103933 stress 0.15 104.6 9.118 9.91 12.19 4.13
+103933 base 0.25 215.23 4.624 4.816 5.924 3.46
+103933 stress 0.25 200.79 4.75 5.163 6.35 4.13
+26113 stress 0.15 19.98 12.081 13.423 16.51 6.81
+26113 base 0.25 49.5 5.148 5.419 6.665 5.68
+26113 stress 0.25 44.4 5.438 6.042 7.432 6.81
+103640 stress 0.15 9.44 16.268 18.076 22.233 8.92
+103640 base 0.25 28.5 5.69 5.989 7.367 7.52
+103640 stress 0.25 24.98 6.151 6.834 8.406 8.92
+47420 stress 0.15 21.84 23.361 25.956 31.926 10.79
+47420 base 0.25 87.23 6.173 6.498 7.993 8.93
+47420 stress 0.25 73.7 6.922 7.691 9.46 10.79
+negative example 103640 m=5% stress: -6.09
+
+
+### alert
+r3 rule (z=2.58, delta=.3, known baseline, Poisson, 50% power): 74
+same, Poisson, known baseline, 80% power, one-sided 1%: 102
+{'drop': 0.3, 'alpha_one_sided': 0.01, 'power': 0.8, 'phi': 1, 'control_size_ratio': 1.0, 'baseline_window_x': 4, 'pilot_expected_impressions_needed': 197, 'days_at_40_per_day': 4.9, 'days_at_200_per_day': 1.0}
+{'drop': 0.3, 'alpha_one_sided': 0.01, 'power': 0.8, 'phi': 1, 'control_size_ratio': 3.0, 'baseline_window_x': 4, 'pilot_expected_impressions_needed': 131, 'days_at_40_per_day': 3.3, 'days_at_200_per_day': 0.7}
+{'drop': 0.3, 'alpha_one_sided': 0.01, 'power': 0.8, 'phi': 3, 'control_size_ratio': 1.0, 'baseline_window_x': 4, 'pilot_expected_impressions_needed': 592, 'days_at_40_per_day': 14.8, 'days_at_200_per_day': 3.0}
+{'drop': 0.3, 'alpha_one_sided': 0.01, 'power': 0.8, 'phi': 3, 'control_size_ratio': 3.0, 'baseline_window_x': 4, 'pilot_expected_impressions_needed': 394, 'days_at_40_per_day': 9.9, 'days_at_200_per_day': 2.0}
+{'drop': 0.3, 'alpha_one_sided': 0.01, 'power': 0.8, 'phi': 10, 'control_size_ratio': 1.0, 'baseline_window_x': 4, 'pilot_expected_impressions_needed': 1972, 'days_at_40_per_day': 49.3, 'days_at_200_per_day': 9.9}
+{'drop': 0.3, 'alpha_one_sided': 0.01, 'power': 0.8, 'phi': 10, 'control_size_ratio': 3.0, 'baseline_window_x': 4, 'pilot_expected_impressions_needed': 1315, 'days_at_40_per_day': 32.9, 'days_at_200_per_day': 6.6}
+{'drop': 0.5, 'alpha_one_sided': 0.01, 'power': 0.8, 'phi': 1, 'control_size_ratio': 1.0, 'baseline_window_x': 4, 'pilot_expected_impressions_needed': 52, 'days_at_40_per_day': 1.3, 'days_at_200_per_day': 0.3}
+{'drop': 0.5, 'alpha_one_sided': 0.01, 'power': 0.8, 'phi': 1, 'control_size_ratio': 3.0, 'baseline_window_x': 4, 'pilot_expected_impressions_needed': 35, 'days_at_40_per_day': 0.9, 'days_at_200_per_day': 0.2}
+{'drop': 0.5, 'alpha_one_sided': 0.01, 'power': 0.8, 'phi': 3, 'control_size_ratio': 1.0, 'baseline_window_x': 4, 'pilot_expected_impressions_needed': 157, 'days_at_40_per_day': 3.9, 'days_at_200_per_day': 0.8}
+{'drop': 0.5, 'alpha_one_sided': 0.01, 'power': 0.8, 'phi': 3, 'control_size_ratio': 3.0, 'baseline_window_x': 4, 'pilot_expected_impressions_needed': 104, 'days_at_40_per_day': 2.6, 'days_at_200_per_day': 0.5}
+{'drop': 0.5, 'alpha_one_sided': 0.01, 'power': 0.8, 'phi': 10, 'control_size_ratio': 1.0, 'baseline_window_x': 4, 'pilot_expected_impressions_needed': 522, 'days_at_40_per_day': 13.1, 'days_at_200_per_day': 2.6}
+{'drop': 0.5, 'alpha_one_sided': 0.01, 'power': 0.8, 'phi': 10, 'control_size_ratio': 3.0, 'baseline_window_x': 4, 'pilot_expected_impressions_needed': 348, 'days_at_40_per_day': 8.7, 'days_at_200_per_day': 1.7}
+daily checks n=14 alpha=0.01: P(>=1 false alarm) = 0.13 (independent approx)
+daily checks n=14 alpha=0.05: P(>=1 false alarm) = 0.51 (independent approx)
+daily checks n=28 alpha=0.01: P(>=1 false alarm) = 0.25 (independent approx)
+daily checks n=28 alpha=0.05: P(>=1 false alarm) = 0.76 (independent approx)
+
+
+### routing
+C01 FAIL BROAD:poradiť | BROAD:poradiť | NONE BLOCKED
+C02 FAIL BROAD:ake | BROAD:ake | NONE BLOCKED
+C03 FAIL BROAD:nie drahé | BROAD:nie drahé | NONE BLOCKED
+C04 FAIL BROAD:Správny | BROAD:Správny | NONE BLOCKED
+C05 FAIL BROAD:popis | BROAD:popis | NONE BLOCKED
+C06 FAIL BROAD:typy | BROAD:typy | NONE BLOCKED
+C07 FAIL BROAD:drony | BROAD:drony | NONE BLOCKED
+C08 FAIL PHRASE:dalekohlad s fotoaparatom | PHRASE:dalekohlad s fotoaparatom | NONE BLOCKED
+C09 PASS - | PHRASE:dalekohlad s fotoaparatom | NONE REACHES_AUCTION
+C10 PASS BROAD:Čo | BROAD:Čo | NONE BLOCKED
+C11 PASS - | - | AG_103933_Leica_Trinovid_10x42_HD REACHES_AUCTION
+C12 PASS - | - | NONE REACHES_AUCTION
+C13 FAIL BROAD:Nájsť | BROAD:Nájsť | NONE BLOCKED
+C14 PASS - | - | NONE REACHES_AUCTION
+
+
+### catalog
+BROAD zadarmo 2 2 | Fotopasca SPYPOINT FORCE-PRO 30 mpx 4K video + 16GB SD karta zadarmo || Fotopasca TETRAO Spromise S328 30Mpx 940nm MMS/4
+BROAD free 2 1 | Vysielačky BRESSER JUNIOR Sada 2 vysielačiek s dlhým dosahom až 6 km a || Vysielačky NATIONAL GEOGRAPHIC s dlhým dosahom
+BROAD ich 1 1 | 3, 2, 1 - myš odlieta do vesmíru! S DieMaus 50/350 refrakčným teleskop
+BROAD kniha 1 0 | Levenhuk Discovery Nano Polar – mikroskop 40–400×, dvojité LED a česká
+BROAD ovládanie 2 0 | RA motor BRESSER + ovládanie || TenoSight — diaľkové ovládanie k prísvitom
+
+
+### stock
+['WAIT:in-stock confirmation 1/2', 'ENABLE:in stock, paused by sync, confirmed']
+PROBLEM C1 same read twice -> 2nd run enables (should WAIT for a NEW read) | [] | [('AG_103933', 'ENABLE', 'paused-by-sync')]
+PROBLEM C2 raw resource_name (customers/.../shoppingProducts/...) is SKIPPED, OOS group stays enabled; fail-safe but silent — needs explicit parse + alert | [] | ['identity outside SK destination/merchant']
+PROBLEM C3 manual HOLD on a sync-paused group is not representable; sync enables it | [('AG_103933', 'ENABLE', 'paused-by-sync')] | 
+PROBLEM C4 manual override to keep OOS group enabled is not representable; sync pauses it | [('AG_103933', 'PAUSE', 'paused-by-sync')] | 
+
