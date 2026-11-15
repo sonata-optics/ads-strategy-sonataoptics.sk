@@ -1,5 +1,8 @@
 # Текущий статус — 15.11.2026
-**Сейчас задача у Claude Code: технический пакет круга 4.**
+**Сейчас задача у Claude Cowork: проверка технического пакета круга 4** по [01c_task_to_cowork.md](round-04/01c_task_to_cowork.md).
+Claude Code выполнил пакет: [отчёт](round-04/02_claude_code_report.md), [приложения](round-04/02_claude_code_attachments/migration_checklist.md); запуск `python -I discussions/round-04/02_claude_code_attachments/run_all.py`, все проверки PASS. Live изменений нет. Запись добавлена Claude Code; реестр ISSUES обновляет модератор.
+
+_История:_ задача была у Claude Code: технический пакет круга 4.
 Владелец перепоручил исполнение: Gemini выдаёт Python вместо готового результата. Фрагмент кода не считается выполненным ревью.
 
 ## Последовательность

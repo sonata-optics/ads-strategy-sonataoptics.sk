@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-15",
+  "author": "Claude Code",
+  "source": "Google Ads API v23 via PaidSync, read-only GAQL (shopping_product, campaign_criterion, ad_group_criterion). Account Sonataoptics.sk. No mutations.",
+  "scope": "26 Merchant offerIds of the four control families; all 8 ENABLED Shopping campaigns from live_checks_2026-11-15.json",
+  "account_level": {
+    "note": "shopping_product without campaign filter = account-level status; feed_label SK, channel ONLINE, language sk for all 26",
+    "custom_attribute0": {
+      "dalekohlady_a_binokulare": ["103933","55858","55369","55859","103932","55371","26113","103640","103639","103641","103642","103645","103643","26114"],
+      "teleskopy_a_hvezdarske_dalekohlady": ["47420","47472","47500","47452","47489","47426","47474","47424","47412","47458"],
+      "monokulare": ["26130","26131"]
+    },
+    "label_values_verbatim": {
+      "dalekohlady_a_binokulare": "ďalekohľady a binokuláre",
+      "teleskopy_a_hvezdarske_dalekohlady": "teleskopy a hvezdárske ďalekohľady",
+      "monokulare": "monokuláre"
+    },
+    "out_of_stock": ["47424","47412","47458","26131"],
+    "not_eligible_in_any_campaign": ["26130","26131"]
+  },
+  "per_campaign": {
+    "24440851881": {"returned": 14, "eligible": ["103645","55369","103642","55371","103639","103640","103643","103641","55859","103933","26113","26114","55858","103932"], "not_eligible": {}},
+    "24451885423": {"returned": 10, "eligible": ["47489","47452","47474","47426","47472","47500","47420"], "not_eligible": {"47458": "not_eligible_out_of_stock", "47424": "not_eligible_out_of_stock", "47412": "not_eligible_out_of_stock"}},
+    "24341660055": {"returned": 26, "eligible": [], "all_status": "NOT_ELIGIBLE", "issues_sampled_for": ["103933","26130","47420"], "issues_sample": ["not_eligible_excluded_product_listing_group", "not_eligible_campaign_ended"]},
+    "24346760069": {"returned": 26, "eligible": [], "all_status": "NOT_ELIGIBLE", "issues": "NOT_FETCHED"},
+    "24346760072": {"returned": 26, "eligible": [], "all_status": "NOT_ELIGIBLE", "issues": "NOT_FETCHED"},
+    "24440851839": {"returned": 0, "note": "scope termovízie; none of the 26 in campaign scope"},
+    "24446149352": {"returned": 0, "note": "scope sonata junior lab"},
+    "24451886281": {"returned": 0, "note": "scope mikroskopy"}
+  },
+  "negatives": {
+    "campaign_negative_keywords_enabled_campaigns": 95,
+    "by_campaign": {"24425793295 SEARCH": 30, "24341660055 SHOPPING": 18, "24346760069 SHOPPING": 18, "24346760072 SHOPPING": 18, "24341095320 SEARCH": 11},
+    "campaign_negatives_in_24440851881_and_24451885423": 0,
+    "ad_group_negative_keywords_enabled": 0,
+    "file": "campaign_negatives_2026-11-15.csv"
+  },
+  "not_checked": [
+    "issues of 24346760069 and 24346760072 (status only)",
+    "campaign end dates, budgets, geo, schedule (E1)",
+    "GTIN/MPN and Merchant destination statuses (E10)",
+    "Ad Preview / auction delivery (E11)",
+    "Merchant state of the 6 site-only URLs"
+  ]
+}

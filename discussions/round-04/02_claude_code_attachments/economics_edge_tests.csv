@@ -1,0 +1,15 @@
+test_id,description,inputs,expected,actual,result
+E01,Method example 05_budget_and_roas,P_n=100 C=60 r=.1 F=2 S_out=5 H=3 S_back=4 H_ret=2 L=6,CM=24.8; BE adj 3.629; BE gross 4.032,CM=24.80; 3.629; 4.032,PASS
+E02,"100 initial orders, spend 2480 -> zero contribution after ads in both bases",as E01,0,0.000000,PASS
+E03,"Margin zero: no positive BE ROAS, Max CPC clipped to 0",P_n=100 C=100.0,CM<0; thresholds None; MaxCPC 0,"CM=-10.10; (None, None, None); MaxCPC=0.0",PASS
+E04,"Margin negative: no positive BE ROAS, Max CPC clipped to 0",P_n=100 C=120.0,CM<0; thresholds None; MaxCPC 0,"CM=-29.10; (None, None, None); MaxCPC=0.0",PASS
+E05,"r=1 (every order returned): V_adj=0, CM negative",r=1,CM<0,CM=-22.00,PASS
+E06,CM_exp strictly decreasing in return rate r,r=0..1 step .05,monotone decreasing,30.00 .. -22.00,PASS
+E07,"Mixing bases flips the verdict: gross ROAS 3.8 vs adjusted threshold says profitable, vs own threshold says loss",gross ROAS=3.8,"wrong=profitable, right=loss",wrong=True; right=False,PASS
+E08,Ads removes returned conversions: CPA threshold per remaining purchase = CM/(1-r),CM=24.8 r=.1,27.56,27.56,PASS
+E09,desired_profit >= CM: no positive target CPA,CM=24.8 profit=30,target None,None,PASS
+E10,CR must be purchases/ad clicks; using purchases/sessions understates Max CPC when sessions>clicks,purchases=6 clicks=400 sessions=520 (synthetic),click-based 0.372 > session-based 0.286,0.372 vs 0.286,PASS
+E11,"Unknown clicks: Max CPC is UNKNOWN, not 0 and not computed",clicks=None,None,None,PASS
+E12,"Zero purchases observed: CR estimate 0 gives Max CPC 0 -> must be read as no evidence, not a bid",purchases=0 clicks=14,0.0 (flag INSUFFICIENT_DATA),0.0,PASS
+E13,Partial returns: expectation by states differs from single averaged r,"lines A 80/50, B 20/10; P(return B)=.1, L_B=2",state model != averaged-r model,states=38.80; avg_r=39.16,PASS
+E14,Cowork: P(0 purchases) when spend = k*CM at break-even CPC ~ e^-k,k=2 p=.02,close to e^-2=0.135,0.1326,PASS

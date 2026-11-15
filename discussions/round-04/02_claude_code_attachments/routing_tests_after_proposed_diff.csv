@@ -1,0 +1,48 @@
+test_id,query,verdict_now,verdict_after_simulated_diff,search_after,shopping_pilot_after,remaining_problem,note
+R01,leica trinovid 10x42 hd,PASS,PASS,AG_103933_Leica_Trinovid_10x42_HD,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R02,levenhuk vegas ed 10x42,PASS,PASS,AG_26113_Levenhuk_Vegas_ED_10x42,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R03,levenhuk vegas ed 10×42,CV_DEPENDENT,PASS,AG_26113_Levenhuk_Vegas_ED_10x42,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R04,skywatcher explorer-150pds eq3,CV_DEPENDENT,PASS,AG_47420_SkyWatcher_Explorer_150PDS_EQ3,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R05,levenhuk new vegas ed 10x42,PASS,PASS,AG_103640_Levenhuk_New_Vegas_ED_10x42,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R06,sky watcher explorer 150pds eq3,PASS,PASS,AG_47420_SkyWatcher_Explorer_150PDS_EQ3,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R07,kde kúpiť leica trinovid 10x42 hd,FAIL,PASS,AG_103933_Leica_Trinovid_10x42_HD,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R08,kde kupit levenhuk vegas ed 10x42,FAIL,PASS,AG_26113_Levenhuk_Vegas_ED_10x42,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R09,kde kúpiť skywatcher 150pds eq3,FAIL,PASS,AG_47420_SkyWatcher_Explorer_150PDS_EQ3,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R10,leica trinovid 10x42 hd cena,PASS,PASS,AG_103933_Leica_Trinovid_10x42_HD,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R11,cena sky watcher 150pds eq3,PASS,PASS,AG_47420_SkyWatcher_Explorer_150PDS_EQ3,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R12,levenhuk new vegas ed 10x42 najlepšia cena,PASS,PASS,AG_103640_Levenhuk_New_Vegas_ED_10x42,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R13,leica trinovid 10x42 hd lacno,FAIL,FAIL,NONE,BLOCKED,Search literal=NONE expected=AG_103933_Leica_Trinovid_10x42_HD / Shopping pilot=BLOCKED expected_reach=True,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R14,levenhuk vegas 10x42,OWNER_DECISION,OWNER_DECISION,NONE,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R15,new vegas ed 10x42,PASS,PASS,AG_103640_Levenhuk_New_Vegas_ED_10x42,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R16,levenhuk nový vegas ed 10x42,FAIL,PASS,AG_103640_Levenhuk_New_Vegas_ED_10x42,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R17,levenhuk vegas ed 10x42 stary model,FAIL,PASS,AG_26113_Levenhuk_Vegas_ED_10x42,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R18,levenhuk vegas ed 10x42 starý model,PASS_LITERAL_RISK_CV,PASS,AG_26113_Levenhuk_Vegas_ED_10x42,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R19,levenhuk vegas ed 10x50 monokulár,PASS,PASS,NONE,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R20,levenhuk monokular vegas ed,PASS,PASS,NONE,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R21,vegas ed 10x50,PASS,PASS,NONE,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R22,new vegas ed 10x50 ďalekohľad,PASS,PASS,NONE,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R23,leica trinovid 8x42 hd,PASS,PASS,NONE,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R24,leica trinovid 10x32 hd,PASS,PASS,NONE,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R25,levenhuk vegas ed 8x42,PASS,PASS,NONE,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R26,leica trinovid 10x25 bca,PASS,PASS,NONE,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R27,sky-watcher 150pds eq3 goto,PASS,PASS,NONE,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R28,skywatcher explorer 150pds eq5 goto,PASS,PASS,NONE,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R29,sky watcher 150p eq3,PASS,PASS,NONE,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R30,skywatcher 150pds ota,PASS,PASS,NONE,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R31,leica trinovid 10x42 puzdro,FAIL,PASS,NONE,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R32,popruh leica trinovid 10x42 hd,FAIL,PASS,NONE,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R33,okulár pre skywatcher 150pds eq3,FAIL,PASS,NONE,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R34,protizávažie eq3 150pds,PASS,PASS,NONE,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R35,sky-watcher explorer-150pds eq3,CV_DEPENDENT,PASS,AG_47420_SkyWatcher_Explorer_150PDS_EQ3,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R36,sky watcher explorer 150 pds eq3,PASS,PASS,AG_47420_SkyWatcher_Explorer_150PDS_EQ3,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R37,dalekohlad leica trinovid 10x42,PASS,PASS,AG_103933_Leica_Trinovid_10x42_HD,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R38,leica trinovid 10 x 42 hd,CV_DEPENDENT,PASS,AG_103933_Leica_Trinovid_10x42_HD,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R39,LEICA Trinovid 10X42 HD,PASS,PASS,AG_103933_Leica_Trinovid_10x42_HD,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R40,aký ďalekohľad leica trinovid 10x42 hd,FAIL,PASS,AG_103933_Leica_Trinovid_10x42_HD,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R41,ktoré leica trinovid 10x42 alebo 8x42,FAIL,FAIL,NONE,BLOCKED,Shopping pilot=BLOCKED expected_reach=True,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R42,leica trinovid 10x42 hd heureka,FAIL,FAIL,NONE,BLOCKED,Search literal=NONE expected=AG_103933_Leica_Trinovid_10x42_HD / Shopping pilot=BLOCKED expected_reach=True,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R43,leica trinovid 10x42 hd bazár,PASS_LITERAL_RISK_CV,PASS,NONE,BLOCKED,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R44,levenhuk vegas ed 10x42 návod pdf,FAIL,PASS,NONE,BLOCKED,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R45,leica trinovid 10x42 hd zadarmo,PASS,PASS,NONE,BLOCKED,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R46,ďalekohľad 10x42,PASS,PASS,NONE,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
+R47,teleskop pre začiatočníkov,PASS,PASS,NONE,REACHES_AUCTION,,SIMULATION ONLY; lacno/heureka/Ktoré left unchanged as owner decisions
