@@ -1,4 +1,10 @@
 # Текущий статус — 15.11.2026
+**25.11.2026 — круг 5. Порядок по решению владельца: Claude Code → ChatGPT, два круга, затем решение владельца.** Владелец делегировал Code и ChatGPT выбор меток и переделку фида; Cowork 04e — необязательная проверка, не этап очереди.
+- **Сейчас ChatGPT:** ответ на [сводное предложение Claude Code](round-05/01_claude_code_strategy_proposal.md) → `round-05/02_chatgpt_review.md` (задание в §5).
+- Затем Claude Code (ход 3: исправления и ТЗ внедрения), ChatGPT (ход 4: итог), решение владельца (≤3 вопроса).
+- Единственное live-изменение 25.11 — модуль Merchant API: `custom_label_4` = метка допуска ads_ok/ads_review/ads_hold (бренд остаётся в поле brand). Кампании, ставки, бюджеты не менялись.
+
+_История (до круга 5):_
 **Следующий: Claude Cowork, короткая проверка 04e** — задание в разделе «Передача» [04d_claude_code_report.md](round-04/04d_claude_code_report.md); ответ round-04/04e_claude_review.md, затем ChatGPT.
 **25.11.2026, Claude Code:** 04d выполнен полностью ([отчёт](round-04/04d_claude_code_report.md), [сверка каталога 25.11](round-04/04d_claude_code_catalog_refresh.md)); `run_all.py` — 67/67 PASS. Live изменений нет. Новое: все пять custom_label в фиде заняты — для ads_review_ok нужен выбор слота владельцем, до этого только генерируемый item_id allowlist.
 
