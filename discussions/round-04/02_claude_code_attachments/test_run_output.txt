@@ -1,4 +1,4 @@
-repo HEAD at run time: f09cbfef2edc968a972da2de8d630c12d5383896
+repo HEAD at run time: 8df6720462aaf201281739ace3e442882023367c
 
 $ python -I discussions\round-04\02_claude_code_attachments\coverage_map.py  (exit 0)
 rows 32 {'COVERED_ELIGIBLE': 21, 'GAP_IN_STOCK_NO_CAMPAIGN': 1, 'GAP_OOS_AND_NO_CAMPAIGN': 1, 'NOT_ELIGIBLE_OOS': 3, 'SITE_ONLY_UNKNOWN': 6}
@@ -91,16 +91,27 @@ S06 PASS manual pause is never auto-enabled
 S07 PASS new group created PAUSED for review is never labelled or enabled
 S08 PASS first IN_STOCK read only waits
 S09 PASS item missing from read -> alert, not OOS
-S10 PASS identity outside SK (feed_label AT) ignored even if offer_id equal
+S10 PASS identity with another feed label ignored even if offer_id equal
 S11 PASS non-allowlisted object untouched
 S12 PASS mass flip >30% halts the run
 S13 PASS manually enabled while labelled -> only remove stale label
 S14 PASS PREORDER/BACKORDER never auto-enable
-C2a PASS full resource_name is parsed and acted on (OOS -> PAUSE)
+C2a PASS full resource_name of the allowed customer is parsed and acted on (OOS -> PAUSE)
 C2b PASS unknown identity format -> ALERT, no action
+C2c PASS resource_name of a foreign customer (1234567890) -> ALERT, no action
+C2d PASS feed label with hyphen SK-2 parsed and accepted when it is in the allowed set
+C2e PASS feed label SK-2 not in the allowed set -> SKIP
+C2f PASS short key without trusted object customer context -> ALERT (no silent customer append)
+C2g PASS managed object belongs to another customer -> ALERT
+C2h PASS read from another customer -> ALERT for the whole run
+C2i PASS read without customer context -> ALERT
 C3 PASS sync-hold on a sync-paused group blocks enable
 C4a PASS sync-hold on an enabled OOS group blocks pause
 C4b PASS manual enable WITHOUT hold does not authorise OOS advertising -> PAUSE
+C3x PASS Cowork: 5-day-old confirmation + one fresh read -> WAIT (expired confirmation dropped)
+W1 PASS confirmation exactly at the 6 h window edge is kept -> ENABLE
+W2 PASS confirmation 6 h 1 min old is dropped -> WAIT
+W3 PASS stored confirmation dated in the future is dropped -> WAIT
 U1 PASS paused with UNKNOWN owner is never enabled
 U2 PASS owner SYNC but label missing -> treated as unknown, no enable
 F1 PASS read timestamp in the future -> ALERT
@@ -110,9 +121,13 @@ S15 PASS idempotent: same input after commit -> 0 actions
 C1 PASS replaying the same read adds no confirmation
 S16 PASS second distinct fresh read (unchanged IN_STOCK) enables
 I1 PASS distinct read below minimum interval does not confirm
+H1 PASS hold set resets history; after unhold one fresh read waits, the second enables
+H2 PASS hold -> OOS (no action) -> unhold -> PAUSE
 M1 PASS HALT: no actions, no proposed state, input unchanged
 M2 PASS failed apply -> stored confirmations not advanced
-scenarios 30 / 30
+P1 PASS partial success: only the applied object changes; the failed one is marked for re-read
+P2 PASS reconcile trusts re-read state; human pause becomes UNKNOWN owner and is never enabled
+scenarios 45 / 45
 
 $ python -I discussions\round-04\04b_claude_code_attachments\account_negatives_review.py  (exit 0)
 negatives 258 unique 258
@@ -165,6 +180,67 @@ in-stock potentially routed after waves 1-2 (eligibility upper bound, not impres
 pilot members 26 Counter({'KEEP_CURRENT': 21, 'KEEP_CURRENT_SCOPE': 3, 'ADD_IN_WAVE': 2})
 eligible in-stock with policy flag [('107817', 'termovízie')] 1
 
+$ python -I discussions\round-04\04d_claude_code_attachments\account_negatives_review_v2.py  (exit 0)
+rows 258 Counter({'KEEP': 224, 'REVIEW_WITH_CATALOGUE': 11, 'OWNER_DECISION': 8, 'OWNER_DECISION_CATALOG': 7, 'PROPOSED_BY_OWNER_DIRECTION': 6, 'OWNER_DECISION_HEUREKA': 1, 'REMOVE': 1})
+BROAD:free | lit 0 (in stock 0) folded-only 0 | ex NO_VERIFIED_CATALOG_EXAMPLE  | q 'free'=True ''= | KEEP
+BROAD:kde | lit 0 (in stock 0) folded-only 0 | ex NO_VERIFIED_CATALOG_EXAMPLE  | q 'kde leica trinovid 10x42 hd'=True ''= | PROPOSED_BY_OWNER_DIRECTION
+BROAD:stary | lit 0 (in stock 0) folded-only 0 | ex NO_VERIFIED_CATALOG_EXAMPLE  | q 'stary leica trinovid 10x42 hd'=True 'starý leica trinovid 10x42 hd'=False | OWNER_DECISION
+BROAD:kniha | lit 2 (in stock 0) folded-only 0 | ex 26347 Levenhuk „Vesmír. Mikrosvět“, 2 zväzky – vzdelávac | q 'levenhuk „vesmír. mikrosvět“, 2 zväzky – vzdelávacia kniha'=True ''= | REVIEW_WITH_CATALOGUE
+BROAD:solarna | lit 0 (in stock 0) folded-only 4 | ex NO_VERIFIED_CATALOG_EXAMPLE  | q 'solarna'=True 'solárna'=False | REVIEW_WITH_CATALOGUE
+BROAD:heureka | lit 0 (in stock 0) folded-only 0 | ex NO_VERIFIED_CATALOG_EXAMPLE  | q 'heureka leica trinovid 10x42 hd'=True ''= | OWNER_DECISION_HEUREKA
+BROAD:zadarmo | lit 0 (in stock 0) folded-only 0 | ex NO_VERIFIED_CATALOG_EXAMPLE  | q 'zadarmo'=True ''= | REVIEW_WITH_CATALOGUE
+BROAD:drony | lit 0 (in stock 0) folded-only 0 | ex NO_VERIFIED_CATALOG_EXAMPLE  | q 'drony'=True ''= | OWNER_DECISION_CATALOG
+BROAD:ovládanie | lit 3 (in stock 3) folded-only 0 | ex 64768 Celestron SkyPortal WiFi – modul na bezdrôtové ovl | q 'celestron skyportal wifi – modul na bezdrôtové ovládanie ďalekohľadu'=True 'celestron skyportal wifi – modul na bezdrotove ovladanie dalekohladu'=False | REVIEW_WITH_CATALOGUE
+PHRASE:dalekohlad s fotoaparatom | lit 0 (in stock 0) folded-only 3 | ex NO_VERIFIED_CATALOG_EXAMPLE  | q 'dalekohlad s fotoaparatom'=True 'ďalekohľad s fotoaparátom'=False | OWNER_DECISION_CATALOG
+
+$ python -I discussions\round-04\04d_claude_code_attachments\test_catalog_refresh.py  (exit 0)
+$ python -I catalog_refresh_2026-11-25.py (exit 0)
+export rows 8090 | other Merchant excluded 262 Counter({('755641187', 'SHOP'): 262})
+Sonata rows 7828 unique composite 7828 in stock 4712 {'COVERED_ELIGIBLE': 1720, 'IN_STOCK_NO_CAMPAIGN': 2984, 'IN_STOCK_OTHER_BLOCK': 8}
+reconciliation Counter({'UNCHANGED_LABEL': 3793, 'NEW_ID': 3531, 'REMOVED_ID': 1781, 'LABEL_CHANGED': 504})
+bresser.de 15.11: 558 Counter({'LABEL_CHANGED': 384, 'REMOVED_ID': 174}) | still labelled bresser.de on 25.11: 0
+label contract Counter({'OK': 33, 'OK_PAUSED_CAMPAIGN': 1, 'OK_UNDECIDED': 1}) ['sonata junior lab', 'knihy, mapy, postery']
+scoped serving {'termovízie': '24440851839', 'ďalekohľady a binokuláre': '24440851881', 'teleskopy a hvezdárske ďalekohľady': '24451885423', 'mikroskopy': '24451886281'} | scoped not serving {'sonata junior lab': '24446149352'}
+in-stock gap 2984 Counter({'CANDIDATE_PENDING_REVIEW': 2905, 'OWNER_DECISION_RESUME_CAMPAIGN': 58, 'POLICY_HOLD': 21})
+gap by campaign/admission [(('NEW_SK_SHOP_Mikroskopy_prislusenstvo', 'CATEGORY_PLUS_ADS_REVIEW_OK'), 1261), (('NEW_SK_SHOP_Astro_prislusenstvo', 'CATEGORY_PLUS_ADS_REVIEW_OK'), 758), (('NEW_SK_SHOP_Prislusenstvo_optika', 'CATEGORY_PLUS_ADS_REVIEW_OK'), 368), (('NEW_SK_SHOP_Meranie_veda', 'CATEGORY_PLUS_ADS_REVIEW_OK'), 348), (('NEW_SK_SHOP_Pozorovacia_optika', 'CATEGORY_PLUS_ADS_REVIEW_OK'), 87), (('NEW_SK_SHOP_Nocne_videnie_VERIFIED_ONLY', 'VERIFIED_ID'), 40), (('NEW_SK_SHOP_Outdoor_tech', 'CATEGORY_PLUS_ADS_REVIEW_OK'), 33), (('NEW_SK_SHOP_Pozorovacia_optika', 'VERIFIED_ID'), 10)]
+policy hold all rows Counter({('IN_STOCK', 'IN_STOCK_NO_CAMPAIGN'): 21, ('OUT_OF_STOCK', 'OOS_NO_CAMPAIGN'): 9, ('OUT_OF_STOCK', 'OOS_OTHER'): 4, ('IN_STOCK', 'IN_STOCK_OTHER_BLOCK'): 1})
+eligible needing ID verification 124
+allowlist_generated rows 0 (no review register yet)
+  26130 ('monokuláre', 'IN_STOCK', 'IN_STOCK_NO_CAMPAIGN', 'CANDIDATE_PENDING_REVIEW', 'CATEGORY_PLUS_ADS_REVIEW_OK')
+  26916 ('monokuláre', 'IN_STOCK', 'IN_STOCK_NO_CAMPAIGN', 'CANDIDATE_PENDING_REVIEW', 'CATEGORY_PLUS_ADS_REVIEW_OK')
+  107817 ('termovízie', 'IN_STOCK', 'COVERED_ELIGIBLE', 'KEEP_CURRENT_VERIFY_ID', 'VERIFIED_ID')
+  107671 ('príslušenstvo pre nočné videnie', 'IN_STOCK', 'IN_STOCK_NO_CAMPAIGN', 'POLICY_HOLD', 'VERIFIED_ID')
+  103933 ('ďalekohľady a binokuláre', 'IN_STOCK', 'COVERED_ELIGIBLE', 'KEEP_CURRENT', 'CATEGORY_PLUS_ADS_REVIEW_OK')
+
+=== export and denominators ===
+PASS export: 8090 rows, unique composite keys
+PASS plan: only Merchant 5831333799 (262 rows of Merchant 755641187 / feed SHOP excluded)
+PASS plan: 4712 in stock = 1720 eligible + 2984 no campaign + 8 other block  [{'COVERED_ELIGIBLE': 1720, 'IN_STOCK_NO_CAMPAIGN': 2984, 'IN_STOCK_OTHER_BLOCK': 8}]
+PASS every row has titles (no silent empties)
+
+=== category migration (owner: bresser.de removed) ===
+PASS no product carries label bresser.de on 25.11
+PASS all 558 former bresser.de IDs accounted for (re-labelled or absent from Merchant)  [{'LABEL_CHANGED': 384, 'REMOVED_ID': 174}]
+PASS reconciliation covers union of both snapshots
+PASS regression 26916 Zoom monokulár: label monokuláre, routed to observation optics, not astro accessories
+PASS regression 26130 monocular: still monokuláre, still no campaign today
+PASS label contract: every 25.11 label is mapped (no CONTRACT_FAIL)  [[]]
+PASS label contract: an unknown future label would fail
+
+=== admission (hybrid, R4-CLAUDECODE-07) and policy (R4-CLAUDE-11) ===
+PASS every *_policy_violation row is POLICY_HOLD regardless of availability/state  [{('IN_STOCK', 'IN_STOCK_NO_CAMPAIGN'): 21, ('OUT_OF_STOCK', 'OOS_OTHER'): 4, ('OUT_OF_STOCK', 'OOS_NO_CAMPAIGN'): 9, ('IN_STOCK', 'IN_STOCK_OTHER_BLOCK'): 1}]
+PASS policy detection is generic (synthetic new code)
+PASS not_eligible_in_any_campaign is not treated as policy
+PASS risky labels only by VERIFIED_ID
+PASS no row is reviewed yet; generated allowlist is empty (new IDs not advertised before review)
+PASS new SKU: not admitted before review, admitted after review record  [106744]
+PASS reviewed SKU that later gets a policy code loses admission
+PASS existing scoped coverage kept (eligible rows never proposed for move)
+PASS paused Junior Lab campaign is an owner decision, not a new campaign
+PASS every row is a proposal
+
+RESULT: ALL CHECKS PASS
+
 === package checks: coverage map (pilot 32) ===
 PASS coverage: exactly 32 rows  [32]
 PASS coverage: 26 non-empty offerIds, all unique  [26/26]
@@ -178,8 +254,11 @@ PASS routing: Cowork C01-C14 all present
 PASS routing: all required categories covered
 PASS routing: three owner queries verbatim
 PASS routing: "s puzdrom" bundle wording not blocked by accessory proposal (R48)
-PASS routing: every non-pass test has a resolution, none OPEN  [{'NO_CHANGE_NEEDED': 35, 'FIXED_BY_TECHNICAL_PROPOSAL (not applied)': 10, 'OWNER_DECISION': 18}]
+PASS routing: every test has a current resolution, none OPEN  [{'NO_CHANGE_NEEDED': 32, 'FIX_PROPOSED': 10, 'OWNER_DECISION': 18, 'MONITOR_CV': 3}]
 PASS routing: scenario A leaves only owner-decision failures  [['C01', 'C02', 'C03', 'C04', 'C05', 'C06', 'C07', 'C08', 'C13', 'R07', 'R08', 'R09', 'R13', 'R17', 'R40', 'R41', 'R42']]
+PASS routing 04d p.5: R18/C09/R43 current = MONITOR_CV
+PASS routing 04d p.5: R43 proposed FIXED_LITERAL; R18/C09 stay MONITOR_CV
+PASS routing 04d p.5: MONITOR_CV is never counted as closed; current/proposed consistent
 PASS diff: all rows PROPOSAL_NOT_APPLIED with basis/example/risk/verification
 PASS diff: kde is an owner decision with options, not a final move to all campaigns
 PASS diff: every account negative blocking a commercial test is in the diff  [[]]
@@ -195,8 +274,19 @@ PASS economics: no "gross" ROAS column; bases named without_VAT  [['offer_id', '
 PASS economics: rows labelled scenario, not actual costs
 
 === stock sync ===
-PASS stock sync: all scenarios pass  [30/30]
+PASS stock sync: all scenarios pass  [45/45]
 PASS stock sync: Cowork C1-C4 + purity/provenance regressions present
+PASS stock sync 04d: window/hold/customer/feed-label/partial-failure regressions present
+PASS stock sync 04d: adapted Cowork counterexamples 0 PROBLEM  [25 checks, 0 PROBLEM]
+
+=== negatives review v2 (04d p.4) ===
+PASS v2: 258 rows, every illustrative query literally blocked by its own word and match type
+PASS v2: catalogue examples are real 25.11 offers whose title literally matches, else NO_VERIFIED_CATALOG_EXAMPLE
+PASS v2: every example is marked illustrative, none claimed as historical search term
+PASS v2: solarna vs solárna literal tests differ (blocked / not blocked)
+PASS v2: heureka is OWNER_DECISION_HEUREKA; owner-direction words limited to kde/poradiť/lacno/nie drahé/cheap/popis
+PASS v2: every row is a proposal
+PASS catalogue refresh 25.11: all its checks pass
 
 === full catalogue coverage plan ===
 PASS full: 6078 rows, unique composite IDs, only Merchant 5831333799

@@ -1,0 +1,27 @@
+OK      C1a   same read_id replayed after commit adds no confirmation | ['WAIT:same read already counted: replay adds no confirmation']
+OK      C1b   new read_id but same fetched_at (re-labelled replay) -> WAIT | ['WAIT:observation not newer than previous confirmation']
+OK      C1c   distinct read only 10 min newer -> WAIT (min interval 30) | ['WAIT:below minimum interval between confirmations']
+OK      C1d   distinct read 40 min newer -> ENABLE | ['ENABLE:in stock, paused by sync, confirmed by distinct fresh reads']
+OK      C1e   ENABLE planned but apply failed -> stored state unchanged (still 1 confirmation, PAUSED) | {'object_id': 'AG_103933', 'ads_customer_id': '9492722541', 'identity': '5831333799~ONLINE~sk~SK~103933', 'status': 'PAUSED', 'pause_owner': 'SYNC', 'labels': ['paused-by-sync'], 'allowlisted': True, 'confirmations': [{'read_id': 'R1', 'observed_at': datetime.datetime(2026, 11, 15, 11, 0)}]}
+OK      C1f   older read arriving late -> WAIT | ['WAIT:observation not newer than previous confirmation']
+OK      C1g   OOS between two IN_STOCK reads resets confirmations -> WAIT | ['WAIT:in-stock confirmation 1/2']
+OK      C2a   full resource_name of the allowed customer parsed -> PAUSE | ['PAUSE:OOS and enabled (manual enable alone does not authorise advertising OOS; use sync-hold)']
+OK      C2b   bare offer_id -> ALERT, no action | ['ALERT:identity format not recognised']
+OK      C2c   feed label with hyphen SK-2 accepted when configured -> PAUSE | ['PAUSE:OOS and enabled (manual enable alone does not authorise advertising OOS; use sync-hold)']
+OK      C2c2  feed label SK-2 not configured -> no action | ['SKIP:identity outside allowed merchant/destination/feed label']
+OK      C2d   resource_name of ANOTHER Google Ads customer id -> ALERT, no action | ['ALERT:resource_name belongs to another customer (999): no action']
+OK      C3    sync-hold on sync-paused group blocks ENABLE | ['RESET:sync-hold set since last observation: confirmation history reset', 'NO_OP:sync-hold: object frozen in both directions']
+OK      C4a   sync-hold on enabled OOS group blocks PAUSE | ['RESET:sync-hold set since last observation: confirmation history reset', 'NO_OP:sync-hold: object frozen in both directions']
+OK      C4b   manual enable without hold -> PAUSE (documented rule) | ['PAUSE:OOS and enabled (manual enable alone does not authorise advertising OOS; use sync-hold)']
+OK      C3x   5-day-old confirmation + ONE fresh read -> WAIT (expired confirmation dropped) | ['PRUNE:1 confirmation(s) outside the 6 h window or in the future dropped', 'WAIT:in-stock confirmation 1/2']
+OK      U1    PAUSED with unknown owner never enabled | ['NO_OP:paused by UNKNOWN: sync never enables it']
+OK      U2    owner SYNC without label -> no enable | ['PRUNE:1 confirmation(s) outside the 6 h window or in the future dropped', 'NO_OP:paused by SYNC: sync never enables it']
+OK      F1    fetch time in the future -> ALERT | ['ALERT:read timestamp in the future (2026-11-15 13:00:00)']
+OK      F2    no read_id -> ALERT | ['ALERT:read without read_id: provenance unknown, no action']
+OK      F3    stale upstream with fresh fetch -> no action | ['NO_OP:stale upstream_updated_at']
+OK      F4    upstream time in the future -> ALERT | ['ALERT:upstream time in the future']
+OK      F5    journal records freshness_basis | ['fetch_time']
+OK      M1    mass flip -> HALT, nothing proposed | ['HALT']
+OK      M3    plan() does not mutate its input | 
+
+25 checks, 0 PROBLEM

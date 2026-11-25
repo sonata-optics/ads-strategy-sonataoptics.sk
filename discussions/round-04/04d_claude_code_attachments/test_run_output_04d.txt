@@ -1,0 +1,302 @@
+repo HEAD at run time: 8df6720462aaf201281739ace3e442882023367c
+
+$ python -I discussions\round-04\02_claude_code_attachments\coverage_map.py  (exit 0)
+rows 32 {'COVERED_ELIGIBLE': 21, 'GAP_IN_STOCK_NO_CAMPAIGN': 1, 'GAP_OOS_AND_NO_CAMPAIGN': 1, 'NOT_ELIGIBLE_OOS': 3, 'SITE_ONLY_UNKNOWN': 6}
+
+$ python -I discussions\round-04\02_claude_code_attachments\routing_tests.py  (exit 0)
+scenario A Counter({'PASS': 43, 'FAIL': 17, 'PASS_LITERAL_RISK_CV': 2, 'OWNER_DECISION': 1}) ['R07', 'R08', 'R09', 'R13', 'R17', 'R40', 'R41', 'R42', 'C01', 'C02', 'C03', 'C04', 'C05', 'C06', 'C07', 'C08', 'C13']
+scenario B Counter({'PASS': 62, 'OWNER_DECISION': 1}) []
+tests 63 Counter({'PASS': 32, 'FAIL': 23, 'CV_DEPENDENT': 4, 'PASS_LITERAL_RISK_CV': 3, 'OWNER_DECISION': 1})
+R01 PASS | acc: - | S: AG_103933_Leica_Trinovid_10x42_HD | shop: REACHES_AUCTION | 
+R02 PASS | acc: - | S: AG_26113_Levenhuk_Vegas_ED_10x42 | shop: REACHES_AUCTION | 
+R03 CV_DEPENDENT | acc: - | S: NONE | shop: REACHES_AUCTION | Search literal=NONE expected=AG_26113_Levenhuk_Vegas_ED_10x42
+R04 CV_DEPENDENT | acc: - | S: NONE | shop: REACHES_AUCTION | Search literal=NONE expected=AG_47420_SkyWatcher_Explorer_150PDS_EQ3
+R05 PASS | acc: - | S: AG_103640_Levenhuk_New_Vegas_ED_10x42 | shop: REACHES_AUCTION | 
+R06 PASS | acc: - | S: AG_47420_SkyWatcher_Explorer_150PDS_EQ3 | shop: REACHES_AUCTION | 
+R07 FAIL | acc: BROAD:kde | S: NONE | shop: BLOCKED | Search literal=NONE expected=AG_103933_Leica_Trinovid_10x42_HD / Shopping pilot=BLOCKED expected_reach=True
+R08 FAIL | acc: BROAD:kde | S: NONE | shop: BLOCKED | Search literal=NONE expected=AG_26113_Levenhuk_Vegas_ED_10x42 / Shopping pilot=BLOCKED expected_reach=True
+R09 FAIL | acc: BROAD:kde | S: NONE | shop: BLOCKED | Search literal=NONE expected=AG_47420_SkyWatcher_Explorer_150PDS_EQ3 / Shopping pilot=BLOCKED expected_reach=True
+R10 PASS | acc: - | S: AG_103933_Leica_Trinovid_10x42_HD | shop: REACHES_AUCTION | 
+R11 PASS | acc: - | S: AG_47420_SkyWatcher_Explorer_150PDS_EQ3 | shop: REACHES_AUCTION | 
+R12 PASS | acc: - | S: AG_103640_Levenhuk_New_Vegas_ED_10x42 | shop: REACHES_AUCTION | 
+R13 FAIL | acc: BROAD:lacno | S: NONE | shop: BLOCKED | Search literal=NONE expected=AG_103933_Leica_Trinovid_10x42_HD / Shopping pilot=BLOCKED expected_reach=True
+R14 OWNER_DECISION | acc: - | S: NONE | shop: REACHES_AUCTION | 
+R15 PASS | acc: - | S: AG_103640_Levenhuk_New_Vegas_ED_10x42 | shop: REACHES_AUCTION | 
+R16 FAIL | acc: - | S: NONE | shop: REACHES_AUCTION | Search literal=NONE expected=AG_103640_Levenhuk_New_Vegas_ED_10x42
+R17 FAIL | acc: BROAD:stary | S: NONE | shop: BLOCKED | Search literal=NONE expected=AG_26113_Levenhuk_Vegas_ED_10x42 / Shopping pilot=BLOCKED expected_reach=True
+R18 PASS_LITERAL_RISK_CV | acc: - | S: AG_26113_Levenhuk_Vegas_ED_10x42 | shop: REACHES_AUCTION | 
+R19 PASS | acc: - | S: NONE | shop: REACHES_AUCTION | 
+R20 PASS | acc: - | S: NONE | shop: REACHES_AUCTION | 
+R21 PASS | acc: - | S: NONE | shop: REACHES_AUCTION | 
+R22 PASS | acc: - | S: NONE | shop: REACHES_AUCTION | 
+R23 PASS | acc: - | S: NONE | shop: REACHES_AUCTION | 
+R24 PASS | acc: - | S: NONE | shop: REACHES_AUCTION | 
+R25 PASS | acc: - | S: NONE | shop: REACHES_AUCTION | 
+R26 PASS | acc: - | S: NONE | shop: REACHES_AUCTION | 
+R27 PASS | acc: - | S: NONE | shop: REACHES_AUCTION | 
+R28 PASS | acc: - | S: NONE | shop: REACHES_AUCTION | 
+R29 PASS | acc: - | S: NONE | shop: REACHES_AUCTION | 
+R30 PASS | acc: - | S: NONE | shop: REACHES_AUCTION | 
+R31 FAIL | acc: - | S: AG_103933_Leica_Trinovid_10x42_HD | shop: REACHES_AUCTION | Search literal=AG_103933_Leica_Trinovid_10x42_HD expected=NONE
+R32 FAIL | acc: - | S: AG_103933_Leica_Trinovid_10x42_HD | shop: REACHES_AUCTION | Search literal=AG_103933_Leica_Trinovid_10x42_HD expected=NONE
+R33 FAIL | acc: - | S: AG_47420_SkyWatcher_Explorer_150PDS_EQ3 | shop: REACHES_AUCTION | Search literal=AG_47420_SkyWatcher_Explorer_150PDS_EQ3 expected=NONE
+R34 PASS | acc: - | S: NONE | shop: REACHES_AUCTION | 
+R35 CV_DEPENDENT | acc: - | S: NONE | shop: REACHES_AUCTION | Search literal=NONE expected=AG_47420_SkyWatcher_Explorer_150PDS_EQ3
+R36 PASS | acc: - | S: AG_47420_SkyWatcher_Explorer_150PDS_EQ3 | shop: REACHES_AUCTION | 
+R37 PASS | acc: - | S: AG_103933_Leica_Trinovid_10x42_HD | shop: REACHES_AUCTION | 
+R38 CV_DEPENDENT | acc: - | S: NONE | shop: REACHES_AUCTION | Search literal=NONE expected=AG_103933_Leica_Trinovid_10x42_HD
+R39 PASS | acc: - | S: AG_103933_Leica_Trinovid_10x42_HD | shop: REACHES_AUCTION | 
+R40 FAIL | acc: BROAD:aký | S: NONE | shop: BLOCKED | Search literal=NONE expected=AG_103933_Leica_Trinovid_10x42_HD / Shopping pilot=BLOCKED expected_reach=True
+R41 FAIL | acc: BROAD:Ktoré | S: NONE | shop: BLOCKED | Shopping pilot=BLOCKED expected_reach=True
+R42 FAIL | acc: BROAD:heureka | S: NONE | shop: BLOCKED | Search literal=NONE expected=AG_103933_Leica_Trinovid_10x42_HD / Shopping pilot=BLOCKED expected_reach=True
+R43 PASS_LITERAL_RISK_CV | acc: - | S: NONE | shop: BLOCKED | 
+R44 FAIL | acc: - | S: AG_26113_Levenhuk_Vegas_ED_10x42 | shop: REACHES_AUCTION | Search literal=AG_26113_Levenhuk_Vegas_ED_10x42 expected=NONE / Shopping pilot=REACHES_AUCTION expected_reach=False
+R45 PASS | acc: BROAD:zadarmo | S: NONE | shop: BLOCKED | 
+R46 PASS | acc: - | S: NONE | shop: REACHES_AUCTION | 
+R47 PASS | acc: - | S: NONE | shop: REACHES_AUCTION | 
+R48 PASS | acc: - | S: AG_103933_Leica_Trinovid_10x42_HD | shop: REACHES_AUCTION | 
+R49 FAIL | acc: - | S: AG_103933_Leica_Trinovid_10x42_HD | shop: REACHES_AUCTION | Search literal=AG_103933_Leica_Trinovid_10x42_HD expected=NONE
+C01 FAIL | acc: BROAD:poradiť | S: NONE | shop: BLOCKED | Search literal=NONE expected=AG_103933_Leica_Trinovid_10x42_HD / Shopping pilot=BLOCKED expected_reach=True
+C02 FAIL | acc: BROAD:ake | S: NONE | shop: BLOCKED | Search literal=NONE expected=AG_103933_Leica_Trinovid_10x42_HD / Shopping pilot=BLOCKED expected_reach=True
+C03 FAIL | acc: BROAD:nie drahé | S: NONE | shop: BLOCKED | Search literal=NONE expected=AG_103933_Leica_Trinovid_10x42_HD / Shopping pilot=BLOCKED expected_reach=True
+C04 FAIL | acc: BROAD:Správny | S: NONE | shop: BLOCKED | Search literal=NONE expected=AG_103933_Leica_Trinovid_10x42_HD / Shopping pilot=BLOCKED expected_reach=True
+C05 FAIL | acc: BROAD:popis | S: NONE | shop: BLOCKED | Search literal=NONE expected=AG_26113_Levenhuk_Vegas_ED_10x42 / Shopping pilot=BLOCKED expected_reach=True
+C06 FAIL | acc: BROAD:typy | S: NONE | shop: BLOCKED | Shopping pilot=BLOCKED expected_reach=True
+C07 FAIL | acc: BROAD:drony | S: NONE | shop: BLOCKED | Shopping pilot=BLOCKED expected_reach=True
+C08 FAIL | acc: PHRASE:dalekohlad s fotoaparatom | S: NONE | shop: BLOCKED | Shopping pilot=BLOCKED expected_reach=True
+C09 PASS_LITERAL_RISK_CV | acc: - | S: NONE | shop: REACHES_AUCTION | 
+C10 PASS | acc: BROAD:Čo | S: NONE | shop: BLOCKED | 
+C11 PASS | acc: - | S: AG_103933_Leica_Trinovid_10x42_HD | shop: REACHES_AUCTION | 
+C12 PASS | acc: - | S: NONE | shop: REACHES_AUCTION | 
+C13 FAIL | acc: BROAD:Nájsť | S: NONE | shop: BLOCKED | Search literal=NONE expected=AG_103933_Leica_Trinovid_10x42_HD / Shopping pilot=BLOCKED expected_reach=True
+C14 PASS | acc: - | S: NONE | shop: REACHES_AUCTION | 
+diff rows 24 ['Ktoré:OWNER_DECISION', 'Nájsť:OWNER_DECISION', 'Správny:OWNER_DECISION', 'ake:OWNER_DECISION', 'aký:OWNER_DECISION', 'drony:OWNER_DECISION_CATALOG', 'heureka:OWNER_DECISION', 'kde:OWNER_DECISION', 'lacno:OWNER_DECISION', 'nie drahé:OWNER_DECISION', 'popis:OWNER_DECISION', 'poradiť:OWNER_DECISION', 'stary:OWNER_DECISION', 'typy:OWNER_DECISION', 'dalekohlad s fotoaparatom:OWNER_DECISION_CATALOG', 'keyword_text:REMOVE', 'bazár:ADD', 'levenhuk vegas ed 10×42:ADD_KEYWORD_PROPOSAL', 'skywatcher explorer-150pds eq3; sky-watcher explorer-150pds eq3:ADD_KEYWORD_PROPOSAL', 'leica trinovid 10 x 42 hd:ADD_KEYWORD_PROPOSAL', 'návod, navod, manuál, manual, pdf, servis, oprava, náhradné diely:COPY_TO_NEW_CAMPAIGNS', 'bazár/bazar/použitý/pouzity:ADD_IN_NEW_CAMPAIGN', 'levenhuk nový vegas ed 10x42:ADD_KEYWORD_PROPOSAL', 'puzdro, popruh, okulár, protizávažie, filter, adaptér:ADD_AD_GROUP_NEGATIVES']
+UNREVIEWED account blockers: 0
+
+$ python -I discussions\round-04\02_claude_code_attachments\economics_recheck.py  (exit 0)
+recheck rows 24 rerun identical: True max |indep - published| CM: 0.005
+  103933 215.23 215.23 BE margin % 3.46
+  26113 49.5 49.5 BE margin % 5.68
+  103640 28.5 28.5 BE margin % 7.52
+  47420 87.23 87.23 BE margin % 8.93
+edge tests 15 / 15 []
+
+$ python -I discussions\round-04\02_claude_code_attachments\stock_sync_dryrun.py  (exit 0)
+S01 PASS OOS enabled group is paused and labelled
+S02 PASS API error -> no action
+S03 PASS empty response is not OOS
+S04 PASS stale read (8 h) -> no action
+S05 PASS kill switch -> no action
+S06 PASS manual pause is never auto-enabled
+S07 PASS new group created PAUSED for review is never labelled or enabled
+S08 PASS first IN_STOCK read only waits
+S09 PASS item missing from read -> alert, not OOS
+S10 PASS identity with another feed label ignored even if offer_id equal
+S11 PASS non-allowlisted object untouched
+S12 PASS mass flip >30% halts the run
+S13 PASS manually enabled while labelled -> only remove stale label
+S14 PASS PREORDER/BACKORDER never auto-enable
+C2a PASS full resource_name of the allowed customer is parsed and acted on (OOS -> PAUSE)
+C2b PASS unknown identity format -> ALERT, no action
+C2c PASS resource_name of a foreign customer (1234567890) -> ALERT, no action
+C2d PASS feed label with hyphen SK-2 parsed and accepted when it is in the allowed set
+C2e PASS feed label SK-2 not in the allowed set -> SKIP
+C2f PASS short key without trusted object customer context -> ALERT (no silent customer append)
+C2g PASS managed object belongs to another customer -> ALERT
+C2h PASS read from another customer -> ALERT for the whole run
+C2i PASS read without customer context -> ALERT
+C3 PASS sync-hold on a sync-paused group blocks enable
+C4a PASS sync-hold on an enabled OOS group blocks pause
+C4b PASS manual enable WITHOUT hold does not authorise OOS advertising -> PAUSE
+C3x PASS Cowork: 5-day-old confirmation + one fresh read -> WAIT (expired confirmation dropped)
+W1 PASS confirmation exactly at the 6 h window edge is kept -> ENABLE
+W2 PASS confirmation 6 h 1 min old is dropped -> WAIT
+W3 PASS stored confirmation dated in the future is dropped -> WAIT
+U1 PASS paused with UNKNOWN owner is never enabled
+U2 PASS owner SYNC but label missing -> treated as unknown, no enable
+F1 PASS read timestamp in the future -> ALERT
+F2 PASS read without read_id -> ALERT
+F3 PASS stale upstream time even with fresh fetch -> no action
+S15 PASS idempotent: same input after commit -> 0 actions
+C1 PASS replaying the same read adds no confirmation
+S16 PASS second distinct fresh read (unchanged IN_STOCK) enables
+I1 PASS distinct read below minimum interval does not confirm
+H1 PASS hold set resets history; after unhold one fresh read waits, the second enables
+H2 PASS hold -> OOS (no action) -> unhold -> PAUSE
+M1 PASS HALT: no actions, no proposed state, input unchanged
+M2 PASS failed apply -> stored confirmations not advanced
+P1 PASS partial success: only the applied object changes; the failed one is marked for re-read
+P2 PASS reconcile trusts re-read state; human pause becomes UNKNOWN owner and is never enabled
+scenarios 45 / 45
+
+$ python -I discussions\round-04\04b_claude_code_attachments\account_negatives_review.py  (exit 0)
+negatives 258 unique 258
+classes Counter({'off_market_language_ru_uk': 112, 'informational': 40, 'unrelated_topic': 22, 'education_legal_jobs': 18, 'other_retailer_or_brand_not_sold': 13, 'free_or_download': 10, 'commercial_or_research_modifier': 10, 'product_type_in_catalogue': 7, 'word_in_some_titles': 6, 'used_or_post_purchase': 6, 'adult': 5, 'price_modifier': 3, 'possible_product_type': 3, 'condition_or_generation': 1, 'comparison_site': 1, 'junk_import_artifact': 1})
+actions Counter({'KEEP': 224, 'OWNER_DECISION': 15, 'REVIEW_WITH_CATALOGUE': 11, 'OWNER_DECISION_CATALOG': 7, 'REMOVE': 1})
+  BROAD:cheap -> OWNER_DECISION | titles 0 in_stock 0 | tests 
+  BROAD:papier -> REVIEW_WITH_CATALOGUE | titles 0 in_stock 0 | tests 
+  BROAD:kde -> OWNER_DECISION | titles 0 in_stock 0 | tests R07;R08;R09
+  BROAD:ich -> REVIEW_WITH_CATALOGUE | titles 1 in_stock 1 | tests 
+  BROAD:stary -> OWNER_DECISION | titles 0 in_stock 0 | tests R17
+  BROAD:kniha -> REVIEW_WITH_CATALOGUE | titles 1 in_stock 0 | tests 
+  BROAD:solarna -> REVIEW_WITH_CATALOGUE | titles 11 in_stock 5 | tests 
+  BROAD:popis -> OWNER_DECISION | titles 0 in_stock 0 | tests C05
+  BROAD:heureka -> OWNER_DECISION | titles 0 in_stock 0 | tests R42
+  BROAD:zadarmo -> REVIEW_WITH_CATALOGUE | titles 2 in_stock 2 | tests R45
+  BROAD:casti -> OWNER_DECISION_CATALOG | titles 0 in_stock 0 | tests 
+  BROAD:ake -> OWNER_DECISION | titles 0 in_stock 0 | tests C02
+  BROAD:typy -> OWNER_DECISION | titles 0 in_stock 0 | tests C06
+  BROAD:druhy -> OWNER_DECISION | titles 0 in_stock 0 | tests 
+  BROAD:lacno -> OWNER_DECISION | titles 0 in_stock 0 | tests R13
+  BROAD:drony -> OWNER_DECISION_CATALOG | titles 0 in_stock 0 | tests C07
+  BROAD:aký -> OWNER_DECISION | titles 0 in_stock 0 | tests R40
+  BROAD:vzorka -> OWNER_DECISION_CATALOG | titles 0 in_stock 0 | tests 
+  BROAD:casovac -> REVIEW_WITH_CATALOGUE | titles 0 in_stock 0 | tests 
+  BROAD:úniku plynu -> REVIEW_WITH_CATALOGUE | titles 0 in_stock 0 | tests 
+  BROAD:nevidiacich -> OWNER_DECISION_CATALOG | titles 0 in_stock 0 | tests 
+  BROAD:samolepiaci -> REVIEW_WITH_CATALOGUE | titles 0 in_stock 0 | tests 
+  BROAD:ovládanie -> REVIEW_WITH_CATALOGUE | titles 2 in_stock 0 | tests 
+  BROAD:Nájsť -> OWNER_DECISION | titles 0 in_stock 0 | tests C13
+  BROAD:nivelak -> REVIEW_WITH_CATALOGUE | titles 0 in_stock 0 | tests 
+  BROAD:keyword_text -> REMOVE | titles 0 in_stock 0 | tests 
+  BROAD:slabozrakých -> OWNER_DECISION_CATALOG | titles 0 in_stock 0 | tests 
+  BROAD:poradiť -> OWNER_DECISION | titles 0 in_stock 0 | tests C01
+  BROAD:kúzelnícka sada -> REVIEW_WITH_CATALOGUE | titles 0 in_stock 0 | tests 
+  BROAD:nie drahé -> OWNER_DECISION | titles 0 in_stock 0 | tests C03
+  BROAD:Ktoré -> OWNER_DECISION | titles 0 in_stock 0 | tests R41
+  BROAD:Správny -> OWNER_DECISION | titles 0 in_stock 0 | tests C04
+  PHRASE:premietací prístroj -> OWNER_DECISION_CATALOG | titles 0 in_stock 0 | tests 
+  PHRASE:dalekohlad s fotoaparatom -> OWNER_DECISION_CATALOG | titles 2 in_stock 1 | tests C08
+
+$ python -I discussions\round-04\04b_claude_code_attachments\full_coverage_plan.py  (exit 0)
+rows 6078 unique composite 6078 merchants Counter({'5831333799': 6078})
+in stock 4269 {'COVERED_ELIGIBLE': 1886, 'IN_STOCK_NO_CAMPAIGN': 2376, 'IN_STOCK_OTHER_BLOCK': 7}
+other Merchant rows excluded (per ChatGPT JSON): 166
+2376 gap by action Counter({'ADD_IN_WAVE': 1955, 'HOLD_ROLE_UNRESOLVED': 270, 'ADD_AFTER_LABEL_POLICY_REVIEW': 112, 'ADD_IN_WAVE_DATA_REVIEW': 21, 'EXCLUDE_PENDING_POLICY_REVIEW': 10, 'ADD_TO_TREE_FIX_DATA_FIRST': 8})
+2376 gap by wave Counter({1: 1623, 2: 427, '': 280, 3: 46})
+2376 gap policy flag Counter({'NO': 2254, 'YES': 122}) data flag Counter({'NO': 2077, 'YES': 299})
+gap rows with no policy and no data flag (ADD_IN_WAVE): 1955
+in-stock potentially routed after waves 1-2 (eligibility upper bound, not impressions): 3862
+pilot members 26 Counter({'KEEP_CURRENT': 21, 'KEEP_CURRENT_SCOPE': 3, 'ADD_IN_WAVE': 2})
+eligible in-stock with policy flag [('107817', 'termovízie')] 1
+
+$ python -I discussions\round-04\04d_claude_code_attachments\account_negatives_review_v2.py  (exit 0)
+rows 258 Counter({'KEEP': 224, 'REVIEW_WITH_CATALOGUE': 11, 'OWNER_DECISION': 8, 'OWNER_DECISION_CATALOG': 7, 'PROPOSED_BY_OWNER_DIRECTION': 6, 'OWNER_DECISION_HEUREKA': 1, 'REMOVE': 1})
+BROAD:free | lit 0 (in stock 0) folded-only 0 | ex NO_VERIFIED_CATALOG_EXAMPLE  | q 'free'=True ''= | KEEP
+BROAD:kde | lit 0 (in stock 0) folded-only 0 | ex NO_VERIFIED_CATALOG_EXAMPLE  | q 'kde leica trinovid 10x42 hd'=True ''= | PROPOSED_BY_OWNER_DIRECTION
+BROAD:stary | lit 0 (in stock 0) folded-only 0 | ex NO_VERIFIED_CATALOG_EXAMPLE  | q 'stary leica trinovid 10x42 hd'=True 'starý leica trinovid 10x42 hd'=False | OWNER_DECISION
+BROAD:kniha | lit 2 (in stock 0) folded-only 0 | ex 26347 Levenhuk „Vesmír. Mikrosvět“, 2 zväzky – vzdelávac | q 'levenhuk „vesmír. mikrosvět“, 2 zväzky – vzdelávacia kniha'=True ''= | REVIEW_WITH_CATALOGUE
+BROAD:solarna | lit 0 (in stock 0) folded-only 4 | ex NO_VERIFIED_CATALOG_EXAMPLE  | q 'solarna'=True 'solárna'=False | REVIEW_WITH_CATALOGUE
+BROAD:heureka | lit 0 (in stock 0) folded-only 0 | ex NO_VERIFIED_CATALOG_EXAMPLE  | q 'heureka leica trinovid 10x42 hd'=True ''= | OWNER_DECISION_HEUREKA
+BROAD:zadarmo | lit 0 (in stock 0) folded-only 0 | ex NO_VERIFIED_CATALOG_EXAMPLE  | q 'zadarmo'=True ''= | REVIEW_WITH_CATALOGUE
+BROAD:drony | lit 0 (in stock 0) folded-only 0 | ex NO_VERIFIED_CATALOG_EXAMPLE  | q 'drony'=True ''= | OWNER_DECISION_CATALOG
+BROAD:ovládanie | lit 3 (in stock 3) folded-only 0 | ex 64768 Celestron SkyPortal WiFi – modul na bezdrôtové ovl | q 'celestron skyportal wifi – modul na bezdrôtové ovládanie ďalekohľadu'=True 'celestron skyportal wifi – modul na bezdrotove ovladanie dalekohladu'=False | REVIEW_WITH_CATALOGUE
+PHRASE:dalekohlad s fotoaparatom | lit 0 (in stock 0) folded-only 3 | ex NO_VERIFIED_CATALOG_EXAMPLE  | q 'dalekohlad s fotoaparatom'=True 'ďalekohľad s fotoaparátom'=False | OWNER_DECISION_CATALOG
+
+$ python -I discussions\round-04\04d_claude_code_attachments\test_catalog_refresh.py  (exit 0)
+$ python -I catalog_refresh_2026-11-25.py (exit 0)
+export rows 8090 | other Merchant excluded 262 Counter({('755641187', 'SHOP'): 262})
+Sonata rows 7828 unique composite 7828 in stock 4712 {'COVERED_ELIGIBLE': 1720, 'IN_STOCK_NO_CAMPAIGN': 2984, 'IN_STOCK_OTHER_BLOCK': 8}
+reconciliation Counter({'UNCHANGED_LABEL': 3793, 'NEW_ID': 3531, 'REMOVED_ID': 1781, 'LABEL_CHANGED': 504})
+bresser.de 15.11: 558 Counter({'LABEL_CHANGED': 384, 'REMOVED_ID': 174}) | still labelled bresser.de on 25.11: 0
+label contract Counter({'OK': 33, 'OK_PAUSED_CAMPAIGN': 1, 'OK_UNDECIDED': 1}) ['sonata junior lab', 'knihy, mapy, postery']
+scoped serving {'termovízie': '24440851839', 'ďalekohľady a binokuláre': '24440851881', 'teleskopy a hvezdárske ďalekohľady': '24451885423', 'mikroskopy': '24451886281'} | scoped not serving {'sonata junior lab': '24446149352'}
+in-stock gap 2984 Counter({'CANDIDATE_PENDING_REVIEW': 2905, 'OWNER_DECISION_RESUME_CAMPAIGN': 58, 'POLICY_HOLD': 21})
+gap by campaign/admission [(('NEW_SK_SHOP_Mikroskopy_prislusenstvo', 'CATEGORY_PLUS_ADS_REVIEW_OK'), 1261), (('NEW_SK_SHOP_Astro_prislusenstvo', 'CATEGORY_PLUS_ADS_REVIEW_OK'), 758), (('NEW_SK_SHOP_Prislusenstvo_optika', 'CATEGORY_PLUS_ADS_REVIEW_OK'), 368), (('NEW_SK_SHOP_Meranie_veda', 'CATEGORY_PLUS_ADS_REVIEW_OK'), 348), (('NEW_SK_SHOP_Pozorovacia_optika', 'CATEGORY_PLUS_ADS_REVIEW_OK'), 87), (('NEW_SK_SHOP_Nocne_videnie_VERIFIED_ONLY', 'VERIFIED_ID'), 40), (('NEW_SK_SHOP_Outdoor_tech', 'CATEGORY_PLUS_ADS_REVIEW_OK'), 33), (('NEW_SK_SHOP_Pozorovacia_optika', 'VERIFIED_ID'), 10)]
+policy hold all rows Counter({('IN_STOCK', 'IN_STOCK_NO_CAMPAIGN'): 21, ('OUT_OF_STOCK', 'OOS_NO_CAMPAIGN'): 9, ('OUT_OF_STOCK', 'OOS_OTHER'): 4, ('IN_STOCK', 'IN_STOCK_OTHER_BLOCK'): 1})
+eligible needing ID verification 124
+allowlist_generated rows 0 (no review register yet)
+  26130 ('monokuláre', 'IN_STOCK', 'IN_STOCK_NO_CAMPAIGN', 'CANDIDATE_PENDING_REVIEW', 'CATEGORY_PLUS_ADS_REVIEW_OK')
+  26916 ('monokuláre', 'IN_STOCK', 'IN_STOCK_NO_CAMPAIGN', 'CANDIDATE_PENDING_REVIEW', 'CATEGORY_PLUS_ADS_REVIEW_OK')
+  107817 ('termovízie', 'IN_STOCK', 'COVERED_ELIGIBLE', 'KEEP_CURRENT_VERIFY_ID', 'VERIFIED_ID')
+  107671 ('príslušenstvo pre nočné videnie', 'IN_STOCK', 'IN_STOCK_NO_CAMPAIGN', 'POLICY_HOLD', 'VERIFIED_ID')
+  103933 ('ďalekohľady a binokuláre', 'IN_STOCK', 'COVERED_ELIGIBLE', 'KEEP_CURRENT', 'CATEGORY_PLUS_ADS_REVIEW_OK')
+
+=== export and denominators ===
+PASS export: 8090 rows, unique composite keys
+PASS plan: only Merchant 5831333799 (262 rows of Merchant 755641187 / feed SHOP excluded)
+PASS plan: 4712 in stock = 1720 eligible + 2984 no campaign + 8 other block  [{'COVERED_ELIGIBLE': 1720, 'IN_STOCK_NO_CAMPAIGN': 2984, 'IN_STOCK_OTHER_BLOCK': 8}]
+PASS every row has titles (no silent empties)
+
+=== category migration (owner: bresser.de removed) ===
+PASS no product carries label bresser.de on 25.11
+PASS all 558 former bresser.de IDs accounted for (re-labelled or absent from Merchant)  [{'LABEL_CHANGED': 384, 'REMOVED_ID': 174}]
+PASS reconciliation covers union of both snapshots
+PASS regression 26916 Zoom monokulár: label monokuláre, routed to observation optics, not astro accessories
+PASS regression 26130 monocular: still monokuláre, still no campaign today
+PASS label contract: every 25.11 label is mapped (no CONTRACT_FAIL)  [[]]
+PASS label contract: an unknown future label would fail
+
+=== admission (hybrid, R4-CLAUDECODE-07) and policy (R4-CLAUDE-11) ===
+PASS every *_policy_violation row is POLICY_HOLD regardless of availability/state  [{('IN_STOCK', 'IN_STOCK_NO_CAMPAIGN'): 21, ('OUT_OF_STOCK', 'OOS_OTHER'): 4, ('OUT_OF_STOCK', 'OOS_NO_CAMPAIGN'): 9, ('IN_STOCK', 'IN_STOCK_OTHER_BLOCK'): 1}]
+PASS policy detection is generic (synthetic new code)
+PASS not_eligible_in_any_campaign is not treated as policy
+PASS risky labels only by VERIFIED_ID
+PASS no row is reviewed yet; generated allowlist is empty (new IDs not advertised before review)
+PASS new SKU: not admitted before review, admitted after review record  [106744]
+PASS reviewed SKU that later gets a policy code loses admission
+PASS existing scoped coverage kept (eligible rows never proposed for move)
+PASS paused Junior Lab campaign is an owner decision, not a new campaign
+PASS every row is a proposal
+
+RESULT: ALL CHECKS PASS
+
+=== package checks: coverage map (pilot 32) ===
+PASS coverage: exactly 32 rows  [32]
+PASS coverage: 26 non-empty offerIds, all unique  [26/26]
+PASS coverage: 6 site-only rows, UNKNOWN, not claimed as CS-Cart error
+PASS 26130 monocular, label monokuláre kept, rollback = no previous ad
+PASS coverage: all campaign memberships kept per offerId
+
+=== routing + negatives ===
+PASS routing: 63 tests (47 + R48/R49 + Cowork C01-C14)  [{'PASS': 32, 'CV_DEPENDENT': 4, 'FAIL': 23, 'OWNER_DECISION': 1, 'PASS_LITERAL_RISK_CV': 3}]
+PASS routing: Cowork C01-C14 all present
+PASS routing: all required categories covered
+PASS routing: three owner queries verbatim
+PASS routing: "s puzdrom" bundle wording not blocked by accessory proposal (R48)
+PASS routing: every test has a current resolution, none OPEN  [{'NO_CHANGE_NEEDED': 32, 'FIX_PROPOSED': 10, 'OWNER_DECISION': 18, 'MONITOR_CV': 3}]
+PASS routing: scenario A leaves only owner-decision failures  [['C01', 'C02', 'C03', 'C04', 'C05', 'C06', 'C07', 'C08', 'C13', 'R07', 'R08', 'R09', 'R13', 'R17', 'R40', 'R41', 'R42']]
+PASS routing 04d p.5: R18/C09/R43 current = MONITOR_CV
+PASS routing 04d p.5: R43 proposed FIXED_LITERAL; R18/C09 stay MONITOR_CV
+PASS routing 04d p.5: MONITOR_CV is never counted as closed; current/proposed consistent
+PASS diff: all rows PROPOSAL_NOT_APPLIED with basis/example/risk/verification
+PASS diff: kde is an owner decision with options, not a final move to all campaigns
+PASS diff: every account negative blocking a commercial test is in the diff  [[]]
+PASS negatives review: all 258 verbatim (text, case, diacritics, match type)
+PASS negatives review: no UNCLASSIFIED word
+PASS negatives review: every word with a commercial test hit is not plain KEEP
+PASS negatives review: words matching in-stock titles are not plain KEEP
+
+=== economics ===
+PASS economics: all edge tests pass  [15/15]
+PASS economics: Cowork rerun identical; independent within 0.01 EUR
+PASS economics: no "gross" ROAS column; bases named without_VAT  [['offer_id', 'margin', 'scenario', 'CM_published', 'CM_rerun', 'CM_independent', 'rerun_identical', 'abs_diff_independent', 'BE_ROAS_adjusted_value_without_VAT_published', 'BE_ROAS_adjusted_value_without_VAT_independent', 'BE_ROAS_value_before_returns_without_VAT_published', 'BE_ROAS_value_before_returns_without_VAT_independent', 'breakeven_margin_pct', 'data_status']]
+PASS economics: rows labelled scenario, not actual costs
+
+=== stock sync ===
+PASS stock sync: all scenarios pass  [45/45]
+PASS stock sync: Cowork C1-C4 + purity/provenance regressions present
+PASS stock sync 04d: window/hold/customer/feed-label/partial-failure regressions present
+PASS stock sync 04d: adapted Cowork counterexamples 0 PROBLEM  [25 checks, 0 PROBLEM]
+
+=== negatives review v2 (04d p.4) ===
+PASS v2: 258 rows, every illustrative query literally blocked by its own word and match type
+PASS v2: catalogue examples are real 25.11 offers whose title literally matches, else NO_VERIFIED_CATALOG_EXAMPLE
+PASS v2: every example is marked illustrative, none claimed as historical search term
+PASS v2: solarna vs solárna literal tests differ (blocked / not blocked)
+PASS v2: heureka is OWNER_DECISION_HEUREKA; owner-direction words limited to kde/poradiť/lacno/nie drahé/cheap/popis
+PASS v2: every row is a proposal
+PASS catalogue refresh 25.11: all its checks pass
+
+=== full catalogue coverage plan ===
+PASS full: 6078 rows, unique composite IDs, only Merchant 5831333799
+PASS full: 4269 in stock = 1886 eligible + 2376 no campaign + 7 other block  [{'COVERED_ELIGIBLE': 1886, 'IN_STOCK_NO_CAMPAIGN': 2376, 'IN_STOCK_OTHER_BLOCK': 7}]
+PASS full: no policy-flagged gap row is proposed for plain wave inclusion
+PASS full: rows with policy issue codes are excluded pending review
+PASS full: bresser.de gets no invented role/campaign
+PASS full: existing scoped coverage untouched
+PASS full: 26 pilot IDs present and marked
+PASS full: every row is a proposal
+PASS markdown relative links resolve  [[]]
+
+RESULT: ALL CHECKS PASS

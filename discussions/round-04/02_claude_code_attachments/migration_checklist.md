@@ -79,11 +79,11 @@ Claude Code, круг 4, 15.11.2026; **исправлено 04b** по [04a](../
 | Кампании без scope (`24341660055` и др.) | Не трогаются | Их состояние (end date) — отдельный вопрос владельцу, не часть пилота |
 
 ## 7. Полное покрытие каталога (план, не разрешение) — отдельно от пилота
-Источник: [full_catalog_coverage_plan.csv](../04b_claude_code_attachments/full_catalog_coverage_plan.csv) (6078 строк по составному ID) и [сводка](../04b_claude_code_attachments/full_coverage_summary.csv).
-1. Пять существующих scoped-кампаний и их 1886 eligible товаров **не меняются**.
-2. Новые Standard Shopping-кампании по группам label0 (создаются PAUSED): Pozorovacia optika, Príslušenstvo optika, Astro príslušenstvo, Mikroskopy príslušenstvo (волна 1); Meranie a meteo, Outdoor tech (волна 2); Nočné videnie — только после проверки политики (волна 3).
-3. Дерево: label0 = X INCLUDED, everything else EXCLUDED; внутри — явные item_id-исключения для товаров с policy-флагом. Проверка «allowlist»: множество eligible в кампании = множество строк волны без исключённых (сравнение множеств по составному ID).
-4. Не включаются автоматически: 10 IN_STOCK с policy-кодом/эвристикой, 112 из label-категорий с проверкой политики, 270 `bresser.de` (роль не определена — не выдумывается), 29 с ошибками данных/бренда.
-5. Новые товары с тем же label0 попадут в кампанию сами — еженедельная сверка новых ID с policy-эвристикой обязательна.
+**Актуально с 25.11 (04d):** источник — [full_catalog_coverage_plan_2026-11-25.csv](../04d_claude_code_attachments/full_catalog_coverage_plan_2026-11-25.csv) (7 828 товаров, 2 984 в наличии без кампании) и [отчёт сверки](../04d_claude_code_catalog_refresh.md). План 15.11 ([04b](../04b_claude_code_attachments/full_catalog_coverage_plan.csv)) — история.
+1. Существующие scoped-кампании и их eligible товары **не меняются**. Junior Lab (24446149352) на паузе с 25.11 — решение владельца.
+2. Новые Standard Shopping-кампании по группам label0 (создаются PAUSED): Pozorovacia optika, Príslušenstvo optika, Astro príslušenstvo, Mikroskopy príslušenstvo (волна 1); Meranie a veda, Outdoor tech (волна 2); Nočné videnie — только проверенные ID (волна 3).
+3. **Допуск гибридный (решение модератора 04c):** рискованные метки, любые `*_policy_violation`, оружейные/неоднозначные слова в названии — только проверенный item_id. Остальные — категория + явный `ads_review_ok`. Пока такого признака в фиде нет, рекламируемое множество задаётся **генерируемым из реестра проверок item_id allowlist** ([allowlist_generated.csv](../04d_claude_code_attachments/allowlist_generated.csv), сейчас пуст: реестра проверок нет). Дерево кампании строится из allowlist, а не из всего label0.
+4. Новый или изменённый непроверенный ID по умолчанию PENDING и не рекламируется до проверки. Ежедневная сверка — только дополнительный контроль дрейфа; вариант «реклама сразу по label0, проверка на следующий день» отклонён.
+5. Перед выбором слота для `ads_review_ok` — инвентаризация custom_label_0…4 в фиде (какие заняты и чем); используемую метку не перезаписывать. Фид в этом шаге не менялся.
 6. Каждая волна — свои статические проверки и отдельное разрешение владельца; старые scopes в том же шаге не меняются.
 7. Site-only URL: сначала выгрузка состояния CS-Cart/Merchant, затем решение; не отправлять автоматически в фид.

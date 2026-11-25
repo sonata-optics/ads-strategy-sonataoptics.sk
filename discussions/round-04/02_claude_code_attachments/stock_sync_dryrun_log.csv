@@ -14,7 +14,7 @@ S09,2026-11-15T12:00:00,R1,AG_103933,5831333799~ONLINE~sk~SK~103933,ALERT,item m
 S09,2026-11-15T12:00:00,R1,AG_26113,5831333799~ONLINE~sk~SK~26113,NO_OP,in stock and enabled,,fetch_time
 S09,2026-11-15T12:00:00,R1,AG_103640,5831333799~ONLINE~sk~SK~103640,ALERT,item missing from read: not treated as OOS,,
 S09,2026-11-15T12:00:00,R1,AG_47420,5831333799~ONLINE~sk~SK~47420,ALERT,item missing from read: not treated as OOS,,
-S10,2026-11-15T12:00:00,R1,AG_X,5831333799~ONLINE~sk~AT~103933,SKIP,identity outside SK destination/merchant,,
+S10,2026-11-15T12:00:00,R1,AG_X,5831333799~ONLINE~sk~AT~103933,SKIP,identity outside allowed merchant/destination/feed label,,
 S11,2026-11-15T12:00:00,R1,AG_OLD,5831333799~ONLINE~sk~SK~103933,SKIP,not in allowlist,,
 S12,2026-11-15T12:00:00,R1,AG_103933,5831333799~ONLINE~sk~SK~103933,PAUSE,OOS and enabled (manual enable alone does not authorise advertising OOS; use sync-hold),PAUSE+label paused-by-sync,fetch_time
 S12,2026-11-15T12:00:00,R1,AG_26113,5831333799~ONLINE~sk~SK~26113,PAUSE,OOS and enabled (manual enable alone does not authorise advertising OOS; use sync-hold),PAUSE+label paused-by-sync,fetch_time
@@ -23,11 +23,25 @@ S12,2026-11-15T12:00:00,R1,AG_47420,5831333799~ONLINE~sk~SK~47420,NO_OP,in stock
 S12,2026-11-15T12:00:00,R1,*,*,HALT,2/4 objects would flip > 30%: manual confirmation required,,
 S13,2026-11-15T12:00:00,R1,AG_103640,5831333799~ONLINE~sk~SK~103640,CLEANUP,enabled by a human while labelled; remove stale label only,remove label,fetch_time
 S14,2026-11-15T12:00:00,R1,AG_47420,5831333799~ONLINE~sk~SK~47420,NO_OP,BACKORDER: no automatic enable (owner rule required),,fetch_time
-C2a,2026-11-15T12:00:00,R1,AG_103933,customers/1/shoppingProducts/5831333799~ONLINE~sk~SK~103933,PAUSE,OOS and enabled (manual enable alone does not authorise advertising OOS; use sync-hold),PAUSE+label paused-by-sync,fetch_time
+C2a,2026-11-15T12:00:00,R1,AG_103933,customers/9492722541/shoppingProducts/5831333799~ONLINE~sk~SK~103933,PAUSE,OOS and enabled (manual enable alone does not authorise advertising OOS; use sync-hold),PAUSE+label paused-by-sync,fetch_time
 C2b,2026-11-15T12:00:00,R1,AG_103933,103933,ALERT,identity format not recognised,,
+C2c,2026-11-15T12:00:00,R1,AG_103933,customers/1234567890/shoppingProducts/5831333799~ONLINE~sk~SK~103933,ALERT,resource_name belongs to another customer (1234567890): no action,,
+C2d,2026-11-15T12:00:00,R1,AG_103933,5831333799~ONLINE~sk~SK-2~103933,PAUSE,OOS and enabled (manual enable alone does not authorise advertising OOS; use sync-hold),PAUSE+label paused-by-sync,fetch_time
+C2e,2026-11-15T12:00:00,R1,AG_103933,5831333799~ONLINE~sk~SK-2~103933,SKIP,identity outside allowed merchant/destination/feed label,,
+C2f,2026-11-15T12:00:00,R1,AG_103933,5831333799~ONLINE~sk~SK~103933,ALERT,managed object customer context None missing or foreign: no action,,
+C2g,2026-11-15T12:00:00,R1,AG_103933,5831333799~ONLINE~sk~SK~103933,ALERT,managed object customer context '1234567890' missing or foreign: no action,,
+C2h,2026-11-15T12:00:00,R1,*,*,ALERT,read customer context '1234567890' is not the allowed account: no action,,
+C2i,2026-11-15T12:00:00,R1,*,*,ALERT,read customer context None is not the allowed account: no action,,
 C3,2026-11-15T12:00:00,R1,AG_103933,5831333799~ONLINE~sk~SK~103933,NO_OP,sync-hold: object frozen in both directions,,
 C4a,2026-11-15T12:00:00,R1,AG_103933,5831333799~ONLINE~sk~SK~103933,NO_OP,sync-hold: object frozen in both directions,,
 C4b,2026-11-15T12:00:00,R1,AG_103933,5831333799~ONLINE~sk~SK~103933,PAUSE,OOS and enabled (manual enable alone does not authorise advertising OOS; use sync-hold),PAUSE+label paused-by-sync,fetch_time
+C3x,2026-11-15T12:00:00,R1,AG_103933,5831333799~ONLINE~sk~SK~103933,PRUNE,1 confirmation(s) outside the 6 h window or in the future dropped,,
+C3x,2026-11-15T12:00:00,R1,AG_103933,5831333799~ONLINE~sk~SK~103933,WAIT,in-stock confirmation 1/2,,fetch_time
+W1,2026-11-15T12:00:00,R1,AG_103933,5831333799~ONLINE~sk~SK~103933,ENABLE,"in stock, paused by sync, confirmed by distinct fresh reads",ENABLE+remove label,fetch_time
+W2,2026-11-15T12:00:00,R1,AG_103933,5831333799~ONLINE~sk~SK~103933,PRUNE,1 confirmation(s) outside the 6 h window or in the future dropped,,
+W2,2026-11-15T12:00:00,R1,AG_103933,5831333799~ONLINE~sk~SK~103933,WAIT,in-stock confirmation 1/2,,fetch_time
+W3,2026-11-15T12:00:00,R1,AG_103933,5831333799~ONLINE~sk~SK~103933,PRUNE,1 confirmation(s) outside the 6 h window or in the future dropped,,
+W3,2026-11-15T12:00:00,R1,AG_103933,5831333799~ONLINE~sk~SK~103933,WAIT,in-stock confirmation 1/2,,fetch_time
 U1,2026-11-15T12:00:00,R1,AG_103933,5831333799~ONLINE~sk~SK~103933,NO_OP,paused by UNKNOWN: sync never enables it,,fetch_time
 U2,2026-11-15T12:00:00,R1,AG_103933,5831333799~ONLINE~sk~SK~103933,NO_OP,paused by SYNC: sync never enables it,,fetch_time
 F1,2026-11-15T12:00:00,R1,*,*,ALERT,read timestamp in the future (2026-11-15 13:00:00),,
@@ -43,11 +57,35 @@ S15b,2026-11-15T12:00:00,R1,AG_103640,5831333799~ONLINE~sk~SK~103640,NO_OP,in st
 S15b,2026-11-15T12:00:00,R1,AG_47420,5831333799~ONLINE~sk~SK~47420,NO_OP,in stock and enabled,,fetch_time
 C1a,2026-11-15T12:00:00,R7,AG_103933,5831333799~ONLINE~sk~SK~103933,WAIT,in-stock confirmation 1/2,,fetch_time
 C1b,2026-11-15T12:05:00,R7,AG_103933,5831333799~ONLINE~sk~SK~103933,WAIT,same read already counted: replay adds no confirmation,,fetch_time
-S16,2026-11-15T13:00:00,R8,AG_103933,5831333799~ONLINE~sk~SK~103933,ENABLE,"in stock, paused by sync, confirmed by distinct reads",ENABLE+remove label,fetch_time
+S16,2026-11-15T13:00:00,R8,AG_103933,5831333799~ONLINE~sk~SK~103933,ENABLE,"in stock, paused by sync, confirmed by distinct fresh reads",ENABLE+remove label,fetch_time
 I1,2026-11-15T12:00:00,R9,AG_103933,5831333799~ONLINE~sk~SK~103933,WAIT,below minimum interval between confirmations,,fetch_time
+H1a,2026-11-15T12:00:00,H1a,AG_103933,5831333799~ONLINE~sk~SK~103933,RESET,sync-hold set since last observation: confirmation history reset,,
+H1a,2026-11-15T12:00:00,H1a,AG_103933,5831333799~ONLINE~sk~SK~103933,NO_OP,sync-hold: object frozen in both directions,,
+H1b,2026-11-15T13:00:00,H1b,AG_103933,5831333799~ONLINE~sk~SK~103933,RESET,sync-hold removed since last observation: confirmation history reset,,
+H1b,2026-11-15T13:00:00,H1b,AG_103933,5831333799~ONLINE~sk~SK~103933,WAIT,in-stock confirmation 1/2,,fetch_time
+H1c,2026-11-15T14:00:00,H1c,AG_103933,5831333799~ONLINE~sk~SK~103933,ENABLE,"in stock, paused by sync, confirmed by distinct fresh reads",ENABLE+remove label,fetch_time
+H2a,2026-11-15T12:00:00,H2a,AG_103933,5831333799~ONLINE~sk~SK~103933,NO_OP,sync-hold: object frozen in both directions,,
+H2b,2026-11-15T13:00:00,H2b,AG_103933,5831333799~ONLINE~sk~SK~103933,RESET,sync-hold removed since last observation: confirmation history reset,,
+H2b,2026-11-15T13:00:00,H2b,AG_103933,5831333799~ONLINE~sk~SK~103933,PAUSE,OOS and enabled (manual enable alone does not authorise advertising OOS; use sync-hold),PAUSE+label paused-by-sync,fetch_time
 M1,2026-11-15T12:00:00,R1,AG_103933,5831333799~ONLINE~sk~SK~103933,PAUSE,OOS and enabled (manual enable alone does not authorise advertising OOS; use sync-hold),PAUSE+label paused-by-sync,fetch_time
 M1,2026-11-15T12:00:00,R1,AG_26113,5831333799~ONLINE~sk~SK~26113,PAUSE,OOS and enabled (manual enable alone does not authorise advertising OOS; use sync-hold),PAUSE+label paused-by-sync,fetch_time
 M1,2026-11-15T12:00:00,R1,AG_103640,5831333799~ONLINE~sk~SK~103640,NO_OP,in stock and enabled,,fetch_time
 M1,2026-11-15T12:00:00,R1,AG_47420,5831333799~ONLINE~sk~SK~47420,NO_OP,in stock and enabled,,fetch_time
 M1,2026-11-15T12:00:00,R1,*,*,HALT,2/4 objects would flip > 30%: manual confirmation required,,
 M2,2026-11-15T12:00:00,R10,AG_103933,5831333799~ONLINE~sk~SK~103933,WAIT,in-stock confirmation 1/2,,fetch_time
+P1,2026-11-15T12:00:00,R1,AG_103933,5831333799~ONLINE~sk~SK~103933,PAUSE,OOS and enabled (manual enable alone does not authorise advertising OOS; use sync-hold),PAUSE+label paused-by-sync,fetch_time
+P1,2026-11-15T12:00:00,R1,AG_26113,5831333799~ONLINE~sk~SK~26113,PAUSE,OOS and enabled (manual enable alone does not authorise advertising OOS; use sync-hold),PAUSE+label paused-by-sync,fetch_time
+P1,2026-11-15T12:00:00,R1,AG_103640,5831333799~ONLINE~sk~SK~103640,NO_OP,in stock and enabled,,fetch_time
+P1,2026-11-15T12:00:00,R1,AG_47420,5831333799~ONLINE~sk~SK~47420,NO_OP,in stock and enabled,,fetch_time
+P1,2026-11-15T12:00:00,R1,AG_55858,5831333799~ONLINE~sk~SK~55858,NO_OP,in stock and enabled,,fetch_time
+P1,2026-11-15T12:00:00,R1,AG_55369,5831333799~ONLINE~sk~SK~55369,NO_OP,in stock and enabled,,fetch_time
+P1,2026-11-15T12:00:00,R1,AG_55859,5831333799~ONLINE~sk~SK~55859,NO_OP,in stock and enabled,,fetch_time
+P2,,,AG_26113,5831333799~ONLINE~sk~SK~26113,RECONCILE,stored ENABLED/[] -> observed PAUSED/['paused-by-sync'],,
+P2,,,AG_103640,5831333799~ONLINE~sk~SK~103640,RECONCILE,stored ENABLED/[] -> observed PAUSED/[],,
+P2b,2026-11-15T13:00:00,P2b,AG_103933,5831333799~ONLINE~sk~SK~103933,WAIT,in-stock confirmation 1/2,,fetch_time
+P2b,2026-11-15T13:00:00,P2b,AG_26113,5831333799~ONLINE~sk~SK~26113,WAIT,in-stock confirmation 1/2,,fetch_time
+P2b,2026-11-15T13:00:00,P2b,AG_103640,5831333799~ONLINE~sk~SK~103640,NO_OP,paused by UNKNOWN: sync never enables it,,fetch_time
+P2b,2026-11-15T13:00:00,P2b,AG_47420,5831333799~ONLINE~sk~SK~47420,NO_OP,in stock and enabled,,fetch_time
+P2b,2026-11-15T13:00:00,P2b,AG_55858,5831333799~ONLINE~sk~SK~55858,NO_OP,in stock and enabled,,fetch_time
+P2b,2026-11-15T13:00:00,P2b,AG_55369,5831333799~ONLINE~sk~SK~55369,NO_OP,in stock and enabled,,fetch_time
+P2b,2026-11-15T13:00:00,P2b,AG_55859,5831333799~ONLINE~sk~SK~55859,NO_OP,in stock and enabled,,fetch_time

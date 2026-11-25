@@ -8,16 +8,27 @@ S06,manual pause is never auto-enabled,PASS,[],[]
 S07,new group created PAUSED for review is never labelled or enabled,PASS,[],[]
 S08,first IN_STOCK read only waits,PASS,[],[]
 S09,"item missing from read -> alert, not OOS",PASS,[],[]
-S10,identity outside SK (feed_label AT) ignored even if offer_id equal,PASS,[],[]
+S10,identity with another feed label ignored even if offer_id equal,PASS,[],[]
 S11,non-allowlisted object untouched,PASS,[],[]
 S12,mass flip >30% halts the run,PASS,[],[]
 S13,manually enabled while labelled -> only remove stale label,PASS,"[[""AG_103640"", ""REMOVE_LABEL""]]","[[""AG_103640"", ""REMOVE_LABEL""]]"
 S14,PREORDER/BACKORDER never auto-enable,PASS,[],[]
-C2a,full resource_name is parsed and acted on (OOS -> PAUSE),PASS,"[[""AG_103933"", ""PAUSE""]]","[[""AG_103933"", ""PAUSE""]]"
+C2a,full resource_name of the allowed customer is parsed and acted on (OOS -> PAUSE),PASS,"[[""AG_103933"", ""PAUSE""]]","[[""AG_103933"", ""PAUSE""]]"
 C2b,"unknown identity format -> ALERT, no action",PASS,[],[]
+C2c,"resource_name of a foreign customer (1234567890) -> ALERT, no action",PASS,[],[]
+C2d,feed label with hyphen SK-2 parsed and accepted when it is in the allowed set,PASS,"[[""AG_103933"", ""PAUSE""]]","[[""AG_103933"", ""PAUSE""]]"
+C2e,feed label SK-2 not in the allowed set -> SKIP,PASS,[],[]
+C2f,short key without trusted object customer context -> ALERT (no silent customer append),PASS,[],[]
+C2g,managed object belongs to another customer -> ALERT,PASS,[],[]
+C2h,read from another customer -> ALERT for the whole run,PASS,[],[]
+C2i,read without customer context -> ALERT,PASS,[],[]
 C3,sync-hold on a sync-paused group blocks enable,PASS,[],[]
 C4a,sync-hold on an enabled OOS group blocks pause,PASS,[],[]
 C4b,manual enable WITHOUT hold does not authorise OOS advertising -> PAUSE,PASS,"[[""AG_103933"", ""PAUSE""]]","[[""AG_103933"", ""PAUSE""]]"
+C3x,Cowork: 5-day-old confirmation + one fresh read -> WAIT (expired confirmation dropped),PASS,[],[]
+W1,confirmation exactly at the 6 h window edge is kept -> ENABLE,PASS,"[[""AG_103933"", ""ENABLE""]]","[[""AG_103933"", ""ENABLE""]]"
+W2,confirmation 6 h 1 min old is dropped -> WAIT,PASS,[],[]
+W3,stored confirmation dated in the future is dropped -> WAIT,PASS,[],[]
 U1,paused with UNKNOWN owner is never enabled,PASS,[],[]
 U2,"owner SYNC but label missing -> treated as unknown, no enable",PASS,[],[]
 F1,read timestamp in the future -> ALERT,PASS,[],[]
@@ -27,5 +38,9 @@ S15,idempotent: same input after commit -> 0 actions,PASS,[],[]
 C1,replaying the same read adds no confirmation,PASS,[],[]
 S16,second distinct fresh read (unchanged IN_STOCK) enables,PASS,"[[""AG_103933"", ""ENABLE"", ""paused-by-sync""]]","[[""AG_103933"", ""ENABLE""]]"
 I1,distinct read below minimum interval does not confirm,PASS,[],[]
+H1,"hold set resets history; after unhold one fresh read waits, the second enables",PASS,"[[""AG_103933"", ""ENABLE"", ""paused-by-sync""]]","[[""AG_103933"", ""ENABLE""]]"
+H2,hold -> OOS (no action) -> unhold -> PAUSE,PASS,"[[""AG_103933"", ""PAUSE"", ""paused-by-sync""]]","[[""AG_103933"", ""PAUSE""]]"
 M1,"HALT: no actions, no proposed state, input unchanged",PASS,[],[]
 M2,failed apply -> stored confirmations not advanced,PASS,[],[]
+P1,partial success: only the applied object changes; the failed one is marked for re-read,PASS,"[""AG_103933"", ""AG_26113""]","[""AG_103933"", ""AG_26113""]"
+P2,reconcile trusts re-read state; human pause becomes UNKNOWN owner and is never enabled,PASS,[],[]

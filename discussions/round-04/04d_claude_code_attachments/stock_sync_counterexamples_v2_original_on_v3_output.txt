@@ -1,0 +1,26 @@
+PROBLEM C1a   same read_id replayed after commit adds no confirmation | ['ALERT:read customer context None is not the allowed account: no action']
+PROBLEM C1b   new read_id but same fetched_at (re-labelled replay) -> WAIT | ['ALERT:read customer context None is not the allowed account: no action']
+OK      C1c   distinct read only 10 min newer -> WAIT (min interval 30) | ['ALERT:read customer context None is not the allowed account: no action']
+PROBLEM C1d   distinct read 40 min newer -> ENABLE | ['ALERT:read customer context None is not the allowed account: no action']
+OK      C1e   ENABLE planned but apply failed -> stored state unchanged (still 1 confirmation, PAUSED) | {'object_id': 'AG_103933', 'identity': '5831333799~ONLINE~sk~SK~103933', 'status': 'PAUSED', 'pause_owner': 'SYNC', 'labels': ['paused-by-sync'], 'allowlisted': True, 'confirmations': []}
+OK      C1f   older read arriving late -> WAIT | ['ALERT:read customer context None is not the allowed account: no action']
+PROBLEM C1g   OOS between two IN_STOCK reads resets confirmations -> WAIT | ['ALERT:read customer context None is not the allowed account: no action']
+PROBLEM C2a   full resource_name parsed -> PAUSE | ['ALERT:read customer context None is not the allowed account: no action']
+OK      C2b   bare offer_id -> ALERT, no action | ['ALERT:read customer context None is not the allowed account: no action']
+OK      C2c   feed label with hyphen (allowed by Merchant Center) -> ALERT (fail-safe, but would block a real label) | ['ALERT:read customer context None is not the allowed account: no action']
+OK      C2d   resource_name of ANOTHER Google Ads customer id is accepted (customer id not validated) | ['ALERT:read customer context None is not the allowed account: no action']
+OK      C3    sync-hold on sync-paused group blocks ENABLE | ['ALERT:read customer context None is not the allowed account: no action']
+OK      C4a   sync-hold on enabled OOS group blocks PAUSE | ['ALERT:read customer context None is not the allowed account: no action']
+PROBLEM C4b   manual enable without hold -> PAUSE (documented rule) | ['ALERT:read customer context None is not the allowed account: no action']
+OK      C3x   5-day-old confirmation (e.g. kept through a sync-hold) + ONE fresh read -> ENABLE | ['ALERT:read customer context None is not the allowed account: no action']
+OK      U1    PAUSED with unknown owner never enabled | ['ALERT:read customer context None is not the allowed account: no action']
+OK      U2    owner SYNC without label -> no enable | ['ALERT:read customer context None is not the allowed account: no action']
+OK      F1    fetch time in the future -> ALERT | ['ALERT:read customer context None is not the allowed account: no action']
+OK      F2    no read_id -> ALERT | ['ALERT:read without read_id: provenance unknown, no action']
+OK      F3    stale upstream with fresh fetch -> no action | ['ALERT:read customer context None is not the allowed account: no action']
+OK      F4    upstream time in the future -> ALERT | ['ALERT:read customer context None is not the allowed account: no action']
+PROBLEM F5    journal records freshness_basis | []
+PROBLEM M1    mass flip -> HALT, nothing proposed | ['ALERT']
+OK      M3    plan() does not mutate its input | 
+
+24 checks, 8 PROBLEM

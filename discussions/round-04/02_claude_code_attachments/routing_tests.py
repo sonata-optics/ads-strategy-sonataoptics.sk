@@ -317,20 +317,36 @@ def main(outdir):
     with open(os.path.join(outdir, 'routing_tests_after_proposed_diff.csv'), 'w', newline='', encoding='utf-8') as fh:
         w = csv.writer(fh)
         w.writerow(['test_id', 'query', 'verdict_now', 'verdict_A_technical_fixes_only', 'verdict_B_upper_bound_owner_words_removed',
-                    'resolution', 'remaining_problem_A', 'note'])
+                    'current_resolution', 'proposed_resolution_after_A', 'remaining_problem_A', 'note'])
         for a, b, c in zip(rows, rows_a, rows_b):
             blk = [h for h in b['account_neg_hits_literal'].split(';') if h]
-            if a['verdict'] in ('PASS', 'PASS_LITERAL_RISK_CV'):
-                res = 'NO_CHANGE_NEEDED'
+            ow = blk and all(h in owner_words for h in blk)
+            # current: what the test needs today (04d p.5: literal pass with CV risk = MONITOR_CV, not closed)
+            if a['verdict'] == 'PASS':
+                cur = 'NO_CHANGE_NEEDED'
+            elif a['verdict'] == 'PASS_LITERAL_RISK_CV':
+                cur = 'MONITOR_CV'
             elif a['verdict'] == 'OWNER_DECISION':
-                res = 'OWNER_DECISION:R3-CLAUDE-09'
+                cur = 'OWNER_DECISION:R3-CLAUDE-09'
             elif b['verdict'] in ('PASS', 'PASS_LITERAL_RISK_CV'):
-                res = 'FIXED_BY_TECHNICAL_PROPOSAL (not applied)'
-            elif blk and all(h in owner_words for h in blk):
-                res = 'OWNER_DECISION:' + ','.join(blk)
+                cur = 'FIX_PROPOSED'
+            elif ow:
+                cur = 'OWNER_DECISION:' + ','.join(blk)
             else:
-                res = 'OPEN'
-            w.writerow([a['test_id'], a['query'], a['verdict'], b['verdict'], c['verdict'], res, b['problems'],
+                cur = 'OPEN'
+            # proposed: state if scenario A (technical fixes only) were applied
+            if b['verdict'] == 'PASS':
+                prop = 'NO_CHANGE_NEEDED' if a['verdict'] == 'PASS' else ('FIXED_LITERAL' if a['verdict'] == 'PASS_LITERAL_RISK_CV' else 'FIXED_BY_TECHNICAL_PROPOSAL')
+            elif b['verdict'] == 'PASS_LITERAL_RISK_CV':
+                prop = 'MONITOR_CV'
+            elif b['verdict'] == 'OWNER_DECISION':
+                prop = 'OWNER_DECISION:R3-CLAUDE-09'
+            elif ow:
+                prop = 'OWNER_DECISION:' + ','.join(blk)
+            else:
+                prop = 'OPEN'
+            res = f'{cur}|{prop}'
+            w.writerow([a['test_id'], a['query'], a['verdict'], b['verdict'], c['verdict'], cur, prop, b['problems'],
                         'SIMULATION ONLY. A = keywords, ad-group/campaign negatives, keyword_text, bazár. B = A + every OWNER_DECISION word removed from account list: upper bound of effect, not a recommendation'])
     from collections import Counter
     print('scenario A', Counter(r['verdict'] for r in rows_a), [r['test_id'] for r in rows_a if r['verdict'] == 'FAIL'])

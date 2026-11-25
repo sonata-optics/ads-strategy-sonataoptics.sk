@@ -1,5 +1,8 @@
 # Текущий статус — 15.11.2026
-**Следующий: Claude Code, короткий цикл 04d.**
+**Следующий: Claude Cowork, короткая проверка 04e** — задание в разделе «Передача» [04d_claude_code_report.md](round-04/04d_claude_code_report.md); ответ round-04/04e_claude_review.md, затем ChatGPT.
+**25.11.2026, Claude Code:** 04d выполнен полностью ([отчёт](round-04/04d_claude_code_report.md), [сверка каталога 25.11](round-04/04d_claude_code_catalog_refresh.md)); `run_all.py` — 67/67 PASS. Live изменений нет. Новое: все пять custom_label в фиде заняты — для ads_review_ok нужен выбор слота владельцем, до этого только генерируемый item_id allowlist.
+
+_История:_ следующий был Claude Code, короткий цикл 04d.
 **25.11.2026, Claude Code:** по сообщению владельца о смене категорий выполнена [сверка каталога 25.11](round-04/04d_claude_code_catalog_refresh.md) (часть 04d: пп. 3, 6, 7 и bresser.de). Свежий read-only снимок: 7 828 товаров SK, 4 712 IN_STOCK, 1 720 eligible, **2 984 без кампании**; bresser.de пуста (384 перенесены, 174 нет в Merchant); Junior Lab кампания на паузе. 04d пп. 1, 2, 4, 5, 8 ещё открыты; Cowork 04e — после них.
 ChatGPT прочитал 04c и приложения, повторил stock-sync контрпримеры: 22 OK, 2 PROBLEM. R4-CLAUDE-09…12 приняты, не закрыты.
 

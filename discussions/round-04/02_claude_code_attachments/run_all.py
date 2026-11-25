@@ -8,9 +8,11 @@ from collections import Counter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 FIX = os.path.normpath(os.path.join(HERE, '..', '04b_claude_code_attachments'))
+D04D = os.path.normpath(os.path.join(HERE, '..', '04d_claude_code_attachments'))
 REPO = os.path.normpath(os.path.join(HERE, '..', '..', '..'))
 SCRIPTS = [os.path.join(HERE, s) for s in ('coverage_map.py', 'routing_tests.py', 'economics_recheck.py', 'stock_sync_dryrun.py')] + \
-          [os.path.join(FIX, s) for s in ('account_negatives_review.py', 'full_coverage_plan.py')]
+          [os.path.join(FIX, s) for s in ('account_negatives_review.py', 'full_coverage_plan.py')] + \
+          [os.path.join(D04D, s) for s in ('account_negatives_review_v2.py', 'test_catalog_refresh.py')]
 out = io.StringIO()
 fails = []
 
@@ -32,6 +34,7 @@ def rows(fn, d=HERE):
 
 def main():
     sys.stdout.reconfigure(encoding='utf-8')
+    sys.path.insert(0, HERE); sys.dont_write_bytecode = True
     sha = subprocess.run(['git', '-C', REPO, 'rev-parse', 'HEAD'], capture_output=True, text=True).stdout.strip()
     say('repo HEAD at run time:', sha or 'UNKNOWN')
     for s in SCRIPTS:
@@ -67,11 +70,20 @@ def main():
     by = {r['test_id']: r for r in rt}
     check('routing: "s puzdrom" bundle wording not blocked by accessory proposal (R48)', by['R48']['verdict'].startswith('PASS'))
     after = rows('routing_tests_after_proposed_diff.csv')
-    res = Counter(r['resolution'].split(':')[0] for r in after)
-    check('routing: every non-pass test has a resolution, none OPEN', res.get('OPEN', 0) == 0, dict(res))
+    res = Counter(r['current_resolution'].split(':')[0] for r in after)
+    check('routing: every test has a current resolution, none OPEN', res.get('OPEN', 0) == 0 and all(r['current_resolution'] for r in after), dict(res))
     remA = {r['test_id'] for r in after if r['verdict_A_technical_fixes_only'] == 'FAIL'}
     check('routing: scenario A leaves only owner-decision failures',
-          all(by_after['resolution'].startswith('OWNER_DECISION') for by_after in after if by_after['test_id'] in remA), sorted(remA))
+          all(x['proposed_resolution_after_A'].startswith('OWNER_DECISION') for x in after if x['test_id'] in remA), sorted(remA))
+    ab = {r['test_id']: r for r in after}
+    check('routing 04d p.5: R18/C09/R43 current = MONITOR_CV', all(ab[t]['current_resolution'] == 'MONITOR_CV' for t in ('R18', 'C09', 'R43')))
+    check('routing 04d p.5: R43 proposed FIXED_LITERAL; R18/C09 stay MONITOR_CV',
+          ab['R43']['proposed_resolution_after_A'] == 'FIXED_LITERAL' and all(ab[t]['proposed_resolution_after_A'] == 'MONITOR_CV' for t in ('R18', 'C09')))
+    closed = lambda v: v in ('NO_CHANGE_NEEDED', 'FIXED_LITERAL', 'FIXED_BY_TECHNICAL_PROPOSAL')
+    check('routing 04d p.5: MONITOR_CV is never counted as closed; current/proposed consistent',
+          all(not closed(r['current_resolution']) for r in after if r['verdict_now'] != 'PASS')
+          and all(r['proposed_resolution_after_A'] == 'NO_CHANGE_NEEDED' for r in after if r['current_resolution'] == 'NO_CHANGE_NEEDED')
+          and all(r['proposed_resolution_after_A'] == 'MONITOR_CV' for r in after if r['verdict_A_technical_fixes_only'] == 'PASS_LITERAL_RISK_CV'))
     diff = rows('negative_keyword_diff.csv')
     check('diff: all rows PROPOSAL_NOT_APPLIED with basis/example/risk/verification',
           all(r['status'] == 'PROPOSAL_NOT_APPLIED' and r['basis'] and r['example_tests'] and r['risk'] and r['verification'] for r in diff))
@@ -106,6 +118,32 @@ def main():
     check('stock sync: all scenarios pass', all(r['result'] == 'PASS' for r in ss), f"{sum(r['result']=='PASS' for r in ss)}/{len(ss)}")
     check('stock sync: Cowork C1-C4 + purity/provenance regressions present',
           {'C1', 'C2a', 'C2b', 'C3', 'C4a', 'C4b', 'U1', 'U2', 'F1', 'F2', 'F3', 'I1', 'M1', 'M2'} <= sids)
+    check('stock sync 04d: window/hold/customer/feed-label/partial-failure regressions present',
+          {'C3x', 'W1', 'W2', 'W3', 'H1', 'H2', 'C2c', 'C2d', 'C2e', 'C2f', 'C2g', 'C2h', 'C2i', 'P1', 'P2'} <= sids)
+    ad = subprocess.run([sys.executable, '-I', os.path.join(D04D, 'stock_sync_counterexamples_v2_adapted.py'), HERE], capture_output=True, text=True, encoding='utf-8')
+    open(os.path.join(D04D, 'stock_sync_counterexamples_v2_adapted_output.txt'), 'w', encoding='utf-8').write(ad.stdout)
+    check('stock sync 04d: adapted Cowork counterexamples 0 PROBLEM', '0 PROBLEM' in ad.stdout, ad.stdout.strip().splitlines()[-1] if ad.stdout else ad.stderr[-200:])
+
+    say('\n=== negatives review v2 (04d p.4) ===')
+    nv = rows('account_negatives_review_v2.csv', D04D)
+    raw = {r['offer_id']: r for r in rows('inputs/shopping_product_2026-11-25.csv', D04D) if r['merchant_id'] == '5831333799'}
+    import routing_tests as rtm
+    check('v2: 258 rows, every illustrative query literally blocked by its own word and match type',
+          len(nv) == 258 and all(rtm.neg_hit(r['illustrative_query_stored_form'], r['match_type'], r['text']) for r in nv))
+    check('v2: catalogue examples are real 25.11 offers whose title literally matches, else NO_VERIFIED_CATALOG_EXAMPLE',
+          all((r['catalogue_example_offer_id'] == 'NO_VERIFIED_CATALOG_EXAMPLE' and r['catalogue_literal_matches'] == '0')
+              or (r['catalogue_example_offer_id'] in raw and raw[r['catalogue_example_offer_id']]['title'] == r['catalogue_example_title']
+                  and rtm.neg_hit(r['catalogue_example_title'], r['match_type'], r['text'])) for r in nv))
+    check('v2: every example is marked illustrative, none claimed as historical search term',
+          all(r['example_kind'].startswith('illustrative') for r in nv))
+    sol = next(r for r in nv if r['text'] == 'solarna')
+    check('v2: solarna vs solárna literal tests differ (blocked / not blocked)', sol['blocked_literal_stored_form'] == 'True' and sol['blocked_literal_other_form'] == 'False')
+    check('v2: heureka is OWNER_DECISION_HEUREKA; owner-direction words limited to kde/poradiť/lacno/nie drahé/cheap/popis',
+          next(r for r in nv if r['text'] == 'heureka')['action_v2'] == 'OWNER_DECISION_HEUREKA'
+          and {r['text'] for r in nv if r['action_v2'] == 'PROPOSED_BY_OWNER_DIRECTION'} == {'kde', 'poradiť', 'lacno', 'nie drahé', 'cheap', 'popis'})
+    check('v2: every row is a proposal', all(r['status'] == 'PROPOSAL_NOT_APPLIED' for r in nv))
+    cat_out = open(os.path.join(D04D, 'test_catalog_refresh_output.txt'), encoding='utf-8').read()
+    check('catalogue refresh 25.11: all its checks pass', 'RESULT: ALL CHECKS PASS' in cat_out)
 
     say('\n=== full catalogue coverage plan ===')
     fp = rows('full_catalog_coverage_plan.csv', FIX)
@@ -128,7 +166,7 @@ def main():
     check('full: every row is a proposal', all(r['status'] == 'PROPOSAL_NOT_APPLIED' for r in fp))
 
     md = [os.path.join(HERE, f) for f in os.listdir(HERE) if f.endswith('.md')]
-    for rep in ('02_claude_code_report.md', '04b_claude_code_fix_report.md'):
+    for rep in ('02_claude_code_report.md', '04b_claude_code_fix_report.md', '04d_claude_code_report.md', '04d_claude_code_catalog_refresh.md'):
         p = os.path.join(HERE, '..', rep)
         if os.path.exists(p):
             md.append(p)
@@ -141,7 +179,7 @@ def main():
     check('markdown relative links resolve', not bad, bad[:5])
 
     say(f'\nRESULT: {"ALL CHECKS PASS" if not fails else "FAILED: " + ", ".join(fails)}')
-    for p in (os.path.join(HERE, 'test_run_output.txt'), os.path.join(FIX, 'test_run_output_04b.txt')):
+    for p in (os.path.join(HERE, 'test_run_output.txt'), os.path.join(D04D, 'test_run_output_04d.txt')):
         with open(p, 'w', encoding='utf-8') as f:
             f.write(out.getvalue())
     sys.exit(1 if fails else 0)
