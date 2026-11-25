@@ -1,0 +1,46 @@
+$ python -I catalog_refresh_2026-11-25.py (exit 0)
+export rows 8090 | other Merchant excluded 262 Counter({('755641187', 'SHOP'): 262})
+Sonata rows 7828 unique composite 7828 in stock 4712 {'COVERED_ELIGIBLE': 1720, 'IN_STOCK_NO_CAMPAIGN': 2984, 'IN_STOCK_OTHER_BLOCK': 8}
+reconciliation Counter({'UNCHANGED_LABEL': 3793, 'NEW_ID': 3531, 'REMOVED_ID': 1781, 'LABEL_CHANGED': 504})
+bresser.de 15.11: 558 Counter({'LABEL_CHANGED': 384, 'REMOVED_ID': 174}) | still labelled bresser.de on 25.11: 0
+label contract Counter({'OK': 33, 'OK_PAUSED_CAMPAIGN': 1, 'OK_UNDECIDED': 1}) ['sonata junior lab', 'knihy, mapy, postery']
+scoped serving {'termovízie': '24440851839', 'ďalekohľady a binokuláre': '24440851881', 'teleskopy a hvezdárske ďalekohľady': '24451885423', 'mikroskopy': '24451886281'} | scoped not serving {'sonata junior lab': '24446149352'}
+in-stock gap 2984 Counter({'CANDIDATE_PENDING_REVIEW': 2905, 'OWNER_DECISION_RESUME_CAMPAIGN': 58, 'POLICY_HOLD': 21})
+gap by campaign/admission [(('NEW_SK_SHOP_Mikroskopy_prislusenstvo', 'CATEGORY_PLUS_ADS_REVIEW_OK'), 1261), (('NEW_SK_SHOP_Astro_prislusenstvo', 'CATEGORY_PLUS_ADS_REVIEW_OK'), 758), (('NEW_SK_SHOP_Prislusenstvo_optika', 'CATEGORY_PLUS_ADS_REVIEW_OK'), 368), (('NEW_SK_SHOP_Meranie_veda', 'CATEGORY_PLUS_ADS_REVIEW_OK'), 348), (('NEW_SK_SHOP_Pozorovacia_optika', 'CATEGORY_PLUS_ADS_REVIEW_OK'), 87), (('NEW_SK_SHOP_Nocne_videnie_VERIFIED_ONLY', 'VERIFIED_ID'), 40), (('NEW_SK_SHOP_Outdoor_tech', 'CATEGORY_PLUS_ADS_REVIEW_OK'), 33), (('NEW_SK_SHOP_Pozorovacia_optika', 'VERIFIED_ID'), 10)]
+policy hold all rows Counter({('IN_STOCK', 'IN_STOCK_NO_CAMPAIGN'): 21, ('OUT_OF_STOCK', 'OOS_NO_CAMPAIGN'): 9, ('OUT_OF_STOCK', 'OOS_OTHER'): 4, ('IN_STOCK', 'IN_STOCK_OTHER_BLOCK'): 1})
+eligible needing ID verification 124
+allowlist_generated rows 0 (no review register yet)
+  26130 ('monokuláre', 'IN_STOCK', 'IN_STOCK_NO_CAMPAIGN', 'CANDIDATE_PENDING_REVIEW', 'CATEGORY_PLUS_ADS_REVIEW_OK')
+  26916 ('monokuláre', 'IN_STOCK', 'IN_STOCK_NO_CAMPAIGN', 'CANDIDATE_PENDING_REVIEW', 'CATEGORY_PLUS_ADS_REVIEW_OK')
+  107817 ('termovízie', 'IN_STOCK', 'COVERED_ELIGIBLE', 'KEEP_CURRENT_VERIFY_ID', 'VERIFIED_ID')
+  107671 ('príslušenstvo pre nočné videnie', 'IN_STOCK', 'IN_STOCK_NO_CAMPAIGN', 'POLICY_HOLD', 'VERIFIED_ID')
+  103933 ('ďalekohľady a binokuláre', 'IN_STOCK', 'COVERED_ELIGIBLE', 'KEEP_CURRENT', 'CATEGORY_PLUS_ADS_REVIEW_OK')
+
+=== export and denominators ===
+PASS export: 8090 rows, unique composite keys
+PASS plan: only Merchant 5831333799 (262 rows of Merchant 755641187 / feed SHOP excluded)
+PASS plan: 4712 in stock = 1720 eligible + 2984 no campaign + 8 other block  [{'COVERED_ELIGIBLE': 1720, 'IN_STOCK_NO_CAMPAIGN': 2984, 'IN_STOCK_OTHER_BLOCK': 8}]
+PASS every row has titles (no silent empties)
+
+=== category migration (owner: bresser.de removed) ===
+PASS no product carries label bresser.de on 25.11
+PASS all 558 former bresser.de IDs accounted for (re-labelled or absent from Merchant)  [{'LABEL_CHANGED': 384, 'REMOVED_ID': 174}]
+PASS reconciliation covers union of both snapshots
+PASS regression 26916 Zoom monokulár: label monokuláre, routed to observation optics, not astro accessories
+PASS regression 26130 monocular: still monokuláre, still no campaign today
+PASS label contract: every 25.11 label is mapped (no CONTRACT_FAIL)  [[]]
+PASS label contract: an unknown future label would fail
+
+=== admission (hybrid, R4-CLAUDECODE-07) and policy (R4-CLAUDE-11) ===
+PASS every *_policy_violation row is POLICY_HOLD regardless of availability/state  [{('IN_STOCK', 'IN_STOCK_NO_CAMPAIGN'): 21, ('OUT_OF_STOCK', 'OOS_OTHER'): 4, ('OUT_OF_STOCK', 'OOS_NO_CAMPAIGN'): 9, ('IN_STOCK', 'IN_STOCK_OTHER_BLOCK'): 1}]
+PASS policy detection is generic (synthetic new code)
+PASS not_eligible_in_any_campaign is not treated as policy
+PASS risky labels only by VERIFIED_ID
+PASS no row is reviewed yet; generated allowlist is empty (new IDs not advertised before review)
+PASS new SKU: not admitted before review, admitted after review record  [106744]
+PASS reviewed SKU that later gets a policy code loses admission
+PASS existing scoped coverage kept (eligible rows never proposed for move)
+PASS paused Junior Lab campaign is an owner decision, not a new campaign
+PASS every row is a proposal
+
+RESULT: ALL CHECKS PASS

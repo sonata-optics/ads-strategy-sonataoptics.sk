@@ -1,0 +1,36 @@
+label0,products,in_stock,route,risky_label,contract_status
+príslušenstvo pre mikroskopy,1341,1261,NEW_SK_SHOP_Mikroskopy_prislusenstvo,NO,OK
+astronomické príslušenstvo,959,408,NEW_SK_SHOP_Astro_prislusenstvo,NO,OK
+astronomické filtre,920,90,NEW_SK_SHOP_Astro_prislusenstvo,NO,OK
+teleskopy a hvezdárske ďalekohľady,821,602,"EXISTING 24451885423 (ENABLED, SERVING)",NO,OK
+mikroskopy,791,622,"EXISTING 24451886281 (ENABLED, SERVING)",NO,OK
+ďalekohľady a binokuláre,683,380,"EXISTING 24440851881 (ENABLED, SERVING)",NO,OK
+montáže a statívy,653,316,NEW_SK_SHOP_Prislusenstvo_optika,NO,OK
+astrofotografia,463,210,NEW_SK_SHOP_Astro_prislusenstvo,NO,OK
+meracie nástroje,188,163,NEW_SK_SHOP_Meranie_veda,NO,OK
+meteostanice,179,139,NEW_SK_SHOP_Meranie_veda,NO,OK
+termovízie,151,124,"EXISTING 24440851839 (ENABLED, SERVING)",YES,OK
+okuláre na teleskopy,129,57,NEW_SK_SHOP_Astro_prislusenstvo,NO,OK
+spektívy,109,44,NEW_SK_SHOP_Pozorovacia_optika,NO,OK
+sonata junior lab,82,58,EXISTING 24446149352 (PAUSED) - owner decision to resume,NO,OK_PAUSED_CAMPAIGN
+monokuláre,56,26,NEW_SK_SHOP_Pozorovacia_optika,NO,OK
+refraktometre,46,43,NEW_SK_SHOP_Meranie_veda,NO,OK
+príslušenstvo k ďalekohľadom,43,34,NEW_SK_SHOP_Prislusenstvo_optika,NO,OK
+nočné videnie,38,24,NEW_SK_SHOP_Nocne_videnie_VERIFIED_ONLY,YES,OK
+lupy,29,16,NEW_SK_SHOP_Pozorovacia_optika,NO,OK
+príslušenstvo k termovíziám,23,20,NEW_SK_SHOP_Nocne_videnie_VERIFIED_ONLY,YES,OK
+fotopasce,22,15,NEW_SK_SHOP_Outdoor_tech,NO,OK
+statívy,20,10,NEW_SK_SHOP_Prislusenstvo_optika,NO,OK
+príslušenstvo k spektívom,18,8,NEW_SK_SHOP_Prislusenstvo_optika,NO,OK
+príslušenstvo pre fotopasce,15,9,NEW_SK_SHOP_Outdoor_tech,NO,OK
+diaľkomery,13,10,NEW_SK_SHOP_Pozorovacia_optika,YES,OK
+príslušenstvo pre nočné videnie,10,9,NEW_SK_SHOP_Nocne_videnie_VERIFIED_ONLY,YES,OK
+drony,6,5,NEW_SK_SHOP_Outdoor_tech,NO,OK
+akčné kamery,4,4,NEW_SK_SHOP_Outdoor_tech,NO,OK
+spektroskopy,4,4,NEW_SK_SHOP_Meranie_veda,NO,OK
+príslušenstvo pre polarimetre,3,0,NEW_SK_SHOP_Meranie_veda,NO,OK
+domáce planetáriá,3,1,NEW_SK_SHOP_Pozorovacia_optika,NO,OK
+polarimetre,2,0,NEW_SK_SHOP_Meranie_veda,NO,OK
+nástroje na čistenie optiky,2,0,NEW_SK_SHOP_Prislusenstvo_optika,NO,OK
+"knihy, mapy, postery",1,0,NONE_UNTIL_ROLE_DECIDED,NO,OK_UNDECIDED
+kompasy a buzoly,1,0,NEW_SK_SHOP_Pozorovacia_optika,NO,OK

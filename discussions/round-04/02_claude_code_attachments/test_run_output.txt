@@ -1,4 +1,4 @@
-repo HEAD at run time: d638a86ba34ad3498486a20f9ea4bb97e6df692c
+repo HEAD at run time: f09cbfef2edc968a972da2de8d630c12d5383896
 
 $ python -I discussions\round-04\02_claude_code_attachments\coverage_map.py  (exit 0)
 rows 32 {'COVERED_ELIGIBLE': 21, 'GAP_IN_STOCK_NO_CAMPAIGN': 1, 'GAP_OOS_AND_NO_CAMPAIGN': 1, 'NOT_ELIGIBLE_OOS': 3, 'SITE_ONLY_UNKNOWN': 6}

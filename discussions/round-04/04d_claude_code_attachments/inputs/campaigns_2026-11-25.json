@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-25",
+  "source": "Google Ads API read-only GAQL (campaign, campaign_criterion LISTING_SCOPE), Claude Code. Shopping campaigns only; no budgets or spend.",
+  "campaigns": [
+    {"id": "24440851839", "name": "SHOP | SK | Termovízie a nočné videnie | CPC 0.40", "status": "ENABLED", "serving_status": "SERVING", "priority": 0, "end_date_time": null},
+    {"id": "24440851881", "name": "SHOP | SK | Ďalekohľady | CPC 0.40", "status": "ENABLED", "serving_status": "SERVING", "priority": 0, "end_date_time": null},
+    {"id": "24446149352", "name": "SHOP | SK | Junior Lab | CPC 0.30", "status": "PAUSED", "serving_status": "SERVING", "priority": 0, "end_date_time": null, "note": "ENABLED on 15.11, PAUSED on 25.11"},
+    {"id": "24451885423", "name": "SHOP | SK | Teleskopy | CPC 0.40", "status": "ENABLED", "serving_status": "SERVING", "priority": 0, "end_date_time": null},
+    {"id": "24451886281", "name": "SHOP | SK | Mikroskopy | CPC 0.40", "status": "ENABLED", "serving_status": "SERVING", "priority": 0, "end_date_time": null},
+    {"id": "24341660055", "name": "NEW26 | SHOPPING | SK | Mikroskopy", "status": "ENABLED", "serving_status": "ENDED", "priority": 0, "end_date_time": "2026-11-03 23:59:59"},
+    {"id": "24346760069", "name": "NEW26 | SHOPPING | SK | Teleskopy a astrofotografia", "status": "ENABLED", "serving_status": "ENDED", "priority": 0, "end_date_time": "2026-11-03 23:59:59"},
+    {"id": "24346760072", "name": "NEW26 | SHOPPING | SK | Sonata Junior Lab", "status": "ENABLED", "serving_status": "ENDED", "priority": 0, "end_date_time": "2026-11-03 23:59:59"}
+  ],
+  "other_shopping_and_pmax": "all other Shopping/PMax campaigns of the account are PAUSED (several also ENDED); none ENABLED",
+  "listing_scopes": [
+    {"campaign_id": "24440851839", "label0": "termovízie"},
+    {"campaign_id": "24440851881", "label0": "ďalekohľady a binokuláre"},
+    {"campaign_id": "24446149352", "label0": "sonata junior lab"},
+    {"campaign_id": "24451885423", "label0": "teleskopy a hvezdárske ďalekohľady"},
+    {"campaign_id": "24451886281", "label0": "mikroskopy"}
+  ]
+}
