@@ -1,0 +1,262 @@
+{
+ "version": 2,
+ "rules": "ads-gate-v2",
+ "generated_at": "2026-11-26T17:30:29Z",
+ "author": "Claude Code (owner delegation 2026-11-25)",
+ "note": "hold/review/ok keyed by composite identity merchant~channel~lang~feed_label~offer. ok entries need fingerprint (AdsGate::fingerprint) + author/reason/evidence/date; a change of title/category invalidates them. Google policy holds come from ads-policy.json (daily sweep); hold here = manual/known holds.",
+ "hold": [
+  {
+   "id": "5831333799~ONLINE~sk~SK~31294",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (hacking_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~64812",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~64897",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~94399",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~103962",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~104015",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (dangerous_knives_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~104016",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (dangerous_knives_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~104018",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (dangerous_knives_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~104028",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~106641",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~106961",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~106962",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~106963",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~107424",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~107430",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~107432",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~107434",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~107436",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~107445",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~107446",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~107465",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~107467",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~107671",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~107672",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~107673",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~107708",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~107718",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~109560",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~112044",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~112046",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~112047",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~113691",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~114266",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~114273",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~114556",
+   "reason": "Google Ads *_policy_violation 2026-11-25 (guns_parts_policy_violation)",
+   "source": "shopping_product read-only 2026-11-25",
+   "date": "2026-11-25"
+  }
+ ],
+ "review": [
+  {
+   "id": "5831333799~ONLINE~sk~SK~31211",
+   "reason": "hunting rangefinders: check weapon-mount variants | title soft: lovecký",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~31212",
+   "reason": "hunting rangefinders: check weapon-mount variants | title soft: lovecký",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~31213",
+   "reason": "hunting rangefinders: check weapon-mount variants | title soft: lovecký",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~45428",
+   "reason": "hunting rangefinders: check weapon-mount variants | title soft: lovecký",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~45429",
+   "reason": "hunting rangefinders: check weapon-mount variants | title soft: lovecký",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~113692",
+   "reason": "title soft: kolimátorového",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~113693",
+   "reason": "title soft: kolimátorového",
+   "date": "2026-11-25"
+  },
+  {
+   "id": "5831333799~ONLINE~sk~SK~114151",
+   "reason": "title soft: kolimátor",
+   "date": "2026-11-25"
+  }
+ ],
+ "ok": []
+}

@@ -1,0 +1,22 @@
+PASS new safe ID in a safe root -> ok                                               -> ads_ok (safe_root:1965)
+PASS calibration slide (kalibračné sklíčko) is not a weapon word -> ok          -> ads_ok (safe_root:1965)
+PASS weapon wording in a SAFE root (predsádka na puškohľad) -> review            -> ads_review (risk_title:predsádka)
+PASS astro finder with ambiguous title (kolimátorový hľadáčik) -> review       -> ads_review (risk_title:kolimátorový)
+PASS risk root (thermal 1974) without manual decision -> review                     -> ads_review (risk_root:1974)
+PASS unknown / new root category -> review                                          -> ads_review (unknown_root:9999)
+PASS missing data (empty product_type) -> review                                    -> ads_review (missing_product_type)
+PASS risk root WITH manual ok and matching fingerprint -> ok                        -> ads_ok (manual_ok:owner)
+PASS manual ok invalidated by changed title/role -> review                          -> ads_review (manual_ok_invalidated_by_change)
+PASS new Google policy code AFTER manual ok -> hold                                 -> ads_hold (google_policy:other_weapons_policy_violation)
+PASS manual hold beats manual ok                                                    -> ads_hold (manual_hold)
+PASS policy hold on a safe-root product -> hold                                     -> ads_hold (google_policy:guns_parts_policy_violation)
+PASS same item_id held in ANOTHER Merchant identity does not leak -> ok             -> ads_ok (safe_root:1965)
+PASS register expired/broken -> review (fail closed)                                -> ads_review (register_expired)
+PASS policy snapshot stale -> review (fail closed)                                  -> ads_review (policy_snapshot_expired)
+PASS policy hold still applies when register is broken                              -> ads_hold (google_policy:guns_parts_policy_violation)
+PASS loader: valid v2 file                                                          -> ok=true 
+PASS loader: unversioned v1 file rejected                                           -> ok=false invalid_or_unversioned
+PASS loader: expired file rejected                                                  -> ok=false expired
+PASS loader: future timestamp rejected                                              -> ok=false bad_or_future_timestamp
+PASS loader: broken JSON rejected                                                   -> ok=false invalid_or_unversioned
+21/21 PASS

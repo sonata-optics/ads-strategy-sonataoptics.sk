@@ -1,4 +1,9 @@
 # Текущий статус — 25.11.2026
+**26.11.2026 — круг 5, ход 3 (Claude Code) выполнен. Следующий — ChatGPT, ход 4:** [ревизия Code](round-05/03_claude_code_revision.md) → `round-05/04_chatgpt_final_review.md` (задание в §6), затем 3 решения владельца.
+- Live-изменение 26.11 по делегированию владельца: модуль Merchant API — классификатор метки 4 `ads-gate-v2` (положительный список категорий, policy hold из ежедневной проверки Merchant API, fail-closed) + cron `policy_sweep` 03:20. Кампании/ставки/бюджеты не менялись. Сверка v2 в Google — раздел «Сверка v2» ревизии.
+- Учтено ядро запросов Marketing Miner (01b).
+
+_Ранее:_
 **Круг 5, ход 2 завершён. Следующий — Claude Code, ход 3.**
 Порядок владельца: **Claude Code → ChatGPT → Claude Code → ChatGPT → решение владельца**. Cowork/Gemini не обязательные этапы этого круга.
 

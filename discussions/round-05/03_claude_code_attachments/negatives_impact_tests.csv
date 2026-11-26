@@ -1,0 +1,18 @@
+query,expected,account_now,account_after,result,note
+kde je predajňa sonata optics,reach ads,BROAD:kde,-,PASS,store question (ChatGPT): must not be blocked
+kde kúpiť leica trinovid 10x42 hd,reach ads,BROAD:kde,-,PASS,model + where to buy
+kde kupit dalekohlad bratislava,reach ads,BROAD:kde,-,PASS,"category + where to buy, unaccented"
+leica trinovid 10x42 popis,reach ads,BROAD:popis,-,PASS,model + description
+ako vybrať ďalekohľad leica,reach ads,-,-,PASS,"model choice (research), allowed by owner direction? stays blocked only by own campaign negatives"
+ďalekohľad leica s puzdrom,reach ads,-,-,PASS,device + kit
+puzdro na ďalekohľad,reach ads,-,-,PASS,accessory sale: must reach accessory Shopping
+dalekohlad lacno,reach ads,BROAD:lacno,-,PASS,cheap intent (owner direction)
+lupa na čítanie pre slabozrakých,reach ads,BROAD:slabozrakých,-,PASS,magnifier for low vision
+dron s termokamerou,reach ads,-,-,PASS,sold drones
+nocne videnie na pusku,blocked,-,PHRASE:na pusku,PASS,weapon wording must be blocked
+nočné videnie na puškohľad,blocked,-,PHRASE:na puškohľad;BROAD:puškohľad,PASS,weapon wording must be blocked
+dalekohlad na vzduchovku,blocked,-,PHRASE:na vzduchovku,PASS,weapon wording must be blocked
+meteostanica alza,blocked,-,BROAD:alza,PASS,competitor navigation
+ďalekohľad bazár,blocked,-,BROAD:bazár,PASS,used
+predám ďalekohľad,blocked,-,BROAD:predám,PASS,used
+teleskop pre deti dracik,blocked,BROAD:dracik,BROAD:dracik,PASS,competitor navigation
