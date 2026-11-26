@@ -1,0 +1,10 @@
+FAIL manual approval survives JSON load and label: expected=ads_ok actual=ads_review
+PASS safe positive control: expected=ads_ok actual=ads_ok
+PASS fresh policy hold control: expected=ads_hold actual=ads_hold
+FAIL known hold retained after policy expiry: expected=ads_hold actual=ads_review
+FAIL incomplete policy schema fails closed: expected=ads_review actual=ads_ok
+FAIL manual ok cannot bypass required link: expected=ads_review actual=ads_ok
+FAIL conflicting manual review overrides manual ok: expected=ads_review actual=ads_ok
+FAIL changed root invalidates approval: expected=ads_review actual=ads_ok
+FAIL any policy_violation remains a hard flag: expected=hold actual=missing
+2/9 PASS; 7 failures expose current implementation gaps
