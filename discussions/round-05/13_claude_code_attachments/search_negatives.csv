@@ -1,0 +1,54 @@
+campaign,match_type,negative,reason
+SO27 | SEARCH | Kategórie,PHRASE,bresser,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,bushnell,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,celestron,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,delta,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,discovery,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,euromex,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,explore scientific,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,hikmicro,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,kelvin,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,kern,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,leica,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,levenhuk,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,magus,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,meopta,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,minox,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,national geographic,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,nikon,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,omegon,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,pulsar,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,sky-watcher,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,skywatcher,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,sky watcher,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,swarovski,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,vixen,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,vortex,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,william optics,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,zeiss,brand queries go to Značky a modely or nowhere
+SO27 | SEARCH | Kategórie,PHRASE,bratislava,store queries go to Predajňa
+SO27 | SEARCH | Značky a modely,PHRASE,bratislava,store queries go to Predajňa
+SO27 | SEARCH | Kategórie,PHRASE,predajna,store queries go to Predajňa
+SO27 | SEARCH | Značky a modely,PHRASE,predajna,store queries go to Predajňa
+SO27 | SEARCH | Kategórie,PHRASE,predajňa,store queries go to Predajňa
+SO27 | SEARCH | Značky a modely,PHRASE,predajňa,store queries go to Predajňa
+SO27 | SEARCH | Kategórie,PHRASE,sonata optics,store queries go to Predajňa
+SO27 | SEARCH | Značky a modely,PHRASE,sonata optics,store queries go to Predajňa
+SO27 | SEARCH | Kategórie,PHRASE,nocnym videnim,night vision / thermal / rangefinder are not in this campaign (gate review)
+SO27 | SEARCH | Kategórie,PHRASE,nočným videním,night vision / thermal / rangefinder are not in this campaign (gate review)
+SO27 | SEARCH | Kategórie,PHRASE,nocne videnie,night vision / thermal / rangefinder are not in this campaign (gate review)
+SO27 | SEARCH | Kategórie,PHRASE,nočné videnie,night vision / thermal / rangefinder are not in this campaign (gate review)
+SO27 | SEARCH | Kategórie,PHRASE,termo,night vision / thermal / rangefinder are not in this campaign (gate review)
+SO27 | SEARCH | Kategórie,PHRASE,termovizia,night vision / thermal / rangefinder are not in this campaign (gate review)
+SO27 | SEARCH | Kategórie,PHRASE,termovízia,night vision / thermal / rangefinder are not in this campaign (gate review)
+SO27 | SEARCH | Kategórie,PHRASE,dialkomer,night vision / thermal / rangefinder are not in this campaign (gate review)
+SO27 | SEARCH | Kategórie,PHRASE,diaľkomer,night vision / thermal / rangefinder are not in this campaign (gate review)
+SO27 | SEARCH | Kategórie,PHRASE,infra,night vision / thermal / rangefinder are not in this campaign (gate review)
+SO27 | SEARCH | Značky a modely,PHRASE,seestar,smart telescopes: Stellarscope after cutover; not bought in SO27 Search
+SO27 | SEARCH | Značky a modely,PHRASE,dwarf,smart telescopes: Stellarscope after cutover; not bought in SO27 Search
+SO27 | SEARCH | Značky a modely,PHRASE,dwarflab,smart telescopes: Stellarscope after cutover; not bought in SO27 Search
+SO27 | SEARCH | Značky a modely,PHRASE,unistellar,smart telescopes: Stellarscope after cutover; not bought in SO27 Search
+SO27 | SEARCH | Značky a modely,PHRASE,vaonis,smart telescopes: Stellarscope after cutover; not bought in SO27 Search
+SO27 | SEARCH | Značky a modely,PHRASE,vespera,smart telescopes: Stellarscope after cutover; not bought in SO27 Search
+SO27 | SEARCH | Značky a modely,PHRASE,evscope,smart telescopes: Stellarscope after cutover; not bought in SO27 Search
+SO27 | SEARCH | Značky a modely,PHRASE,celestron origin,smart telescopes: Stellarscope after cutover; not bought in SO27 Search

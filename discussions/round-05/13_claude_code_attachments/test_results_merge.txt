@@ -1,0 +1,41 @@
+# 2026-11-26T20:00:04Z temp dir outside webroot; v2 = copy of LIVE AdsGate.php sha256 6b2f4d5e3e5ed24a
+## PHP 8.1.34 rollback scenarios with strict merge
+PASS after deploy: v3.2 labels new hold X expected=ads_hold actual=ads_hold
+PASS UNSAFE old rollback (restore backups, delete sticky): X leaks with v2 code expected=ads_ok actual=ads_ok
+PASS SAFE rollback: v2 code sees merged hold X expected=ads_hold actual=ads_hold
+PASS SAFE rollback: v2 still holds X after policy snapshot is 4 days old expected=ads_hold actual=ads_hold
+PASS SAFE rollback: v2 clean product unaffected expected=ads_ok actual=ads_ok
+PASS roll-forward again to v3.2 after merge: X still hold expected=ads_hold actual=ads_hold
+PASS unreadable sticky: merge refuses with exit 2 expected=2 actual=2
+PASS unreadable sticky: register unchanged expected=130f8ce05a3247ea0cc1a1f3e152df82  - actual=130f8ce05a3247ea0cc1a1f3e152df82  -
+PASS scope rollback model: no review/hold product served in any intermediate state expected=ok actual=ok
+9/9 PASS
+## PHP 8.0.30 rollback scenarios with strict merge
+PASS after deploy: v3.2 labels new hold X expected=ads_hold actual=ads_hold
+PASS UNSAFE old rollback (restore backups, delete sticky): X leaks with v2 code expected=ads_ok actual=ads_ok
+PASS SAFE rollback: v2 code sees merged hold X expected=ads_hold actual=ads_hold
+PASS SAFE rollback: v2 still holds X after policy snapshot is 4 days old expected=ads_hold actual=ads_hold
+PASS SAFE rollback: v2 clean product unaffected expected=ads_ok actual=ads_ok
+PASS roll-forward again to v3.2 after merge: X still hold expected=ads_hold actual=ads_hold
+PASS unreadable sticky: merge refuses with exit 2 expected=2 actual=2
+PASS unreadable sticky: register unchanged expected=6acc5024140c40c1607e7da16fc1945e  - actual=6acc5024140c40c1607e7da16fc1945e  -
+PASS scope rollback model: no review/hold product served in any intermediate state expected=ok actual=ok
+9/9 PASS
+## python3 Python 3.12.3 ChatGPT schema cases
+PASS sticky= {} exit= 2 unchanged= True expected exit=2 unchanged=True
+PASS sticky= {'version': 3, 'hold': None} exit= 2 unchanged= True expected exit=2 unchanged=True
+PASS sticky= None exit= 2 unchanged= True expected exit=2 unchanged=True
+3/3 PASS
+## extra schema cases
+PASS register JSON null exit 2 written False added None
+PASS policy hold null exit 2 written False added None
+PASS policy hold missing exit 2 written False added None
+PASS sticky v3 foreign context exit 2 written False added None
+PASS sticky v3 hold as list exit 2 written False added None
+PASS sticky unknown version 9 exit 2 written False added None
+PASS sticky hold entry without codes exit 2 written False added None
+PASS register v3 without context exit 2 written False added None
+PASS valid: sticky absent, empty v3 policy exit 0 written True added 0
+PASS valid: v2 snapshot with documented empty [] exit 0 written True added 0
+PASS valid: sticky with one hold exit 0 written True added 1
+11/11 PASS

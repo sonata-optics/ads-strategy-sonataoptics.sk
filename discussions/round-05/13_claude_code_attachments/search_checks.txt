@@ -1,0 +1,233 @@
+PASS headlines 3..15, <=30: Teleskopy (15, max 28)
+PASS descriptions 2..4, <=90: Teleskopy (4, max 79)
+PASS unique headlines: Teleskopy
+PASS no banned claims/words: Teleskopy []
+PASS headlines 3..15, <=30: Hvezdárske ďalekohľady (15, max 28)
+PASS descriptions 2..4, <=90: Hvezdárske ďalekohľady (4, max 79)
+PASS unique headlines: Hvezdárske ďalekohľady
+PASS no banned claims/words: Hvezdárske ďalekohľady []
+PASS headlines 3..15, <=30: Teleskopy pre deti (15, max 28)
+PASS descriptions 2..4, <=90: Teleskopy pre deti (4, max 79)
+PASS unique headlines: Teleskopy pre deti
+PASS no banned claims/words: Teleskopy pre deti []
+PASS headlines 3..15, <=30: Ďalekohľady (15, max 30)
+PASS descriptions 2..4, <=90: Ďalekohľady (4, max 83)
+PASS unique headlines: Ďalekohľady
+PASS no banned claims/words: Ďalekohľady []
+PASS headlines 3..15, <=30: Ďalekohľady 10x50 a 10x42 (15, max 30)
+PASS descriptions 2..4, <=90: Ďalekohľady 10x50 a 10x42 (4, max 83)
+PASS unique headlines: Ďalekohľady 10x50 a 10x42
+PASS no banned claims/words: Ďalekohľady 10x50 a 10x42 []
+PASS headlines 3..15, <=30: Astronomické binokuláre (15, max 30)
+PASS descriptions 2..4, <=90: Astronomické binokuláre (4, max 83)
+PASS unique headlines: Astronomické binokuláre
+PASS no banned claims/words: Astronomické binokuláre []
+PASS headlines 3..15, <=30: Detské ďalekohľady (15, max 30)
+PASS descriptions 2..4, <=90: Detské ďalekohľady (4, max 83)
+PASS unique headlines: Detské ďalekohľady
+PASS no banned claims/words: Detské ďalekohľady []
+PASS headlines 3..15, <=30: Mikroskopy (15, max 30)
+PASS descriptions 2..4, <=90: Mikroskopy (4, max 78)
+PASS unique headlines: Mikroskopy
+PASS no banned claims/words: Mikroskopy []
+PASS headlines 3..15, <=30: Mikroskopy pre deti a školské (15, max 30)
+PASS descriptions 2..4, <=90: Mikroskopy pre deti a školské (4, max 78)
+PASS unique headlines: Mikroskopy pre deti a školské
+PASS no banned claims/words: Mikroskopy pre deti a školské []
+PASS headlines 3..15, <=30: Digitálne mikroskopy (15, max 30)
+PASS descriptions 2..4, <=90: Digitálne mikroskopy (4, max 78)
+PASS unique headlines: Digitálne mikroskopy
+PASS no banned claims/words: Digitálne mikroskopy []
+PASS headlines 3..15, <=30: Stereomikroskopy (15, max 30)
+PASS descriptions 2..4, <=90: Stereomikroskopy (4, max 78)
+PASS unique headlines: Stereomikroskopy
+PASS no banned claims/words: Stereomikroskopy []
+PASS headlines 3..15, <=30: Teleskopy | Sky-Watcher (10, max 27)
+PASS descriptions 2..4, <=90: Teleskopy | Sky-Watcher (3, max 78)
+PASS unique headlines: Teleskopy | Sky-Watcher
+PASS no banned claims/words: Teleskopy | Sky-Watcher []
+PASS headlines 3..15, <=30: Teleskopy | Celestron (10, max 26)
+PASS descriptions 2..4, <=90: Teleskopy | Celestron (3, max 78)
+PASS unique headlines: Teleskopy | Celestron
+PASS no banned claims/words: Teleskopy | Celestron []
+PASS headlines 3..15, <=30: Teleskopy | Omegon (10, max 26)
+PASS descriptions 2..4, <=90: Teleskopy | Omegon (3, max 78)
+PASS unique headlines: Teleskopy | Omegon
+PASS no banned claims/words: Teleskopy | Omegon []
+PASS headlines 3..15, <=30: Teleskopy | Levenhuk (11, max 30)
+PASS descriptions 2..4, <=90: Teleskopy | Levenhuk (4, max 78)
+PASS unique headlines: Teleskopy | Levenhuk
+PASS no banned claims/words: Teleskopy | Levenhuk []
+PASS headlines 3..15, <=30: Teleskopy | Bresser (10, max 26)
+PASS descriptions 2..4, <=90: Teleskopy | Bresser (3, max 78)
+PASS unique headlines: Teleskopy | Bresser
+PASS no banned claims/words: Teleskopy | Bresser []
+PASS headlines 3..15, <=30: Teleskopy | William Optics (10, max 30)
+PASS descriptions 2..4, <=90: Teleskopy | William Optics (3, max 81)
+PASS unique headlines: Teleskopy | William Optics
+PASS no banned claims/words: Teleskopy | William Optics []
+PASS headlines 3..15, <=30: Teleskopy | Vixen (10, max 26)
+PASS descriptions 2..4, <=90: Teleskopy | Vixen (3, max 78)
+PASS unique headlines: Teleskopy | Vixen
+PASS no banned claims/words: Teleskopy | Vixen []
+PASS headlines 3..15, <=30: Teleskopy | National Geographic (10, max 30)
+PASS descriptions 2..4, <=90: Teleskopy | National Geographic (3, max 86)
+PASS unique headlines: Teleskopy | National Geographic
+PASS no banned claims/words: Teleskopy | National Geographic []
+PASS headlines 3..15, <=30: Teleskopy | Explore Scientific (10, max 30)
+PASS descriptions 2..4, <=90: Teleskopy | Explore Scientific (3, max 85)
+PASS unique headlines: Teleskopy | Explore Scientific
+PASS no banned claims/words: Teleskopy | Explore Scientific []
+PASS headlines 3..15, <=30: Teleskopy | Discovery (10, max 26)
+PASS descriptions 2..4, <=90: Teleskopy | Discovery (3, max 78)
+PASS unique headlines: Teleskopy | Discovery
+PASS no banned claims/words: Teleskopy | Discovery []
+PASS headlines 3..15, <=30: Ďalekohľady | Levenhuk (11, max 30)
+PASS descriptions 2..4, <=90: Ďalekohľady | Levenhuk (4, max 78)
+PASS unique headlines: Ďalekohľady | Levenhuk
+PASS no banned claims/words: Ďalekohľady | Levenhuk []
+PASS headlines 3..15, <=30: Ďalekohľady | Omegon (10, max 26)
+PASS descriptions 2..4, <=90: Ďalekohľady | Omegon (3, max 78)
+PASS unique headlines: Ďalekohľady | Omegon
+PASS no banned claims/words: Ďalekohľady | Omegon []
+PASS headlines 3..15, <=30: Ďalekohľady | Bresser (10, max 26)
+PASS descriptions 2..4, <=90: Ďalekohľady | Bresser (3, max 78)
+PASS unique headlines: Ďalekohľady | Bresser
+PASS no banned claims/words: Ďalekohľady | Bresser []
+PASS headlines 3..15, <=30: Ďalekohľady | Leica (11, max 27)
+PASS descriptions 2..4, <=90: Ďalekohľady | Leica (4, max 78)
+PASS unique headlines: Ďalekohľady | Leica
+PASS no banned claims/words: Ďalekohľady | Leica []
+PASS headlines 3..15, <=30: Ďalekohľady | Zeiss (10, max 26)
+PASS descriptions 2..4, <=90: Ďalekohľady | Zeiss (3, max 78)
+PASS unique headlines: Ďalekohľady | Zeiss
+PASS no banned claims/words: Ďalekohľady | Zeiss []
+PASS headlines 3..15, <=30: Ďalekohľady | Minox (10, max 26)
+PASS descriptions 2..4, <=90: Ďalekohľady | Minox (3, max 78)
+PASS unique headlines: Ďalekohľady | Minox
+PASS no banned claims/words: Ďalekohľady | Minox []
+PASS headlines 3..15, <=30: Ďalekohľady | Celestron (10, max 26)
+PASS descriptions 2..4, <=90: Ďalekohľady | Celestron (3, max 78)
+PASS unique headlines: Ďalekohľady | Celestron
+PASS no banned claims/words: Ďalekohľady | Celestron []
+PASS headlines 3..15, <=30: Ďalekohľady | Vortex (10, max 26)
+PASS descriptions 2..4, <=90: Ďalekohľady | Vortex (3, max 78)
+PASS unique headlines: Ďalekohľady | Vortex
+PASS no banned claims/words: Ďalekohľady | Vortex []
+PASS headlines 3..15, <=30: Ďalekohľady | Delta (10, max 26)
+PASS descriptions 2..4, <=90: Ďalekohľady | Delta (3, max 78)
+PASS unique headlines: Ďalekohľady | Delta
+PASS no banned claims/words: Ďalekohľady | Delta []
+PASS headlines 3..15, <=30: Ďalekohľady | National Geographic (10, max 30)
+PASS descriptions 2..4, <=90: Ďalekohľady | National Geographic (3, max 88)
+PASS unique headlines: Ďalekohľady | National Geographic
+PASS no banned claims/words: Ďalekohľady | National Geographic []
+PASS headlines 3..15, <=30: Ďalekohľady | Discovery (10, max 26)
+PASS descriptions 2..4, <=90: Ďalekohľady | Discovery (3, max 78)
+PASS unique headlines: Ďalekohľady | Discovery
+PASS no banned claims/words: Ďalekohľady | Discovery []
+PASS headlines 3..15, <=30: Ďalekohľady | Meopta (11, max 28)
+PASS descriptions 2..4, <=90: Ďalekohľady | Meopta (4, max 78)
+PASS unique headlines: Ďalekohľady | Meopta
+PASS no banned claims/words: Ďalekohľady | Meopta []
+PASS headlines 3..15, <=30: Mikroskopy | Euromex (10, max 26)
+PASS descriptions 2..4, <=90: Mikroskopy | Euromex (3, max 78)
+PASS unique headlines: Mikroskopy | Euromex
+PASS no banned claims/words: Mikroskopy | Euromex []
+PASS headlines 3..15, <=30: Mikroskopy | Kern (10, max 26)
+PASS descriptions 2..4, <=90: Mikroskopy | Kern (3, max 78)
+PASS unique headlines: Mikroskopy | Kern
+PASS no banned claims/words: Mikroskopy | Kern []
+PASS headlines 3..15, <=30: Mikroskopy | Bresser (10, max 26)
+PASS descriptions 2..4, <=90: Mikroskopy | Bresser (3, max 78)
+PASS unique headlines: Mikroskopy | Bresser
+PASS no banned claims/words: Mikroskopy | Bresser []
+PASS headlines 3..15, <=30: Mikroskopy | MAGUS (10, max 26)
+PASS descriptions 2..4, <=90: Mikroskopy | MAGUS (3, max 78)
+PASS unique headlines: Mikroskopy | MAGUS
+PASS no banned claims/words: Mikroskopy | MAGUS []
+PASS headlines 3..15, <=30: Mikroskopy | Levenhuk (11, max 30)
+PASS descriptions 2..4, <=90: Mikroskopy | Levenhuk (4, max 78)
+PASS unique headlines: Mikroskopy | Levenhuk
+PASS no banned claims/words: Mikroskopy | Levenhuk []
+PASS headlines 3..15, <=30: Mikroskopy | Omegon (10, max 26)
+PASS descriptions 2..4, <=90: Mikroskopy | Omegon (3, max 78)
+PASS unique headlines: Mikroskopy | Omegon
+PASS no banned claims/words: Mikroskopy | Omegon []
+PASS headlines 3..15, <=30: Mikroskopy | Kelvin (10, max 26)
+PASS descriptions 2..4, <=90: Mikroskopy | Kelvin (3, max 78)
+PASS unique headlines: Mikroskopy | Kelvin
+PASS no banned claims/words: Mikroskopy | Kelvin []
+PASS headlines 3..15, <=30: Mikroskopy | Discovery (10, max 26)
+PASS descriptions 2..4, <=90: Mikroskopy | Discovery (3, max 78)
+PASS unique headlines: Mikroskopy | Discovery
+PASS no banned claims/words: Mikroskopy | Discovery []
+PASS headlines 3..15, <=30: Model | Celestron AstroMaster 114EQ (8, max 30)
+PASS descriptions 2..4, <=90: Model | Celestron AstroMaster 114EQ (4, max 76)
+PASS unique headlines: Model | Celestron AstroMaster 114EQ
+PASS no banned claims/words: Model | Celestron AstroMaster 114EQ []
+PASS headlines 3..15, <=30: Model | Celestron StarSense LT 70AZ (8, max 30)
+PASS descriptions 2..4, <=90: Model | Celestron StarSense LT 70AZ (4, max 76)
+PASS unique headlines: Model | Celestron StarSense LT 70AZ
+PASS no banned claims/words: Model | Celestron StarSense LT 70AZ []
+PASS headlines 3..15, <=30: Model | Celestron C8 XLT OTA (8, max 27)
+PASS descriptions 2..4, <=90: Model | Celestron C8 XLT OTA (4, max 76)
+PASS unique headlines: Model | Celestron C8 XLT OTA
+PASS no banned claims/words: Model | Celestron C8 XLT OTA []
+PASS headlines 3..15, <=30: Model | Sky-Watcher Explorer 130 EQ2 (8, max 30)
+PASS descriptions 2..4, <=90: Model | Sky-Watcher Explorer 130 EQ2 (4, max 76)
+PASS unique headlines: Model | Sky-Watcher Explorer 130 EQ2
+PASS no banned claims/words: Model | Sky-Watcher Explorer 130 EQ2 []
+PASS headlines 3..15, <=30: Model | Bresser Messier AR-127S (8, max 30)
+PASS descriptions 2..4, <=90: Model | Bresser Messier AR-127S (4, max 76)
+PASS unique headlines: Model | Bresser Messier AR-127S
+PASS no banned claims/words: Model | Bresser Messier AR-127S []
+PASS headlines 3..15, <=30: Model | National Geographic 114/900 (8, max 30)
+PASS descriptions 2..4, <=90: Model | National Geographic 114/900 (4, max 76)
+PASS unique headlines: Model | National Geographic 114/900
+PASS no banned claims/words: Model | National Geographic 114/900 []
+PASS headlines 3..15, <=30: Model | Bresser Junior 70/900 (8, max 28)
+PASS descriptions 2..4, <=90: Model | Bresser Junior 70/900 (4, max 76)
+PASS unique headlines: Model | Bresser Junior 70/900
+PASS no banned claims/words: Model | Bresser Junior 70/900 []
+PASS headlines 3..15, <=30: Model | Vortex Crossfire HD 12x50 (8, max 30)
+PASS descriptions 2..4, <=90: Model | Vortex Crossfire HD 12x50 (4, max 76)
+PASS unique headlines: Model | Vortex Crossfire HD 12x50
+PASS no banned claims/words: Model | Vortex Crossfire HD 12x50 []
+PASS headlines 3..15, <=30: Model | Bresser Condor 10x42 (8, max 27)
+PASS descriptions 2..4, <=90: Model | Bresser Condor 10x42 (4, max 76)
+PASS unique headlines: Model | Bresser Condor 10x42
+PASS no banned claims/words: Model | Bresser Condor 10x42 []
+PASS headlines 3..15, <=30: Model | Levenhuk Karma PLUS 10x42 (8, max 30)
+PASS descriptions 2..4, <=90: Model | Levenhuk Karma PLUS 10x42 (4, max 76)
+PASS unique headlines: Model | Levenhuk Karma PLUS 10x42
+PASS no banned claims/words: Model | Levenhuk Karma PLUS 10x42 []
+PASS headlines 3..15, <=30: Model | Bresser Erudit Basic Bino (8, max 30)
+PASS descriptions 2..4, <=90: Model | Bresser Erudit Basic Bino (4, max 76)
+PASS unique headlines: Model | Bresser Erudit Basic Bino
+PASS no banned claims/words: Model | Bresser Erudit Basic Bino []
+PASS headlines 3..15, <=30: Model | Omegon Binofield (8, max 26)
+PASS descriptions 2..4, <=90: Model | Omegon Binofield (4, max 76)
+PASS unique headlines: Model | Omegon Binofield
+PASS no banned claims/words: Model | Omegon Binofield []
+PASS headlines 3..15, <=30: Predajňa – značka a adresa (10, max 25)
+PASS descriptions 2..4, <=90: Predajňa – značka a adresa (3, max 79)
+PASS unique headlines: Predajňa – značka a adresa
+PASS no banned claims/words: Predajňa – značka a adresa []
+PASS headlines 3..15, <=30: Predajňa – teleskopy a mikroskopy (10, max 25)
+PASS descriptions 2..4, <=90: Predajňa – teleskopy a mikroskopy (3, max 79)
+PASS unique headlines: Predajňa – teleskopy a mikroskopy
+PASS no banned claims/words: Predajňa – teleskopy a mikroskopy []
+PASS headlines 3..15, <=30: Predajňa – ďalekohľady (10, max 25)
+PASS descriptions 2..4, <=90: Predajňa – ďalekohľady (3, max 79)
+PASS unique headlines: Predajňa – ďalekohľady
+PASS no banned claims/words: Predajňa – ďalekohľady []
+PASS headlines 3..15, <=30: Predajňa – poradenstvo a osobný odber (10, max 25)
+PASS descriptions 2..4, <=90: Predajňa – poradenstvo a osobný odber (3, max 79)
+PASS unique headlines: Predajňa – poradenstvo a osobný odber
+PASS no banned claims/words: Predajňa – poradenstvo a osobný odber []
+PASS no keyword in two ad groups of one campaign: []
+PASS own campaign negatives do not block own keywords: []
+PASS account-level list (after diff) does not block package keywords: []
+PASS landing pages: 53/53 (HTTP 200, no redirect, >=1 product / buyable PDP)
+keywords 408, ad groups 57, negatives 53; checks 232/232 PASS
