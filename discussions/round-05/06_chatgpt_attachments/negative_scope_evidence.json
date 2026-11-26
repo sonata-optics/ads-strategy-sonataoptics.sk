@@ -1,0 +1,76 @@
+{
+  "checked_at_utc": "2026-11-26T18:48:59.409Z",
+  "mode": "READ_ONLY",
+  "account_identifiers": "omitted",
+  "queries": [
+    {
+      "gaql": "SELECT campaign.name, campaign.status, campaign_shared_set.shared_set, campaign_shared_set.status FROM campaign_shared_set",
+      "result": {
+        "rows": 18,
+        "enabled_campaign_links": 0,
+        "all_campaigns": "PAUSED or REMOVED"
+      }
+    },
+    {
+      "gaql": "SELECT customer_negative_criterion.type, customer_negative_criterion.negative_keyword_list.shared_set FROM customer_negative_criterion WHERE customer_negative_criterion.type = 'NEGATIVE_KEYWORD_LIST'",
+      "result": {
+        "rows": 1,
+        "shared_set_pointer": "present; redacted"
+      }
+    },
+    {
+      "gaql": "SELECT shared_set.id, shared_set.type, shared_set.status, shared_set.member_count FROM shared_set WHERE shared_set.id = <returned_shared_set_id>",
+      "result": {
+        "type": "ACCOUNT_LEVEL_NEGATIVE_KEYWORDS",
+        "status": "ENABLED",
+        "member_count": "0"
+      }
+    },
+    {
+      "gaql": "SELECT shared_set.id, shared_set.name, shared_criterion.keyword.text, shared_criterion.keyword.match_type FROM shared_criterion WHERE shared_set.id = <returned_shared_set_id>",
+      "result": {
+        "rows": 258,
+        "examples": [
+          {
+            "text": "kde",
+            "match": "BROAD"
+          },
+          {
+            "text": "lacno",
+            "match": "BROAD"
+          },
+          {
+            "text": "popis",
+            "match": "BROAD"
+          },
+          {
+            "text": "aký",
+            "match": "BROAD"
+          },
+          {
+            "text": "ake",
+            "match": "BROAD"
+          },
+          {
+            "text": "funguje",
+            "match": "BROAD"
+          },
+          {
+            "text": "keyword_text",
+            "match": "BROAD"
+          }
+        ]
+      }
+    },
+    {
+      "gaql": "SELECT shared_set.id, shared_set.type, shared_criterion.keyword.text, shared_criterion.keyword.match_type FROM shared_criterion WHERE shared_set.id = <returned_shared_set_id> AND shared_criterion.keyword.text IN ('kde','lacno','popis')",
+      "result": {
+        "rows": 3,
+        "type": "ACCOUNT_LEVEL_NEGATIVE_KEYWORDS",
+        "all_three": "present"
+      }
+    }
+  ],
+  "conclusion": "Account-level list is linked and returns actual keyword entries. Absence of campaign_shared_set links does not imply absence of account-wide keyword exclusions.",
+  "limitation": "member_count=0 conflicts with direct shared_criterion enumeration. Cause not established; recheck enumeration/UI before applying changes. No writes performed."
+}

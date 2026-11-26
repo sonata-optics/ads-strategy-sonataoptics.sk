@@ -1,0 +1,12 @@
+PASS safe valid control expected="ads_ok" actual="ads_ok"
+FAIL strict complete boolean and positive coverage expected="ads_review" actual="ads_ok"
+FAIL unknown future schema rejected expected="ads_review" actual="ads_ok"
+FAIL unbound v2 snapshot requires explicit migration context expected="ads_review" actual="ads_ok"
+FAIL cache distinguishes sticky path expected="ads_hold" actual="ads_ok"
+FAIL cached policy expires in long-lived process expected="ads_review" actual="ads_ok"
+FAIL missing productStatus cannot release a known hold expected=true actual=false
+FAIL migration preserves prior-snapshot unseen hold expected="ads_hold" actual="ads_ok"
+FAIL failed sticky write leaves prior snapshot unchanged expected=true actual=false
+FAIL malformed final page cannot claim complete coverage expected=true actual=false
+FAIL malformed issue cannot release known hold expected=true actual=false
+1/11 PASS; 10 failures
