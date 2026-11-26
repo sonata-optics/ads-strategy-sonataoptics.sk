@@ -1,0 +1,8 @@
+FAIL corrupt existing sticky must fail closed expected="ads_review" actual="ads_ok"
+FAIL known policy flag survives malformed sibling expected="ads_hold" actual="ads_review"
+FAIL string false is not explicit migration approval expected="ads_review" actual="ads_ok"
+3/3 adversarial failures
+PASS second rename failure throws expected=true actual=true
+PASS second rename failure preserves old snapshot expected=true actual=true
+PASS new hold survives interrupted pair commit expected="ads_hold" actual="ads_hold"
+3/6 adversarial PASS; 3 FAIL

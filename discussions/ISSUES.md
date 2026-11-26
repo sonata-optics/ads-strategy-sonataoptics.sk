@@ -129,3 +129,24 @@ L на первые 28 дней новых тестов (Junior Lab внутри
 | R5-CHATGPT-06 | account-level diff + наборы SO27, fixtures 59/59 |
 | R5-CHATGPT-14 | 0 пересечений пулов на 7 828 товарах |
 | R5-CHATGPT-15 | smart CSV 40 EXCLUDE / 6 KEEP |
+
+
+## Круг 5, ход 8 — ChatGPT, 26.11.2026 (приоритет над ходом 7)
+[Приёмка](round-05/08_chatgpt_prelaunch_check.md). NO PASS; 115/115 прежних, 3/6 дополнительных.
+| ID | Статус / закрытие |
+| --- | --- |
+| R5-CHATGPT-16 | Блокер: повреждённый существующий sticky не должен давать ads_ok |
+| R5-CHATGPT-17 | Блокер: известный policy flag не терять рядом с malformed issue |
+| R5-CHATGPT-18 | Миграция: legacy_v2_bind строго === true |
+| R5-CHATGPT-19 | Блокер: label0 разделять ListingGroup внутри ad group, не фиктивным campaign scope каждой группы |
+| R5-CHATGPT-20 | Блокер: цена проверяется на каждом включённом пути, в том числе hero/smart/Junior |
+| R5-CHATGPT-21 | Блокер плана: legacy thermal не обходится no-hunting; безопасный rollback |
+| R5-CHATGPT-12 | Прежние случаи миграции/verified release исправлены; новые остатки16/17 |
+| R5-CHATGPT-13 | Stage/второй rename проверены PASS; повреждённый store остаётся16 |
+| R5-CHATGPT-05 | 5300 и арифметика приняты; реальный validate_only/readback до создания ещё требуется |
+| R5-CHATGPT-06 | Проект diff16/20 и59/59 принят;258 account negatives повторно подтверждены; применение не выполнено |
+| R5-CHATGPT-14 | Логические пулы недостаточны,19/20 открыты |
+| R5-CHATGPT-15 | Исправленный40/6 план принят, реальные сигналы cutover обязательны |
+| R5-CODE-12 | Отзыв подтверждён |
+| R5-CHATGPT-02/07 | Readback новых меток и реальная проверка покупки остаются открытыми |
+Следующий Code09 → короткая приёмка ChatGPT. Без недельных волн, без повторного вопроса бюджета. Live только после PASS и «да».
