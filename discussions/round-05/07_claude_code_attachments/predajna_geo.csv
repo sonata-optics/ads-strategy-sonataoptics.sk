@@ -1,0 +1,25 @@
+geo_target_constant_id,name,type,use
+9062586,Bratislava Region,Region,"OPTION A (recommended): whole region, bounded inside SK, covers all listed suburbs incl. those without own geo id"
+9062578,Bratislava,City,current target; keep in both options
+9257144,Stupava,Municipality,B
+9257620,Marianka,Municipality,B
+1012141,Svaty Jur,City,B
+9220173,Pezinok,City,B
+9208696,Senec,City,B (two Senec ids exist: 9208696 and 9196616 - use both or the region)
+9196616,Senec,City,B
+9209569,Bernolakovo,City,B
+9240757,Ivanka pri Dunaji,Municipality,B
+9234750,Chorvatsky Grob,Municipality,B
+9228633,Rovinka,Municipality,B
+9247856,Dunajska Luzna,Municipality,B
+9225806,Slovensky Grob,Municipality,B
+9258507,Limbach,Municipality,B
+9211608,Modra,City,B
+9240403,Hamuliakovo,Municipality,B
+9230374,Kalinkovo,Municipality,B
+9254589,Lozorno,Municipality,B
+9243744,Zohor,Municipality,B
+9226641,Vinicne,Municipality,B
+-,Most pri Bratislave,-,NO geo id in Google (read 26.11) -> only covered by option A
+-,Miloslavov,-,NO geo id -> only option A
+-,Samorin,-,"Trnava Region, not in list; add only by owner decision"

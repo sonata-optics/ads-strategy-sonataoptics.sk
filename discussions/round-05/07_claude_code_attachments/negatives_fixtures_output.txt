@@ -1,0 +1,23 @@
+account list 258 -> after diff 262 | REMOVE entries not found in live list: []
+PASS shopping_core kde kupit dalekohlad | now: BROAD:kde | after: -
+PASS shopping_core kde kúpiť ďalekohľad | now: BROAD:kde | after: -
+PASS shopping_core kde je predajna sonata optics | now: BROAD:kde | after: -
+PASS shopping_core kde je predajňa sonata optics | now: BROAD:kde | after: -
+PASS predajna kde je predajna sonata optics bratislava | now: BROAD:kde | after: -
+PASS predajna kde je predajňa sonata optics bratislava | now: BROAD:kde | after: -
+PASS shopping_core teleskop lacno | now: BROAD:lacno | after: -
+PASS shopping_core ďalekohľad nie drahé | now: BROAD:nie drahé | after: -
+PASS shopping_core aký teleskop kúpiť | now: BROAD:aký | after: -
+PASS shopping_core ake dalekohlady su najlepsie | now: BROAD:ake | after: -
+PASS shopping_core čo dať dieťaťu na vianoce teleskop | now: BROAD:dať;BROAD:Čo | after: -
+PASS shopping_core mikroskop popis | now: BROAD:popis | after: -
+PASS shopping_core lupa na čítanie pre slabozrakých | now: BROAD:slabozrakých | after: -
+PASS shopping_core dalekohlad s fotoaparatom | now: PHRASE:dalekohlad s fotoaparatom | after: -
+PASS shopping_core dalekohlad s fotoaparatom | now: PHRASE:dalekohlad s fotoaparatom | after: -
+PASS shopping_core ako funguje teleskop | now: BROAD:funguje | after: -
+PASS shopping_core dracik | now: BROAD:dracik | after: EXACT:dracik
+PASS shopping_core dalekohlad bazar | now: BROAD:bazar | after: BROAD:bazar
+PASS shopping_core predam dalekohlad | now: BROAD:predam | after: BROAD:predam
+PASS shopping_core teleskop bazos | now: BROAD:bazos | after: BROAD:bazos
+PASS shopping_core mikroskop porno | now: BROAD:porno | after: BROAD:porno
+fixtures 59 / 59 PASS

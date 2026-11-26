@@ -1,0 +1,114 @@
+level,action,match_type,text,reason,status
+ACCOUNT_LEVEL_LIST,REMOVE,BROAD,kde,04 negative_decisions ACCEPT REMOVE,PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,REMOVE,BROAD,poradiť,04 negative_decisions ACCEPT REMOVE,PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,REMOVE,BROAD,lacno,04 negative_decisions ACCEPT REMOVE,PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,REMOVE,BROAD,nie drahé,04 negative_decisions ACCEPT REMOVE,PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,REMOVE,BROAD,cheap,04 negative_decisions ACCEPT REMOVE,PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,REMOVE,BROAD,popis,04 negative_decisions ACCEPT REMOVE,PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,REMOVE,BROAD,keyword_text,04 negative_decisions ACCEPT REMOVE,PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,REMOVE,BROAD,slabozrakých,04 negative_decisions ACCEPT REMOVE,PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,REMOVE,BROAD,aký,04: early controlled review,PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,REMOVE,BROAD,ake,04: early controlled review,PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,REMOVE,BROAD,funguje,"04: remove global, local only",PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,REMOVE,BROAD,drony,04: remove when route ready - drones are ads_ok in SO27 catch-all,PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,REMOVE,BROAD,Čo,"Code, season: blocks ""čo dať/kúpiť na Vianoce""",PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,REMOVE,BROAD,dať,"Code, season: blocks ""čo dať ... pod stromček""",PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,REMOVE,BROAD,dracik,04: BROAD -> EXACT,PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,REMOVE,PHRASE,dalekohlad s fotoaparatom,04 negative_decisions ACCEPT REMOVE,PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,ADD,BROAD,bazár,used/weapon wording/pure navigation (04),PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,ADD,BROAD,bazoš,used/weapon wording/pure navigation (04),PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,ADD,BROAD,predám,used/weapon wording/pure navigation (04),PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,ADD,PHRASE,na pušku,used/weapon wording/pure navigation (04),PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,ADD,PHRASE,na pusku,used/weapon wording/pure navigation (04),PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,ADD,PHRASE,na puškohľad,used/weapon wording/pure navigation (04),PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,ADD,PHRASE,na puskohlad,used/weapon wording/pure navigation (04),PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,ADD,PHRASE,na gulovnicu,used/weapon wording/pure navigation (04),PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,ADD,PHRASE,na guľovnicu,used/weapon wording/pure navigation (04),PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,ADD,PHRASE,na vzduchovku,used/weapon wording/pure navigation (04),PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,ADD,BROAD,puskohlad,used/weapon wording/pure navigation (04),PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,ADD,BROAD,puškohľad,used/weapon wording/pure navigation (04),PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,ADD,EXACT,alza,used/weapon wording/pure navigation (04),PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,ADD,EXACT,alza sk,used/weapon wording/pure navigation (04),PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,ADD,EXACT,kaufland,used/weapon wording/pure navigation (04),PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,ADD,EXACT,decathlon,used/weapon wording/pure navigation (04),PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,ADD,EXACT,dráčik,used/weapon wording/pure navigation (04),PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,ADD,EXACT,dracik,used/weapon wording/pure navigation (04),PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,ADD,EXACT,allegro,used/weapon wording/pure navigation (04),PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,ADD,EXACT,allegro sk,used/weapon wording/pure navigation (04),PROPOSAL_NOT_APPLIED
+ACCOUNT_LEVEL_LIST,KEEP,BROAD,nevidiacich,04: hold pending product check,unchanged
+ACCOUNT_LEVEL_LIST,KEEP,BROAD,heureka,owner: deferred,unchanged
+ACCOUNT_LEVEL_LIST,KEEP,BROAD,Ktoré,04 temporary keep,unchanged
+ACCOUNT_LEVEL_LIST,KEEP,BROAD,Správny,04 temporary keep,unchanged
+ACCOUNT_LEVEL_LIST,KEEP,BROAD,Nájsť,04 temporary keep,unchanged
+ACCOUNT_LEVEL_LIST,KEEP,BROAD,typy,04 temporary keep,unchanged
+ACCOUNT_LEVEL_LIST,KEEP,BROAD,druhy,04 temporary keep,unchanged
+ACCOUNT_LEVEL_LIST,KEEP,BROAD,stary,04 temporary keep,unchanged
+SO27 list attached to route shopping_core,ADD,PHRASE,pracovné ponuky,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_core,ADD,PHRASE,brigáda,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_core,ADD,PHRASE,dioptrické okuliare,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_core,ADD,PHRASE,dioptricke okuliare,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_core,ADD,PHRASE,kontaktné šošovky,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_core,ADD,PHRASE,kontaktne sosovky,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_core,ADD,PHRASE,očný lekár,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_core,ADD,PHRASE,ocny lekar,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_core,ADD,PHRASE,meranie zraku,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_thermal,ADD,PHRASE,pracovné ponuky,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_thermal,ADD,PHRASE,brigáda,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_thermal,ADD,PHRASE,dioptrické okuliare,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_thermal,ADD,PHRASE,dioptricke okuliare,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_thermal,ADD,PHRASE,kontaktné šošovky,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_thermal,ADD,PHRASE,kontaktne sosovky,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_thermal,ADD,PHRASE,očný lekár,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_thermal,ADD,PHRASE,ocny lekar,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_thermal,ADD,PHRASE,meranie zraku,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_thermal,ADD,PHRASE,poľovníctvo,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_thermal,ADD,PHRASE,polovnictvo,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_thermal,ADD,PHRASE,lovu zdar,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_thermal,ADD,PHRASE,na lov,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_thermal,ADD,PHRASE,poľovnícky,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_thermal,ADD,PHRASE,polovnicky,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_thermal,ADD,PHRASE,na diviaky,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route shopping_thermal,ADD,PHRASE,na diviaka,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_category,ADD,PHRASE,pracovné ponuky,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_category,ADD,PHRASE,brigáda,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_category,ADD,PHRASE,dioptrické okuliare,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_category,ADD,PHRASE,dioptricke okuliare,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_category,ADD,PHRASE,kontaktné šošovky,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_category,ADD,PHRASE,kontaktne sosovky,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_category,ADD,PHRASE,očný lekár,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_category,ADD,PHRASE,ocny lekar,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_category,ADD,PHRASE,meranie zraku,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_category,ADD,PHRASE,návod,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_category,ADD,PHRASE,navod,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_category,ADD,PHRASE,manuál,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_category,ADD,PHRASE,manual,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_category,ADD,PHRASE,pdf,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_category,ADD,PHRASE,oprava,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_category,ADD,PHRASE,servis,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_category,ADD,PHRASE,náhradné diely,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_brand_model,ADD,PHRASE,pracovné ponuky,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_brand_model,ADD,PHRASE,brigáda,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_brand_model,ADD,PHRASE,dioptrické okuliare,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_brand_model,ADD,PHRASE,dioptricke okuliare,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_brand_model,ADD,PHRASE,kontaktné šošovky,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_brand_model,ADD,PHRASE,kontaktne sosovky,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_brand_model,ADD,PHRASE,očný lekár,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_brand_model,ADD,PHRASE,ocny lekar,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_brand_model,ADD,PHRASE,meranie zraku,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_brand_model,ADD,PHRASE,návod,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_brand_model,ADD,PHRASE,navod,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_brand_model,ADD,PHRASE,manuál,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_brand_model,ADD,PHRASE,manual,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_brand_model,ADD,PHRASE,pdf,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_brand_model,ADD,PHRASE,oprava,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_brand_model,ADD,PHRASE,servis,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route search_brand_model,ADD,PHRASE,náhradné diely,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route predajna,ADD,PHRASE,pracovné ponuky,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route predajna,ADD,PHRASE,brigáda,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route predajna,ADD,PHRASE,dioptrické okuliare,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route predajna,ADD,PHRASE,dioptricke okuliare,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route predajna,ADD,PHRASE,kontaktné šošovky,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route predajna,ADD,PHRASE,kontaktne sosovky,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route predajna,ADD,PHRASE,očný lekár,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route predajna,ADD,PHRASE,ocny lekar,route-local,PROPOSAL_NOT_APPLIED
+SO27 list attached to route predajna,ADD,PHRASE,meranie zraku,route-local,PROPOSAL_NOT_APPLIED

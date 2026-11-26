@@ -1,0 +1,45 @@
+<?php
+// PORT of 04_chatgpt_attachments/test_chatgpt_regressions.php: fixtures moved to schema v3 (version, bound context,
+// complete snapshot, product name; setAccessible for PHP 8.0). ALL ASSERTIONS UNCHANGED.
+require $argv[1];
+use SonataMerchant\AdsGate;
+$dir=sys_get_temp_dir().'/ads_gate_review_'.getmypid();
+mkdir($dir); mkdir($dir.'/catalog-state');
+$c=['account_id'=>'999000111','content_language'=>'sk','feed_label'=>'SK','state_dir'=>$dir.'/catalog-state','ads_review_file'=>$dir.'/reg.json','ads_policy_file'=>$dir.'/pol.json'];
+$r=['id'=>'TEST-A','main_root_id'=>1974,'main_category_id'=>1974,'title'=>'Observation device','product_type'=>'Observation','link'=>'https://example.invalid/a','price'=>'100 EUR'];
+$id=AdsGate::identity($c,$r['id']);
+$entry=['id'=>$id,'fingerprint'=>AdsGate::fingerprint($r),'author'=>'reviewer','reason'=>'synthetic observation device','evidence'=>'fixture','date'=>gmdate('Y-m-d')];
+$ctx3=['account_id'=>'999000111','content_language'=>'sk','feed_label'=>'SK','channel'=>'ONLINE'];
+$reg=['version'=>3,'context'=>$ctx3,'generated_at'=>gmdate('c'),'hold'=>[],'review'=>[],'ok'=>[$entry]];
+$pol=['version'=>3,'context'=>$ctx3,'complete'=>true,'products_read'=>1000,'generated_at'=>gmdate('c'),'hold'=>(object)[]];
+$reset=function(){foreach(['reg','pol','stats'] as $p){$x=new ReflectionProperty(AdsGate::class,$p);$x->setAccessible(true);$x->setValue(null,$p==='stats'?[]:null);}};
+$run=function($row,$rr,$pp)use($c,$reset){$reset();file_put_contents($c['ads_review_file'],json_encode($rr));file_put_contents($c['ads_policy_file'],json_encode($pp));return AdsGate::label($row,$c);};
+$n=0;$fails=0;
+$test=function($name,$got,$expected)use(&$n,&$fails){$n++;$ok=$got===$expected;if(!$ok)$fails++;echo ($ok?'PASS':'FAIL')." $name: expected=$expected actual=$got\n";};
+$test('manual approval survives JSON load and label',$run($r,$reg,$pol),'ads_ok');
+$safe=array_merge($r,['main_root_id'=>1965,'main_category_id'=>1965,'title'=>'Glass slides']);
+$empty=$reg;$empty['ok']=[];
+$test('safe positive control',$run($safe,$empty,$pol),'ads_ok');
+$held=$pol;$held['hold']=[$id=>['test_policy_violation']];
+$test('fresh policy hold control',$run($safe,$empty,$held),'ads_hold');
+$held['generated_at']=gmdate('c',time()-4*86400);
+$test('known hold retained after policy expiry',$run($safe,$empty,$held),'ads_hold');
+$bad=$pol;unset($bad['hold']);
+$test('incomplete policy schema fails closed',$run($safe,$empty,$bad),'ads_review');
+$ctx=['register'=>['ok'=>true,'hold'=>[],'review'=>[],'ok_items'=>[$id=>$entry]],'policy'=>['ok'=>true,'hold'=>[]]];
+$missing=$r;$missing['link']='';
+$test('manual ok cannot bypass required link',AdsGate::decide($missing,$c,$ctx)[0],'ads_review');
+$ctx['register']['review'][$id]=true;
+$test('conflicting manual review overrides manual ok',AdsGate::decide($r,$c,$ctx)[0],'ads_review');
+unset($ctx['register']['review'][$id]);
+$changed=$r;$changed['main_root_id']=5127;
+$test('changed root invalidates approval',AdsGate::decide($changed,$c,$ctx)[0],'ads_review');
+$products=[];
+for($i=0;$i<1000;$i++)$products[]=['name'=>'accounts/999000111/products/sk~SK~FAKE-'.$i,'offerId'=>'FAKE-'.$i,'feedLabel'=>'SK','contentLanguage'=>'sk','productStatus'=>['itemLevelIssues'=> $i===0 ? [['code'=>'new_policy_violation','severity'=>'DEMOTED','reportingContext'=>'SHOPPING_ADS']] : []]];
+$client=new class($products){private $p;function __construct($p){$this->p=$p;}function request($url){return [200,['products'=>$this->p]];}};
+AdsGate::policySweep($c,$client);
+$out=json_decode(file_get_contents($c['ads_policy_file']),true);
+$test('any policy_violation remains a hard flag',isset($out['hold'][AdsGate::identity($c,'FAKE-0')])?'hold':'missing','hold');
+echo ($n-$fails)."/$n PASS; $fails failures expose current implementation gaps\n";
+$reset();array_map('unlink',glob($dir.'/*.json'));rmdir($dir.'/catalog-state');rmdir($dir);
+exit($fails?1:0);

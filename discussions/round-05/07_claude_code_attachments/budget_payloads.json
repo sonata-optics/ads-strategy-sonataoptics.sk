@@ -1,0 +1,117 @@
+{
+ "window_days": 24,
+ "payloads": [
+  {
+   "campaign": "SO27 | SHOP | Teleskopy",
+   "status": "PAUSED",
+   "start_date": "2026-11-28",
+   "end_date": "2026-12-21",
+   "campaign_budget": {
+    "name": "SO27 | SHOP | Teleskopy | total 2026-11-28..2026-12-21",
+    "period": "CUSTOM_PERIOD",
+    "total_amount_micros": 1056000000,
+    "explicitly_shared": false,
+    "delivery_method": "STANDARD"
+   },
+   "note": "amount_micros NOT set together with total_amount_micros; create PAUSED, validate_only first, readback type/sum/dates/currency"
+  },
+  {
+   "campaign": "SO27 | SHOP | Ďalekohľady",
+   "status": "PAUSED",
+   "start_date": "2026-11-28",
+   "end_date": "2026-12-21",
+   "campaign_budget": {
+    "name": "SO27 | SHOP | Ďalekohľady | total 2026-11-28..2026-12-21",
+    "period": "CUSTOM_PERIOD",
+    "total_amount_micros": 648000000,
+    "explicitly_shared": false,
+    "delivery_method": "STANDARD"
+   },
+   "note": "amount_micros NOT set together with total_amount_micros; create PAUSED, validate_only first, readback type/sum/dates/currency"
+  },
+  {
+   "campaign": "SO27 | SHOP | Mikroskopy",
+   "status": "PAUSED",
+   "start_date": "2026-11-28",
+   "end_date": "2026-12-21",
+   "campaign_budget": {
+    "name": "SO27 | SHOP | Mikroskopy | total 2026-11-28..2026-12-21",
+    "period": "CUSTOM_PERIOD",
+    "total_amount_micros": 360000000,
+    "explicitly_shared": false,
+    "delivery_method": "STANDARD"
+   },
+   "note": "amount_micros NOT set together with total_amount_micros; create PAUSED, validate_only first, readback type/sum/dates/currency"
+  },
+  {
+   "campaign": "SO27 | SHOP | Termovízie (pozorovanie)",
+   "status": "PAUSED",
+   "start_date": "2026-11-28",
+   "end_date": "2026-12-21",
+   "campaign_budget": {
+    "name": "SO27 | SHOP | Termovízie (pozorovanie) | total 2026-11-28..2026-12-21",
+    "period": "CUSTOM_PERIOD",
+    "total_amount_micros": 432000000,
+    "explicitly_shared": false,
+    "delivery_method": "STANDARD"
+   },
+   "note": "amount_micros NOT set together with total_amount_micros; create PAUSED, validate_only first, readback type/sum/dates/currency"
+  },
+  {
+   "campaign": "SO27 | SHOP | Príslušenstvo a ostatné",
+   "status": "PAUSED",
+   "start_date": "2026-11-28",
+   "end_date": "2026-12-21",
+   "campaign_budget": {
+    "name": "SO27 | SHOP | Príslušenstvo a ostatné | total 2026-11-28..2026-12-21",
+    "period": "CUSTOM_PERIOD",
+    "total_amount_micros": 480000000,
+    "explicitly_shared": false,
+    "delivery_method": "STANDARD"
+   },
+   "note": "amount_micros NOT set together with total_amount_micros; create PAUSED, validate_only first, readback type/sum/dates/currency"
+  },
+  {
+   "campaign": "SO27 | SHOP | Junior výber",
+   "status": "PAUSED",
+   "start_date": "2026-11-28",
+   "end_date": "2026-12-21",
+   "campaign_budget": {
+    "name": "SO27 | SHOP | Junior výber | total 2026-11-28..2026-12-21",
+    "period": "CUSTOM_PERIOD",
+    "total_amount_micros": 144000000,
+    "explicitly_shared": false,
+    "delivery_method": "STANDARD"
+   },
+   "note": "amount_micros NOT set together with total_amount_micros; create PAUSED, validate_only first, readback type/sum/dates/currency"
+  },
+  {
+   "campaign": "SO27 | SEARCH | Kategórie",
+   "status": "PAUSED",
+   "start_date": "2026-11-28",
+   "end_date": "2026-12-21",
+   "campaign_budget": {
+    "name": "SO27 | SEARCH | Kategórie | total 2026-11-28..2026-12-21",
+    "period": "CUSTOM_PERIOD",
+    "total_amount_micros": 360000000,
+    "explicitly_shared": false,
+    "delivery_method": "STANDARD"
+   },
+   "note": "amount_micros NOT set together with total_amount_micros; create PAUSED, validate_only first, readback type/sum/dates/currency"
+  },
+  {
+   "campaign": "SO27 | SEARCH | Značky a modely",
+   "status": "PAUSED",
+   "start_date": "2026-11-28",
+   "end_date": "2026-12-21",
+   "campaign_budget": {
+    "name": "SO27 | SEARCH | Značky a modely | total 2026-11-28..2026-12-21",
+    "period": "CUSTOM_PERIOD",
+    "total_amount_micros": 360000000,
+    "explicitly_shared": false,
+    "delivery_method": "STANDARD"
+   },
+   "note": "amount_micros NOT set together with total_amount_micros; create PAUSED, validate_only first, readback type/sum/dates/currency"
+  }
+ ]
+}

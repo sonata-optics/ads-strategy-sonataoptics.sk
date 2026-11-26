@@ -1,0 +1,11 @@
+pool,in_stock,out_of_stock,note
+TEL,601,219,
+BIN,493,416,
+MIC,620,171,
+CATCH,2730,2233,all other safe roots
+JUN selected,4,0,"2 counted 26.11 + 26947, 102391 added after the read (both ads_ok, in stock, 20-49)"
+THERM,0,0,all thermal are ads_review today -> needs manual ok
+NONE ads_review,183,44,thermal/night/rangefinder/collimator etc.
+NONE ads_hold,23,13,policy/manual hold
+NONE junior not selected,55,23,
+conflicts (>1 pool),0,0,checked on all 7828 rows

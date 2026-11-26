@@ -1,0 +1,13 @@
+item,mechanism,start,end,planned_avg_eur_day,cap_or_allowance_eur,note
+SO27 | SHOP | Teleskopy,campaign total budget CUSTOM_PERIOD,2026-11-28,2026-12-21,44,1056,hard cap for the period; daily spend not capped
+SO27 | SHOP | Ďalekohľady,campaign total budget CUSTOM_PERIOD,2026-11-28,2026-12-21,27,648,hard cap for the period; daily spend not capped
+SO27 | SHOP | Mikroskopy,campaign total budget CUSTOM_PERIOD,2026-11-28,2026-12-21,15,360,hard cap for the period; daily spend not capped
+SO27 | SHOP | Termovízie (pozorovanie),campaign total budget CUSTOM_PERIOD,2026-11-28,2026-12-21,18,432,hard cap for the period; daily spend not capped
+SO27 | SHOP | Príslušenstvo a ostatné,campaign total budget CUSTOM_PERIOD,2026-11-28,2026-12-21,20,480,hard cap for the period; daily spend not capped
+SO27 | SHOP | Junior výber,campaign total budget CUSTOM_PERIOD,2026-11-28,2026-12-21,6,144,hard cap for the period; daily spend not capped
+SO27 | SEARCH | Kategórie,campaign total budget CUSTOM_PERIOD,2026-11-28,2026-12-21,15,360,hard cap for the period; daily spend not capped
+SO27 | SEARCH | Značky a modely,campaign total budget CUSTOM_PERIOD,2026-11-28,2026-12-21,15,360,hard cap for the period; daily spend not capped
+NEW26 | SEARCH | Bratislava | Predajňa,"daily budget (existing campaign, extend end date to 21.12)",2026-11-28,2026-12-21,10,480,allowance = 2 x daily x days (worst case)
+Legacy overlap (4 SHOP + Značky×kategórie),"existing daily budgets, LOW priority, max 3 days",launch day,launch+2,67,402,allowance = 2 x daily x 3 days (worst case)
+Unallocated owner reserve,not given to Google,-,-,-,578,redistribution only by recorded decision; Termovízie share stays unspent until manual oks exist
+TOTAL,,,,,5300,= T 5300; window 24 days

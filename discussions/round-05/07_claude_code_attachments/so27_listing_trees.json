@@ -1,0 +1,916 @@
+{
+ "SO27 | SHOP | Teleskopy": {
+  "listing_scope (campaign inventory filter)": {
+   "custom_label0": "teleskopy a hvezdárske ďalekohľady"
+  },
+  "tree": {
+   "custom_label4": [
+    {
+     "value": "ads_ok",
+     "subdivide": {
+      "item_id": [
+       {
+        "item_id": "64085",
+        "cpc": 0.55
+       },
+       {
+        "item_id": "26955",
+        "cpc": 0.55
+       },
+       {
+        "item_id": "26957",
+        "cpc": 0.55
+       },
+       {
+        "item_id": "64962",
+        "cpc": 0.55
+       },
+       {
+        "item_id": "47606",
+        "cpc": 0.55
+       },
+       {
+        "item_id": "64878",
+        "cpc": 0.55
+       },
+       {
+        "item_id": "64732",
+        "cpc": 0.55
+       },
+       {
+        "item_id": "26960",
+        "cpc": 0.55
+       },
+       {
+        "item_id": "47376",
+        "cpc": 0.55
+       },
+       {
+        "item_id": "64077",
+        "cpc": 0.55
+       },
+       {
+        "item_id": "64114",
+        "cpc": 0.55
+       },
+       {
+        "item_id": "47633",
+        "cpc": 0.55
+       },
+       {
+        "item_id": "27063",
+        "cpc": 0.55
+       },
+       {
+        "item_id": "47488",
+        "cpc": 0.55
+       },
+       {
+        "item_id": "26457",
+        "cpc": 0.55
+       },
+       {
+        "item_id": "104421",
+        "cpc": 0.4,
+        "cutover": "EXCLUDE after Cowork signal"
+       },
+       {
+        "item_id": "46205",
+        "cpc": 0.4,
+        "cutover": "EXCLUDE after Cowork signal"
+       },
+       {
+        "item_id": "46206",
+        "cpc": 0.4,
+        "cutover": "EXCLUDE after Cowork signal"
+       },
+       {
+        "item_id": "46208",
+        "cpc": 0.4,
+        "cutover": "EXCLUDE after Cowork signal"
+       },
+       {
+        "item_id": "64627",
+        "cpc": 0.4,
+        "cutover": "EXCLUDE after Cowork signal"
+       },
+       {
+        "item_id": "46201",
+        "cpc": 0.4,
+        "cutover": "EXCLUDE after Cowork signal"
+       },
+       {
+        "item_id": "46204",
+        "cpc": 0.4,
+        "cutover": "EXCLUDE after Cowork signal"
+       },
+       {
+        "item_id": "47769",
+        "cpc": 0.4,
+        "cutover": "EXCLUDE after Cowork signal"
+       },
+       {
+        "item_id": "102735",
+        "cpc": 0.4,
+        "cutover": "EXCLUDE after Cowork signal"
+       },
+       {
+        "item_id": "102736",
+        "cpc": 0.4,
+        "cutover": "EXCLUDE after Cowork signal"
+       },
+       {
+        "item_id": "106477",
+        "cpc": 0.4,
+        "cutover": "EXCLUDE after Cowork signal"
+       },
+       {
+        "item_id": "106476",
+        "cpc": 0.4,
+        "cutover": "EXCLUDE after Cowork signal"
+       },
+       {
+        "item_id": "102737",
+        "cpc": 0.4,
+        "cutover": "EXCLUDE after Cowork signal"
+       },
+       {
+        "item_id": "102741",
+        "cpc": 0.4,
+        "cutover": "EXCLUDE after Cowork signal"
+       },
+       {
+        "item_id": "102738",
+        "cpc": 0.4,
+        "cutover": "EXCLUDE after Cowork signal"
+       },
+       {
+        "item_id": "102740",
+        "cpc": 0.4,
+        "cutover": "EXCLUDE after Cowork signal"
+       },
+       {
+        "item_id": "104500",
+        "cpc": 0.4,
+        "cutover": "EXCLUDE after Cowork signal"
+       },
+       {
+        "item_id": "64818",
+        "cpc": 0.4,
+        "cutover": "EXCLUDE after Cowork signal"
+       },
+       {
+        "value": "*others*",
+        "subdivide": {
+         "custom_label3": [
+          {
+           "custom_label3": "p_20_49",
+           "cpc": 0.3
+          },
+          {
+           "custom_label3": "p_50_199",
+           "cpc": 0.4
+          },
+          {
+           "custom_label3": "p_200_499",
+           "cpc": 0.45
+          },
+          {
+           "custom_label3": "p_500_1499",
+           "cpc": 0.5
+          },
+          {
+           "custom_label3": "p_1500_2999",
+           "cpc": 0.5
+          },
+          {
+           "custom_label3": "p_3000_4999",
+           "cpc": 0.5
+          },
+          {
+           "custom_label3": "p_5000_plus",
+           "cpc": 0.5
+          },
+          {
+           "custom_label3": "*others* (p_lt20, p_invalid, unknown)",
+           "EXCLUDED": true
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "value": "*others* (ads_review, ads_hold, missing)",
+     "EXCLUDED": true
+    }
+   ]
+  }
+ },
+ "SO27 | SHOP | Ďalekohľady": {
+  "note": "one campaign, one ad group per label0 value (inventory filter allows one value per dimension); same tree in each",
+  "ad_groups": {
+   "ďalekohľady a binokuláre": {
+    "listing_scope (campaign inventory filter)": {
+     "custom_label0": "ďalekohľady a binokuláre"
+    },
+    "tree": {
+     "custom_label4": [
+      {
+       "value": "ads_ok",
+       "subdivide": {
+        "item_id": [
+         {
+          "item_id": "33079",
+          "cpc": 0.45
+         },
+         {
+          "item_id": "26929",
+          "cpc": 0.45
+         },
+         {
+          "item_id": "26757",
+          "cpc": 0.45
+         },
+         {
+          "item_id": "100719",
+          "cpc": 0.45
+         },
+         {
+          "item_id": "26940",
+          "cpc": 0.45
+         },
+         {
+          "item_id": "26945",
+          "cpc": 0.45
+         },
+         {
+          "item_id": "104247",
+          "cpc": 0.45
+         },
+         {
+          "item_id": "31171",
+          "cpc": 0.2
+         },
+         {
+          "item_id": "26799",
+          "cpc": 0.2
+         },
+         {
+          "item_id": "26772",
+          "cpc": 0.2
+         },
+         {
+          "value": "*others*",
+          "subdivide": {
+           "custom_label3": [
+            {
+             "custom_label3": "p_20_49",
+             "cpc": 0.2
+            },
+            {
+             "custom_label3": "p_50_199",
+             "cpc": 0.35
+            },
+            {
+             "custom_label3": "p_200_499",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_500_1499",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_1500_2999",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_3000_4999",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_5000_plus",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "*others* (p_lt20, p_invalid, unknown)",
+             "EXCLUDED": true
+            }
+           ]
+          }
+         }
+        ]
+       }
+      },
+      {
+       "value": "*others* (ads_review, ads_hold, missing)",
+       "EXCLUDED": true
+      }
+     ]
+    }
+   },
+   "monokuláre": {
+    "listing_scope (campaign inventory filter)": {
+     "custom_label0": "monokuláre"
+    },
+    "tree": {
+     "custom_label4": [
+      {
+       "value": "ads_ok",
+       "subdivide": {
+        "item_id": [
+         {
+          "value": "*others*",
+          "subdivide": {
+           "custom_label3": [
+            {
+             "custom_label3": "p_20_49",
+             "cpc": 0.2
+            },
+            {
+             "custom_label3": "p_50_199",
+             "cpc": 0.35
+            },
+            {
+             "custom_label3": "p_200_499",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_500_1499",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_1500_2999",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_3000_4999",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_5000_plus",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "*others* (p_lt20, p_invalid, unknown)",
+             "EXCLUDED": true
+            }
+           ]
+          }
+         }
+        ]
+       }
+      },
+      {
+       "value": "*others* (ads_review, ads_hold, missing)",
+       "EXCLUDED": true
+      }
+     ]
+    }
+   },
+   "spektívy": {
+    "listing_scope (campaign inventory filter)": {
+     "custom_label0": "spektívy"
+    },
+    "tree": {
+     "custom_label4": [
+      {
+       "value": "ads_ok",
+       "subdivide": {
+        "item_id": [
+         {
+          "value": "*others*",
+          "subdivide": {
+           "custom_label3": [
+            {
+             "custom_label3": "p_20_49",
+             "cpc": 0.2
+            },
+            {
+             "custom_label3": "p_50_199",
+             "cpc": 0.35
+            },
+            {
+             "custom_label3": "p_200_499",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_500_1499",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_1500_2999",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_3000_4999",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_5000_plus",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "*others* (p_lt20, p_invalid, unknown)",
+             "EXCLUDED": true
+            }
+           ]
+          }
+         }
+        ]
+       }
+      },
+      {
+       "value": "*others* (ads_review, ads_hold, missing)",
+       "EXCLUDED": true
+      }
+     ]
+    }
+   },
+   "príslušenstvo k ďalekohľadom": {
+    "listing_scope (campaign inventory filter)": {
+     "custom_label0": "príslušenstvo k ďalekohľadom"
+    },
+    "tree": {
+     "custom_label4": [
+      {
+       "value": "ads_ok",
+       "subdivide": {
+        "item_id": [
+         {
+          "value": "*others*",
+          "subdivide": {
+           "custom_label3": [
+            {
+             "custom_label3": "p_20_49",
+             "cpc": 0.2
+            },
+            {
+             "custom_label3": "p_50_199",
+             "cpc": 0.35
+            },
+            {
+             "custom_label3": "p_200_499",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_500_1499",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_1500_2999",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_3000_4999",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_5000_plus",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "*others* (p_lt20, p_invalid, unknown)",
+             "EXCLUDED": true
+            }
+           ]
+          }
+         }
+        ]
+       }
+      },
+      {
+       "value": "*others* (ads_review, ads_hold, missing)",
+       "EXCLUDED": true
+      }
+     ]
+    }
+   },
+   "príslušenstvo k spektívom": {
+    "listing_scope (campaign inventory filter)": {
+     "custom_label0": "príslušenstvo k spektívom"
+    },
+    "tree": {
+     "custom_label4": [
+      {
+       "value": "ads_ok",
+       "subdivide": {
+        "item_id": [
+         {
+          "value": "*others*",
+          "subdivide": {
+           "custom_label3": [
+            {
+             "custom_label3": "p_20_49",
+             "cpc": 0.2
+            },
+            {
+             "custom_label3": "p_50_199",
+             "cpc": 0.35
+            },
+            {
+             "custom_label3": "p_200_499",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_500_1499",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_1500_2999",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_3000_4999",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_5000_plus",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "*others* (p_lt20, p_invalid, unknown)",
+             "EXCLUDED": true
+            }
+           ]
+          }
+         }
+        ]
+       }
+      },
+      {
+       "value": "*others* (ads_review, ads_hold, missing)",
+       "EXCLUDED": true
+      }
+     ]
+    }
+   }
+  }
+ },
+ "SO27 | SHOP | Mikroskopy": {
+  "listing_scope (campaign inventory filter)": {
+   "custom_label0": "mikroskopy"
+  },
+  "tree": {
+   "custom_label4": [
+    {
+     "value": "ads_ok",
+     "subdivide": {
+      "item_id": [
+       {
+        "item_id": "34540",
+        "cpc": 0.45
+       },
+       {
+        "item_id": "26879",
+        "cpc": 0.45
+       },
+       {
+        "item_id": "26873",
+        "cpc": 0.45
+       },
+       {
+        "item_id": "26374",
+        "cpc": 0.45
+       },
+       {
+        "item_id": "25882",
+        "cpc": 0.45
+       },
+       {
+        "item_id": "106996",
+        "cpc": 0.45
+       },
+       {
+        "item_id": "34531",
+        "cpc": 0.45
+       },
+       {
+        "value": "*others*",
+        "subdivide": {
+         "custom_label3": [
+          {
+           "custom_label3": "p_20_49",
+           "cpc": 0.2
+          },
+          {
+           "custom_label3": "p_50_199",
+           "cpc": 0.35
+          },
+          {
+           "custom_label3": "p_200_499",
+           "cpc": 0.4
+          },
+          {
+           "custom_label3": "p_500_1499",
+           "cpc": 0.4
+          },
+          {
+           "custom_label3": "p_1500_2999",
+           "cpc": 0.4
+          },
+          {
+           "custom_label3": "p_3000_4999",
+           "cpc": 0.4
+          },
+          {
+           "custom_label3": "p_5000_plus",
+           "cpc": 0.4
+          },
+          {
+           "custom_label3": "*others* (p_lt20, p_invalid, unknown)",
+           "EXCLUDED": true
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "value": "*others* (ads_review, ads_hold, missing)",
+     "EXCLUDED": true
+    }
+   ]
+  }
+ },
+ "SO27 | SHOP | Termovízie (pozorovanie)": {
+  "note": "ad group per label0; only manually approved ads_ok SKUs exist here; stays PAUSED until >=1 manual ok in stock",
+  "ad_groups": {
+   "termovízie": {
+    "listing_scope (campaign inventory filter)": {
+     "custom_label0": "termovízie"
+    },
+    "tree": {
+     "custom_label4": [
+      {
+       "value": "ads_ok",
+       "subdivide": {
+        "item_id": [
+         {
+          "value": "*others*",
+          "subdivide": {
+           "custom_label3": [
+            {
+             "custom_label3": "p_20_49",
+             "cpc": 0.25
+            },
+            {
+             "custom_label3": "p_50_199",
+             "cpc": 0.3
+            },
+            {
+             "custom_label3": "p_200_499",
+             "cpc": 0.3
+            },
+            {
+             "custom_label3": "p_500_1499",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_1500_2999",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_3000_4999",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_5000_plus",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "*others* (p_lt20, p_invalid, unknown)",
+             "EXCLUDED": true
+            }
+           ]
+          }
+         }
+        ]
+       }
+      },
+      {
+       "value": "*others* (ads_review, ads_hold, missing)",
+       "EXCLUDED": true
+      }
+     ]
+    }
+   },
+   "nočné videnie": {
+    "listing_scope (campaign inventory filter)": {
+     "custom_label0": "nočné videnie"
+    },
+    "tree": {
+     "custom_label4": [
+      {
+       "value": "ads_ok",
+       "subdivide": {
+        "item_id": [
+         {
+          "value": "*others*",
+          "subdivide": {
+           "custom_label3": [
+            {
+             "custom_label3": "p_20_49",
+             "cpc": 0.25
+            },
+            {
+             "custom_label3": "p_50_199",
+             "cpc": 0.3
+            },
+            {
+             "custom_label3": "p_200_499",
+             "cpc": 0.3
+            },
+            {
+             "custom_label3": "p_500_1499",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_1500_2999",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_3000_4999",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "p_5000_plus",
+             "cpc": 0.4
+            },
+            {
+             "custom_label3": "*others* (p_lt20, p_invalid, unknown)",
+             "EXCLUDED": true
+            }
+           ]
+          }
+         }
+        ]
+       }
+      },
+      {
+       "value": "*others* (ads_review, ads_hold, missing)",
+       "EXCLUDED": true
+      }
+     ]
+    }
+   }
+  },
+  "negative_lists": [
+   "SO27-no-hunting"
+  ]
+ },
+ "SO27 | SHOP | Junior výber": {
+  "listing_scope (campaign inventory filter)": {
+   "custom_label0": "sonata junior lab"
+  },
+  "tree": {
+   "custom_label4": [
+    {
+     "value": "ads_ok",
+     "subdivide": {
+      "item_id": [
+       {
+        "item_id": "25828",
+        "cpc": 0.25
+       },
+       {
+        "item_id": "64089",
+        "cpc": 0.25
+       },
+       {
+        "item_id": "26947",
+        "cpc": 0.25
+       },
+       {
+        "item_id": "102391",
+        "cpc": 0.25
+       },
+       {
+        "value": "*others*",
+        "EXCLUDED": true
+       }
+      ]
+     }
+    },
+    {
+     "value": "*others*",
+     "EXCLUDED": true
+    }
+   ]
+  },
+  "note": "selected = confirmed purchases (Confirmed purchase – CS-Cart SK), in stock, >=20 EUR, read 26.11; 26983 not in Merchant -> dropped"
+ },
+ "SO27 | SHOP | Príslušenstvo a ostatné": {
+  "listing_scope (campaign inventory filter)": {},
+  "tree": {
+   "custom_label4": [
+    {
+     "value": "ads_ok",
+     "subdivide": {
+      "item_id": [
+       {
+        "value": "*others*",
+        "subdivide": {
+         "custom_label0": [
+          {
+           "value": "teleskopy a hvezdárske ďalekohľady",
+           "EXCLUDED": true
+          },
+          {
+           "value": "ďalekohľady a binokuláre",
+           "EXCLUDED": true
+          },
+          {
+           "value": "monokuláre",
+           "EXCLUDED": true
+          },
+          {
+           "value": "spektívy",
+           "EXCLUDED": true
+          },
+          {
+           "value": "príslušenstvo k ďalekohľadom",
+           "EXCLUDED": true
+          },
+          {
+           "value": "príslušenstvo k spektívom",
+           "EXCLUDED": true
+          },
+          {
+           "value": "mikroskopy",
+           "EXCLUDED": true
+          },
+          {
+           "value": "termovízie",
+           "EXCLUDED": true
+          },
+          {
+           "value": "nočné videnie",
+           "EXCLUDED": true
+          },
+          {
+           "value": "sonata junior lab",
+           "EXCLUDED": true
+          },
+          {
+           "value": "*others*",
+           "subdivide": {
+            "custom_label3": [
+             {
+              "custom_label3": "p_20_49",
+              "cpc": 0.15
+             },
+             {
+              "custom_label3": "p_50_199",
+              "cpc": 0.25
+             },
+             {
+              "custom_label3": "p_200_499",
+              "cpc": 0.35
+             },
+             {
+              "custom_label3": "p_500_1499",
+              "cpc": 0.35
+             },
+             {
+              "custom_label3": "p_1500_2999",
+              "cpc": 0.35
+             },
+             {
+              "custom_label3": "p_3000_4999",
+              "cpc": 0.35
+             },
+             {
+              "custom_label3": "p_5000_plus",
+              "cpc": 0.35
+             },
+             {
+              "custom_label3": "*others* (p_lt20, p_invalid, unknown)",
+              "EXCLUDED": true
+             }
+            ]
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "value": "*others* (ads_review, ads_hold, missing)",
+     "EXCLUDED": true
+    }
+   ]
+  }
+ },
+ "_rules": {
+  "priority": "all SO27 Shopping = HIGH; legacy = LOW during overlap",
+  "merchant": "Merchant SK identity only (campaign merchant_id = the SK Merchant), feed_label SK, language sk",
+  "unique_leaf": "read-only check 26.11: every in-stock/oos product of the SK Merchant lands in 0 or 1 pool, 0 conflicts (coverage_matrix.csv)",
+  "price": "needs Catalog 0.3.8 label3 split (p_lt20/p_20_49) BEFORE launch; until then p_0_49 would be unknown -> excluded (fail-closed, 20-49.99 not advertised)",
+  "smart_cutover": "Teleskopy item units for smart devices flip to EXCLUDED after Cowork signal; dedicated accessories excluded in catch-all via item_id units then"
+ }
+}

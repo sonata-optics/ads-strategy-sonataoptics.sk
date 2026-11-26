@@ -1,0 +1,1038 @@
+{
+ "read_at": "2026-11-26, read-only GAQL: shared_criterion of the ACCOUNT_LEVEL_NEGATIVE_KEYWORDS shared set linked via CustomerNegativeCriterion (member_count reports 0, direct read returns these rows)",
+ "count": 258,
+ "keywords": [
+  {
+   "match_type": "BROAD",
+   "text": "porn"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "sex"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "free"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "porno"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "download"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "cheap"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "humor"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "erotika"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "faq"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "ussr"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "amazon"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "papier"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "Job"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "recept"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "lidl"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "kde"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "blog"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "diplom"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "studio light"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "bazar"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "ich"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "reklama"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "habra"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "stary"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "auriol"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "hudba"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "форум"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "wiki"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "klip"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "kniha"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "ruske"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "solarna"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "vektor"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "erotické"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "popis"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "tapeta"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "бесплатно"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "скачать"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "naramky"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "správy"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "vodič"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "heureka"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "новости"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "эротика"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "порно"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "torrents"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "отзывы"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "музыка"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "технология"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "что"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "как"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "бумага"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "видео"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "torrent"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "fórum"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "zadarmo"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "vtip"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "реклама"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "песни"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "rusky"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "реферат"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "casti"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "ake"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "драйвер"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "схема"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "клип"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "диплом"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "wikipedia"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "správa"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "картинки"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "юмор"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "руководство"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "графика"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "typy"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "sencor"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "вакансии"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "бесплатные"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "анекдот"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "обои"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "инструкция"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "статья"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "torent"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "druhy"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "zmluvy"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "registrácia"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "прошивка"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "подарить"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "советы"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "методы"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "купили"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "купил"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "купила"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "читать"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "зачем"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "это"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "habr"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "найти"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "učebnica"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "эротический"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "lacno"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "сонник"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "рецепт"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "одноклассники"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "или"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "wildberries"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "datart"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "vtipný"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "predam"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "ruský"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "образец"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "написать"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "создать"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "bazos"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "состав"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "temu"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "руками"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "договор"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "определение"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "способ"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "пейзажи"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "безкоштовно"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "какой"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "гост"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "блог"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "самостоятельно"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "даром"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "torents"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "triky"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "прикол"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "настроить"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "drony"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "доклад"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "порнушка"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "браузер"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "торрент"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "бесплтно"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "вектор"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "выглядит"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "заказали"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "карандашом"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "называется"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "приснилось"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "funguje"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "самодельный"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "planeo"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "оквэд"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "krajiny"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "хитрости"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "technológie"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "торент"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "ruky"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "правильно"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "своими"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "википедия"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "вики"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "уловки"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "приготовить"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "смешно"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "вконтакте"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "dracik"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "postieľka"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "aký"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "vzorka"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "definícia"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "векторные"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "заказал"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "заказала"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "casovac"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "schémy"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "vytvoriť"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "иконка"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "Obrázky"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "хабр"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "хабра"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "вайлдберриз"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "хабрхабр"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "xiaomi"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "aliexpress"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "poučenie"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "zavlahu"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "вилдберис"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "валберис"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "вилдберриз"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "вилберис"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "úniku plynu"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "регистрирация"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "студийное освещение"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "článok"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "Toto"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "piesne"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "велберис"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "prehliadač"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "habrhabr"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "zákon o ochrane osobných údajov"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "nevidiacich"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "валдбирис"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "вайберис"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "variť"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "metódy"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "валдберрис"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "вальдберис"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "volal"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "валдбериес"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "samolepiaci"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "ovládanie"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "ceruzka"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "robiť"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "Nájsť"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "Domy"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "валбрес"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "ikonu"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "gdpr zákon"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "naladiť"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "čítať"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "vyzerá"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "nivelak"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "písať"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "kniha snov"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "валдберис"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "вильберис"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "вальберис"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "ostrohy"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "keyword_text"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "ваилбирис"
+  },
+  {
+   "match_type": "PHRASE",
+   "text": "ročníková práca"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "Prečo"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "slabozrakých"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "zlúčenina"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "štúdiové svetlo"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "objednal"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "sníval"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "kúpil"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "spôsobom"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "poradiť"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "reekon"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "студійне світло"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "dať"
+  },
+  {
+   "match_type": "PHRASE",
+   "text": "voľné pracovné miesto"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "abstraktné"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "Čo"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "kúzelnícka sada"
+  },
+  {
+   "match_type": "PHRASE",
+   "text": "diplomovej práce"
+  },
+  {
+   "match_type": "PHRASE",
+   "text": "dizertačnej práce"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "pre nič"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "zvládanie"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "tenolix"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "firmvéru"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "nie drahé"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "Ktoré"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "Správny"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "spolužiakov"
+  },
+  {
+   "match_type": "PHRASE",
+   "text": "sám za seba"
+  },
+  {
+   "match_type": "PHRASE",
+   "text": "premietací prístroj"
+  },
+  {
+   "match_type": "PHRASE",
+   "text": "dalekohlad s fotoaparatom"
+  },
+  {
+   "match_type": "PHRASE",
+   "text": "bez nákladov"
+  },
+  {
+   "match_type": "PHRASE",
+   "text": "grafické umenie"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "suhlas so spracovanim"
+  },
+  {
+   "match_type": "BROAD",
+   "text": "studiyne svitlo"
+  }
+ ]
+}

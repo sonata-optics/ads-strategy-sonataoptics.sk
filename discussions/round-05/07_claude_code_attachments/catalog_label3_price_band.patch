@@ -1,0 +1,21 @@
+--- a/app/addons/sonata_merchant_api/Catalog.php   (live 0.3.7, ads-gate-v2)
++++ b/app/addons/sonata_merchant_api/Catalog.php   (proposal, round 5 move 7, NOT deployed)
+@@ row(): custom_label_3 @@
+-        $row['custom_label_3']=$price<50?'p_0_49':($price<200?'p_50_199':($price<500?'p_200_499':($price<1500?'p_500_1499':($price<3000?'p_1500_2999':($price<5000?'p_3000_4999':'p_5000_plus')))));
++        // 0.3.8: p_0_49 split so paid trees can exclude <20 EUR (R5-CHATGPT-04). Band uses the same rounded EUR amount as `price`.
++        $row['custom_label_3']=self::priceBand($price);
+@@ class Catalog: new helper @@
++    /** Price band for custom_label_3. Input: final EUR price sent to Merchant (2 decimals). Unknown/invalid -> 'p_invalid'. */
++    public static function priceBand($price)
++    {
++        if (!is_numeric($price) || $price <= 0) { return 'p_invalid'; }
++        $p=round((float)$price,2);
++        if ($p<20) { return 'p_lt20'; }
++        if ($p<50) { return 'p_20_49'; }
++        if ($p<200) { return 'p_50_199'; }
++        if ($p<500) { return 'p_200_499'; }
++        if ($p<1500) { return 'p_500_1499'; }
++        if ($p<3000) { return 'p_1500_2999'; }
++        if ($p<5000) { return 'p_3000_4999'; }
++        return 'p_5000_plus';
++    }

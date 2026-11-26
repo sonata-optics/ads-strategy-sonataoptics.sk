@@ -1,0 +1,60 @@
+route,query,expected,blocked_now_by_account,blocked_after_effective,result,note
+shopping_core,kde kupit dalekohlad,reach,BROAD:kde,-,PASS,where to buy
+shopping_core,kde kúpiť ďalekohľad,reach,BROAD:kde,-,PASS,where to buy
+shopping_core,kde je predajna sonata optics,reach,BROAD:kde,-,PASS,store
+shopping_core,kde je predajňa sonata optics,reach,BROAD:kde,-,PASS,store
+predajna,kde je predajna sonata optics bratislava,reach,BROAD:kde,-,PASS,store question
+predajna,kde je predajňa sonata optics bratislava,reach,BROAD:kde,-,PASS,store question
+predajna,sonata optics otvaracie hodiny,reach,-,-,PASS,store hours
+predajna,sonata optics otváracie hodiny,reach,-,-,PASS,store hours
+shopping_core,teleskop lacno,reach,BROAD:lacno,-,PASS,cheap intent
+shopping_core,dalekohlad nie drahe,reach,-,-,PASS,cheap intent
+shopping_core,ďalekohľad nie drahé,reach,BROAD:nie drahé,-,PASS,cheap intent
+shopping_core,aky teleskop kupit,reach,-,-,PASS,choice
+shopping_core,aký teleskop kúpiť,reach,BROAD:aký,-,PASS,choice
+shopping_core,ake dalekohlady su najlepsie,reach,BROAD:ake,-,PASS,choice
+shopping_core,co dat dietatu na vianoce teleskop,reach,-,-,PASS,gift (season)
+shopping_core,čo dať dieťaťu na vianoce teleskop,reach,BROAD:dať;BROAD:Čo,-,PASS,gift (season)
+shopping_core,co kupit na vianoce mikroskop,reach,-,-,PASS,gift (season)
+shopping_core,mikroskop popis,reach,BROAD:popis,-,PASS,description
+shopping_core,lupa na citanie pre slabozrakych,reach,-,-,PASS,low vision
+shopping_core,lupa na čítanie pre slabozrakých,reach,BROAD:slabozrakých,-,PASS,low vision
+shopping_core,dron s termokamerou,reach,-,-,PASS,drone sold
+shopping_core,dalekohlad s fotoaparatom,reach,PHRASE:dalekohlad s fotoaparatom,-,PASS,digital binocular
+shopping_core,ďalekohľad s fotoaparátom,reach,-,-,PASS,digital binocular
+shopping_core,dalekohlad s fotoaparatom,reach,PHRASE:dalekohlad s fotoaparatom,-,PASS,"digital binocular, unaccented"
+shopping_core,ako funguje teleskop,reach,BROAD:funguje,-,PASS,"research, Shopping open"
+shopping_core,leica trinovid 10x42 alza,reach,-,-,PASS,model + competitor is commercial
+shopping_core,puzdro na dalekohlad,reach,-,-,PASS,accessory
+shopping_core,puzdro na ďalekohľad,reach,-,-,PASS,accessory
+shopping_core,dalekohlad polovnicky,reach,-,-,PASS,binocular for hunting is not a weapon (ChatGPT)
+shopping_core,ďalekohľad poľovnícky,reach,-,-,PASS,binocular for hunting is not a weapon (ChatGPT)
+shopping_core,dalekohlad polovnicky,reach,-,-,PASS,unaccented
+shopping_thermal,termovizia na pozorovanie zveri,reach,-,-,PASS,observation
+shopping_thermal,termovízia na pozorovanie zveri,reach,-,-,PASS,observation
+shopping_thermal,termovizia hikmicro,reach,-,-,PASS,brand
+search_category,teleskop pre deti,reach,-,-,PASS,kids
+search_category,hvezdarsky dalekohlad cena,reach,-,-,PASS,unaccented
+search_brand_model,celestron nexstar 8se,reach,-,-,PASS,model
+shopping_core,alza,blocked,-,EXACT:alza,PASS,pure navigation
+shopping_core,allegro sk,blocked,-,EXACT:allegro sk,PASS,pure navigation
+shopping_core,dracik,blocked,BROAD:dracik,EXACT:dracik,PASS,pure navigation
+shopping_core,dalekohlad bazar,blocked,BROAD:bazar,BROAD:bazar,PASS,used
+shopping_core,ďalekohľad bazár,blocked,-,BROAD:bazár,PASS,used
+shopping_core,predam dalekohlad,blocked,BROAD:predam,BROAD:predam,PASS,used
+shopping_core,predám ďalekohľad,blocked,-,BROAD:predám,PASS,used
+shopping_core,teleskop bazos,blocked,BROAD:bazos,BROAD:bazos,PASS,used
+shopping_core,nocne videnie na pusku,blocked,-,PHRASE:na pusku,PASS,weapon
+shopping_core,nočné videnie na pušku,blocked,-,PHRASE:na pušku,PASS,weapon
+shopping_core,nocne videnie na pusku,blocked,-,PHRASE:na pusku,PASS,weapon unaccented
+shopping_core,dalekohlad na vzduchovku,blocked,-,PHRASE:na vzduchovku,PASS,weapon
+shopping_core,puskohlad,blocked,-,BROAD:puskohlad,PASS,weapon optic
+shopping_thermal,polovnictvo,blocked,-,PHRASE:polovnictvo,PASS,hunting (thermal)
+shopping_thermal,poľovníctvo,blocked,-,PHRASE:poľovníctvo,PASS,hunting (thermal)
+shopping_thermal,lovu zdar,blocked,-,PHRASE:lovu zdar,PASS,hunting (thermal)
+shopping_thermal,termovizia na diviaky,blocked,-,PHRASE:na diviaky,PASS,hunting (thermal)
+search_category,teleskop navod pdf,blocked,-,PHRASE:navod;PHRASE:pdf,PASS,manual
+search_category,teleskop návod pdf,blocked,-,PHRASE:návod;PHRASE:pdf,PASS,manual
+predajna,ocny lekar bratislava,blocked,-,PHRASE:ocny lekar,PASS,optician confusion
+predajna,očný lekár bratislava,blocked,-,PHRASE:očný lekár,PASS,optician confusion
+shopping_core,mikroskop porno,blocked,BROAD:porno,BROAD:porno,PASS,adult
