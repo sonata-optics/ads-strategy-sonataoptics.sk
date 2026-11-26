@@ -1,0 +1,317 @@
+mikroskop|mikroskop|3700|0.08|
+meteostanica|meteostanica|3600|0.06|
+fotopasca|fotopasca|3500|0.12|
+teleskop|teleskop|3100|0.06|
+ďalekohľad|dalekohlad|2800|0.06|
+lupa|lupa|2600|0.03|
+termovízia|termovízia|2300|0.07|
+vlhkomer|vlhkomer|1500|0.11|
+hikmicro|hikmicro|1500|0.09|
+nočné videnie|nocne videnie|1100|0.07|
+ďalekohľad|dalekohlad na hviezdy|1000|0.06|
+pulsar|pulsar|910|0.26|
+termovízia|termovizia|860|0.09|
+fotopasca|fotopasce|850|0.18|
+refraktometer|refraktometer|840|0.1|
+mikroskop|mikroskop pre deti|830|0.1|
+ďalekohľad|ďalekohľad|750|0.07|
+lupa|lupa na čítanie|620|0.05|
+mikroskop|detský mikroskop|610|0.1|
+meteostanica|meteostanice|600|0.05|
+ďalekohľad|ďalekohľad na hviezdy|600|0.06|
+statív|stativ|600|0.08|
+mikroskop|detsky mikroskop|600|0.1|
+fotopasca|fotopasca na sim kartu|580|0.1|
+hikmicro|hikmicro alpex 4k|560|0.06|
+ďalekohľad|dalekohlad s nocnym videnim|540|0.05|
+nočné videnie|nočné videnie|530|0.06|
+ďalekohľad|hvezdarsky dalekohlad|380|0.07|
+teleskop|teleskop na hviezdy|380|0.06|
+hikmicro|hikmicro alpex 4k lrf|380|0.06|
+monokulár|monokular|370|0.05|
+laserový merač vzdialenosti|laserový merač vzdialenosti|360|0.05|
+mikroskop|ako vybrať mikroskop|360|0.04|R
+termovízia|termovízia hikmicro|340|0.12|
+ďalekohľad|detsky dalekohlad|340|0.09|
+fotopasca|fotopasca cena|330|0.09|
+fotopasca|fotopasca na mms|310|0.1|
+lupa|lupa so svetlom|310|0.07|
+fotopasca|fotopasca mms|300|0.15|
+refraktometer|refraktometer na kvas|280|0.04|
+akčná kamera|akcna kamera|280|0.04|
+ďalekohľad|dalekohlad pre deti|260|0.09|
+ďalekohľad|ďalekohľad pre deti|260|0.09|
+diaľkomer|dialkomer|260|0.06|
+nočné videnie|nočne videnie|250|0.06|
+digitálny mikroskop|digitálny mikroskop|240|0.13|
+meteostanica|domaca meteostanica|240|0.05|
+ďalekohľad|monokulárny ďalekohľad|240|0.05|
+ďalekohľad|dalekohlad den noc|230|0|
+lupa|lupa na čítanie pre seniorov|230|0.05|
+ďalekohľad|ďalekohľad s nočným videním|220|0.04|
+lupa|lupa na citanie|220|0.05|
+statív|statív|210|0.09|
+meteostanica|meteostanica wifi|200|0.06|
+termovízia|termovízia pulsar|200|0.09|
+ďalekohľad|ďalekohlad|190|0.06|
+mikroskop|školský mikroskop|190|0.08|
+okulár|okular|180|0.25|
+termovízia|termovizia akcia|170|0.07|
+diaľkomer|diaľkomery|170|0|
+fotopasca|fotopasca gsm|160|0.16|
+nočné videnie|nocne videnie predsadka|160|0.05|
+termovízia|ako vybrat termoviziu|160|0|R
+termovízia|termovízie|160|0.08|
+ďalekohľad|hvezdársky ďalekohľad|160|0.08|
+refraktometer|refraktometer na med|160|0.05|
+celestron|celestron|160|0.07|
+mikroskop|stereoskopické mikroskopy|160|0|
+spektroskop|spektroskop|160|0|
+nočné videnie|najlepsie nocne videnie|150|0.06|R
+termovízia|lacná termovízia|150|0.05|
+ďalekohľad|dalekohľad|150|0.05|
+lupa|lupa pre deti|150|0.1|
+fotopasca|fotopasce cena|140|0.07|
+fotopasca|lacné fotopasce|140|0.06|
+levenhuk|levenhuk|140|0.13|
+meteostanica|domáca meteostanica|140|0.05|
+ďalekohľad|dalekohlad 10x50|140|0.05|
+teleskop|teleskop pre deti|140|0.13|
+fotopasca|mini fotopasca|130|0.1|
+pulsar|pulsar trail xp50|130|0|
+ďalekohľad|dalekohlad s dialkomerom|130|0.04|
+monokulár|monokulár|130|0.06|
+stereomikroskop|stereomikroskop|130|0.22|
+teleskop|teleskop hvezdarsky|130|0.05|
+celestron|celestron company|130|0.07|
+mikroskop|mikroskopy|130|0.08|
+fotopasca|najpredavanejsia fotopasca|120|0.06|R
+nočné videnie|dalekohlad nocne videnie|120|0.06|
+nočné videnie|okuliare na nocne videnie|120|0.06|
+termovízia|najlepsia termovizia|120|0|R
+teleskop|detsky teleskop|120|0.12|
+teleskop|hvezdarsky teleskop|120|0.05|
+ďalekohľad|ako vybrat dalekohlad|110|0.02|R
+ďalekohľad|ako vybrať dalekohlad|110|0.02|R
+ďalekohľad|ako vybrať ďalekohľad|110|0.02|R
+ďalekohľad|turisticky dalekohlad|110|0.03|
+diaľkomer|laserový dialkomer|110|0.05|
+mikroskop|mikroskop cena|110|0.05|
+digitálny mikroskop|digitalny mikroskop|100|0.14|
+meteostanica|wifi meteostanica|100|0.07|
+termovízia|pozorovacia termovízia|100|0.07|
+termovízia|termovizie|100|0.07|
+ďalekohľad|ako vybrat hvezdarsky dalekohlad|100|0.04|R
+ďalekohľad|ako vybrať monokulárny ďalekohľad|100|0|R
+ďalekohľad|astronomicky dalekohlad|100|0.05|
+mikroskop|mikroskop popis|100|0|
+fotopasca|fotopasca 4g|90|0.21|
+fotopasca|fotopasce predaj|90|0.13|
+nočné videnie|nocne videnie pard|90|0.08|
+nočné videnie|okuliare na nočné videnie|90|0.06|
+laserový merač vzdialenosti|laserovy merac vzdialenosti|90|0.06|
+pulsar|predsadka pulsar|90|0|
+pulsar|pulsar forward f155|90|0|
+pulsar|trail xp50 pulsar|90|0|
+ďalekohľad|bresser dalekohlad|90|0.06|
+ďalekohľad|termo dalekohlad|90|0.06|
+ďalekohľad|ďalekohlad s nočným videním|90|0.04|
+refraktometer|refraktometer na alkohol|90|0.07|
+akčná kamera|akčná kamera|90|0.04|
+fotopasca|fotopasca na zlodejov|80|0.11|
+fotopasca|fotopasce na sim kartu|80|0.12|
+fotopasca|fotopasce recenzie|80|0.05|R
+fotopasca|lacne fotopasce|80|0.06|
+nočné videnie|pard nocne videnie|80|0.1|
+nočné videnie|predsádky nočné videnie|80|0.08|
+meteostanica|najlepšie meteostanice|80|0.04|R
+termovízia|termovizia pard|80|0.08|
+ďalekohľad|dalekohlad 10x42|80|0.07|
+ďalekohľad|monokularny dalekohlad|80|0.05|
+ďalekohľad|ďalekohlad na hviezdy|80|0.06|
+polarimeter|polarimeter|80|0.71|
+diaľkomer|laserovy dialkomer|80|0.05|
+fotopasca|ako funguje fotopasca|70|0.05|R
+fotopasca|najlepsie fotopasce|70|0.07|R
+nočné videnie|predsadka nočné videnie|70|0.08|
+pulsar|pulsar forward fn455|70|0|
+ďalekohľad|binokulárny ďalekohľad|70|0.08|
+ďalekohľad|dalekohlad na pozorovanie hviezd|70|0.04|
+ďalekohľad|dalekohlad vortex|70|0.07|
+ďalekohľad|detsky dalekohlad na hviezdy|70|0.1|
+ďalekohľad|pozorovaci dalekohlad|70|0.04|
+ďalekohľad|teleskopický dalekohlad|70|0.06|
+lupa|lupa na čítanie pre slabozrakých|70|0.04|
+teleskop|teleskop detsky|70|0|
+vlhkomer|teplomer a vlhkomer|70|0.1|
+celestron|telescopio celestron nexstar 8se|70|0|
+fotopasca|neviditelna fotopasca|60|0.06|
+nočné videnie|nocne videnie zasadka|60|0.05|
+nočné videnie|ďalekohľad na nočné videnie|60|0.05|
+digitálny mikroskop|digitálny mikroskop pre deti|60|0.15|
+meteostanica|domáce meteostanice|60|0.04|
+domáce planetárium|domace planetarium|60|0|
+laserový merač vzdialenosti|merac vzdialenosti laserovy|60|0.05|
+pulsar|pulsar 40|60|0|
+ďalekohľad|dalekohlad 20x50|60|0.04|
+ďalekohľad|dalekohlad 8x56|60|0.04|
+ďalekohľad|dalekohlad leica|60|0.04|
+ďalekohľad|dalekohled|60|0.09|
+ďalekohľad|detský ďalekohľad|60|0.1|
+ďalekohľad|hviezdny dalekohlad|60|0.05|
+ďalekohľad|infra dalekohlad|60|0.04|
+ďalekohľad|leica dalekohlad|60|0.04|
+ďalekohľad|popruh na dalekohlad|60|0|
+ďalekohľad|ďalekohľad 10x50|60|0.05|
+lupa|hodinárska lupa|60|0.08|
+lupa|lupa s osvetlením|60|0.09|
+lupa|stolova lupa so svetlom|60|0.11|
+astrofotografia|astrofotografia|60|0|
+teleskop|ako vybrat teleskop|60|0.12|R
+teleskop|teleskop cena|60|0.07|
+teleskop|teleskop pre zaciatocnikov|60|0.1|
+vlhkomer|teplomer vlhkomer|60|0.1|
+mikroskop|detske mikroskopy|60|0.08|
+mikroskop|usb mikroskop|60|0.08|
+nočné videnie|nočné videnie pard|50|0.04|
+meteostanica|bezdrotova meteostanica|50|0.04|
+meteostanica|meteostanica s wifi|50|0.05|
+meteostanica|najlepsia meteostanica|50|0.04|R
+meteostanica|profesionalne meteostanice|50|0.07|
+pulsar|pulsar thermion|50|0|
+ďalekohľad|dalekohlad detsky|50|0.09|
+ďalekohľad|dalekohlad hvezdarsky|50|0.1|
+ďalekohľad|dalekohlad nikon|50|0.05|
+ďalekohľad|divadelny dalekohlad|50|0.04|
+ďalekohľad|kvalitny dalekohlad|50|0.03|R
+ďalekohľad|najlepsi dalekohlad|50|0.02|R
+vlhkomer|vlhkomer cena|50|0.07|
+vlhkomer|vlhkomer s teplomerom|50|0.11|
+refraktometer|refraktometer na meranie cukornatosti|50|0.09|
+celestron|celestron 8se|50|0.1|
+celestron|celestron nexstar 8se|50|0.1|
+mikroskop|stereo mikroskop|50|0.38|
+fotopasca|fotopasca wifi|40|0.1|
+fotopasca|fotopasce mms|40|0.13|
+fotopasca|najlacnejsia fotopasca mms|40|0.11|
+fotopasca|wifi fotopasca|40|0.07|
+nočné videnie|nocne videnie bresser|40|0|
+nočné videnie|nocne videnie na prilbu|40|0.1|
+nočné videnie|nočné videnie monokulár|40|0.08|
+nočné videnie|nočné videnie pulsar|40|0|
+okulár|okulár|40|0|
+meteostanica|kvalitna meteostanica|40|0.06|R
+termovízia|skúsenosti s termovízia|40|0|R
+termovízia|termovízia pre poľovníkov|40|0|
+pulsar|pulsar digex n455|40|0|
+pulsar|pulsar digisight ultra n455|40|0|
+pulsar|pulsar forward f455|40|0|
+pulsar|pulsar quantum lite xq30v|40|0|
+pulsar|pulsar thermion xm 50 cena|40|0|
+ďalekohľad|ako funguje dalekohlad|40|0|R
+ďalekohľad|ako si vybrat dalekohlad|40|0.02|R
+ďalekohľad|aky dalekohlad na pozorovanie lietadiel|40|0|R
+ďalekohľad|bushnell dalekohlad|40|0.06|
+ďalekohľad|dalekohlad 10x56|40|0.05|
+ďalekohľad|dalekohlad 8x42|40|0.06|
+ďalekohľad|dalekohlad bresser|40|0.1|
+ďalekohľad|dalekohlad monokular|40|0.05|
+ďalekohľad|digitalny dalekohlad|40|0.05|
+ďalekohľad|maly dalekohlad|40|0.04|
+ďalekohľad|mini dalekohlad|40|0.08|
+ďalekohľad|vreckovy dalekohlad|40|0.05|
+monokulár|dalekohlady monokularne|40|0.16|
+lupa|lupa na telefon|40|0.13|
+teleskop|teleskop service ransburg gmbh|40|0|
+vlhkomer|vlhkomer do domu|40|0.08|
+vlhkomer|vlhkomer obilia|40|0.14|
+refraktometer|abbeho refraktometer|40|0|
+statív|statis|40|0|
+statív|stativ na projektor|40|0.07|
+diaľkomer|lacné dialkomery|40|0|
+diaľkomer|laserový diaľkomer|40|0.05|
+mikroskop|dětský mikroskop|40|0.1|
+mikroskop|mikroskop bresser|40|0.08|
+mikroskop|mikroskop predaj|40|0.14|
+mikroskop|mini mikroskop|40|0.15|
+mikroskop|opticky mikroskop|40|0.36|
+mikroskop|optický mikroskop|40|0.36|
+mikroskop|popis mikroskopu|40|0.59|
+mikroskop|stereoskopický mikroskop|40|0.33|
+mikroskop|vreckový mikroskop|40|0.09|
+fotopasca|fotopasca do domu|30|0|
+fotopasca|fotopasca ibo|30|0.19|
+fotopasca|fotopasca s wifi|30|0.1|
+fotopasca|fotopasce ibo|30|0.19|
+fotopasca|ibo fotopasce|30|0.11|
+fotopasca|kryt na fotopascu|30|0.23|
+fotopasca|maskovanie fotopasce|30|0|
+nočné videnie|nocne videnie binocular|30|0.11|
+nočné videnie|nocne videnie dalekohlad|30|0.09|
+nočné videnie|nocne videnie do auta|30|0|
+nočné videnie|nocne videnie predsadka dedal|30|0|
+nočné videnie|nocne videnie ruskej vyroby|30|0|
+nočné videnie|nočné videnie pre poľovníkov|30|0|
+nočné videnie|pozorovacie nočné videnie|30|0|
+digitálny mikroskop|digitálne mikroskopy|30|0.2|
+levenhuk|levenhuk mikroskop|30|0.07|
+levenhuk|mikroskop levenhuk|30|0.09|
+meteostanica|meteostanica s 3 senzormi|30|0.07|
+meteostanica|meteostanica tfa|30|0.05|
+meteostanica|profi meteostanica|30|0.08|
+meteostanica|zliechov meteostanica|30|0|
+termovízia|dahua termovízia|30|0.15|
+termovízia|termovize|30|0.1|
+termovízia|termovízia predaj|30|0|
+pulsar|pulsar action key xm30|30|0|
+pulsar|pulsar axion key xm30|30|0|
+pulsar|pulsar termo|30|0|
+pulsar|pulsar thermion xm50|30|0|
+ďalekohľad|astronomický ďalekohľad|30|0.08|
+ďalekohľad|dalekohlad 12x50|30|0.06|
+ďalekohľad|dalekohlad cena|30|0.03|
+ďalekohľad|dalekohlad mikroskop|30|0.57|
+ďalekohľad|dalekohlad na hviezdy pre deti|30|0.16|
+ďalekohľad|dalekohlad na jedno oko|30|0|
+ďalekohľad|dalekohlad na pozorovanie vtakov|30|0.06|
+ďalekohľad|dalekohlad z nocnym videnim|30|0.07|
+ďalekohľad|dalekohled 10x50|30|0.05|
+ďalekohľad|detsky hvezdarsky dalekohlad|30|0|
+ďalekohľad|hvezdarsky dalekohlad pre deti|30|0|
+ďalekohľad|piratsky dalekohlad|30|0|
+ďalekohľad|stativ na dalekohlad|30|0.09|
+ďalekohľad|teleskop dalekohlad|30|0.11|
+ďalekohľad|ďalekohľad 8x56|30|0|
+lupa|křišťálová lupa|30|0|
+lupa|lupa emoji|30|0|
+lupa|lupa preklad|30|0|
+lupa|vrecková lupa|30|0.08|
+teleskop|astronomicky teleskop|30|0.08|
+teleskop|dobson teleskop|30|0.14|
+teleskop|hablov teleskop|30|0|
+teleskop|teleskop dobson|30|0.14|
+vlhkomer|digitalny vlhkomer|30|0.12|
+vlhkomer|profesionalny vlhkomer|30|0.11|
+vlhkomer|vlhkomer do liahne|30|0.21|
+vlhkomer|vlhkomer dreva|30|0.11|
+vlhkomer|vlhkomer na podlahu|30|0.16|
+refraktometer|refraktometer na hrozno|30|0.08|
+statív|drziak mobilu na stativ|30|0.1|
+statív|rollei stativ|30|0.04|
+statív|stativ na svetlo|30|0.09|
+statív|stativ velbon|30|0.06|
+statív|velbon stativ|30|0.06|
+diaľkomer|diaľkomer|30|0.17|
+diaľkomer|laserové diaľkomery|30|0|
+celestron|celestron 130eq|30|0.1|
+celestron|celestron astromaster 130 eq|30|0.1|
+celestron|celestron astromaster 130eq|30|0.1|
+binokulár|binokulár|30|0.12|
+hikmicro|hikmicro 35|30|0|
+mikroskop|laboratorny mikroskop|30|0.24|
+mikroskop|metalografický mikroskop|30|0|
+mikroskop|mikroskop carl zeiss|30|0.35|
+mikroskop|mikroskop kreslený|30|0|
+mikroskop|mikroskopy biologia|30|0|
+mikroskop|profesionalny mikroskop|30|0.15|
+mikroskop|zloženie mikroskopu|30|0|
