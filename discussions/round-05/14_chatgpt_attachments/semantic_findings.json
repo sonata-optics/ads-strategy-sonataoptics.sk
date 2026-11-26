@@ -1,0 +1,32 @@
+[
+  {
+    "query": "dalekohlad 10x42",
+    "landing": "https://sonataoptics.sk/dalekohlady/dalekohlady-10x50/",
+    "issue": "explicit magnification differs from 10x50 landing"
+  },
+  {
+    "query": "dalekohlad 8x42",
+    "landing": "https://sonataoptics.sk/dalekohlady/dalekohlady-10x50/",
+    "issue": "explicit magnification differs from 10x50 landing"
+  },
+  {
+    "query": "dalekohlad 12x50",
+    "landing": "https://sonataoptics.sk/dalekohlady/dalekohlady-10x50/",
+    "issue": "explicit magnification differs from 10x50 landing"
+  },
+  {
+    "query": "dalekohlad 8x56",
+    "landing": "https://sonataoptics.sk/dalekohlady/dalekohlady-10x50/",
+    "issue": "explicit magnification differs from 10x50 landing"
+  },
+  {
+    "query": "ďalekohľad 8x56",
+    "landing": "https://sonataoptics.sk/dalekohlady/dalekohlady-10x50/",
+    "issue": "explicit magnification differs from 10x50 landing"
+  },
+  {
+    "query": "dalekohlad 10x56",
+    "landing": "https://sonataoptics.sk/dalekohlady/dalekohlady-10x50/",
+    "issue": "explicit magnification differs from 10x50 landing"
+  }
+]
