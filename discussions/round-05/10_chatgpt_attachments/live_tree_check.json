@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-11-26",
+  "source": "Repeated read-only shopping_product query; independently evaluated against full JSON specification",
+  "rows": 7828,
+  "now": {
+    "multi": 0,
+    "violations": 0,
+    "inStock": {
+      "SO27 | SHOP | Teleskopy": 595,
+      "NONE": 897,
+      "SO27 | SHOP | Mikroskopy": 614,
+      "SO27 | SHOP | Príslušenstvo a ostatné": 2144,
+      "SO27 | SHOP | Ďalekohľady": 458,
+      "SO27 | SHOP | Junior výber": 1
+    }
+  },
+  "after": {
+    "multi": 0,
+    "violations": 0,
+    "inStock": {
+      "SO27 | SHOP | Teleskopy": 601,
+      "SO27 | SHOP | Príslušenstvo a ostatné": 2734,
+      "SO27 | SHOP | Mikroskopy": 620,
+      "NONE": 257,
+      "SO27 | SHOP | Ďalekohľady": 493,
+      "SO27 | SHOP | Junior výber": 4
+    }
+  }
+}
