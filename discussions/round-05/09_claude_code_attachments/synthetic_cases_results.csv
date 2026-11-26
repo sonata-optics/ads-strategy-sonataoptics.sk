@@ -1,0 +1,769 @@
+item_id,label0,label4,label3,routes,campaign,cpc,path,expected,result
+64085,teleskopy a hvezdárske ďalekohľady,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,teleskopy a hvezdárske ďalekohľady,ads_ok,p_20_49,1,SO27 | SHOP | Teleskopy,0.55,custom_label4=ads_ok > custom_label3=p_20_49 > item_id=64085,BID,PASS
+64085,teleskopy a hvezdárske ďalekohľady,ads_ok,p_50_199,1,SO27 | SHOP | Teleskopy,0.55,custom_label4=ads_ok > custom_label3=p_50_199 > item_id=64085,BID,PASS
+64085,teleskopy a hvezdárske ďalekohľady,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,teleskopy a hvezdárske ďalekohľady,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,teleskopy a hvezdárske ďalekohľady,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+64085,teleskopy a hvezdárske ďalekohľady,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,teleskopy a hvezdárske ďalekohľady,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,teleskopy a hvezdárske ďalekohľady,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,teleskopy a hvezdárske ďalekohľady,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,teleskopy a hvezdárske ďalekohľady,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,teleskopy a hvezdárske ďalekohľady,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+64085,teleskopy a hvezdárske ďalekohľady,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,teleskopy a hvezdárske ďalekohľady,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,teleskopy a hvezdárske ďalekohľady,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,teleskopy a hvezdárske ďalekohľady,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,teleskopy a hvezdárske ďalekohľady,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,teleskopy a hvezdárske ďalekohľady,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+64085,teleskopy a hvezdárske ďalekohľady,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,teleskopy a hvezdárske ďalekohľady,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,teleskopy a hvezdárske ďalekohľady,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,teleskopy a hvezdárske ďalekohľady,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,teleskopy a hvezdárske ďalekohľady,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,teleskopy a hvezdárske ďalekohľady,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+64085,sonata junior lab,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,sonata junior lab,ads_ok,p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,sonata junior lab,ads_ok,p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,sonata junior lab,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,sonata junior lab,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,sonata junior lab,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+64085,sonata junior lab,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,sonata junior lab,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,sonata junior lab,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,sonata junior lab,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,sonata junior lab,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,sonata junior lab,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+64085,sonata junior lab,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,sonata junior lab,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,sonata junior lab,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,sonata junior lab,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,sonata junior lab,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,sonata junior lab,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+64085,sonata junior lab,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,sonata junior lab,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,sonata junior lab,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,sonata junior lab,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,sonata junior lab,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,sonata junior lab,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+64085,mikroskopy,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,mikroskopy,ads_ok,p_20_49,1,SO27 | SHOP | Mikroskopy,0.2,custom_label4=ads_ok > custom_label3=p_20_49 > item_id=*others*,BID,PASS
+64085,mikroskopy,ads_ok,p_50_199,1,SO27 | SHOP | Mikroskopy,0.35,custom_label4=ads_ok > custom_label3=p_50_199 > item_id=*others*,BID,PASS
+64085,mikroskopy,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,mikroskopy,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,mikroskopy,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+64085,mikroskopy,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,mikroskopy,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,mikroskopy,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,mikroskopy,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,mikroskopy,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,mikroskopy,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+64085,mikroskopy,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,mikroskopy,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,mikroskopy,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,mikroskopy,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,mikroskopy,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,mikroskopy,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+64085,mikroskopy,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,mikroskopy,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,mikroskopy,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,mikroskopy,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,mikroskopy,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,mikroskopy,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+64085,monokuláre,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,monokuláre,ads_ok,p_20_49,1,SO27 | SHOP | Ďalekohľady,0.2,custom_label4=ads_ok > custom_label0=monokuláre > custom_label3=p_20_49,BID,PASS
+64085,monokuláre,ads_ok,p_50_199,1,SO27 | SHOP | Ďalekohľady,0.35,custom_label4=ads_ok > custom_label0=monokuláre > custom_label3=p_50_199,BID,PASS
+64085,monokuláre,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,monokuláre,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,monokuláre,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+64085,monokuláre,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,monokuláre,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,monokuláre,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,monokuláre,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,monokuláre,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,monokuláre,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+64085,monokuláre,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,monokuláre,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,monokuláre,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,monokuláre,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,monokuláre,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,monokuláre,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+64085,monokuláre,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,monokuláre,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,monokuláre,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,monokuláre,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,monokuláre,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,monokuláre,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+64085,termovízie,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,termovízie,ads_ok,p_20_49,1,SO27 | SHOP | Termovízie (pozorovanie),0.25,custom_label4=ads_ok > custom_label0=termovízie > custom_label3=p_20_49,BID,PASS
+64085,termovízie,ads_ok,p_50_199,1,SO27 | SHOP | Termovízie (pozorovanie),0.3,custom_label4=ads_ok > custom_label0=termovízie > custom_label3=p_50_199,BID,PASS
+64085,termovízie,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,termovízie,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,termovízie,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+64085,termovízie,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,termovízie,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,termovízie,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,termovízie,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,termovízie,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,termovízie,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+64085,termovízie,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,termovízie,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,termovízie,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,termovízie,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,termovízie,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,termovízie,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+64085,termovízie,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,termovízie,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,termovízie,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,termovízie,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,termovízie,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,termovízie,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+64085,lupy,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,lupy,ads_ok,p_20_49,1,SO27 | SHOP | Príslušenstvo a ostatné,0.15,custom_label4=ads_ok > custom_label0=lupy > custom_label3=p_20_49,BID,PASS
+64085,lupy,ads_ok,p_50_199,1,SO27 | SHOP | Príslušenstvo a ostatné,0.25,custom_label4=ads_ok > custom_label0=lupy > custom_label3=p_50_199,BID,PASS
+64085,lupy,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,lupy,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,lupy,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+64085,lupy,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,lupy,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,lupy,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,lupy,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,lupy,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,lupy,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+64085,lupy,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,lupy,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,lupy,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,lupy,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,lupy,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,lupy,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+64085,lupy,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,lupy,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,lupy,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,lupy,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,lupy,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,lupy,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+64085,neznáma kategória,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,neznáma kategória,ads_ok,p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,neznáma kategória,ads_ok,p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,neznáma kategória,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,neznáma kategória,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,neznáma kategória,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+64085,neznáma kategória,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,neznáma kategória,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,neznáma kategória,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,neznáma kategória,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,neznáma kategória,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,neznáma kategória,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+64085,neznáma kategória,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,neznáma kategória,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,neznáma kategória,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,neznáma kategória,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,neznáma kategória,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,neznáma kategória,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+64085,neznáma kategória,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,neznáma kategória,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,neznáma kategória,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,neznáma kategória,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,neznáma kategória,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,neznáma kategória,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+64085,(missing),ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,(missing),ads_ok,p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,(missing),ads_ok,p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,(missing),ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,(missing),ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,(missing),ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+64085,(missing),ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,(missing),ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,(missing),ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,(missing),ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,(missing),ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,(missing),ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+64085,(missing),ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,(missing),ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,(missing),ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,(missing),ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,(missing),ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,(missing),ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+64085,(missing),(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+64085,(missing),(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+64085,(missing),(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+64085,(missing),(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+64085,(missing),(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+64085,(missing),(missing),(missing),0,-,-,-,EXCLUDED,PASS
+25828,teleskopy a hvezdárske ďalekohľady,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,teleskopy a hvezdárske ďalekohľady,ads_ok,p_20_49,1,SO27 | SHOP | Teleskopy,0.3,custom_label4=ads_ok > custom_label3=p_20_49 > item_id=*others*,BID,PASS
+25828,teleskopy a hvezdárske ďalekohľady,ads_ok,p_50_199,1,SO27 | SHOP | Teleskopy,0.4,custom_label4=ads_ok > custom_label3=p_50_199 > item_id=*others*,BID,PASS
+25828,teleskopy a hvezdárske ďalekohľady,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,teleskopy a hvezdárske ďalekohľady,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,teleskopy a hvezdárske ďalekohľady,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+25828,teleskopy a hvezdárske ďalekohľady,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,teleskopy a hvezdárske ďalekohľady,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,teleskopy a hvezdárske ďalekohľady,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,teleskopy a hvezdárske ďalekohľady,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,teleskopy a hvezdárske ďalekohľady,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,teleskopy a hvezdárske ďalekohľady,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+25828,teleskopy a hvezdárske ďalekohľady,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,teleskopy a hvezdárske ďalekohľady,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,teleskopy a hvezdárske ďalekohľady,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,teleskopy a hvezdárske ďalekohľady,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,teleskopy a hvezdárske ďalekohľady,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,teleskopy a hvezdárske ďalekohľady,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+25828,teleskopy a hvezdárske ďalekohľady,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,teleskopy a hvezdárske ďalekohľady,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,teleskopy a hvezdárske ďalekohľady,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,teleskopy a hvezdárske ďalekohľady,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,teleskopy a hvezdárske ďalekohľady,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,teleskopy a hvezdárske ďalekohľady,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+25828,sonata junior lab,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,sonata junior lab,ads_ok,p_20_49,1,SO27 | SHOP | Junior výber,0.25,custom_label4=ads_ok > custom_label3=p_20_49 > item_id=25828,BID,PASS
+25828,sonata junior lab,ads_ok,p_50_199,1,SO27 | SHOP | Junior výber,0.25,custom_label4=ads_ok > custom_label3=p_50_199 > item_id=25828,BID,PASS
+25828,sonata junior lab,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,sonata junior lab,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,sonata junior lab,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+25828,sonata junior lab,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,sonata junior lab,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,sonata junior lab,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,sonata junior lab,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,sonata junior lab,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,sonata junior lab,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+25828,sonata junior lab,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,sonata junior lab,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,sonata junior lab,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,sonata junior lab,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,sonata junior lab,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,sonata junior lab,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+25828,sonata junior lab,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,sonata junior lab,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,sonata junior lab,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,sonata junior lab,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,sonata junior lab,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,sonata junior lab,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+25828,mikroskopy,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,mikroskopy,ads_ok,p_20_49,1,SO27 | SHOP | Mikroskopy,0.2,custom_label4=ads_ok > custom_label3=p_20_49 > item_id=*others*,BID,PASS
+25828,mikroskopy,ads_ok,p_50_199,1,SO27 | SHOP | Mikroskopy,0.35,custom_label4=ads_ok > custom_label3=p_50_199 > item_id=*others*,BID,PASS
+25828,mikroskopy,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,mikroskopy,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,mikroskopy,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+25828,mikroskopy,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,mikroskopy,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,mikroskopy,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,mikroskopy,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,mikroskopy,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,mikroskopy,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+25828,mikroskopy,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,mikroskopy,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,mikroskopy,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,mikroskopy,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,mikroskopy,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,mikroskopy,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+25828,mikroskopy,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,mikroskopy,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,mikroskopy,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,mikroskopy,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,mikroskopy,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,mikroskopy,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+25828,monokuláre,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,monokuláre,ads_ok,p_20_49,1,SO27 | SHOP | Ďalekohľady,0.2,custom_label4=ads_ok > custom_label0=monokuláre > custom_label3=p_20_49,BID,PASS
+25828,monokuláre,ads_ok,p_50_199,1,SO27 | SHOP | Ďalekohľady,0.35,custom_label4=ads_ok > custom_label0=monokuláre > custom_label3=p_50_199,BID,PASS
+25828,monokuláre,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,monokuláre,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,monokuláre,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+25828,monokuláre,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,monokuláre,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,monokuláre,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,monokuláre,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,monokuláre,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,monokuláre,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+25828,monokuláre,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,monokuláre,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,monokuláre,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,monokuláre,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,monokuláre,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,monokuláre,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+25828,monokuláre,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,monokuláre,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,monokuláre,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,monokuláre,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,monokuláre,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,monokuláre,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+25828,termovízie,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,termovízie,ads_ok,p_20_49,1,SO27 | SHOP | Termovízie (pozorovanie),0.25,custom_label4=ads_ok > custom_label0=termovízie > custom_label3=p_20_49,BID,PASS
+25828,termovízie,ads_ok,p_50_199,1,SO27 | SHOP | Termovízie (pozorovanie),0.3,custom_label4=ads_ok > custom_label0=termovízie > custom_label3=p_50_199,BID,PASS
+25828,termovízie,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,termovízie,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,termovízie,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+25828,termovízie,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,termovízie,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,termovízie,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,termovízie,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,termovízie,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,termovízie,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+25828,termovízie,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,termovízie,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,termovízie,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,termovízie,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,termovízie,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,termovízie,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+25828,termovízie,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,termovízie,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,termovízie,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,termovízie,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,termovízie,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,termovízie,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+25828,lupy,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,lupy,ads_ok,p_20_49,1,SO27 | SHOP | Príslušenstvo a ostatné,0.15,custom_label4=ads_ok > custom_label0=lupy > custom_label3=p_20_49,BID,PASS
+25828,lupy,ads_ok,p_50_199,1,SO27 | SHOP | Príslušenstvo a ostatné,0.25,custom_label4=ads_ok > custom_label0=lupy > custom_label3=p_50_199,BID,PASS
+25828,lupy,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,lupy,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,lupy,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+25828,lupy,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,lupy,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,lupy,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,lupy,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,lupy,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,lupy,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+25828,lupy,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,lupy,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,lupy,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,lupy,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,lupy,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,lupy,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+25828,lupy,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,lupy,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,lupy,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,lupy,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,lupy,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,lupy,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+25828,neznáma kategória,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,neznáma kategória,ads_ok,p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,neznáma kategória,ads_ok,p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,neznáma kategória,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,neznáma kategória,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,neznáma kategória,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+25828,neznáma kategória,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,neznáma kategória,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,neznáma kategória,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,neznáma kategória,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,neznáma kategória,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,neznáma kategória,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+25828,neznáma kategória,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,neznáma kategória,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,neznáma kategória,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,neznáma kategória,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,neznáma kategória,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,neznáma kategória,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+25828,neznáma kategória,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,neznáma kategória,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,neznáma kategória,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,neznáma kategória,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,neznáma kategória,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,neznáma kategória,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+25828,(missing),ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,(missing),ads_ok,p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,(missing),ads_ok,p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,(missing),ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,(missing),ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,(missing),ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+25828,(missing),ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,(missing),ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,(missing),ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,(missing),ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,(missing),ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,(missing),ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+25828,(missing),ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,(missing),ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,(missing),ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,(missing),ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,(missing),ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,(missing),ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+25828,(missing),(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+25828,(missing),(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+25828,(missing),(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+25828,(missing),(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+25828,(missing),(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+25828,(missing),(missing),(missing),0,-,-,-,EXCLUDED,PASS
+104421,teleskopy a hvezdárske ďalekohľady,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,teleskopy a hvezdárske ďalekohľady,ads_ok,p_20_49,1,SO27 | SHOP | Teleskopy,0.4,custom_label4=ads_ok > custom_label3=p_20_49 > item_id=104421,BID,PASS
+104421,teleskopy a hvezdárske ďalekohľady,ads_ok,p_50_199,1,SO27 | SHOP | Teleskopy,0.4,custom_label4=ads_ok > custom_label3=p_50_199 > item_id=104421,BID,PASS
+104421,teleskopy a hvezdárske ďalekohľady,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,teleskopy a hvezdárske ďalekohľady,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,teleskopy a hvezdárske ďalekohľady,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+104421,teleskopy a hvezdárske ďalekohľady,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,teleskopy a hvezdárske ďalekohľady,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,teleskopy a hvezdárske ďalekohľady,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,teleskopy a hvezdárske ďalekohľady,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,teleskopy a hvezdárske ďalekohľady,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,teleskopy a hvezdárske ďalekohľady,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+104421,teleskopy a hvezdárske ďalekohľady,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,teleskopy a hvezdárske ďalekohľady,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,teleskopy a hvezdárske ďalekohľady,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,teleskopy a hvezdárske ďalekohľady,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,teleskopy a hvezdárske ďalekohľady,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,teleskopy a hvezdárske ďalekohľady,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+104421,teleskopy a hvezdárske ďalekohľady,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,teleskopy a hvezdárske ďalekohľady,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,teleskopy a hvezdárske ďalekohľady,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,teleskopy a hvezdárske ďalekohľady,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,teleskopy a hvezdárske ďalekohľady,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,teleskopy a hvezdárske ďalekohľady,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+104421,sonata junior lab,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,sonata junior lab,ads_ok,p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,sonata junior lab,ads_ok,p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,sonata junior lab,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,sonata junior lab,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,sonata junior lab,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+104421,sonata junior lab,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,sonata junior lab,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,sonata junior lab,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,sonata junior lab,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,sonata junior lab,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,sonata junior lab,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+104421,sonata junior lab,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,sonata junior lab,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,sonata junior lab,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,sonata junior lab,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,sonata junior lab,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,sonata junior lab,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+104421,sonata junior lab,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,sonata junior lab,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,sonata junior lab,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,sonata junior lab,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,sonata junior lab,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,sonata junior lab,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+104421,mikroskopy,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,mikroskopy,ads_ok,p_20_49,1,SO27 | SHOP | Mikroskopy,0.2,custom_label4=ads_ok > custom_label3=p_20_49 > item_id=*others*,BID,PASS
+104421,mikroskopy,ads_ok,p_50_199,1,SO27 | SHOP | Mikroskopy,0.35,custom_label4=ads_ok > custom_label3=p_50_199 > item_id=*others*,BID,PASS
+104421,mikroskopy,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,mikroskopy,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,mikroskopy,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+104421,mikroskopy,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,mikroskopy,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,mikroskopy,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,mikroskopy,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,mikroskopy,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,mikroskopy,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+104421,mikroskopy,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,mikroskopy,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,mikroskopy,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,mikroskopy,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,mikroskopy,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,mikroskopy,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+104421,mikroskopy,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,mikroskopy,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,mikroskopy,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,mikroskopy,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,mikroskopy,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,mikroskopy,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+104421,monokuláre,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,monokuláre,ads_ok,p_20_49,1,SO27 | SHOP | Ďalekohľady,0.2,custom_label4=ads_ok > custom_label0=monokuláre > custom_label3=p_20_49,BID,PASS
+104421,monokuláre,ads_ok,p_50_199,1,SO27 | SHOP | Ďalekohľady,0.35,custom_label4=ads_ok > custom_label0=monokuláre > custom_label3=p_50_199,BID,PASS
+104421,monokuláre,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,monokuláre,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,monokuláre,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+104421,monokuláre,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,monokuláre,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,monokuláre,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,monokuláre,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,monokuláre,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,monokuláre,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+104421,monokuláre,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,monokuláre,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,monokuláre,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,monokuláre,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,monokuláre,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,monokuláre,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+104421,monokuláre,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,monokuláre,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,monokuláre,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,monokuláre,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,monokuláre,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,monokuláre,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+104421,termovízie,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,termovízie,ads_ok,p_20_49,1,SO27 | SHOP | Termovízie (pozorovanie),0.25,custom_label4=ads_ok > custom_label0=termovízie > custom_label3=p_20_49,BID,PASS
+104421,termovízie,ads_ok,p_50_199,1,SO27 | SHOP | Termovízie (pozorovanie),0.3,custom_label4=ads_ok > custom_label0=termovízie > custom_label3=p_50_199,BID,PASS
+104421,termovízie,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,termovízie,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,termovízie,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+104421,termovízie,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,termovízie,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,termovízie,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,termovízie,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,termovízie,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,termovízie,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+104421,termovízie,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,termovízie,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,termovízie,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,termovízie,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,termovízie,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,termovízie,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+104421,termovízie,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,termovízie,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,termovízie,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,termovízie,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,termovízie,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,termovízie,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+104421,lupy,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,lupy,ads_ok,p_20_49,1,SO27 | SHOP | Príslušenstvo a ostatné,0.15,custom_label4=ads_ok > custom_label0=lupy > custom_label3=p_20_49,BID,PASS
+104421,lupy,ads_ok,p_50_199,1,SO27 | SHOP | Príslušenstvo a ostatné,0.25,custom_label4=ads_ok > custom_label0=lupy > custom_label3=p_50_199,BID,PASS
+104421,lupy,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,lupy,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,lupy,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+104421,lupy,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,lupy,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,lupy,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,lupy,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,lupy,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,lupy,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+104421,lupy,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,lupy,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,lupy,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,lupy,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,lupy,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,lupy,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+104421,lupy,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,lupy,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,lupy,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,lupy,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,lupy,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,lupy,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+104421,neznáma kategória,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,neznáma kategória,ads_ok,p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,neznáma kategória,ads_ok,p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,neznáma kategória,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,neznáma kategória,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,neznáma kategória,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+104421,neznáma kategória,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,neznáma kategória,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,neznáma kategória,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,neznáma kategória,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,neznáma kategória,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,neznáma kategória,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+104421,neznáma kategória,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,neznáma kategória,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,neznáma kategória,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,neznáma kategória,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,neznáma kategória,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,neznáma kategória,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+104421,neznáma kategória,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,neznáma kategória,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,neznáma kategória,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,neznáma kategória,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,neznáma kategória,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,neznáma kategória,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+104421,(missing),ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,(missing),ads_ok,p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,(missing),ads_ok,p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,(missing),ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,(missing),ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,(missing),ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+104421,(missing),ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,(missing),ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,(missing),ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,(missing),ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,(missing),ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,(missing),ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+104421,(missing),ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,(missing),ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,(missing),ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,(missing),ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,(missing),ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,(missing),ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+104421,(missing),(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+104421,(missing),(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+104421,(missing),(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+104421,(missing),(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+104421,(missing),(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+104421,(missing),(missing),(missing),0,-,-,-,EXCLUDED,PASS
+99999,teleskopy a hvezdárske ďalekohľady,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,teleskopy a hvezdárske ďalekohľady,ads_ok,p_20_49,1,SO27 | SHOP | Teleskopy,0.3,custom_label4=ads_ok > custom_label3=p_20_49 > item_id=*others*,BID,PASS
+99999,teleskopy a hvezdárske ďalekohľady,ads_ok,p_50_199,1,SO27 | SHOP | Teleskopy,0.4,custom_label4=ads_ok > custom_label3=p_50_199 > item_id=*others*,BID,PASS
+99999,teleskopy a hvezdárske ďalekohľady,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,teleskopy a hvezdárske ďalekohľady,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,teleskopy a hvezdárske ďalekohľady,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+99999,teleskopy a hvezdárske ďalekohľady,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,teleskopy a hvezdárske ďalekohľady,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,teleskopy a hvezdárske ďalekohľady,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,teleskopy a hvezdárske ďalekohľady,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,teleskopy a hvezdárske ďalekohľady,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,teleskopy a hvezdárske ďalekohľady,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+99999,teleskopy a hvezdárske ďalekohľady,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,teleskopy a hvezdárske ďalekohľady,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,teleskopy a hvezdárske ďalekohľady,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,teleskopy a hvezdárske ďalekohľady,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,teleskopy a hvezdárske ďalekohľady,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,teleskopy a hvezdárske ďalekohľady,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+99999,teleskopy a hvezdárske ďalekohľady,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,teleskopy a hvezdárske ďalekohľady,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,teleskopy a hvezdárske ďalekohľady,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,teleskopy a hvezdárske ďalekohľady,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,teleskopy a hvezdárske ďalekohľady,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,teleskopy a hvezdárske ďalekohľady,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+99999,sonata junior lab,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,sonata junior lab,ads_ok,p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,sonata junior lab,ads_ok,p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,sonata junior lab,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,sonata junior lab,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,sonata junior lab,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+99999,sonata junior lab,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,sonata junior lab,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,sonata junior lab,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,sonata junior lab,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,sonata junior lab,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,sonata junior lab,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+99999,sonata junior lab,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,sonata junior lab,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,sonata junior lab,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,sonata junior lab,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,sonata junior lab,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,sonata junior lab,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+99999,sonata junior lab,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,sonata junior lab,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,sonata junior lab,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,sonata junior lab,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,sonata junior lab,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,sonata junior lab,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+99999,mikroskopy,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,mikroskopy,ads_ok,p_20_49,1,SO27 | SHOP | Mikroskopy,0.2,custom_label4=ads_ok > custom_label3=p_20_49 > item_id=*others*,BID,PASS
+99999,mikroskopy,ads_ok,p_50_199,1,SO27 | SHOP | Mikroskopy,0.35,custom_label4=ads_ok > custom_label3=p_50_199 > item_id=*others*,BID,PASS
+99999,mikroskopy,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,mikroskopy,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,mikroskopy,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+99999,mikroskopy,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,mikroskopy,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,mikroskopy,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,mikroskopy,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,mikroskopy,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,mikroskopy,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+99999,mikroskopy,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,mikroskopy,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,mikroskopy,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,mikroskopy,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,mikroskopy,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,mikroskopy,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+99999,mikroskopy,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,mikroskopy,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,mikroskopy,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,mikroskopy,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,mikroskopy,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,mikroskopy,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+99999,monokuláre,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,monokuláre,ads_ok,p_20_49,1,SO27 | SHOP | Ďalekohľady,0.2,custom_label4=ads_ok > custom_label0=monokuláre > custom_label3=p_20_49,BID,PASS
+99999,monokuláre,ads_ok,p_50_199,1,SO27 | SHOP | Ďalekohľady,0.35,custom_label4=ads_ok > custom_label0=monokuláre > custom_label3=p_50_199,BID,PASS
+99999,monokuláre,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,monokuláre,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,monokuláre,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+99999,monokuláre,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,monokuláre,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,monokuláre,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,monokuláre,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,monokuláre,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,monokuláre,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+99999,monokuláre,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,monokuláre,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,monokuláre,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,monokuláre,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,monokuláre,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,monokuláre,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+99999,monokuláre,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,monokuláre,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,monokuláre,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,monokuláre,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,monokuláre,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,monokuláre,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+99999,termovízie,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,termovízie,ads_ok,p_20_49,1,SO27 | SHOP | Termovízie (pozorovanie),0.25,custom_label4=ads_ok > custom_label0=termovízie > custom_label3=p_20_49,BID,PASS
+99999,termovízie,ads_ok,p_50_199,1,SO27 | SHOP | Termovízie (pozorovanie),0.3,custom_label4=ads_ok > custom_label0=termovízie > custom_label3=p_50_199,BID,PASS
+99999,termovízie,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,termovízie,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,termovízie,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+99999,termovízie,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,termovízie,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,termovízie,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,termovízie,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,termovízie,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,termovízie,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+99999,termovízie,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,termovízie,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,termovízie,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,termovízie,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,termovízie,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,termovízie,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+99999,termovízie,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,termovízie,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,termovízie,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,termovízie,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,termovízie,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,termovízie,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+99999,lupy,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,lupy,ads_ok,p_20_49,1,SO27 | SHOP | Príslušenstvo a ostatné,0.15,custom_label4=ads_ok > custom_label0=lupy > custom_label3=p_20_49,BID,PASS
+99999,lupy,ads_ok,p_50_199,1,SO27 | SHOP | Príslušenstvo a ostatné,0.25,custom_label4=ads_ok > custom_label0=lupy > custom_label3=p_50_199,BID,PASS
+99999,lupy,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,lupy,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,lupy,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+99999,lupy,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,lupy,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,lupy,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,lupy,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,lupy,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,lupy,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+99999,lupy,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,lupy,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,lupy,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,lupy,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,lupy,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,lupy,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+99999,lupy,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,lupy,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,lupy,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,lupy,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,lupy,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,lupy,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+99999,neznáma kategória,ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,neznáma kategória,ads_ok,p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,neznáma kategória,ads_ok,p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,neznáma kategória,ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,neznáma kategória,ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,neznáma kategória,ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+99999,neznáma kategória,ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,neznáma kategória,ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,neznáma kategória,ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,neznáma kategória,ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,neznáma kategória,ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,neznáma kategória,ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+99999,neznáma kategória,ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,neznáma kategória,ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,neznáma kategória,ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,neznáma kategória,ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,neznáma kategória,ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,neznáma kategória,ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+99999,neznáma kategória,(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,neznáma kategória,(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,neznáma kategória,(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,neznáma kategória,(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,neznáma kategória,(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,neznáma kategória,(missing),(missing),0,-,-,-,EXCLUDED,PASS
+99999,(missing),ads_ok,p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,(missing),ads_ok,p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,(missing),ads_ok,p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,(missing),ads_ok,p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,(missing),ads_ok,p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,(missing),ads_ok,(missing),0,-,-,-,EXCLUDED,PASS
+99999,(missing),ads_review,p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,(missing),ads_review,p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,(missing),ads_review,p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,(missing),ads_review,p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,(missing),ads_review,p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,(missing),ads_review,(missing),0,-,-,-,EXCLUDED,PASS
+99999,(missing),ads_hold,p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,(missing),ads_hold,p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,(missing),ads_hold,p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,(missing),ads_hold,p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,(missing),ads_hold,p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,(missing),ads_hold,(missing),0,-,-,-,EXCLUDED,PASS
+99999,(missing),(missing),p_lt20,0,-,-,-,EXCLUDED,PASS
+99999,(missing),(missing),p_20_49,0,-,-,-,EXCLUDED,PASS
+99999,(missing),(missing),p_50_199,0,-,-,-,EXCLUDED,PASS
+99999,(missing),(missing),p_invalid,0,-,-,-,EXCLUDED,PASS
+99999,(missing),(missing),p_0_49,0,-,-,-,EXCLUDED,PASS
+99999,(missing),(missing),(missing),0,-,-,-,EXCLUDED,PASS

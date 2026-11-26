@@ -1,0 +1,175 @@
+offer_id,brand,title,label0,device_or_accessory,price,product_type,main_category_id,main_root_id,fingerprint_v3,draft_role
+102268,Bresser,Bresser NightSpy Mono – digitálny prístroj nočného videnia,Nočné videnie,device,123.00 EUR,Nočné videnie > Monokuláre nočného videnia,6164,1722,58ecb4c3fe0ebdce,CHECK_role
+31202,Levenhuk,Levenhuk Atom Digital DNM100 – digitálny prístroj nočného videnia,Nočné videnie,device,169.95 EUR,Nočné videnie > Monokuláre nočného videnia,6164,1722,e495162a2b67e608,CHECK_role
+26401,Levenhuk,Levenhuk Discovery Night ML10 – digitálny prístroj nočného videnia so statívom,Nočné videnie,device,124.95 EUR,Nočné videnie > Monokuláre nočného videnia,6164,1722,4aa6ab8060a40db6,CHECK_role
+94992,Levenhuk,Levenhuk Halo 20X PLUS – digitálny prístroj nočného videnia,Nočné videnie,device,309.95 EUR,Nočné videnie > Monokuláre nočného videnia,6164,1722,49b04d9cdaa7c6cf,CHECK_role
+94932,Levenhuk,Levenhuk Halo NVM20 Helmet – digitálny prístroj nočného videnia,Nočné videnie,device,529.95 EUR,Nočné videnie > Monokuláre nočného videnia,6164,1722,e46fada13cbfcd0a,CHECK_role
+32728,Minox,Minox NVD 650 – digitálny prístroj nočného videnia,Nočné videnie,device,472.55 EUR,Nočné videnie > Monokuláre nočného videnia,6164,1722,f989a43a18a4ac00,CHECK_role
+112924,National Geographic,National Geographic Night Vision Compact – digitálny prístroj nočného videnia,Nočné videnie,device,110.00 EUR,Nočné videnie > Binokuláre nočného videnia,6162,1722,d50d8815f1bfb479,CHECK_role
+107012,Dahua Pixfra,Pixfra Taurus – očnica na použitie ako monokulár,Príslušenstvo k termovíziám,accessory,139.00 EUR,Príslušenstvo k termovíziám > Doplnky k termovíziám,6011,5831,102aedb280e0ad81,accessory_check
+107600,HIKMICRO,HIKMICRO HABROK PRO – nabíjateľná batéria,Príslušenstvo k termovíziám,accessory,80.00 EUR,Príslušenstvo k termovíziám > Batérie a nabíjačky,6158,5831,0490db3f503df7e4,accessory_check
+107602,HIKMICRO,HIKMICRO HABROK PRO – nabíjačka batérií,Príslušenstvo k termovíziám,accessory,108.00 EUR,Príslušenstvo k termovíziám > Batérie a nabíjačky,6158,5831,3bb40d6c8ea77785,accessory_check
+107599,HIKMICRO,HIKMICRO HABROK – puzdro pre binokuláre,Príslušenstvo k termovíziám,accessory,172.00 EUR,Príslušenstvo k termovíziám > Doplnky k termovíziám,6011,5831,573f0bf47144f413,accessory_check
+107604,HIKMICRO,HIKMICRO – ochranné puzdro na termovízie,Príslušenstvo k termovíziám,accessory,39.00 EUR,Príslušenstvo k termovíziám > Doplnky k termovíziám,6011,5831,cfff27baa03801bb,accessory_check
+103566,Nvectech,Nvectech pre DEFENDER – okulár,Príslušenstvo pre nočné videnie,accessory,820.00 EUR,Príslušenstvo pre nočné videnie,5196,5196,f75d5501b3edec33,accessory_check
+106955,Pulsar,Pulsar APS 3 – nabíjateľný akumulátor,Príslušenstvo k termovíziám,accessory,45.00 EUR,Príslušenstvo k termovíziám > Doplnky k termovíziám,6011,5831,7d682b211ce63482,accessory_check
+106960,Pulsar,Pulsar APS 5 – nabíjateľný akumulátor,Príslušenstvo k termovíziám,accessory,45.00 EUR,Príslušenstvo k termovíziám > Doplnky k termovíziám,6011,5831,4adc4588974c58b1,accessory_check
+106956,Pulsar,Pulsar APS – nabíjačka akumulátorov,Príslušenstvo k termovíziám,accessory,43.00 EUR,Príslušenstvo k termovíziám > Doplnky k termovíziám,6011,5831,cf1f851e296b2510,accessory_check
+107698,Pulsar,Pulsar Flat Glass Mount – prísavný držiak,Príslušenstvo k termovíziám,accessory,43.00 EUR,Príslušenstvo k termovíziám > Montáže a adaptéry,6157,5831,1edd68fa023655c1,accessory_check
+106958,Pulsar,Pulsar IPS 14 – nabíjateľný akumulátor,Príslušenstvo k termovíziám,accessory,119.00 EUR,Príslušenstvo k termovíziám > Doplnky k termovíziám,6011,5831,9fe3e8f88bbedde4,accessory_check
+106953,Pulsar,Pulsar IPS 7 – nabíjateľný akumulátor,Príslušenstvo k termovíziám,accessory,95.00 EUR,Príslušenstvo k termovíziám > Doplnky k termovíziám,6011,5831,b5bfd667f8daff03,accessory_check
+106954,Pulsar,Pulsar IPS – nabíjačka akumulátorov,Príslušenstvo k termovíziám,accessory,43.00 EUR,Príslušenstvo k termovíziám > Doplnky k termovíziám,6011,5831,005253cb8b83f192,accessory_check
+106959,Pulsar,Pulsar LPS 7i – nabíjateľný akumulátor,Príslušenstvo k termovíziám,accessory,119.00 EUR,Príslušenstvo k termovíziám > Doplnky k termovíziám,6011,5831,982f1508dcf342c9,accessory_check
+107707,Pulsar,Pulsar Telos LRF B-Lock Tripod Adapter – statívový adaptér B-Lock,Príslušenstvo k termovíziám,accessory,45.00 EUR,Príslušenstvo k termovíziám > Montáže a adaptéry,6157,5831,82008694db9513ac,accessory_check
+107699,Pulsar,Pulsar Tree Mount – držiak na strom,Príslušenstvo k termovíziám,accessory,65.00 EUR,Príslušenstvo k termovíziám > Montáže a adaptéry,6157,5831,81f676afdaf180cb,accessory_check
+107700,Pulsar,Pulsar Window Frame Mount – držiak na okenný rám,Príslušenstvo k termovíziám,accessory,39.00 EUR,Príslušenstvo k termovíziám > Montáže a adaptéry,6157,5831,0ab157c1ffb662d7,accessory_check
+107669,TenoSight,TenoSight – diaľkové ovládanie k prísvitom,Príslušenstvo pre nočné videnie,accessory,32.00 EUR,Príslušenstvo pre nočné videnie,5196,5196,4b17d1887d119a7a,accessory_check
+107368,ATN,ATN Binox 6 Dual 256×192 6–48× – termovízny binokulár s diaľkomerom,Termovízie,device,1399.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,e6ba9b588ab60852,observation_device
+107369,ATN,"ATN Binox 6 Dual 384×288 5,5–44× – termovízny binokulár s diaľkomerom",Termovízie,device,1799.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,d319f077847d119d,observation_device
+107370,ATN,ATN Binox 6 Dual 640×512 3–24× – termovízny binokulár s diaľkomerom,Termovízie,device,2699.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,abfb332fc0153abb,observation_device
+107351,ATN,ATN BlazeHunter 335 4–32× – termovízny monokulár,Termovízie,device,1299.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,1e5c3f8d014273de,observation_device
+107352,ATN,ATN BlazeHunter 335 LRF 4–32× – termovízny monokulár s diaľkomerom,Termovízie,device,1499.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,7211b998526fb8f3,observation_device
+107353,ATN,"ATN BlazeHunter 635 2,5–20× – termovízny monokulár",Termovízie,device,1599.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,ed338228e891332e,observation_device
+107354,ATN,"ATN BlazeHunter 635 LRF 2,5–20× – termovízny monokulár s diaľkomerom",Termovízie,device,1899.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,980241659e197186,observation_device
+107355,ATN,"ATN BlazeHunter 650 LRF 3,5–28× – termovízny monokulár s diaľkomerom",Termovízie,device,2099.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,2d8356f02fc80905,observation_device
+107357,ATN,"ATN BlazeSeeker 6 207 1,2–9,6× – termovízny monokulár",Termovízie,device,449.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,19ab1f960e761caa,observation_device
+107358,ATN,"ATN BlazeSeeker 6 210 1,7–13,6× – termovízny monokulár",Termovízie,device,499.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,2b8240e2b5928087,observation_device
+107359,ATN,"ATN BlazeTrek 6 319 2,25–18× – termovízny monokulár",Termovízie,device,899.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,6ad313a55c93ebcf,observation_device
+107360,ATN,"ATN BlazeTrek 6 325 2,8–22× – termovízny monokulár",Termovízie,device,999.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,c4342baeb55c4f18,observation_device
+107361,ATN,"ATN BlazeTrek 6 619 1,5–12× – termovízny monokulár",Termovízie,device,1199.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,cd511c1dd945f2db,observation_device
+107362,ATN,"ATN BlazeTrek 6 625 1,75–14× – termovízny monokulár",Termovízie,device,1299.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,fccea5612fa9d34f,observation_device
+63233,Bresser,"Bresser Digital NV Binocular 3,5× s monochromatickým záznamom – digitálny binokulár nočného videnia",Nočné videnie,device,169.00 EUR,Nočné videnie > Binokuláre nočného videnia,6162,1722,e5662e5e11199c33,observation_device
+102273,Bresser,Bresser Explorer 130N – digitálny binokulár nočného videnia,Nočné videnie,device,134.00 EUR,Nočné videnie > Binokuláre nočného videnia,6162,1722,bbc8b84bbe315373,observation_device
+102159,Bresser,Bresser Explorer 200RF – digitálny binokulár nočného videnia s diaľkomerom,Nočné videnie,device,499.00 EUR,Nočné videnie > Binokuláre nočného videnia,6162,1722,d586277e10a62405,observation_device
+63228,Bresser,Bresser Nightlux 200 Pro 3× – digitálny binokulár nočného videnia,Nočné videnie,device,179.90 EUR,Nočné videnie > Binokuláre nočného videnia,6162,1722,e9f885db97a5c2eb,observation_device
+107020,Dahua Pixfra,Pixfra Arc A419P LRF – termovízny monokulár s diaľkomerom,Termovízie,device,1099.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,74ae8ecb3532d7de,observation_device
+107022,Dahua Pixfra,Pixfra Arc A435P LRF – termovízny monokulár s diaľkomerom,Termovízie,device,1099.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,b195cb57bafb48f3,observation_device
+107023,Dahua Pixfra,Pixfra Arc A625P LRF – termovízny monokulár s diaľkomerom,Termovízie,device,1399.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,8089d771eb6cbe65,observation_device
+107024,Dahua Pixfra,Pixfra Arc A635P LRF – termovízny monokulár s diaľkomerom,Termovízie,device,1399.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,cd7d3d6a0c69a637,observation_device
+107025,Dahua Pixfra,Pixfra Arc A650P LRF – termovízny monokulár s diaľkomerom,Termovízie,device,1699.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,e82d41037024533a,observation_device
+107058,Dahua Pixfra,Pixfra Draco D335N-4K – termovízny ďalekohľad s diaľkomerom,Termovízie,device,2049.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,981446234fe3fc57,observation_device
+107027,Dahua Pixfra,Pixfra Mile 2 M210 – termovízny monokulár,Termovízie,device,399.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,696e1e2d5083ee36,observation_device
+107029,Dahua Pixfra,Pixfra Mile 2 M215M – termovízny monokulár,Termovízie,device,499.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,676c218bc5f5b7b8,observation_device
+107030,Dahua Pixfra,Pixfra Mile 2 M413 – termovízny monokulár,Termovízie,device,599.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,cd67aed0e45c4aa0,observation_device
+107031,Dahua Pixfra,Pixfra Mile 2 M419 – termovízny monokulár,Termovízie,device,699.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,1950e67b630914c9,observation_device
+107032,Dahua Pixfra,Pixfra Mile 2 M425 – termovízny monokulár,Termovízie,device,799.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,e8f13d109b364941,observation_device
+107033,Dahua Pixfra,Pixfra Mile 2 M619 – termovízny monokulár,Termovízie,device,899.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,15d8d1f6c88882b0,observation_device
+46187,Dahua Pixfra,Pixfra Mile M60 25 mm – termovízny monokulár,Termovízie,device,599.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,6ebf83c09f71ed1a,observation_device
+107035,Dahua Pixfra,Pixfra Sirius HD SA50 – termovízny monokulár,Termovízie,device,2999.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,b2ac009a8ffe4791,observation_device
+107036,Dahua Pixfra,Pixfra Sirius HD SA70D Dual – termovízny monokulár,Termovízie,device,4999.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,ab4d9dbba9908b52,observation_device
+107037,Dahua Pixfra,Pixfra Sirius S435 – termovízny monokulár,Termovízie,device,1299.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,e934e12d2f1f7d23,observation_device
+107038,Dahua Pixfra,Pixfra Sirius S635 – termovízny monokulár,Termovízie,device,1549.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,36d6f6907fbff281,observation_device
+107040,Dahua Pixfra,Pixfra Sirius S650 LRF – termovízny monokulár s diaľkomerom,Termovízie,device,2299.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,1520137ab8c460d0,observation_device
+107039,Dahua Pixfra,Pixfra Sirius S650 – termovízny monokulár,Termovízie,device,1899.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,b07b1929719dbb84,observation_device
+107041,Dahua Pixfra,Pixfra Sirius S650D Dual – termovízny monokulár,Termovízie,device,2199.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,b5f56861aed537c7,observation_device
+112970,Delta,Delta RF-1200 – laserový diaľkomer,Diaľkomery,device,190.00 EUR,Diaľkomery,1975,1975,4b942323ac86ad9d,observation_device
+112971,Delta,Delta RF-2000 – laserový diaľkomer,Diaľkomery,device,249.00 EUR,Diaľkomery,1975,1975,ed9d9b1ee99db0b6,observation_device
+112972,Delta,Delta RF-4000 – laserový diaľkomer,Diaľkomery,device,349.00 EUR,Diaľkomery,1975,1975,ab80afc116f04246,observation_device
+26399,Discovery,Discovery Night BL10 so statívom – digitálny binokulár nočného videnia,Nočné videnie,device,229.95 EUR,Nočné videnie > Binokuláre nočného videnia,6162,1722,db0f4f164bbf16fc,observation_device
+107495,FALCON,FALCON Surtur S1-625L – termovízny monokulár s diaľkomerom,Termovízie,device,1399.58 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,b026e82c0d25d06a,observation_device
+107496,FALCON,FALCON Surtur S1-635L – termovízny monokulár s diaľkomerom,Termovízie,device,1499.58 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,e644bf905ef45e54,observation_device
+107497,FALCON,FALCON Surtur S2-635 – termovízny monokulár,Termovízie,device,1399.58 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,1c55fecb3742baf7,observation_device
+60268,HIKMICRO,HIKMICRO Condor CH25L – termovízny monokulár s diaľkomerom,Termovízie,device,1275.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,0147ca231aa98865,observation_device
+47902,HIKMICRO,HIKMICRO Condor CH35L – termovízny monokulár s diaľkomerom,Termovízie,device,1530.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,40feb239504afc25,observation_device
+103503,HIKMICRO,HIKMICRO Condor CQ35L 2.0 – termovízny monokulár s diaľkomerom,Termovízie,device,2600.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,281a4dcfe6c3f3d9,observation_device
+103501,HIKMICRO,HIKMICRO Condor CQ50L 2.0 – termovízny monokulár s diaľkomerom,Termovízie,device,2960.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,9b106e07aae69a18,observation_device
+60301,HIKMICRO,HIKMICRO Falcon FQ25 – termovízny monokulár,Termovízie,device,1453.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,a44cac29fa5a2c37,observation_device
+103504,HIKMICRO,HIKMICRO Falcon FQ35 2.0 – termovízny monokulár,Termovízie,device,2360.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,0739f9bb65d4f4ea,observation_device
+47874,HIKMICRO,HIKMICRO Falcon FQ35 – termovízny monokulár,Termovízie,device,1899.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,c70c15e404138950,observation_device
+103502,HIKMICRO,HIKMICRO Falcon FQ50 2.0 – termovízny monokulár,Termovízie,device,2700.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,c2fa65cd4b217c65,observation_device
+103500,HIKMICRO,HIKMICRO Falcon FQ50L 2.0 – termovízny monokulár s diaľkomerom,Termovízie,device,3240.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,c92b7ee56a39e529,observation_device
+103494,HIKMICRO,HIKMICRO HABROK 4K HQ35L + TenoSight H-940 Laser Max – multispektrálny binokulár s diaľkomerom,Termovízie,device,3308.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,f820f15cd83ecf54,observation_device
+103495,HIKMICRO,HIKMICRO HABROK 4K HQ35L – multispektrálny binokulár s diaľkomerom,Termovízie,device,3148.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,b619f70a2cf6542f,observation_device
+47886,HIKMICRO,HIKMICRO HABROK HH35L – multispektrálny binokulár s diaľkomerom,Termovízie,device,2000.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,e3a05c634ba88463,observation_device
+103492,HIKMICRO,HIKMICRO HABROK Pro HQ50L + TenoSight H-940 Laser Max – multispektrálny binokulár s diaľkomerom,Termovízie,device,4160.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,a7c329c7feef74f1,observation_device
+103493,HIKMICRO,HIKMICRO HABROK Pro HQ50LN + TenoSight H-940 Laser Max – multispektrálny binokulár s diaľkomerom,Termovízie,device,4160.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,85fd3fdbdeb4b619,observation_device
+65288,HIKMICRO,HIKMICRO HABROK Pro HQ50LN – multispektrálny binokulár s diaľkomerom,Termovízie,device,4000.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,58fcd4132054693c,observation_device
+103489,HIKMICRO,HIKMICRO HABROK Pro HX60LS + TenoSight H-940 Laser Max – multispektrálny binokulár s diaľkomerom,Termovízie,device,6359.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,6ddd80ab9f60963d,observation_device
+103497,HIKMICRO,HIKMICRO Habrok 4K HE25L + puzdro – termovízny binokulár s diaľkomerom,Termovízie,device,1500.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,8028efbcda0c5b47,observation_device
+107676,HIKMICRO,HIKMICRO Habrok 4K HE25L 2.0 + TenoSight H-940 Laser Max – termovízny binokulár s diaľkomerom,Termovízie,device,1760.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,d6a20b5079c6ad8d,observation_device
+103496,HIKMICRO,HIKMICRO Habrok 4K HE25L 2.0 – termovízny binokulár s diaľkomerom,Termovízie,device,1600.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,e7e07a5a44d59a43,observation_device
+104112,HIKMICRO,HIKMICRO Habrok 4K HE25LN + puzdro – termovízny binokulár s diaľkomerom,Termovízie,device,1500.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,a6591fc4ca31cf3f,observation_device
+103510,HIKMICRO,HIKMICRO LYNX LE10 3.0 – termovízny monokulár,Termovízie,device,499.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,b865d8d61120679f,observation_device
+103509,HIKMICRO,HIKMICRO LYNX LE15 3.0 – termovízny monokulár,Termovízie,device,649.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,581e44a890f67632,observation_device
+103508,HIKMICRO,HIKMICRO LYNX LH15 3.0 – termovízny monokulár,Termovízie,device,899.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,a044340856b54171,observation_device
+103507,HIKMICRO,HIKMICRO LYNX LH19 3.0 – termovízny monokulár,Termovízie,device,1049.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,1c78259b8b000b39,observation_device
+103506,HIKMICRO,HIKMICRO LYNX LH25 3.0 – termovízny monokulár,Termovízie,device,1199.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,544a02ead10fab54,observation_device
+103505,HIKMICRO,HIKMICRO LYNX LH35 3.0 – termovízny monokulár,Termovízie,device,1299.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,49e63dde30611fe0,observation_device
+104111,HIKMICRO,HIKMICRO LYNX LQ35 3.0 – termovízny monokulár,Termovízie,device,1699.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,22cc7c9e092fc5f1,observation_device
+104110,HIKMICRO,HIKMICRO LYNX LQ35L 3.0 – termovízny monokulár s diaľkomerom,Termovízie,device,1930.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,55dad95af717d59d,observation_device
+60462,HIKMICRO,HIKMICRO LYNX Pro LH15 – termovízny monokulár,Termovízie,device,760.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,b3b8bb3fbbf3a5c7,observation_device
+34723,InfiRay,InfiRay AFFO AP09 – termovízny monokulár,Termovízie,device,607.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,9793bd66e9fda5e5,observation_device
+34730,InfiRay,InfiRay CL35M V1 – termovízny monokulár,Termovízie,device,1592.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,3637cf238ffde3c9,observation_device
+34736,InfiRay,InfiRay Cabin CBL25 – termovízny monokulár,Termovízie,device,1429.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,51ee6f8fa5d08445,observation_device
+107817,InfiRay,InfiRay PFN 640+ V2 – multifunkčný termovízny monokulár,Termovízie,device,5000.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,ed83588baacea0d5,observation_device
+34741,InfiRay,InfiRay Unique UH50 – termovízny monokulár,Termovízie,device,2939.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,71bdbf793670e3e9,observation_device
+103883,Leica,Leica Calonox 2 View LRF – termovízny monokulár s diaľkomerom,Termovízie,device,5700.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,59db6a72cfd23909,observation_device
+103882,Leica,Leica Calonox 2 View – termovízny monokulár,Termovízie,device,4700.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,731d0090f7007521,observation_device
+103822,Leica,"Leica Rangemaster CRF Max, Flat Dark Earth – laserový diaľkomer",Diaľkomery,device,1500.00 EUR,Diaľkomery,1975,1975,efcf0dde8c78cc7c,observation_device
+103821,Leica,Leica Rangemaster CRF Pro – laserový diaľkomer,Diaľkomery,device,899.00 EUR,Diaľkomery,1975,1975,28879cfee87f76bf,observation_device
+103820,Leica,Leica Rangemaster CRF R – laserový diaľkomer,Diaľkomery,device,595.00 EUR,Diaľkomery,1975,1975,0251d1c3938cd493,observation_device
+31203,Levenhuk,Levenhuk Atom Digital DNB100 – digitálny binokulár nočného videnia,Nočné videnie,device,139.95 EUR,Nočné videnie > Binokuláre nočného videnia,6162,1722,5d80b1660f3f3b1b,observation_device
+45428,Levenhuk,Levenhuk Camo LC1500 – lovecký laserový diaľkomer,Diaľkomery,device,109.95 EUR,Diaľkomery,1975,1975,68c47a8bb2653203,observation_device
+114427,Levenhuk,Levenhuk Fatum Z500 – termovízny monokulár,Termovízie,device,899.95 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,4011f4e7216a0c5a,observation_device
+35478,Levenhuk,Levenhuk Halo 13X Helmet – digitálny binokulár nočného videnia na hlavu,Nočné videnie,device,319.95 EUR,Nočné videnie > Binokuláre nočného videnia,6162,1722,df9ecc417073f242,observation_device
+26059,Levenhuk,Levenhuk Halo 13X Wi‑Fi – digitálny binokulár nočného videnia,Nočné videnie,device,249.95 EUR,Nočné videnie > Binokuláre nočného videnia,6162,1722,9beade1f0183e862,observation_device
+26061,Levenhuk,Levenhuk Halo 13X monokulár – digitálny prístroj nočného videnia,Nočné videnie,device,179.95 EUR,Nočné videnie > Monokuláre nočného videnia,6164,1722,6080ba9c8cf8fcfb,observation_device
+26058,Levenhuk,Levenhuk Halo 13X – digitálny binokulár nočného videnia,Nočné videnie,device,229.95 EUR,Nočné videnie > Binokuláre nočného videnia,6162,1722,22039cc495c51446,observation_device
+95043,Levenhuk,Levenhuk Halo 50XN GPS – digitálny binokulár nočného videnia,Nočné videnie,device,229.95 EUR,Nočné videnie > Binokuláre nočného videnia,6162,1722,f6bb687260db5827,observation_device
+94934,Levenhuk,Levenhuk Halo NVB10 Helmet – digitálny binokulár nočného videnia,Nočné videnie,device,349.95 EUR,Nočné videnie > Binokuláre nočného videnia,6162,1722,5bcb00af1299d157,observation_device
+31213,Levenhuk,Levenhuk LX1500 – lovecký laserový diaľkomer,Diaľkomery,device,129.95 EUR,Diaľkomery,1975,1975,a8bcf1e4cbd885dc,observation_device
+104207,Nocpix,Nocpix LUMI H35 – termovízny monokulár,Termovízie,device,1759.90 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,4cbae65fe04496d9,observation_device
+104206,Nocpix,Nocpix LUMI H35R – termovízny monokulár s diaľkomerom,Termovízie,device,2004.90 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,febb208a1567024f,observation_device
+104203,Nocpix,Nocpix LUMI L19 – termovízny monokulár,Termovízie,device,1022.90 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,56f651cbdcbd54ce,observation_device
+104204,Nocpix,Nocpix LUMI L35 – termovízny monokulár,Termovízie,device,1309.90 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,e0a3584189bf52d5,observation_device
+104205,Nocpix,Nocpix LUMI L35R – termovízny monokulár s diaľkomerom,Termovízie,device,1513.90 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,10066f3f28a35763,observation_device
+104202,Nocpix,Nocpix LUMI P13 – termovízny monokulár,Termovízie,device,568.90 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,c91e753657c800fb,observation_device
+104235,Nocpix,Nocpix M6T25S – termovízna kupolová kamera s diaľkomerom,Termovízie,device,4502.90 EUR,Termovízie > Termovízie do auta,5611,1974,23a9fc40f0a2020f,observation_device
+107823,Nocpix,Nocpix NS7 – termovízna kamera do auta,Termovízie,device,962.90 EUR,Termovízie > Termovízie do auta,5611,1974,8c46dcf5086d09cd,observation_device
+104214,Nocpix,Nocpix Quest H35R – termovízny binokulár s diaľkomerom,Termovízie,device,2271.90 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,81cab998dfc55a5f,observation_device
+104213,Nocpix,Nocpix Quest H50R – termovízny binokulár s diaľkomerom,Termovízie,device,2762.90 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,a667033b7d37db60,observation_device
+104217,Nocpix,Nocpix Quest S50R – termovízny binokulár s diaľkomerom,Termovízie,device,4498.90 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,a9349cd564e1c431,observation_device
+104208,Nocpix,Nocpix Vista H35 – termovízny monokulár,Termovízie,device,2303.90 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,f489c940532c583f,observation_device
+104211,Nocpix,Nocpix Vista H35R – termovízny monokulár s diaľkomerom,Termovízie,device,2659.90 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,2cbbd371cca7cb7c,observation_device
+104209,Nocpix,Nocpix Vista H50 – termovízny monokulár,Termovízie,device,2761.90 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,8fd64a4a4faa123b,observation_device
+104210,Nocpix,Nocpix Vista H50R – termovízny monokulár s diaľkomerom,Termovízie,device,3171.90 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,865d8bc0d1e6c5d2,observation_device
+104212,Nocpix,Nocpix Vista S50R – termovízny monokulár s diaľkomerom,Termovízie,device,4624.90 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,579281f2e0150263,observation_device
+103565,Nvectech,Nvectech NVEC PVS14 biely fosfor – monokulár nočného videnia,Nočné videnie,device,3255.00 EUR,Nočné videnie > Monokuláre nočného videnia,6164,1722,d5bb88e52eeebb50,observation_device
+103564,Nvectech,Nvectech NVEC PVS14 zelený fosfor – monokulár nočného videnia,Nočné videnie,device,3000.00 EUR,Nočné videnie > Monokuláre nočného videnia,6164,1722,b0dd9ad013eded1b,observation_device
+103553,Nvectech,Nvectech PATRIOT 2 H50 – termovízny monokulár,Termovízie,device,2850.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,db38ea8fcee72d97,observation_device
+103554,Nvectech,Nvectech PATRIOT 2 L19 – termovízny monokulár,Termovízie,device,1400.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,9399cd7661c8dbf9,observation_device
+103555,Nvectech,Nvectech PATRIOT 2 L25 – termovízny monokulár,Termovízie,device,1640.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,d411b1653b6f68f3,observation_device
+103556,Nvectech,Nvectech PATRIOT 2 L35 – termovízny monokulár,Termovízie,device,1860.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,19d267ee8f7e8e34,observation_device
+103557,Nvectech,Nvectech PATRIOT 2 L50 – termovízny monokulár,Termovízie,device,2175.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,fb095cedf3e1c575,observation_device
+103558,Nvectech,Nvectech PATRIOT 2 PRO L50 – termovízny monokulár,Termovízie,device,2800.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,e91371b35452bea5,observation_device
+107421,Pard,PARD Leopard 256 16 mm – termovízny monokulár,Termovízie,device,735.90 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,1da801ebf9aae282,observation_device
+107423,Pard,PARD Leopard 640 eX 50 mm LRF – termovízny monokulár s diaľkomerom,Termovízie,device,2044.90 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,4431f7d33feb7d9b,observation_device
+107713,Pulsar,Pulsar Alaris XG30 – termovízny monokulár,Termovízie,device,1690.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,f58923a0af1314ae,observation_device
+107712,Pulsar,Pulsar Alaris XQ30 – termovízny monokulár,Termovízie,device,1290.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,a4165ac4cb1268d7,observation_device
+107716,Pulsar,Pulsar Avilume XR50 – multispektrálny binokulár s diaľkomerom,Termovízie,device,3990.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,f7384a3222322a8a,observation_device
+107717,Pulsar,Pulsar Avilume XT50 Pro – multispektrálny binokulár s diaľkomerom,Termovízie,device,5590.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,34e2056844e396d8,observation_device
+94397,Pulsar,Pulsar Axion Compact XG30 – termovízny monokulár,Termovízie,device,1690.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,db911923ed58a085,observation_device
+94398,Pulsar,Pulsar Axion Compact XG35 – termovízny monokulár,Termovízie,device,1890.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,ac5678beaa5aa938,observation_device
+100796,Pulsar,Pulsar Axion Compact XQ19 – termovízny monokulár,Termovízie,device,980.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,f50c3d38a70596f5,observation_device
+94396,Pulsar,Pulsar Axion Compact XQ30 Pro – termovízny monokulár,Termovízie,device,1290.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,95cfc5e7bba1c098,observation_device
+107711,Pulsar,Pulsar Lumion XL50 – termovízny monokulár,Termovízie,device,3990.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,cc580f58ead0b272,observation_device
+94402,Pulsar,Pulsar Merger Duo NXP50 – multispektrálny binokulár,Termovízie,device,3700.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,d2a020786ba2f4a6,observation_device
+66223,Pulsar,Pulsar Merger LRF XL50 – termovízny binokulár s diaľkomerom,Termovízie,device,3990.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,359e904fc8ddb124,observation_device
+66224,Pulsar,Pulsar Merger LRF XP35 – termovízny binokulár s diaľkomerom,Termovízie,device,2690.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,c0b974defe318806,observation_device
+66222,Pulsar,Pulsar Merger LRF XT50 – termovízny binokulár s diaľkomerom,Termovízie,device,4990.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,237ed801daccdb41,observation_device
+107709,Pulsar,Pulsar Orni XG35 – termovízny monokulár s diaľkomerom,Termovízie,device,2390.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,a74ec515c9b28f66,observation_device
+94401,Pulsar,Pulsar Oryx LRF XG35 – termovízny monokulár s diaľkomerom,Termovízie,device,2390.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,f289cd54beef02a5,observation_device
+103529,Pulsar,Pulsar Symbion LRF DXR50 – multispektrálny binokulár s diaľkomerom,Termovízie,device,3990.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,a8cb176a5d1aca6e,observation_device
+103528,Pulsar,Pulsar Symbion LRF DXT50 – multispektrálny binokulár s diaľkomerom,Termovízie,device,5590.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,97d42c9566660971,observation_device
+94394,Pulsar,Pulsar Telos LRF XL50 – termovízny monokulár s diaľkomerom,Termovízie,device,3890.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,4c09edd3b525aab1,observation_device
+94388,Pulsar,Pulsar Telos LRF XP50 – termovízny monokulár s diaľkomerom,Termovízie,device,2990.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,393bbd02f92ee9ef,observation_device
+107685,Pulsar,Pulsar Telos LRF XT50 – termovízny monokulár s diaľkomerom,Termovízie,device,4190.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,ec2c169784ed5d4e,observation_device
+94395,Pulsar,Pulsar Telos XL50 – termovízny monokulár,Termovízie,device,3590.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,2c6ccaca16dfa1c1,observation_device
+94392,Pulsar,Pulsar Telos XP50 – termovízny monokulár,Termovízie,device,2690.00 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,3243ac2f0ea7542e,observation_device
+107714,Pulsar,Pulsar Ventex XP35 – termovízny binokulár,Termovízie,device,2690.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,197ada806bd256d7,observation_device
+107715,Pulsar,Pulsar Ventex XT50 – termovízny binokulár,Termovízie,device,4990.00 EUR,Termovízie > Termovízne ďalekohľady,5609,1974,65624316b1544ceb,observation_device
+104292,Vortex,Vortex Crossfire HD 1400 – diaľkomer,Diaľkomery,device,230.00 EUR,Diaľkomery,1975,1975,1577775df5cfec45,observation_device
+104297,Vortex,Vortex Razor HD 4000 – diaľkomer,Diaľkomery,device,528.00 EUR,Diaľkomery,1975,1975,1f7d68e2f93756f1,observation_device
+32762,Zeiss,Zeiss DTI 3/25 – termovízny monokulár,Termovízie,device,2183.25 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,000fda5aedc17a4e,observation_device
+32784,Zeiss,Zeiss DTI 3/35 – termovízny monokulár,Termovízie,device,3023.75 EUR,Termovízie > Pozorovacie termovízie a monokulare,5606,1974,24f17c7857b500bc,observation_device
+32818,Zeiss,"Zeiss Victory NV 5,6×62 T* – monokulár nočného videnia",Nočné videnie,device,6355.05 EUR,Nočné videnie > Monokuláre nočného videnia,6164,1722,d25087efa11839bd,observation_device
