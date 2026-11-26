@@ -1,0 +1,102 @@
+# 2026-11-26T18:11:55Z server tmp dir, outside webroot; live AdsGate.php untouched
+
+## php8.1 test_chatgpt_regressions.php ./AdsGate.php (v3)
+PASS manual approval survives JSON load and label: expected=ads_ok actual=ads_ok
+PASS safe positive control: expected=ads_ok actual=ads_ok
+PASS fresh policy hold control: expected=ads_hold actual=ads_hold
+PASS known hold retained after policy expiry: expected=ads_hold actual=ads_hold
+PASS incomplete policy schema fails closed: expected=ads_review actual=ads_review
+PASS manual ok cannot bypass required link: expected=ads_review actual=ads_review
+PASS conflicting manual review overrides manual ok: expected=ads_review actual=ads_review
+PASS changed root invalidates approval: expected=ads_review actual=ads_review
+PASS any policy_violation remains a hard flag: expected=hold actual=hold
+9/9 PASS; 0 failures expose current implementation gaps
+
+## php8.1 test_ads_gate.php ./AdsGate.php (v3)
+PASS new safe ID in a safe root -> ok                                               -> ads_ok (safe_root:1965)
+PASS calibration slide (kalibračné sklíčko) is not a weapon word -> ok          -> ads_ok (safe_root:1965)
+PASS weapon wording in a SAFE root (predsádka na puškohľad) -> review            -> ads_review (risk_title:predsádka)
+PASS astro finder with ambiguous title (kolimátorový hľadáčik) -> review       -> ads_review (risk_title:kolimátorový)
+PASS risk root (thermal 1974) without manual decision -> review                     -> ads_review (risk_root:1974)
+PASS unknown / new root category -> review                                          -> ads_review (unknown_root:9999)
+PASS missing data (empty product_type) -> review                                    -> ads_review (missing_product_type)
+PASS risk root WITH manual ok and matching fingerprint -> ok                        -> ads_ok (manual_ok:owner)
+PASS manual ok invalidated by changed title/role -> review                          -> ads_review (manual_ok_invalidated_by_change)
+PASS new Google policy code AFTER manual ok -> hold                                 -> ads_hold (google_policy:other_weapons_policy_violation)
+PASS manual hold beats manual ok                                                    -> ads_hold (manual_hold)
+PASS policy hold on a safe-root product -> hold                                     -> ads_hold (google_policy:guns_parts_policy_violation)
+PASS same item_id held in ANOTHER Merchant identity does not leak -> ok             -> ads_ok (safe_root:1965)
+PASS register expired/broken -> review (fail closed)                                -> ads_review (register_expired)
+PASS policy snapshot stale -> review (fail closed)                                  -> ads_review (policy_snapshot_expired)
+PASS policy hold still applies when register is broken                              -> ads_hold (google_policy:guns_parts_policy_violation)
+PASS loader: valid v2 file                                                          -> ok=true 
+PASS loader: unversioned v1 file rejected                                           -> ok=false invalid_or_unversioned
+PASS loader: expired file rejected                                                  -> ok=false expired
+PASS loader: future timestamp rejected                                              -> ok=false bad_or_future_timestamp
+PASS loader: broken JSON rejected                                                   -> ok=false invalid_or_unversioned
+21/21 PASS
+
+## php8.1 test_ads_gate_v3.php ./AdsGate.php (v3)
+PASS context A hold: expected='ads_hold' actual='ads_hold'
+PASS context B same offer not leaked (separate cache): expected='ads_ok' actual='ads_ok'
+PASS stale snapshot keeps known hold: expected='ads_hold' actual='ads_hold'
+PASS stale snapshot -> other products review: expected='ads_review' actual='ads_review'
+PASS sticky hold survives broken snapshot: expected='ads_hold' actual='ads_hold'
+PASS broken snapshot -> review: expected='ads_review' actual='ads_review'
+PASS hold as list -> schema error -> review: expected='ads_review' actual='ads_review'
+PASS v3 snapshot without complete flag -> review: expected='ads_review' actual='ads_review'
+PASS snapshot of another feed -> review: expected='ads_review' actual='ads_review'
+PASS register without review list -> review: expected='ads_review' actual='ads_review'
+PASS complete manual ok on risk root -> ok (full load path): expected='ads_ok' actual='ads_ok'
+PASS manual ok without evidence -> review: expected='ads_review' actual='ads_review'
+PASS manual ok older than 30 days -> review: expected='ads_review' actual='ads_review'
+PASS manual ok of another Merchant identity ignored -> review: expected='ads_review' actual='ads_review'
+PASS manual ok + price 0 -> review: expected='ads_review' actual='ads_review'
+PASS manual ok + http link -> review: expected='ads_review' actual='ads_review'
+PASS manual ok + changed main root -> review: expected='ads_review' actual='ads_review'
+PASS expired register still applies its manual hold: expected='ads_hold' actual='ads_hold'
+PASS repeated page token -> exception: expected='exception' actual='exception'
+PASS duplicates counted once (2x600 same ids) -> exception < 1000 unique: expected='exception' actual='exception'
+PASS products not a list -> exception: expected='exception' actual='exception'
+PASS foreign account in response -> exception: expected='exception' actual='exception'
+PASS HTTP error on page 2 -> exception: expected='exception' actual='exception'
+PASS no snapshot written by failed sweeps: expected=false actual=false
+PASS complete sweep: DEMOTED *_policy_violation -> hold: expected=true actual=true
+PASS complete sweep: DISAPPROVED policy -> hold: expected=true actual=true
+PASS non-policy issue is not a hold: expected=false actual=false
+PASS snapshot marked complete with unique count: expected=array (
+  0 => true,
+  1 => 1200,
+  2 => 3,
+) actual=array (
+  0 => true,
+  1 => 1200,
+  2 => 3,
+)
+PASS coverage drop >10% -> exception: expected='exception' actual='exception'
+PASS previous snapshot unchanged after partial sweep: expected=1200 actual=1200
+PASS complete sweep releases P0 (seen clean) with log: expected=array (
+  0 => false,
+  1 => '999000111~ONLINE~sk~SK~P0',
+) actual=array (
+  0 => false,
+  1 => '999000111~ONLINE~sk~SK~P0',
+)
+PASS P1 still held: expected=true actual=true
+PASS hold of a product not seen in sweep stays sticky: expected=true actual=true
+PASS sticky GONE hold applies at label time: expected='ads_hold' actual='ads_hold'
+PASS writeAtomic into missing dir -> exception: expected='exception' actual='exception'
+PASS no tmp leftovers: expected=0 actual=0
+PASS summary written per context: expected=array (
+  0 => true,
+  1 => true,
+) actual=array (
+  0 => true,
+  1 => true,
+)
+37/37 PASS
+
+## cron php 8.0.30 (CS-Cart runtime): v3 suites
+21/21 PASS
+37/37 PASS
+note: test_chatgpt_regressions.php needs PHP>=8.1 (ReflectionProperty without setAccessible); on 8.0 it stops in the harness before any assertion
