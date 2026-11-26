@@ -1,0 +1,10 @@
+PASS after deploy: v3.2 labels new hold X expected=ads_hold actual=ads_hold
+PASS UNSAFE old rollback (restore backups, delete sticky): X leaks with v2 code expected=ads_ok actual=ads_ok
+PASS SAFE rollback: v2 code sees merged hold X expected=ads_hold actual=ads_hold
+PASS SAFE rollback: v2 still holds X after policy snapshot is 4 days old expected=ads_hold actual=ads_hold
+PASS SAFE rollback: v2 clean product unaffected expected=ads_ok actual=ads_ok
+PASS roll-forward again to v3.2 after merge: X still hold expected=ads_hold actual=ads_hold
+PASS unreadable sticky: merge refuses with exit 2 expected=2 actual=2
+PASS unreadable sticky: register unchanged expected=1b58882f04f6b32d120c2db5f1d4ffaa  - actual=1b58882f04f6b32d120c2db5f1d4ffaa  -
+PASS scope rollback model: no review/hold product served in any intermediate state expected=ok actual=ok
+9/9 PASS

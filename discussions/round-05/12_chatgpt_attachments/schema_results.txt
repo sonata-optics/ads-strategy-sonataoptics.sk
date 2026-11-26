@@ -1,0 +1,4 @@
+FAIL sticky= {} exit= 0 unchanged= False expected exit=2 unchanged=True
+FAIL sticky= {'version': 3, 'hold': None} exit= 0 unchanged= False expected exit=2 unchanged=True
+FAIL sticky= None exit= 0 unchanged= False expected exit=2 unchanged=True
+0/3 PASS
