@@ -1,0 +1,410 @@
+campaign,ad_group (empty = campaign level),match_type,negative,reason
+SO27 | SEARCH | Kategórie,Hvezdárske ďalekohľady,PHRASE,deti,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Hvezdárske ďalekohľady,PHRASE,detsky,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Hvezdárske ďalekohľady,PHRASE,detský,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Hvezdárske ďalekohľady,PHRASE,detske,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Hvezdárske ďalekohľady,PHRASE,detské,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady,PHRASE,10x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady,PHRASE,10x42,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady,PHRASE,8x42,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady,PHRASE,12x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady,PHRASE,8x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady,PHRASE,20x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady,PHRASE,8x32,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady,PHRASE,10x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady,PHRASE,8x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady,PHRASE,10x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady,PHRASE,7x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady,PHRASE,15x70,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady,PHRASE,20x80,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady,PHRASE,15x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady,PHRASE,10x40,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady,PHRASE,25x100,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Astronomické binokuláre,PHRASE,10x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Astronomické binokuláre,PHRASE,10x42,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Astronomické binokuláre,PHRASE,8x42,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Astronomické binokuláre,PHRASE,12x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Astronomické binokuláre,PHRASE,8x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Astronomické binokuláre,PHRASE,20x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Astronomické binokuláre,PHRASE,8x32,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Astronomické binokuláre,PHRASE,10x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Astronomické binokuláre,PHRASE,8x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Astronomické binokuláre,PHRASE,10x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Astronomické binokuláre,PHRASE,7x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Astronomické binokuláre,PHRASE,15x70,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Astronomické binokuláre,PHRASE,20x80,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Astronomické binokuláre,PHRASE,15x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Astronomické binokuláre,PHRASE,10x40,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Astronomické binokuláre,PHRASE,25x100,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Detské ďalekohľady,PHRASE,10x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Detské ďalekohľady,PHRASE,10x42,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Detské ďalekohľady,PHRASE,8x42,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Detské ďalekohľady,PHRASE,12x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Detské ďalekohľady,PHRASE,8x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Detské ďalekohľady,PHRASE,20x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Detské ďalekohľady,PHRASE,8x32,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Detské ďalekohľady,PHRASE,10x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Detské ďalekohľady,PHRASE,8x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Detské ďalekohľady,PHRASE,10x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Detské ďalekohľady,PHRASE,7x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Detské ďalekohľady,PHRASE,15x70,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Detské ďalekohľady,PHRASE,20x80,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Detské ďalekohľady,PHRASE,15x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Detské ďalekohľady,PHRASE,10x40,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Detské ďalekohľady,PHRASE,25x100,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Detské ďalekohľady,PHRASE,hviezdy,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Detské ďalekohľady,PHRASE,hvezdarsky,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Detské ďalekohľady,PHRASE,hvezdársky,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Detské ďalekohľady,PHRASE,astronomicky,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Detské ďalekohľady,PHRASE,astronomický,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Digitálne mikroskopy,PHRASE,deti,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Digitálne mikroskopy,PHRASE,detsky,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Digitálne mikroskopy,PHRASE,detský,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Digitálne mikroskopy,PHRASE,detske,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Digitálne mikroskopy,PHRASE,detské,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x50,PHRASE,10x42,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x50,PHRASE,8x42,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x50,PHRASE,12x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x50,PHRASE,8x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x50,PHRASE,20x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x50,PHRASE,8x32,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x50,PHRASE,10x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x50,PHRASE,8x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x50,PHRASE,10x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x50,PHRASE,7x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x50,PHRASE,15x70,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x50,PHRASE,20x80,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x50,PHRASE,15x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x50,PHRASE,10x40,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x50,PHRASE,25x100,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x42,PHRASE,10x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x42,PHRASE,8x42,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x42,PHRASE,12x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x42,PHRASE,8x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x42,PHRASE,20x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x42,PHRASE,8x32,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x42,PHRASE,10x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x42,PHRASE,8x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x42,PHRASE,10x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x42,PHRASE,7x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x42,PHRASE,15x70,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x42,PHRASE,20x80,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x42,PHRASE,15x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x42,PHRASE,10x40,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 10x42,PHRASE,25x100,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x42,PHRASE,10x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x42,PHRASE,10x42,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x42,PHRASE,12x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x42,PHRASE,8x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x42,PHRASE,20x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x42,PHRASE,8x32,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x42,PHRASE,10x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x42,PHRASE,8x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x42,PHRASE,10x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x42,PHRASE,7x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x42,PHRASE,15x70,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x42,PHRASE,20x80,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x42,PHRASE,15x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x42,PHRASE,10x40,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x42,PHRASE,25x100,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 12x50,PHRASE,10x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 12x50,PHRASE,10x42,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 12x50,PHRASE,8x42,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 12x50,PHRASE,8x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 12x50,PHRASE,20x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 12x50,PHRASE,8x32,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 12x50,PHRASE,10x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 12x50,PHRASE,8x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 12x50,PHRASE,10x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 12x50,PHRASE,7x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 12x50,PHRASE,15x70,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 12x50,PHRASE,20x80,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 12x50,PHRASE,15x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 12x50,PHRASE,10x40,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 12x50,PHRASE,25x100,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x56,PHRASE,10x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x56,PHRASE,10x42,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x56,PHRASE,8x42,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x56,PHRASE,12x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x56,PHRASE,20x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x56,PHRASE,8x32,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x56,PHRASE,10x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x56,PHRASE,8x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x56,PHRASE,10x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x56,PHRASE,7x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x56,PHRASE,15x70,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x56,PHRASE,20x80,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x56,PHRASE,15x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x56,PHRASE,10x40,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x56,PHRASE,25x100,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 20x50,PHRASE,10x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 20x50,PHRASE,10x42,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 20x50,PHRASE,8x42,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 20x50,PHRASE,12x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 20x50,PHRASE,8x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 20x50,PHRASE,8x32,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 20x50,PHRASE,10x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 20x50,PHRASE,8x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 20x50,PHRASE,10x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 20x50,PHRASE,7x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 20x50,PHRASE,15x70,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 20x50,PHRASE,20x80,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 20x50,PHRASE,15x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 20x50,PHRASE,10x40,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 20x50,PHRASE,25x100,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x32,PHRASE,10x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x32,PHRASE,10x42,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x32,PHRASE,8x42,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x32,PHRASE,12x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x32,PHRASE,8x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x32,PHRASE,20x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x32,PHRASE,10x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x32,PHRASE,8x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x32,PHRASE,10x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x32,PHRASE,7x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x32,PHRASE,15x70,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x32,PHRASE,20x80,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x32,PHRASE,15x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x32,PHRASE,10x40,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ďalekohľady 8x32,PHRASE,25x100,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Turistické ďalekohľady,PHRASE,10x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Turistické ďalekohľady,PHRASE,10x42,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Turistické ďalekohľady,PHRASE,8x42,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Turistické ďalekohľady,PHRASE,12x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Turistické ďalekohľady,PHRASE,8x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Turistické ďalekohľady,PHRASE,20x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Turistické ďalekohľady,PHRASE,8x32,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Turistické ďalekohľady,PHRASE,10x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Turistické ďalekohľady,PHRASE,8x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Turistické ďalekohľady,PHRASE,10x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Turistické ďalekohľady,PHRASE,7x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Turistické ďalekohľady,PHRASE,15x70,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Turistické ďalekohľady,PHRASE,20x80,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Turistické ďalekohľady,PHRASE,15x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Turistické ďalekohľady,PHRASE,10x40,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Turistické ďalekohľady,PHRASE,25x100,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ornitologické ďalekohľady,PHRASE,10x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ornitologické ďalekohľady,PHRASE,10x42,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ornitologické ďalekohľady,PHRASE,8x42,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ornitologické ďalekohľady,PHRASE,12x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ornitologické ďalekohľady,PHRASE,8x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ornitologické ďalekohľady,PHRASE,20x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ornitologické ďalekohľady,PHRASE,8x32,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ornitologické ďalekohľady,PHRASE,10x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ornitologické ďalekohľady,PHRASE,8x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ornitologické ďalekohľady,PHRASE,10x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ornitologické ďalekohľady,PHRASE,7x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ornitologické ďalekohľady,PHRASE,15x70,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ornitologické ďalekohľady,PHRASE,20x80,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ornitologické ďalekohľady,PHRASE,15x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ornitologické ďalekohľady,PHRASE,10x40,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Ornitologické ďalekohľady,PHRASE,25x100,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Vreckové ďalekohľady,PHRASE,10x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Vreckové ďalekohľady,PHRASE,10x42,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Vreckové ďalekohľady,PHRASE,8x42,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Vreckové ďalekohľady,PHRASE,12x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Vreckové ďalekohľady,PHRASE,8x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Vreckové ďalekohľady,PHRASE,20x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Vreckové ďalekohľady,PHRASE,8x32,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Vreckové ďalekohľady,PHRASE,10x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Vreckové ďalekohľady,PHRASE,8x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Vreckové ďalekohľady,PHRASE,10x25,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Vreckové ďalekohľady,PHRASE,7x50,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Vreckové ďalekohľady,PHRASE,15x70,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Vreckové ďalekohľady,PHRASE,20x80,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Vreckové ďalekohľady,PHRASE,15x56,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Vreckové ďalekohľady,PHRASE,10x40,explicit size belongs to its own size group / page
+SO27 | SEARCH | Kategórie,Vreckové ďalekohľady,PHRASE,25x100,explicit size belongs to its own size group / page
+SO27 | SEARCH | Značky a modely,Model | Celestron AstroMaster 114EQ,PHRASE,114az,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Celestron AstroMaster 114EQ,PHRASE,az,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Celestron AstroMaster 114EQ,PHRASE,lt,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Celestron AstroMaster 114EQ,PHRASE,70,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Celestron AstroMaster 114EQ,PHRASE,90,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Celestron AstroMaster 114EQ,PHRASE,102,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Celestron AstroMaster 114EQ,PHRASE,130,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Celestron StarSense LT 70AZ,PHRASE,80az,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Celestron StarSense LT 70AZ,PHRASE,114az,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Celestron StarSense LT 70AZ,PHRASE,127az,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Celestron StarSense LT 70AZ,PHRASE,130az,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Celestron StarSense LT 70AZ,PHRASE,dx,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Celestron StarSense LT 70AZ,PHRASE,102az,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Celestron C8 XLT OTA,PHRASE,nexstar,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Celestron C8 XLT OTA,PHRASE,se,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Celestron C8 XLT OTA,PHRASE,cpc,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Celestron C8 XLT OTA,PHRASE,evolution,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Celestron C8 XLT OTA,PHRASE,avx,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Celestron C8 XLT OTA,PHRASE,cgem,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Celestron C8 XLT OTA,PHRASE,cgx,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Celestron C8 XLT OTA,PHRASE,edgehd,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Celestron C8 XLT OTA,PHRASE,edge,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Celestron C8 XLT OTA,PHRASE,sgt,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Celestron C8 XLT OTA,PHRASE,starsense,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Celestron C8 XLT OTA,PHRASE,origin,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Sky-Watcher Explorer 130/900 EQ2,PHRASE,pds,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Sky-Watcher Explorer 130/900 EQ2,PHRASE,130p,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Sky-Watcher Explorer 130/900 EQ2,PHRASE,130m,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Sky-Watcher Explorer 130/900 EQ2,PHRASE,eq3,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Sky-Watcher Explorer 130/900 EQ2,PHRASE,eq-3,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Sky-Watcher Explorer 130/900 EQ2,PHRASE,motor,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Sky-Watcher Explorer 130/900 EQ2,PHRASE,az,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Sky-Watcher Explorer 130/900 EQ2,PHRASE,150,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Sky-Watcher Explorer 130/900 EQ2,PHRASE,virtuoso,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Sky-Watcher Explorer 130/900 EQ2,PHRASE,heritage,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Bresser Messier AR-127S EXOS-2,PHRASE,127l,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Bresser Messier AR-127S EXOS-2,PHRASE,ar-127l,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Bresser Messier AR-127S EXOS-2,PHRASE,ota,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Bresser Messier AR-127S EXOS-2,PHRASE,tubus,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Bresser Messier AR-127S EXOS-2,PHRASE,exos-1,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Bresser Messier AR-127S EXOS-2,PHRASE,nano,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | National Geographic 114/900,PHRASE,eq,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | National Geographic 114/900,PHRASE,76/700,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | National Geographic 114/900,PHRASE,70/700,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | National Geographic 114/900,PHRASE,50/360,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | National Geographic 114/900,PHRASE,60/700,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | National Geographic 114/900,PHRASE,90/900,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Bresser Junior 70/900 EL,PHRASE,50/360,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Bresser Junior 70/900 EL,PHRASE,70/400,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Bresser Junior 70/900 EL,PHRASE,50 360,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Bresser Junior 70/900 EL,PHRASE,70 400,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Bresser Junior 70/900 EL,PHRASE,40,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Bresser Junior 70/900 EL,PHRASE,60/700,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Bresser Condor UR 10x42,PHRASE,8x42,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Bresser Condor UR 10x42,PHRASE,10x50,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Bresser Condor UR 10x42,PHRASE,8x32,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Bresser Condor UR 10x42,PHRASE,12x50,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Bresser Condor UR 10x42,PHRASE,10x25,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Bresser Condor UR 10x42,PHRASE,8x25,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Levenhuk New Karma PLUS 10x42,PHRASE,pro,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Levenhuk New Karma PLUS 10x42,PHRASE,ed,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Levenhuk New Karma PLUS 10x42,PHRASE,8x42,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Levenhuk New Karma PLUS 10x42,PHRASE,10x50,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Levenhuk New Karma PLUS 10x42,PHRASE,8x32,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Levenhuk New Karma PLUS 10x42,PHRASE,12x50,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Levenhuk New Karma PLUS 10x42,PHRASE,16x50,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Levenhuk New Karma PLUS 10x42,PHRASE,8x25,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Bresser Erudit Basic Bino,PHRASE,mono,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Bresser Erudit Basic Bino,PHRASE,trino,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Bresser Erudit Basic Bino,PHRASE,dlx,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Bresser Erudit Basic Bino,PHRASE,researcher,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Omegon Binofield 40-800x LED,PHRASE,stereo,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Omegon Binofield 40-800x LED,PHRASE,20x,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Omegon Binofield 40-800x LED,PHRASE,2x,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Omegon Binofield 40-800x LED,PHRASE,4x,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Teleskopy | Sky-Watcher,PHRASE,130 eq2,full model designation belongs to the model group
+SO27 | SEARCH | Značky a modely,Teleskopy | Sky-Watcher,PHRASE,130/900 eq2,full model designation belongs to the model group
+SO27 | SEARCH | Značky a modely,Teleskopy | Sky-Watcher,PHRASE,explorer 130 eq2,full model designation belongs to the model group
+SO27 | SEARCH | Značky a modely,Teleskopy | Celestron,PHRASE,114 eq,full model designation belongs to the model group
+SO27 | SEARCH | Značky a modely,Teleskopy | Celestron,PHRASE,114eq,full model designation belongs to the model group
+SO27 | SEARCH | Značky a modely,Teleskopy | Celestron,PHRASE,70az,full model designation belongs to the model group
+SO27 | SEARCH | Značky a modely,Teleskopy | Celestron,PHRASE,ota,full model designation belongs to the model group
+SO27 | SEARCH | Značky a modely,Teleskopy | Celestron,PHRASE,tubus,full model designation belongs to the model group
+SO27 | SEARCH | Značky a modely,Teleskopy | Bresser,PHRASE,127s,full model designation belongs to the model group
+SO27 | SEARCH | Značky a modely,Teleskopy | Bresser,PHRASE,ar-127s,full model designation belongs to the model group
+SO27 | SEARCH | Značky a modely,Teleskopy | Bresser,PHRASE,junior,Bresser Junior has its own family group
+SO27 | SEARCH | Značky a modely,Teleskopy | National Geographic,PHRASE,114 900,full model designation belongs to the model group
+SO27 | SEARCH | Značky a modely,Teleskopy | National Geographic,PHRASE,114/900,full model designation belongs to the model group
+SO27 | SEARCH | Značky a modely,Teleskopy | Bresser Junior,PHRASE,70 900,full model designation belongs to the model group
+SO27 | SEARCH | Značky a modely,Teleskopy | Bresser Junior,PHRASE,70/900,full model designation belongs to the model group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Levenhuk,PHRASE,karma plus,full model designation belongs to the model group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Levenhuk,PHRASE,hvezdarsky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Levenhuk,PHRASE,hvezdársky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Omegon,PHRASE,hvezdarsky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Omegon,PHRASE,hvezdársky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Bresser,PHRASE,condor 10x42,full model designation belongs to the model group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Bresser,PHRASE,condor ur 10x42,full model designation belongs to the model group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Bresser,PHRASE,hvezdarsky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Bresser,PHRASE,hvezdársky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Bresser,PHRASE,junior,Bresser Junior has its own family group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Leica,PHRASE,hvezdarsky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Leica,PHRASE,hvezdársky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Zeiss,PHRASE,hvezdarsky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Zeiss,PHRASE,hvezdársky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Minox,PHRASE,hvezdarsky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Minox,PHRASE,hvezdársky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Celestron,PHRASE,hvezdarsky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Celestron,PHRASE,hvezdársky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Delta,PHRASE,hvezdarsky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Delta,PHRASE,hvezdársky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | National Geographic,PHRASE,hvezdarsky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | National Geographic,PHRASE,hvezdársky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Discovery,PHRASE,hvezdarsky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Discovery,PHRASE,hvezdársky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Meopta,PHRASE,hvezdarsky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Meopta,PHRASE,hvezdársky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
+SO27 | SEARCH | Značky a modely,Mikroskopy | Bresser,PHRASE,erudit basic bino,full model designation belongs to the model group
+SO27 | SEARCH | Značky a modely,Mikroskopy | Bresser,PHRASE,erudit bino,full model designation belongs to the model group
+SO27 | SEARCH | Značky a modely,Mikroskopy | Bresser,PHRASE,junior,Bresser Junior has its own family group
+SO27 | SEARCH | Značky a modely,Mikroskopy | Omegon,PHRASE,binofield 40 800x,full model designation belongs to the model group
+SO27 | SEARCH | Značky a modely,Mikroskopy | Omegon,PHRASE,binofield 40-800x,full model designation belongs to the model group
+SO27 | SEARCH | Kategórie,,PHRASE,bresser,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,bresser junior,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,bushnell,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,celestron,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,delta,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,discovery,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,euromex,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,explore scientific,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,hikmicro,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,kelvin,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,kern,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,leica,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,levenhuk,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,magus,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,meade,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,meopta,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,minox,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,national,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,national geographic,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,nikon,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,omegon,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,pulsar,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,sky watcher,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,skywatcher,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,sky-watcher,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,swarovski,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,vixen,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,william optics,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,zeiss,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,bratislava,store queries go to Predajňa
+SO27 | SEARCH | Značky a modely,,PHRASE,bratislava,store queries go to Predajňa
+SO27 | SEARCH | Kategórie,,PHRASE,predajna,store queries go to Predajňa
+SO27 | SEARCH | Značky a modely,,PHRASE,predajna,store queries go to Predajňa
+SO27 | SEARCH | Kategórie,,PHRASE,predajňa,store queries go to Predajňa
+SO27 | SEARCH | Značky a modely,,PHRASE,predajňa,store queries go to Predajňa
+SO27 | SEARCH | Kategórie,,PHRASE,sonata optics,store queries go to Predajňa
+SO27 | SEARCH | Značky a modely,,PHRASE,sonata optics,store queries go to Predajňa
+SO27 | SEARCH | Kategórie,,PHRASE,nocnym videnim,night vision / thermal / rangefinder not in this campaign (gate review)
+SO27 | SEARCH | Kategórie,,PHRASE,nočným videním,night vision / thermal / rangefinder not in this campaign (gate review)
+SO27 | SEARCH | Kategórie,,PHRASE,nocne videnie,night vision / thermal / rangefinder not in this campaign (gate review)
+SO27 | SEARCH | Kategórie,,PHRASE,nočné videnie,night vision / thermal / rangefinder not in this campaign (gate review)
+SO27 | SEARCH | Kategórie,,PHRASE,termo,night vision / thermal / rangefinder not in this campaign (gate review)
+SO27 | SEARCH | Kategórie,,PHRASE,termovizia,night vision / thermal / rangefinder not in this campaign (gate review)
+SO27 | SEARCH | Kategórie,,PHRASE,termovízia,night vision / thermal / rangefinder not in this campaign (gate review)
+SO27 | SEARCH | Kategórie,,PHRASE,dialkomer,night vision / thermal / rangefinder not in this campaign (gate review)
+SO27 | SEARCH | Kategórie,,PHRASE,diaľkomer,night vision / thermal / rangefinder not in this campaign (gate review)
+SO27 | SEARCH | Kategórie,,PHRASE,infra,night vision / thermal / rangefinder not in this campaign (gate review)
+SO27 | SEARCH | Značky a modely,,PHRASE,seestar,smart telescopes not bought in SO27 Search
+SO27 | SEARCH | Značky a modely,,PHRASE,dwarf,smart telescopes not bought in SO27 Search
+SO27 | SEARCH | Značky a modely,,PHRASE,dwarflab,smart telescopes not bought in SO27 Search
+SO27 | SEARCH | Značky a modely,,PHRASE,unistellar,smart telescopes not bought in SO27 Search
+SO27 | SEARCH | Značky a modely,,PHRASE,vaonis,smart telescopes not bought in SO27 Search
+SO27 | SEARCH | Značky a modely,,PHRASE,vespera,smart telescopes not bought in SO27 Search
+SO27 | SEARCH | Značky a modely,,PHRASE,evscope,smart telescopes not bought in SO27 Search
+SO27 | SEARCH | Značky a modely,,PHRASE,celestron origin,smart telescopes not bought in SO27 Search
+NEW26 | SEARCH | Bratislava | Predajňa,,PHRASE,okuliare,optician / eyewear confusion
+NEW26 | SEARCH | Bratislava | Predajňa,,PHRASE,okuliarov,optician / eyewear confusion
+NEW26 | SEARCH | Bratislava | Predajňa,,PHRASE,šošovky,optician / eyewear confusion
+NEW26 | SEARCH | Bratislava | Predajňa,,PHRASE,sosovky,optician / eyewear confusion
+NEW26 | SEARCH | Bratislava | Predajňa,,PHRASE,kontaktné,optician / eyewear confusion
+NEW26 | SEARCH | Bratislava | Predajňa,,PHRASE,kontaktne,optician / eyewear confusion
+NEW26 | SEARCH | Bratislava | Predajňa,,PHRASE,dioptrické,optician / eyewear confusion
+NEW26 | SEARCH | Bratislava | Predajňa,,PHRASE,dioptricke,optician / eyewear confusion
+NEW26 | SEARCH | Bratislava | Predajňa,,PHRASE,očný,optician / eyewear confusion
+NEW26 | SEARCH | Bratislava | Predajňa,,PHRASE,ocny,optician / eyewear confusion
+NEW26 | SEARCH | Bratislava | Predajňa,,PHRASE,meranie zraku,optician / eyewear confusion
+NEW26 | SEARCH | Bratislava | Predajňa,,PHRASE,vyšetrenie zraku,optician / eyewear confusion
+NEW26 | SEARCH | Bratislava | Predajňa,,PHRASE,vysetrenie zraku,optician / eyewear confusion
+NEW26 | SEARCH | Bratislava | Predajňa,,PHRASE,optika okuliare,optician / eyewear confusion
+NEW26 | SEARCH | Bratislava | Predajňa,,PHRASE,slnečné okuliare,optician / eyewear confusion
+NEW26 | SEARCH | Bratislava | Predajňa,,PHRASE,pracovné ponuky,optician / eyewear confusion
+NEW26 | SEARCH | Bratislava | Predajňa,,PHRASE,brigáda,optician / eyewear confusion

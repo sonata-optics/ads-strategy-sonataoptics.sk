@@ -1,0 +1,714 @@
+PASS headlines: Teleskopy
+PASS descriptions: Teleskopy
+PASS no banned words/claims: Teleskopy
+PASS headlines: Hvezdárske ďalekohľady
+PASS descriptions: Hvezdárske ďalekohľady
+PASS no banned words/claims: Hvezdárske ďalekohľady
+PASS headlines: Teleskopy pre deti
+PASS descriptions: Teleskopy pre deti
+PASS no banned words/claims: Teleskopy pre deti
+PASS headlines: Ďalekohľady
+PASS descriptions: Ďalekohľady
+PASS no banned words/claims: Ďalekohľady
+PASS headlines: Astronomické binokuláre
+PASS descriptions: Astronomické binokuláre
+PASS no banned words/claims: Astronomické binokuláre
+PASS headlines: Detské ďalekohľady
+PASS descriptions: Detské ďalekohľady
+PASS no banned words/claims: Detské ďalekohľady
+PASS headlines: Mikroskopy
+PASS descriptions: Mikroskopy
+PASS no banned words/claims: Mikroskopy
+PASS headlines: Mikroskopy pre deti a školské
+PASS descriptions: Mikroskopy pre deti a školské
+PASS no banned words/claims: Mikroskopy pre deti a školské
+PASS headlines: Digitálne mikroskopy
+PASS descriptions: Digitálne mikroskopy
+PASS no banned words/claims: Digitálne mikroskopy
+PASS headlines: Stereomikroskopy
+PASS descriptions: Stereomikroskopy
+PASS no banned words/claims: Stereomikroskopy
+PASS headlines: Ďalekohľady 10x50
+PASS descriptions: Ďalekohľady 10x50
+PASS no banned words/claims: Ďalekohľady 10x50
+PASS headlines: Ďalekohľady 10x42
+PASS descriptions: Ďalekohľady 10x42
+PASS no banned words/claims: Ďalekohľady 10x42
+PASS headlines: Ďalekohľady 8x42
+PASS descriptions: Ďalekohľady 8x42
+PASS no banned words/claims: Ďalekohľady 8x42
+PASS headlines: Ďalekohľady 12x50
+PASS descriptions: Ďalekohľady 12x50
+PASS no banned words/claims: Ďalekohľady 12x50
+PASS headlines: Ďalekohľady 8x56
+PASS descriptions: Ďalekohľady 8x56
+PASS no banned words/claims: Ďalekohľady 8x56
+PASS headlines: Ďalekohľady 20x50
+PASS descriptions: Ďalekohľady 20x50
+PASS no banned words/claims: Ďalekohľady 20x50
+PASS headlines: Ďalekohľady 8x32
+PASS descriptions: Ďalekohľady 8x32
+PASS no banned words/claims: Ďalekohľady 8x32
+PASS headlines: Turistické ďalekohľady
+PASS descriptions: Turistické ďalekohľady
+PASS no banned words/claims: Turistické ďalekohľady
+PASS headlines: Ornitologické ďalekohľady
+PASS descriptions: Ornitologické ďalekohľady
+PASS no banned words/claims: Ornitologické ďalekohľady
+PASS headlines: Vreckové ďalekohľady
+PASS descriptions: Vreckové ďalekohľady
+PASS no banned words/claims: Vreckové ďalekohľady
+PASS headlines: Model | Celestron AstroMaster 114EQ
+PASS descriptions: Model | Celestron AstroMaster 114EQ
+PASS no banned words/claims: Model | Celestron AstroMaster 114EQ
+PASS headlines: Model | Celestron StarSense LT 70AZ
+PASS descriptions: Model | Celestron StarSense LT 70AZ
+PASS no banned words/claims: Model | Celestron StarSense LT 70AZ
+PASS headlines: Model | Celestron C8 XLT OTA
+PASS descriptions: Model | Celestron C8 XLT OTA
+PASS no banned words/claims: Model | Celestron C8 XLT OTA
+PASS headlines: Model | Sky-Watcher Explorer 130/900 EQ2
+PASS descriptions: Model | Sky-Watcher Explorer 130/900 EQ2
+PASS no banned words/claims: Model | Sky-Watcher Explorer 130/900 EQ2
+PASS headlines: Model | Bresser Messier AR-127S EXOS-2
+PASS descriptions: Model | Bresser Messier AR-127S EXOS-2
+PASS no banned words/claims: Model | Bresser Messier AR-127S EXOS-2
+PASS headlines: Model | National Geographic 114/900
+PASS descriptions: Model | National Geographic 114/900
+PASS no banned words/claims: Model | National Geographic 114/900
+PASS headlines: Model | Bresser Junior 70/900 EL
+PASS descriptions: Model | Bresser Junior 70/900 EL
+PASS no banned words/claims: Model | Bresser Junior 70/900 EL
+PASS headlines: Model | Bresser Condor UR 10x42
+PASS descriptions: Model | Bresser Condor UR 10x42
+PASS no banned words/claims: Model | Bresser Condor UR 10x42
+PASS headlines: Model | Levenhuk New Karma PLUS 10x42
+PASS descriptions: Model | Levenhuk New Karma PLUS 10x42
+PASS no banned words/claims: Model | Levenhuk New Karma PLUS 10x42
+PASS headlines: Model | Bresser Erudit Basic Bino
+PASS descriptions: Model | Bresser Erudit Basic Bino
+PASS no banned words/claims: Model | Bresser Erudit Basic Bino
+PASS headlines: Model | Omegon Binofield 40-800x LED
+PASS descriptions: Model | Omegon Binofield 40-800x LED
+PASS no banned words/claims: Model | Omegon Binofield 40-800x LED
+PASS headlines: Teleskopy | Sky-Watcher
+PASS descriptions: Teleskopy | Sky-Watcher
+PASS no banned words/claims: Teleskopy | Sky-Watcher
+PASS headlines: Teleskopy | Celestron
+PASS descriptions: Teleskopy | Celestron
+PASS no banned words/claims: Teleskopy | Celestron
+PASS headlines: Teleskopy | Omegon
+PASS descriptions: Teleskopy | Omegon
+PASS no banned words/claims: Teleskopy | Omegon
+PASS headlines: Teleskopy | Levenhuk
+PASS descriptions: Teleskopy | Levenhuk
+PASS no banned words/claims: Teleskopy | Levenhuk
+PASS headlines: Teleskopy | Bresser
+PASS descriptions: Teleskopy | Bresser
+PASS no banned words/claims: Teleskopy | Bresser
+PASS headlines: Teleskopy | William Optics
+PASS descriptions: Teleskopy | William Optics
+PASS no banned words/claims: Teleskopy | William Optics
+PASS headlines: Teleskopy | Vixen
+PASS descriptions: Teleskopy | Vixen
+PASS no banned words/claims: Teleskopy | Vixen
+PASS headlines: Teleskopy | National Geographic
+PASS descriptions: Teleskopy | National Geographic
+PASS no banned words/claims: Teleskopy | National Geographic
+PASS headlines: Teleskopy | Explore Scientific
+PASS descriptions: Teleskopy | Explore Scientific
+PASS no banned words/claims: Teleskopy | Explore Scientific
+PASS headlines: Teleskopy | Discovery
+PASS descriptions: Teleskopy | Discovery
+PASS no banned words/claims: Teleskopy | Discovery
+PASS headlines: Teleskopy | Bresser Junior
+PASS descriptions: Teleskopy | Bresser Junior
+PASS no banned words/claims: Teleskopy | Bresser Junior
+PASS headlines: Ďalekohľady | Levenhuk
+PASS descriptions: Ďalekohľady | Levenhuk
+PASS no banned words/claims: Ďalekohľady | Levenhuk
+PASS headlines: Ďalekohľady | Omegon
+PASS descriptions: Ďalekohľady | Omegon
+PASS no banned words/claims: Ďalekohľady | Omegon
+PASS headlines: Ďalekohľady | Bresser
+PASS descriptions: Ďalekohľady | Bresser
+PASS no banned words/claims: Ďalekohľady | Bresser
+PASS headlines: Ďalekohľady | Leica
+PASS descriptions: Ďalekohľady | Leica
+PASS no banned words/claims: Ďalekohľady | Leica
+PASS headlines: Ďalekohľady | Zeiss
+PASS descriptions: Ďalekohľady | Zeiss
+PASS no banned words/claims: Ďalekohľady | Zeiss
+PASS headlines: Ďalekohľady | Minox
+PASS descriptions: Ďalekohľady | Minox
+PASS no banned words/claims: Ďalekohľady | Minox
+PASS headlines: Ďalekohľady | Celestron
+PASS descriptions: Ďalekohľady | Celestron
+PASS no banned words/claims: Ďalekohľady | Celestron
+PASS headlines: Ďalekohľady | Delta
+PASS descriptions: Ďalekohľady | Delta
+PASS no banned words/claims: Ďalekohľady | Delta
+PASS headlines: Ďalekohľady | National Geographic
+PASS descriptions: Ďalekohľady | National Geographic
+PASS no banned words/claims: Ďalekohľady | National Geographic
+PASS headlines: Ďalekohľady | Discovery
+PASS descriptions: Ďalekohľady | Discovery
+PASS no banned words/claims: Ďalekohľady | Discovery
+PASS headlines: Ďalekohľady | Meopta
+PASS descriptions: Ďalekohľady | Meopta
+PASS no banned words/claims: Ďalekohľady | Meopta
+PASS headlines: Mikroskopy | Euromex
+PASS descriptions: Mikroskopy | Euromex
+PASS no banned words/claims: Mikroskopy | Euromex
+PASS headlines: Mikroskopy | Kern
+PASS descriptions: Mikroskopy | Kern
+PASS no banned words/claims: Mikroskopy | Kern
+PASS headlines: Mikroskopy | Bresser
+PASS descriptions: Mikroskopy | Bresser
+PASS no banned words/claims: Mikroskopy | Bresser
+PASS headlines: Mikroskopy | MAGUS
+PASS descriptions: Mikroskopy | MAGUS
+PASS no banned words/claims: Mikroskopy | MAGUS
+PASS headlines: Mikroskopy | Levenhuk
+PASS descriptions: Mikroskopy | Levenhuk
+PASS no banned words/claims: Mikroskopy | Levenhuk
+PASS headlines: Mikroskopy | Omegon
+PASS descriptions: Mikroskopy | Omegon
+PASS no banned words/claims: Mikroskopy | Omegon
+PASS headlines: Mikroskopy | Kelvin
+PASS descriptions: Mikroskopy | Kelvin
+PASS no banned words/claims: Mikroskopy | Kelvin
+PASS headlines: Mikroskopy | Discovery
+PASS descriptions: Mikroskopy | Discovery
+PASS no banned words/claims: Mikroskopy | Discovery
+PASS headlines: Predajňa – značka a adresa
+PASS descriptions: Predajňa – značka a adresa
+PASS no banned words/claims: Predajňa – značka a adresa
+PASS headlines: Predajňa – teleskopy
+PASS descriptions: Predajňa – teleskopy
+PASS no banned words/claims: Predajňa – teleskopy
+PASS headlines: Predajňa – mikroskopy
+PASS descriptions: Predajňa – mikroskopy
+PASS no banned words/claims: Predajňa – mikroskopy
+PASS headlines: Predajňa – ďalekohľady
+PASS descriptions: Predajňa – ďalekohľady
+PASS no banned words/claims: Predajňa – ďalekohľady
+PASS headlines: Predajňa – poradenstvo a osobný odber
+PASS descriptions: Predajňa – poradenstvo a osobný odber
+PASS no banned words/claims: Predajňa – poradenstvo a osobný odber
+PASS keyword reaches only its group: [Teleskopy] teleskop EXACT -> ['Teleskopy']
+PASS keyword reaches only its group: [Teleskopy] teleskopy EXACT -> ['Teleskopy']
+PASS keyword reaches only its group: [Teleskopy] teleskop cena PHRASE -> ['Teleskopy']
+PASS keyword reaches only its group: [Teleskopy] teleskop na hviezdy PHRASE -> ['Teleskopy']
+PASS keyword reaches only its group: [Teleskopy] hvezdarsky teleskop PHRASE -> ['Teleskopy']
+PASS keyword reaches only its group: [Teleskopy] hvezdársky teleskop PHRASE -> ['Teleskopy']
+PASS keyword reaches only its group: [Teleskopy] astronomicky teleskop PHRASE -> ['Teleskopy']
+PASS keyword reaches only its group: [Teleskopy] teleskop hvezdarsky PHRASE -> ['Teleskopy']
+PASS keyword reaches only its group: [Teleskopy] teleskop pre zaciatocnikov PHRASE -> ['Teleskopy']
+PASS keyword reaches only its group: [Teleskopy] teleskop pre začiatočníkov PHRASE -> ['Teleskopy']
+PASS keyword reaches only its group: [Hvezdárske ďalekohľady] dalekohlad na hviezdy PHRASE -> ['Hvezdárske ďalekohľady']
+PASS keyword reaches only its group: [Hvezdárske ďalekohľady] ďalekohľad na hviezdy PHRASE -> ['Hvezdárske ďalekohľady']
+PASS keyword reaches only its group: [Hvezdárske ďalekohľady] hvezdarsky dalekohlad PHRASE -> ['Hvezdárske ďalekohľady']
+PASS keyword reaches only its group: [Hvezdárske ďalekohľady] hvezdársky ďalekohľad PHRASE -> ['Hvezdárske ďalekohľady']
+PASS keyword reaches only its group: [Hvezdárske ďalekohľady] astronomicky dalekohlad PHRASE -> ['Hvezdárske ďalekohľady']
+PASS keyword reaches only its group: [Hvezdárske ďalekohľady] astronomický ďalekohľad PHRASE -> ['Hvezdárske ďalekohľady']
+PASS keyword reaches only its group: [Hvezdárske ďalekohľady] hviezdny dalekohlad PHRASE -> ['Hvezdárske ďalekohľady']
+PASS keyword reaches only its group: [Hvezdárske ďalekohľady] dalekohlad na pozorovanie hviezd PHRASE -> ['Hvezdárske ďalekohľady']
+PASS keyword reaches only its group: [Teleskopy pre deti] teleskop pre deti PHRASE -> ['Teleskopy pre deti']
+PASS keyword reaches only its group: [Teleskopy pre deti] detsky teleskop PHRASE -> ['Teleskopy pre deti']
+PASS keyword reaches only its group: [Teleskopy pre deti] detský teleskop PHRASE -> ['Teleskopy pre deti']
+PASS keyword reaches only its group: [Teleskopy pre deti] teleskop detsky PHRASE -> ['Teleskopy pre deti']
+PASS keyword reaches only its group: [Teleskopy pre deti] detsky dalekohlad na hviezdy PHRASE -> ['Teleskopy pre deti']
+PASS keyword reaches only its group: [Teleskopy pre deti] dalekohlad na hviezdy pre deti PHRASE -> ['Teleskopy pre deti']
+PASS keyword reaches only its group: [Teleskopy pre deti] detsky hvezdarsky dalekohlad PHRASE -> ['Teleskopy pre deti']
+PASS keyword reaches only its group: [Teleskopy pre deti] hvezdarsky dalekohlad pre deti PHRASE -> ['Teleskopy pre deti']
+PASS keyword reaches only its group: [Ďalekohľady] dalekohlad EXACT -> ['Ďalekohľady']
+PASS keyword reaches only its group: [Ďalekohľady] ďalekohľad EXACT -> ['Ďalekohľady']
+PASS keyword reaches only its group: [Ďalekohľady] dalekohlady EXACT -> ['Ďalekohľady']
+PASS keyword reaches only its group: [Ďalekohľady] ďalekohľady EXACT -> ['Ďalekohľady']
+PASS keyword reaches only its group: [Ďalekohľady] binokularny dalekohlad PHRASE -> ['Ďalekohľady']
+PASS keyword reaches only its group: [Ďalekohľady] binokulárny ďalekohľad PHRASE -> ['Ďalekohľady']
+PASS keyword reaches only its group: [Ďalekohľady] kvalitny dalekohlad PHRASE -> ['Ďalekohľady']
+PASS keyword reaches only its group: [Ďalekohľady] dalekohlad cena PHRASE -> ['Ďalekohľady']
+PASS keyword reaches only its group: [Ďalekohľady] pozorovaci dalekohlad PHRASE -> ['Ďalekohľady']
+PASS keyword reaches only its group: [Astronomické binokuláre] astronomicky binokular PHRASE -> ['Astronomické binokuláre']
+PASS keyword reaches only its group: [Astronomické binokuláre] astronomický binokulár PHRASE -> ['Astronomické binokuláre']
+PASS keyword reaches only its group: [Astronomické binokuláre] binokular na hviezdy PHRASE -> ['Astronomické binokuláre']
+PASS keyword reaches only its group: [Detské ďalekohľady] detsky dalekohlad PHRASE -> ['Detské ďalekohľady']
+PASS keyword reaches only its group: [Detské ďalekohľady] detský ďalekohľad PHRASE -> ['Detské ďalekohľady']
+PASS keyword reaches only its group: [Detské ďalekohľady] dalekohlad pre deti PHRASE -> ['Detské ďalekohľady']
+PASS keyword reaches only its group: [Detské ďalekohľady] ďalekohľad pre deti PHRASE -> ['Detské ďalekohľady']
+PASS keyword reaches only its group: [Detské ďalekohľady] dalekohlad detsky PHRASE -> ['Detské ďalekohľady']
+PASS keyword reaches only its group: [Mikroskopy] mikroskop EXACT -> ['Mikroskopy']
+PASS keyword reaches only its group: [Mikroskopy] mikroskopy EXACT -> ['Mikroskopy']
+PASS keyword reaches only its group: [Mikroskopy] mikroskop cena PHRASE -> ['Mikroskopy']
+PASS keyword reaches only its group: [Mikroskopy] mikroskop predaj PHRASE -> ['Mikroskopy']
+PASS keyword reaches only its group: [Mikroskopy] opticky mikroskop PHRASE -> ['Mikroskopy']
+PASS keyword reaches only its group: [Mikroskopy] optický mikroskop PHRASE -> ['Mikroskopy']
+PASS keyword reaches only its group: [Mikroskopy] mikroskop popis PHRASE -> ['Mikroskopy']
+PASS keyword reaches only its group: [Mikroskopy pre deti a školské] mikroskop pre deti PHRASE -> ['Mikroskopy pre deti a školské']
+PASS keyword reaches only its group: [Mikroskopy pre deti a školské] detsky mikroskop PHRASE -> ['Mikroskopy pre deti a školské']
+PASS keyword reaches only its group: [Mikroskopy pre deti a školské] detský mikroskop PHRASE -> ['Mikroskopy pre deti a školské']
+PASS keyword reaches only its group: [Mikroskopy pre deti a školské] detske mikroskopy PHRASE -> ['Mikroskopy pre deti a školské']
+PASS keyword reaches only its group: [Mikroskopy pre deti a školské] skolsky mikroskop PHRASE -> ['Mikroskopy pre deti a školské']
+PASS keyword reaches only its group: [Mikroskopy pre deti a školské] školský mikroskop PHRASE -> ['Mikroskopy pre deti a školské']
+PASS keyword reaches only its group: [Digitálne mikroskopy] digitalny mikroskop PHRASE -> ['Digitálne mikroskopy']
+PASS keyword reaches only its group: [Digitálne mikroskopy] digitálny mikroskop PHRASE -> ['Digitálne mikroskopy']
+PASS keyword reaches only its group: [Digitálne mikroskopy] usb mikroskop PHRASE -> ['Digitálne mikroskopy']
+PASS keyword reaches only its group: [Digitálne mikroskopy] digitálne mikroskopy PHRASE -> ['Digitálne mikroskopy']
+PASS keyword reaches only its group: [Stereomikroskopy] stereomikroskop PHRASE -> ['Stereomikroskopy']
+PASS keyword reaches only its group: [Stereomikroskopy] stereo mikroskop PHRASE -> ['Stereomikroskopy']
+PASS keyword reaches only its group: [Stereomikroskopy] stereoskopický mikroskop PHRASE -> ['Stereomikroskopy']
+PASS keyword reaches only its group: [Stereomikroskopy] stereoskopické mikroskopy PHRASE -> ['Stereomikroskopy']
+PASS keyword reaches only its group: [Ďalekohľady 10x50] dalekohlad 10x50 PHRASE -> ['Ďalekohľady 10x50']
+PASS keyword reaches only its group: [Ďalekohľady 10x50] ďalekohľad 10x50 PHRASE -> ['Ďalekohľady 10x50']
+PASS keyword reaches only its group: [Ďalekohľady 10x50] dalekohled 10x50 PHRASE -> ['Ďalekohľady 10x50']
+PASS keyword reaches only its group: [Ďalekohľady 10x50] dalekohlady 10x50 PHRASE -> ['Ďalekohľady 10x50']
+PASS keyword reaches only its group: [Ďalekohľady 10x42] dalekohlad 10x42 PHRASE -> ['Ďalekohľady 10x42']
+PASS keyword reaches only its group: [Ďalekohľady 10x42] ďalekohľad 10x42 PHRASE -> ['Ďalekohľady 10x42']
+PASS keyword reaches only its group: [Ďalekohľady 10x42] dalekohlady 10x42 PHRASE -> ['Ďalekohľady 10x42']
+PASS keyword reaches only its group: [Ďalekohľady 8x42] dalekohlad 8x42 PHRASE -> ['Ďalekohľady 8x42']
+PASS keyword reaches only its group: [Ďalekohľady 8x42] ďalekohľad 8x42 PHRASE -> ['Ďalekohľady 8x42']
+PASS keyword reaches only its group: [Ďalekohľady 12x50] dalekohlad 12x50 PHRASE -> ['Ďalekohľady 12x50']
+PASS keyword reaches only its group: [Ďalekohľady 12x50] ďalekohľad 12x50 PHRASE -> ['Ďalekohľady 12x50']
+PASS keyword reaches only its group: [Ďalekohľady 8x56] dalekohlad 8x56 PHRASE -> ['Ďalekohľady 8x56']
+PASS keyword reaches only its group: [Ďalekohľady 8x56] ďalekohľad 8x56 PHRASE -> ['Ďalekohľady 8x56']
+PASS keyword reaches only its group: [Ďalekohľady 20x50] dalekohlad 20x50 PHRASE -> ['Ďalekohľady 20x50']
+PASS keyword reaches only its group: [Ďalekohľady 20x50] ďalekohľad 20x50 PHRASE -> ['Ďalekohľady 20x50']
+PASS keyword reaches only its group: [Ďalekohľady 8x32] dalekohlad 8x32 PHRASE -> ['Ďalekohľady 8x32']
+PASS keyword reaches only its group: [Ďalekohľady 8x32] ďalekohľad 8x32 PHRASE -> ['Ďalekohľady 8x32']
+PASS keyword reaches only its group: [Turistické ďalekohľady] turisticky dalekohlad PHRASE -> ['Turistické ďalekohľady']
+PASS keyword reaches only its group: [Turistické ďalekohľady] turistický ďalekohľad PHRASE -> ['Turistické ďalekohľady']
+PASS keyword reaches only its group: [Ornitologické ďalekohľady] dalekohlad na pozorovanie vtakov PHRASE -> ['Ornitologické ďalekohľady']
+PASS keyword reaches only its group: [Ornitologické ďalekohľady] ďalekohľad na pozorovanie vtákov PHRASE -> ['Ornitologické ďalekohľady']
+PASS keyword reaches only its group: [Ornitologické ďalekohľady] ornitologicky dalekohlad PHRASE -> ['Ornitologické ďalekohľady']
+PASS keyword reaches only its group: [Vreckové ďalekohľady] vreckovy dalekohlad PHRASE -> ['Vreckové ďalekohľady']
+PASS keyword reaches only its group: [Vreckové ďalekohľady] vreckový ďalekohľad PHRASE -> ['Vreckové ďalekohľady']
+PASS keyword reaches only its group: [Vreckové ďalekohľady] mini dalekohlad PHRASE -> ['Vreckové ďalekohľady']
+PASS keyword reaches only its group: [Vreckové ďalekohľady] maly dalekohlad PHRASE -> ['Vreckové ďalekohľady']
+PASS keyword reaches only its group: [Model | Celestron AstroMaster 114EQ] celestron astromaster 114eq EXACT -> ['Model | Celestron AstroMaster 114EQ']
+PASS keyword reaches only its group: [Model | Celestron AstroMaster 114EQ] celestron astromaster 114eq PHRASE -> ['Model | Celestron AstroMaster 114EQ']
+PASS keyword reaches only its group: [Model | Celestron AstroMaster 114EQ] astromaster 114eq EXACT -> ['Model | Celestron AstroMaster 114EQ']
+PASS keyword reaches only its group: [Model | Celestron AstroMaster 114EQ] astromaster 114eq PHRASE -> ['Model | Celestron AstroMaster 114EQ']
+PASS keyword reaches only its group: [Model | Celestron AstroMaster 114EQ] astromaster 114 eq EXACT -> ['Model | Celestron AstroMaster 114EQ']
+PASS keyword reaches only its group: [Model | Celestron AstroMaster 114EQ] astromaster 114 eq PHRASE -> ['Model | Celestron AstroMaster 114EQ']
+PASS keyword reaches only its group: [Model | Celestron StarSense LT 70AZ] starsense explorer lt 70az EXACT -> ['Model | Celestron StarSense LT 70AZ']
+PASS keyword reaches only its group: [Model | Celestron StarSense LT 70AZ] starsense explorer lt 70az PHRASE -> ['Model | Celestron StarSense LT 70AZ']
+PASS keyword reaches only its group: [Model | Celestron StarSense LT 70AZ] celestron starsense lt 70az EXACT -> ['Model | Celestron StarSense LT 70AZ']
+PASS keyword reaches only its group: [Model | Celestron StarSense LT 70AZ] celestron starsense lt 70az PHRASE -> ['Model | Celestron StarSense LT 70AZ']
+PASS keyword reaches only its group: [Model | Celestron StarSense LT 70AZ] starsense lt 70az EXACT -> ['Model | Celestron StarSense LT 70AZ']
+PASS keyword reaches only its group: [Model | Celestron StarSense LT 70AZ] starsense lt 70az PHRASE -> ['Model | Celestron StarSense LT 70AZ']
+PASS keyword reaches only its group: [Model | Celestron C8 XLT OTA] celestron c8 ota EXACT -> ['Model | Celestron C8 XLT OTA']
+PASS keyword reaches only its group: [Model | Celestron C8 XLT OTA] celestron c8 ota PHRASE -> ['Model | Celestron C8 XLT OTA']
+PASS keyword reaches only its group: [Model | Celestron C8 XLT OTA] celestron c8 xlt ota EXACT -> ['Model | Celestron C8 XLT OTA']
+PASS keyword reaches only its group: [Model | Celestron C8 XLT OTA] celestron c8 xlt ota PHRASE -> ['Model | Celestron C8 XLT OTA']
+PASS keyword reaches only its group: [Model | Celestron C8 XLT OTA] c8 xlt ota EXACT -> ['Model | Celestron C8 XLT OTA']
+PASS keyword reaches only its group: [Model | Celestron C8 XLT OTA] c8 xlt ota PHRASE -> ['Model | Celestron C8 XLT OTA']
+PASS keyword reaches only its group: [Model | Celestron C8 XLT OTA] celestron c8 tubus EXACT -> ['Model | Celestron C8 XLT OTA']
+PASS keyword reaches only its group: [Model | Celestron C8 XLT OTA] celestron c8 tubus PHRASE -> ['Model | Celestron C8 XLT OTA']
+PASS keyword reaches only its group: [Model | Sky-Watcher Explorer 130/900 EQ2] sky-watcher explorer 130 eq2 EXACT -> ['Model | Sky-Watcher Explorer 130/900 EQ2']
+PASS keyword reaches only its group: [Model | Sky-Watcher Explorer 130/900 EQ2] sky-watcher explorer 130 eq2 PHRASE -> ['Model | Sky-Watcher Explorer 130/900 EQ2']
+PASS keyword reaches only its group: [Model | Sky-Watcher Explorer 130/900 EQ2] skywatcher explorer 130 eq2 EXACT -> ['Model | Sky-Watcher Explorer 130/900 EQ2']
+PASS keyword reaches only its group: [Model | Sky-Watcher Explorer 130/900 EQ2] skywatcher explorer 130 eq2 PHRASE -> ['Model | Sky-Watcher Explorer 130/900 EQ2']
+PASS keyword reaches only its group: [Model | Sky-Watcher Explorer 130/900 EQ2] sky watcher explorer 130 eq2 EXACT -> ['Model | Sky-Watcher Explorer 130/900 EQ2']
+PASS keyword reaches only its group: [Model | Sky-Watcher Explorer 130/900 EQ2] sky watcher explorer 130 eq2 PHRASE -> ['Model | Sky-Watcher Explorer 130/900 EQ2']
+PASS keyword reaches only its group: [Model | Sky-Watcher Explorer 130/900 EQ2] explorer 130/900 eq2 EXACT -> ['Model | Sky-Watcher Explorer 130/900 EQ2']
+PASS keyword reaches only its group: [Model | Sky-Watcher Explorer 130/900 EQ2] explorer 130/900 eq2 PHRASE -> ['Model | Sky-Watcher Explorer 130/900 EQ2']
+PASS keyword reaches only its group: [Model | Sky-Watcher Explorer 130/900 EQ2] explorer 130 eq2 EXACT -> ['Model | Sky-Watcher Explorer 130/900 EQ2']
+PASS keyword reaches only its group: [Model | Sky-Watcher Explorer 130/900 EQ2] explorer 130 eq2 PHRASE -> ['Model | Sky-Watcher Explorer 130/900 EQ2']
+PASS keyword reaches only its group: [Model | Bresser Messier AR-127S EXOS-2] bresser messier ar-127s exos-2 EXACT -> ['Model | Bresser Messier AR-127S EXOS-2']
+PASS keyword reaches only its group: [Model | Bresser Messier AR-127S EXOS-2] bresser messier ar-127s exos-2 PHRASE -> ['Model | Bresser Messier AR-127S EXOS-2']
+PASS keyword reaches only its group: [Model | Bresser Messier AR-127S EXOS-2] messier ar-127s exos-2 EXACT -> ['Model | Bresser Messier AR-127S EXOS-2']
+PASS keyword reaches only its group: [Model | Bresser Messier AR-127S EXOS-2] messier ar-127s exos-2 PHRASE -> ['Model | Bresser Messier AR-127S EXOS-2']
+PASS keyword reaches only its group: [Model | Bresser Messier AR-127S EXOS-2] ar-127s exos-2 EXACT -> ['Model | Bresser Messier AR-127S EXOS-2']
+PASS keyword reaches only its group: [Model | Bresser Messier AR-127S EXOS-2] ar-127s exos-2 PHRASE -> ['Model | Bresser Messier AR-127S EXOS-2']
+PASS keyword reaches only its group: [Model | Bresser Messier AR-127S EXOS-2] ar 127s exos 2 EXACT -> ['Model | Bresser Messier AR-127S EXOS-2']
+PASS keyword reaches only its group: [Model | Bresser Messier AR-127S EXOS-2] ar 127s exos 2 PHRASE -> ['Model | Bresser Messier AR-127S EXOS-2']
+PASS keyword reaches only its group: [Model | Bresser Messier AR-127S EXOS-2] bresser ar-127s/635 EXACT -> ['Model | Bresser Messier AR-127S EXOS-2']
+PASS keyword reaches only its group: [Model | Bresser Messier AR-127S EXOS-2] bresser ar-127s/635 PHRASE -> ['Model | Bresser Messier AR-127S EXOS-2']
+PASS keyword reaches only its group: [Model | National Geographic 114/900] national geographic 114/900 EXACT -> ['Model | National Geographic 114/900']
+PASS keyword reaches only its group: [Model | National Geographic 114/900] national geographic 114/900 PHRASE -> ['Model | National Geographic 114/900']
+PASS keyword reaches only its group: [Model | National Geographic 114/900] national geographic 114 900 EXACT -> ['Model | National Geographic 114/900']
+PASS keyword reaches only its group: [Model | National Geographic 114/900] national geographic 114 900 PHRASE -> ['Model | National Geographic 114/900']
+PASS keyword reaches only its group: [Model | National Geographic 114/900] national geographic teleskop 114/900 EXACT -> ['Model | National Geographic 114/900']
+PASS keyword reaches only its group: [Model | National Geographic 114/900] national geographic teleskop 114/900 PHRASE -> ['Model | National Geographic 114/900']
+PASS keyword reaches only its group: [Model | Bresser Junior 70/900 EL] bresser junior 70/900 EXACT -> ['Model | Bresser Junior 70/900 EL']
+PASS keyword reaches only its group: [Model | Bresser Junior 70/900 EL] bresser junior 70/900 PHRASE -> ['Model | Bresser Junior 70/900 EL']
+PASS keyword reaches only its group: [Model | Bresser Junior 70/900 EL] bresser junior 70 900 EXACT -> ['Model | Bresser Junior 70/900 EL']
+PASS keyword reaches only its group: [Model | Bresser Junior 70/900 EL] bresser junior 70 900 PHRASE -> ['Model | Bresser Junior 70/900 EL']
+PASS keyword reaches only its group: [Model | Bresser Junior 70/900 EL] bresser junior 70/900 el EXACT -> ['Model | Bresser Junior 70/900 EL']
+PASS keyword reaches only its group: [Model | Bresser Junior 70/900 EL] bresser junior 70/900 el PHRASE -> ['Model | Bresser Junior 70/900 EL']
+PASS keyword reaches only its group: [Model | Bresser Condor UR 10x42] bresser condor 10x42 EXACT -> ['Model | Bresser Condor UR 10x42']
+PASS keyword reaches only its group: [Model | Bresser Condor UR 10x42] bresser condor 10x42 PHRASE -> ['Model | Bresser Condor UR 10x42']
+PASS keyword reaches only its group: [Model | Bresser Condor UR 10x42] bresser condor ur 10x42 EXACT -> ['Model | Bresser Condor UR 10x42']
+PASS keyword reaches only its group: [Model | Bresser Condor UR 10x42] bresser condor ur 10x42 PHRASE -> ['Model | Bresser Condor UR 10x42']
+PASS keyword reaches only its group: [Model | Bresser Condor UR 10x42] condor ur 10x42 EXACT -> ['Model | Bresser Condor UR 10x42']
+PASS keyword reaches only its group: [Model | Bresser Condor UR 10x42] condor ur 10x42 PHRASE -> ['Model | Bresser Condor UR 10x42']
+PASS keyword reaches only its group: [Model | Levenhuk New Karma PLUS 10x42] levenhuk karma plus 10x42 EXACT -> ['Model | Levenhuk New Karma PLUS 10x42']
+PASS keyword reaches only its group: [Model | Levenhuk New Karma PLUS 10x42] levenhuk karma plus 10x42 PHRASE -> ['Model | Levenhuk New Karma PLUS 10x42']
+PASS keyword reaches only its group: [Model | Levenhuk New Karma PLUS 10x42] karma plus 10x42 EXACT -> ['Model | Levenhuk New Karma PLUS 10x42']
+PASS keyword reaches only its group: [Model | Levenhuk New Karma PLUS 10x42] karma plus 10x42 PHRASE -> ['Model | Levenhuk New Karma PLUS 10x42']
+PASS keyword reaches only its group: [Model | Levenhuk New Karma PLUS 10x42] levenhuk new karma plus 10x42 EXACT -> ['Model | Levenhuk New Karma PLUS 10x42']
+PASS keyword reaches only its group: [Model | Levenhuk New Karma PLUS 10x42] levenhuk new karma plus 10x42 PHRASE -> ['Model | Levenhuk New Karma PLUS 10x42']
+PASS keyword reaches only its group: [Model | Levenhuk New Karma PLUS 10x42] new karma plus 10x42 EXACT -> ['Model | Levenhuk New Karma PLUS 10x42']
+PASS keyword reaches only its group: [Model | Levenhuk New Karma PLUS 10x42] new karma plus 10x42 PHRASE -> ['Model | Levenhuk New Karma PLUS 10x42']
+PASS keyword reaches only its group: [Model | Bresser Erudit Basic Bino] bresser erudit basic bino EXACT -> ['Model | Bresser Erudit Basic Bino']
+PASS keyword reaches only its group: [Model | Bresser Erudit Basic Bino] bresser erudit basic bino PHRASE -> ['Model | Bresser Erudit Basic Bino']
+PASS keyword reaches only its group: [Model | Bresser Erudit Basic Bino] erudit basic bino EXACT -> ['Model | Bresser Erudit Basic Bino']
+PASS keyword reaches only its group: [Model | Bresser Erudit Basic Bino] erudit basic bino PHRASE -> ['Model | Bresser Erudit Basic Bino']
+PASS keyword reaches only its group: [Model | Bresser Erudit Basic Bino] bresser erudit bino EXACT -> ['Model | Bresser Erudit Basic Bino']
+PASS keyword reaches only its group: [Model | Bresser Erudit Basic Bino] bresser erudit bino PHRASE -> ['Model | Bresser Erudit Basic Bino']
+PASS keyword reaches only its group: [Model | Omegon Binofield 40-800x LED] omegon binofield 40-800x EXACT -> ['Model | Omegon Binofield 40-800x LED']
+PASS keyword reaches only its group: [Model | Omegon Binofield 40-800x LED] omegon binofield 40-800x PHRASE -> ['Model | Omegon Binofield 40-800x LED']
+PASS keyword reaches only its group: [Model | Omegon Binofield 40-800x LED] binofield 40-800x EXACT -> ['Model | Omegon Binofield 40-800x LED']
+PASS keyword reaches only its group: [Model | Omegon Binofield 40-800x LED] binofield 40-800x PHRASE -> ['Model | Omegon Binofield 40-800x LED']
+PASS keyword reaches only its group: [Model | Omegon Binofield 40-800x LED] omegon binofield 40-800x led EXACT -> ['Model | Omegon Binofield 40-800x LED']
+PASS keyword reaches only its group: [Model | Omegon Binofield 40-800x LED] omegon binofield 40-800x led PHRASE -> ['Model | Omegon Binofield 40-800x LED']
+PASS keyword reaches only its group: [Model | Omegon Binofield 40-800x LED] binofield 40 800x EXACT -> ['Model | Omegon Binofield 40-800x LED']
+PASS keyword reaches only its group: [Model | Omegon Binofield 40-800x LED] binofield 40 800x PHRASE -> ['Model | Omegon Binofield 40-800x LED']
+PASS keyword reaches only its group: [Teleskopy | Sky-Watcher] teleskop sky-watcher PHRASE -> ['Teleskopy | Sky-Watcher']
+PASS keyword reaches only its group: [Teleskopy | Sky-Watcher] teleskop sky watcher PHRASE -> ['Teleskopy | Sky-Watcher']
+PASS keyword reaches only its group: [Teleskopy | Sky-Watcher] sky-watcher teleskop PHRASE -> ['Teleskopy | Sky-Watcher']
+PASS keyword reaches only its group: [Teleskopy | Sky-Watcher] sky watcher teleskop PHRASE -> ['Teleskopy | Sky-Watcher']
+PASS keyword reaches only its group: [Teleskopy | Sky-Watcher] teleskopy sky-watcher PHRASE -> ['Teleskopy | Sky-Watcher']
+PASS keyword reaches only its group: [Teleskopy | Sky-Watcher] sky-watcher teleskopy PHRASE -> ['Teleskopy | Sky-Watcher']
+PASS keyword reaches only its group: [Teleskopy | Sky-Watcher] teleskopy sky watcher PHRASE -> ['Teleskopy | Sky-Watcher']
+PASS keyword reaches only its group: [Teleskopy | Sky-Watcher] sky watcher teleskopy PHRASE -> ['Teleskopy | Sky-Watcher']
+PASS keyword reaches only its group: [Teleskopy | Sky-Watcher] hvezdarsky dalekohlad sky watcher PHRASE -> ['Teleskopy | Sky-Watcher']
+PASS keyword reaches only its group: [Teleskopy | Sky-Watcher] hvezdársky ďalekohľad sky-watcher PHRASE -> ['Teleskopy | Sky-Watcher']
+PASS keyword reaches only its group: [Teleskopy | Sky-Watcher] sky watcher hvezdarsky dalekohlad PHRASE -> ['Teleskopy | Sky-Watcher']
+PASS keyword reaches only its group: [Teleskopy | Sky-Watcher] sky-watcher hvezdársky ďalekohľad PHRASE -> ['Teleskopy | Sky-Watcher']
+PASS keyword reaches only its group: [Teleskopy | Sky-Watcher] sky-watcher explorer PHRASE -> ['Teleskopy | Sky-Watcher']
+PASS keyword reaches only its group: [Teleskopy | Sky-Watcher] skywatcher explorer PHRASE -> ['Teleskopy | Sky-Watcher']
+PASS keyword reaches only its group: [Teleskopy | Celestron] celestron teleskop PHRASE -> ['Teleskopy | Celestron']
+PASS keyword reaches only its group: [Teleskopy | Celestron] teleskop celestron PHRASE -> ['Teleskopy | Celestron']
+PASS keyword reaches only its group: [Teleskopy | Celestron] celestron teleskopy PHRASE -> ['Teleskopy | Celestron']
+PASS keyword reaches only its group: [Teleskopy | Celestron] teleskopy celestron PHRASE -> ['Teleskopy | Celestron']
+PASS keyword reaches only its group: [Teleskopy | Celestron] celestron hvezdarsky dalekohlad PHRASE -> ['Teleskopy | Celestron']
+PASS keyword reaches only its group: [Teleskopy | Celestron] celestron hvezdársky ďalekohľad PHRASE -> ['Teleskopy | Celestron']
+PASS keyword reaches only its group: [Teleskopy | Celestron] hvezdarsky dalekohlad celestron PHRASE -> ['Teleskopy | Celestron']
+PASS keyword reaches only its group: [Teleskopy | Celestron] hvezdársky ďalekohľad celestron PHRASE -> ['Teleskopy | Celestron']
+PASS keyword reaches only its group: [Teleskopy | Celestron] celestron c8 PHRASE -> ['Teleskopy | Celestron']
+PASS keyword reaches only its group: [Teleskopy | Celestron] celestron astromaster PHRASE -> ['Teleskopy | Celestron']
+PASS keyword reaches only its group: [Teleskopy | Celestron] celestron starsense PHRASE -> ['Teleskopy | Celestron']
+PASS keyword reaches only its group: [Teleskopy | Omegon] teleskop omegon PHRASE -> ['Teleskopy | Omegon']
+PASS keyword reaches only its group: [Teleskopy | Omegon] omegon teleskop PHRASE -> ['Teleskopy | Omegon']
+PASS keyword reaches only its group: [Teleskopy | Omegon] teleskopy omegon PHRASE -> ['Teleskopy | Omegon']
+PASS keyword reaches only its group: [Teleskopy | Omegon] omegon teleskopy PHRASE -> ['Teleskopy | Omegon']
+PASS keyword reaches only its group: [Teleskopy | Omegon] omegon hvezdarsky dalekohlad PHRASE -> ['Teleskopy | Omegon']
+PASS keyword reaches only its group: [Teleskopy | Omegon] hvezdarsky dalekohlad omegon PHRASE -> ['Teleskopy | Omegon']
+PASS keyword reaches only its group: [Teleskopy | Omegon] omegon hvezdársky ďalekohľad PHRASE -> ['Teleskopy | Omegon']
+PASS keyword reaches only its group: [Teleskopy | Omegon] hvezdársky ďalekohľad omegon PHRASE -> ['Teleskopy | Omegon']
+PASS keyword reaches only its group: [Teleskopy | Levenhuk] levenhuk teleskop PHRASE -> ['Teleskopy | Levenhuk']
+PASS keyword reaches only its group: [Teleskopy | Levenhuk] teleskop levenhuk PHRASE -> ['Teleskopy | Levenhuk']
+PASS keyword reaches only its group: [Teleskopy | Levenhuk] levenhuk teleskopy PHRASE -> ['Teleskopy | Levenhuk']
+PASS keyword reaches only its group: [Teleskopy | Levenhuk] teleskopy levenhuk PHRASE -> ['Teleskopy | Levenhuk']
+PASS keyword reaches only its group: [Teleskopy | Levenhuk] hvezdarsky dalekohlad levenhuk PHRASE -> ['Teleskopy | Levenhuk']
+PASS keyword reaches only its group: [Teleskopy | Levenhuk] hvezdársky ďalekohľad levenhuk PHRASE -> ['Teleskopy | Levenhuk']
+PASS keyword reaches only its group: [Teleskopy | Levenhuk] levenhuk hvezdársky ďalekohľad PHRASE -> ['Teleskopy | Levenhuk']
+PASS keyword reaches only its group: [Teleskopy | Levenhuk] levenhuk hvezdarsky dalekohlad PHRASE -> ['Teleskopy | Levenhuk']
+PASS keyword reaches only its group: [Teleskopy | Bresser] bresser teleskop PHRASE -> ['Teleskopy | Bresser']
+PASS keyword reaches only its group: [Teleskopy | Bresser] teleskop bresser PHRASE -> ['Teleskopy | Bresser']
+PASS keyword reaches only its group: [Teleskopy | Bresser] teleskopy bresser PHRASE -> ['Teleskopy | Bresser']
+PASS keyword reaches only its group: [Teleskopy | Bresser] bresser teleskopy PHRASE -> ['Teleskopy | Bresser']
+PASS keyword reaches only its group: [Teleskopy | Bresser] hvezdársky ďalekohľad bresser PHRASE -> ['Teleskopy | Bresser']
+PASS keyword reaches only its group: [Teleskopy | Bresser] bresser hvezdarsky dalekohlad PHRASE -> ['Teleskopy | Bresser']
+PASS keyword reaches only its group: [Teleskopy | Bresser] hvezdarsky dalekohlad bresser PHRASE -> ['Teleskopy | Bresser']
+PASS keyword reaches only its group: [Teleskopy | Bresser] bresser hvezdársky ďalekohľad PHRASE -> ['Teleskopy | Bresser']
+PASS keyword reaches only its group: [Teleskopy | Bresser] bresser messier PHRASE -> ['Teleskopy | Bresser']
+PASS keyword reaches only its group: [Teleskopy | William Optics] teleskop william optics PHRASE -> ['Teleskopy | William Optics']
+PASS keyword reaches only its group: [Teleskopy | William Optics] william optics teleskop PHRASE -> ['Teleskopy | William Optics']
+PASS keyword reaches only its group: [Teleskopy | William Optics] teleskopy william optics PHRASE -> ['Teleskopy | William Optics']
+PASS keyword reaches only its group: [Teleskopy | William Optics] william optics teleskopy PHRASE -> ['Teleskopy | William Optics']
+PASS keyword reaches only its group: [Teleskopy | William Optics] hvezdársky ďalekohľad william optics PHRASE -> ['Teleskopy | William Optics']
+PASS keyword reaches only its group: [Teleskopy | William Optics] william optics hvezdársky ďalekohľad PHRASE -> ['Teleskopy | William Optics']
+PASS keyword reaches only its group: [Teleskopy | William Optics] william optics hvezdarsky dalekohlad PHRASE -> ['Teleskopy | William Optics']
+PASS keyword reaches only its group: [Teleskopy | William Optics] hvezdarsky dalekohlad william optics PHRASE -> ['Teleskopy | William Optics']
+PASS keyword reaches only its group: [Teleskopy | Vixen] teleskop vixen PHRASE -> ['Teleskopy | Vixen']
+PASS keyword reaches only its group: [Teleskopy | Vixen] vixen teleskop PHRASE -> ['Teleskopy | Vixen']
+PASS keyword reaches only its group: [Teleskopy | Vixen] teleskopy vixen PHRASE -> ['Teleskopy | Vixen']
+PASS keyword reaches only its group: [Teleskopy | Vixen] vixen teleskopy PHRASE -> ['Teleskopy | Vixen']
+PASS keyword reaches only its group: [Teleskopy | Vixen] vixen hvezdársky ďalekohľad PHRASE -> ['Teleskopy | Vixen']
+PASS keyword reaches only its group: [Teleskopy | Vixen] vixen hvezdarsky dalekohlad PHRASE -> ['Teleskopy | Vixen']
+PASS keyword reaches only its group: [Teleskopy | Vixen] hvezdarsky dalekohlad vixen PHRASE -> ['Teleskopy | Vixen']
+PASS keyword reaches only its group: [Teleskopy | Vixen] hvezdársky ďalekohľad vixen PHRASE -> ['Teleskopy | Vixen']
+PASS keyword reaches only its group: [Teleskopy | National Geographic] national geographic teleskop PHRASE -> ['Teleskopy | National Geographic']
+PASS keyword reaches only its group: [Teleskopy | National Geographic] teleskop national geographic PHRASE -> ['Teleskopy | National Geographic']
+PASS keyword reaches only its group: [Teleskopy | National Geographic] national geographic teleskopy PHRASE -> ['Teleskopy | National Geographic']
+PASS keyword reaches only its group: [Teleskopy | National Geographic] teleskopy national geographic PHRASE -> ['Teleskopy | National Geographic']
+PASS keyword reaches only its group: [Teleskopy | National Geographic] national geographic hvezdársky ďalekohľad PHRASE -> ['Teleskopy | National Geographic']
+PASS keyword reaches only its group: [Teleskopy | National Geographic] hvezdarsky dalekohlad national geographic PHRASE -> ['Teleskopy | National Geographic']
+PASS keyword reaches only its group: [Teleskopy | National Geographic] national geographic hvezdarsky dalekohlad PHRASE -> ['Teleskopy | National Geographic']
+PASS keyword reaches only its group: [Teleskopy | National Geographic] hvezdársky ďalekohľad national geographic PHRASE -> ['Teleskopy | National Geographic']
+PASS keyword reaches only its group: [Teleskopy | National Geographic] national geographic teleskop PHRASE -> ['Teleskopy | National Geographic']
+PASS keyword reaches only its group: [Teleskopy | Explore Scientific] explore scientific teleskop PHRASE -> ['Teleskopy | Explore Scientific']
+PASS keyword reaches only its group: [Teleskopy | Explore Scientific] teleskop explore scientific PHRASE -> ['Teleskopy | Explore Scientific']
+PASS keyword reaches only its group: [Teleskopy | Explore Scientific] explore scientific teleskopy PHRASE -> ['Teleskopy | Explore Scientific']
+PASS keyword reaches only its group: [Teleskopy | Explore Scientific] teleskopy explore scientific PHRASE -> ['Teleskopy | Explore Scientific']
+PASS keyword reaches only its group: [Teleskopy | Explore Scientific] explore scientific hvezdársky ďalekohľad PHRASE -> ['Teleskopy | Explore Scientific']
+PASS keyword reaches only its group: [Teleskopy | Explore Scientific] explore scientific hvezdarsky dalekohlad PHRASE -> ['Teleskopy | Explore Scientific']
+PASS keyword reaches only its group: [Teleskopy | Explore Scientific] hvezdarsky dalekohlad explore scientific PHRASE -> ['Teleskopy | Explore Scientific']
+PASS keyword reaches only its group: [Teleskopy | Explore Scientific] hvezdársky ďalekohľad explore scientific PHRASE -> ['Teleskopy | Explore Scientific']
+PASS keyword reaches only its group: [Teleskopy | Discovery] teleskop discovery PHRASE -> ['Teleskopy | Discovery']
+PASS keyword reaches only its group: [Teleskopy | Discovery] discovery teleskop PHRASE -> ['Teleskopy | Discovery']
+PASS keyword reaches only its group: [Teleskopy | Discovery] discovery teleskopy PHRASE -> ['Teleskopy | Discovery']
+PASS keyword reaches only its group: [Teleskopy | Discovery] teleskopy discovery PHRASE -> ['Teleskopy | Discovery']
+PASS keyword reaches only its group: [Teleskopy | Discovery] hvezdarsky dalekohlad discovery PHRASE -> ['Teleskopy | Discovery']
+PASS keyword reaches only its group: [Teleskopy | Discovery] hvezdársky ďalekohľad discovery PHRASE -> ['Teleskopy | Discovery']
+PASS keyword reaches only its group: [Teleskopy | Discovery] discovery hvezdársky ďalekohľad PHRASE -> ['Teleskopy | Discovery']
+PASS keyword reaches only its group: [Teleskopy | Discovery] discovery hvezdarsky dalekohlad PHRASE -> ['Teleskopy | Discovery']
+PASS keyword reaches only its group: [Teleskopy | Bresser Junior] bresser junior teleskop PHRASE -> ['Teleskopy | Bresser Junior']
+PASS keyword reaches only its group: [Teleskopy | Bresser Junior] teleskop bresser junior PHRASE -> ['Teleskopy | Bresser Junior']
+PASS keyword reaches only its group: [Teleskopy | Bresser Junior] teleskopy bresser junior PHRASE -> ['Teleskopy | Bresser Junior']
+PASS keyword reaches only its group: [Teleskopy | Bresser Junior] bresser junior teleskopy PHRASE -> ['Teleskopy | Bresser Junior']
+PASS keyword reaches only its group: [Teleskopy | Bresser Junior] bresser junior hvezdársky ďalekohľad PHRASE -> ['Teleskopy | Bresser Junior']
+PASS keyword reaches only its group: [Teleskopy | Bresser Junior] hvezdársky ďalekohľad bresser junior PHRASE -> ['Teleskopy | Bresser Junior']
+PASS keyword reaches only its group: [Teleskopy | Bresser Junior] hvezdarsky dalekohlad bresser junior PHRASE -> ['Teleskopy | Bresser Junior']
+PASS keyword reaches only its group: [Teleskopy | Bresser Junior] bresser junior hvezdarsky dalekohlad PHRASE -> ['Teleskopy | Bresser Junior']
+PASS keyword reaches only its group: [Teleskopy | Bresser Junior] bresser junior teleskop PHRASE -> ['Teleskopy | Bresser Junior']
+PASS keyword reaches only its group: [Teleskopy | Bresser Junior] teleskop bresser junior PHRASE -> ['Teleskopy | Bresser Junior']
+PASS keyword reaches only its group: [Ďalekohľady | Levenhuk] levenhuk ďalekohľad PHRASE -> ['Ďalekohľady | Levenhuk']
+PASS keyword reaches only its group: [Ďalekohľady | Levenhuk] ďalekohľad levenhuk PHRASE -> ['Ďalekohľady | Levenhuk']
+PASS keyword reaches only its group: [Ďalekohľady | Levenhuk] dalekohlad levenhuk PHRASE -> ['Ďalekohľady | Levenhuk']
+PASS keyword reaches only its group: [Ďalekohľady | Levenhuk] levenhuk dalekohlad PHRASE -> ['Ďalekohľady | Levenhuk']
+PASS keyword reaches only its group: [Ďalekohľady | Levenhuk] levenhuk dalekohlady PHRASE -> ['Ďalekohľady | Levenhuk']
+PASS keyword reaches only its group: [Ďalekohľady | Levenhuk] levenhuk ďalekohľady PHRASE -> ['Ďalekohľady | Levenhuk']
+PASS keyword reaches only its group: [Ďalekohľady | Levenhuk] dalekohlady levenhuk PHRASE -> ['Ďalekohľady | Levenhuk']
+PASS keyword reaches only its group: [Ďalekohľady | Levenhuk] ďalekohľady levenhuk PHRASE -> ['Ďalekohľady | Levenhuk']
+PASS keyword reaches only its group: [Ďalekohľady | Levenhuk] levenhuk binokular PHRASE -> ['Ďalekohľady | Levenhuk']
+PASS keyword reaches only its group: [Ďalekohľady | Levenhuk] binokular levenhuk PHRASE -> ['Ďalekohľady | Levenhuk']
+PASS keyword reaches only its group: [Ďalekohľady | Levenhuk] levenhuk binokulár PHRASE -> ['Ďalekohľady | Levenhuk']
+PASS keyword reaches only its group: [Ďalekohľady | Levenhuk] binokulár levenhuk PHRASE -> ['Ďalekohľady | Levenhuk']
+PASS keyword reaches only its group: [Ďalekohľady | Levenhuk] levenhuk karma PHRASE -> ['Ďalekohľady | Levenhuk']
+PASS keyword reaches only its group: [Ďalekohľady | Omegon] omegon ďalekohľad PHRASE -> ['Ďalekohľady | Omegon']
+PASS keyword reaches only its group: [Ďalekohľady | Omegon] omegon dalekohlad PHRASE -> ['Ďalekohľady | Omegon']
+PASS keyword reaches only its group: [Ďalekohľady | Omegon] dalekohlad omegon PHRASE -> ['Ďalekohľady | Omegon']
+PASS keyword reaches only its group: [Ďalekohľady | Omegon] ďalekohľad omegon PHRASE -> ['Ďalekohľady | Omegon']
+PASS keyword reaches only its group: [Ďalekohľady | Omegon] omegon ďalekohľady PHRASE -> ['Ďalekohľady | Omegon']
+PASS keyword reaches only its group: [Ďalekohľady | Omegon] dalekohlady omegon PHRASE -> ['Ďalekohľady | Omegon']
+PASS keyword reaches only its group: [Ďalekohľady | Omegon] omegon dalekohlady PHRASE -> ['Ďalekohľady | Omegon']
+PASS keyword reaches only its group: [Ďalekohľady | Omegon] ďalekohľady omegon PHRASE -> ['Ďalekohľady | Omegon']
+PASS keyword reaches only its group: [Ďalekohľady | Omegon] binokular omegon PHRASE -> ['Ďalekohľady | Omegon']
+PASS keyword reaches only its group: [Ďalekohľady | Omegon] binokulár omegon PHRASE -> ['Ďalekohľady | Omegon']
+PASS keyword reaches only its group: [Ďalekohľady | Omegon] omegon binokulár PHRASE -> ['Ďalekohľady | Omegon']
+PASS keyword reaches only its group: [Ďalekohľady | Omegon] omegon binokular PHRASE -> ['Ďalekohľady | Omegon']
+PASS keyword reaches only its group: [Ďalekohľady | Bresser] bresser dalekohlad PHRASE -> ['Ďalekohľady | Bresser']
+PASS keyword reaches only its group: [Ďalekohľady | Bresser] dalekohlad bresser PHRASE -> ['Ďalekohľady | Bresser']
+PASS keyword reaches only its group: [Ďalekohľady | Bresser] bresser ďalekohľad PHRASE -> ['Ďalekohľady | Bresser']
+PASS keyword reaches only its group: [Ďalekohľady | Bresser] ďalekohľad bresser PHRASE -> ['Ďalekohľady | Bresser']
+PASS keyword reaches only its group: [Ďalekohľady | Bresser] bresser dalekohlady PHRASE -> ['Ďalekohľady | Bresser']
+PASS keyword reaches only its group: [Ďalekohľady | Bresser] dalekohlady bresser PHRASE -> ['Ďalekohľady | Bresser']
+PASS keyword reaches only its group: [Ďalekohľady | Bresser] ďalekohľady bresser PHRASE -> ['Ďalekohľady | Bresser']
+PASS keyword reaches only its group: [Ďalekohľady | Bresser] bresser ďalekohľady PHRASE -> ['Ďalekohľady | Bresser']
+PASS keyword reaches only its group: [Ďalekohľady | Bresser] binokular bresser PHRASE -> ['Ďalekohľady | Bresser']
+PASS keyword reaches only its group: [Ďalekohľady | Bresser] bresser binokulár PHRASE -> ['Ďalekohľady | Bresser']
+PASS keyword reaches only its group: [Ďalekohľady | Bresser] bresser binokular PHRASE -> ['Ďalekohľady | Bresser']
+PASS keyword reaches only its group: [Ďalekohľady | Bresser] binokulár bresser PHRASE -> ['Ďalekohľady | Bresser']
+PASS keyword reaches only its group: [Ďalekohľady | Bresser] bresser condor PHRASE -> ['Ďalekohľady | Bresser']
+PASS keyword reaches only its group: [Ďalekohľady | Leica] leica ďalekohľad PHRASE -> ['Ďalekohľady | Leica']
+PASS keyword reaches only its group: [Ďalekohľady | Leica] dalekohlad leica PHRASE -> ['Ďalekohľady | Leica']
+PASS keyword reaches only its group: [Ďalekohľady | Leica] ďalekohľad leica PHRASE -> ['Ďalekohľady | Leica']
+PASS keyword reaches only its group: [Ďalekohľady | Leica] leica dalekohlad PHRASE -> ['Ďalekohľady | Leica']
+PASS keyword reaches only its group: [Ďalekohľady | Leica] leica dalekohlady PHRASE -> ['Ďalekohľady | Leica']
+PASS keyword reaches only its group: [Ďalekohľady | Leica] leica ďalekohľady PHRASE -> ['Ďalekohľady | Leica']
+PASS keyword reaches only its group: [Ďalekohľady | Leica] dalekohlady leica PHRASE -> ['Ďalekohľady | Leica']
+PASS keyword reaches only its group: [Ďalekohľady | Leica] ďalekohľady leica PHRASE -> ['Ďalekohľady | Leica']
+PASS keyword reaches only its group: [Ďalekohľady | Leica] leica binokulár PHRASE -> ['Ďalekohľady | Leica']
+PASS keyword reaches only its group: [Ďalekohľady | Leica] leica binokular PHRASE -> ['Ďalekohľady | Leica']
+PASS keyword reaches only its group: [Ďalekohľady | Leica] binokular leica PHRASE -> ['Ďalekohľady | Leica']
+PASS keyword reaches only its group: [Ďalekohľady | Leica] binokulár leica PHRASE -> ['Ďalekohľady | Leica']
+PASS keyword reaches only its group: [Ďalekohľady | Zeiss] dalekohlad zeiss PHRASE -> ['Ďalekohľady | Zeiss']
+PASS keyword reaches only its group: [Ďalekohľady | Zeiss] zeiss ďalekohľad PHRASE -> ['Ďalekohľady | Zeiss']
+PASS keyword reaches only its group: [Ďalekohľady | Zeiss] ďalekohľad zeiss PHRASE -> ['Ďalekohľady | Zeiss']
+PASS keyword reaches only its group: [Ďalekohľady | Zeiss] zeiss dalekohlad PHRASE -> ['Ďalekohľady | Zeiss']
+PASS keyword reaches only its group: [Ďalekohľady | Zeiss] ďalekohľady zeiss PHRASE -> ['Ďalekohľady | Zeiss']
+PASS keyword reaches only its group: [Ďalekohľady | Zeiss] dalekohlady zeiss PHRASE -> ['Ďalekohľady | Zeiss']
+PASS keyword reaches only its group: [Ďalekohľady | Zeiss] zeiss ďalekohľady PHRASE -> ['Ďalekohľady | Zeiss']
+PASS keyword reaches only its group: [Ďalekohľady | Zeiss] zeiss dalekohlady PHRASE -> ['Ďalekohľady | Zeiss']
+PASS keyword reaches only its group: [Ďalekohľady | Zeiss] zeiss binokulár PHRASE -> ['Ďalekohľady | Zeiss']
+PASS keyword reaches only its group: [Ďalekohľady | Zeiss] binokular zeiss PHRASE -> ['Ďalekohľady | Zeiss']
+PASS keyword reaches only its group: [Ďalekohľady | Zeiss] binokulár zeiss PHRASE -> ['Ďalekohľady | Zeiss']
+PASS keyword reaches only its group: [Ďalekohľady | Zeiss] zeiss binokular PHRASE -> ['Ďalekohľady | Zeiss']
+PASS keyword reaches only its group: [Ďalekohľady | Minox] minox ďalekohľad PHRASE -> ['Ďalekohľady | Minox']
+PASS keyword reaches only its group: [Ďalekohľady | Minox] ďalekohľad minox PHRASE -> ['Ďalekohľady | Minox']
+PASS keyword reaches only its group: [Ďalekohľady | Minox] dalekohlad minox PHRASE -> ['Ďalekohľady | Minox']
+PASS keyword reaches only its group: [Ďalekohľady | Minox] minox dalekohlad PHRASE -> ['Ďalekohľady | Minox']
+PASS keyword reaches only its group: [Ďalekohľady | Minox] ďalekohľady minox PHRASE -> ['Ďalekohľady | Minox']
+PASS keyword reaches only its group: [Ďalekohľady | Minox] dalekohlady minox PHRASE -> ['Ďalekohľady | Minox']
+PASS keyword reaches only its group: [Ďalekohľady | Minox] minox dalekohlady PHRASE -> ['Ďalekohľady | Minox']
+PASS keyword reaches only its group: [Ďalekohľady | Minox] minox ďalekohľady PHRASE -> ['Ďalekohľady | Minox']
+PASS keyword reaches only its group: [Ďalekohľady | Minox] binokular minox PHRASE -> ['Ďalekohľady | Minox']
+PASS keyword reaches only its group: [Ďalekohľady | Minox] minox binokulár PHRASE -> ['Ďalekohľady | Minox']
+PASS keyword reaches only its group: [Ďalekohľady | Minox] binokulár minox PHRASE -> ['Ďalekohľady | Minox']
+PASS keyword reaches only its group: [Ďalekohľady | Minox] minox binokular PHRASE -> ['Ďalekohľady | Minox']
+PASS keyword reaches only its group: [Ďalekohľady | Celestron] ďalekohľad celestron PHRASE -> ['Ďalekohľady | Celestron']
+PASS keyword reaches only its group: [Ďalekohľady | Celestron] celestron dalekohlad PHRASE -> ['Ďalekohľady | Celestron']
+PASS keyword reaches only its group: [Ďalekohľady | Celestron] dalekohlad celestron PHRASE -> ['Ďalekohľady | Celestron']
+PASS keyword reaches only its group: [Ďalekohľady | Celestron] celestron ďalekohľad PHRASE -> ['Ďalekohľady | Celestron']
+PASS keyword reaches only its group: [Ďalekohľady | Celestron] dalekohlady celestron PHRASE -> ['Ďalekohľady | Celestron']
+PASS keyword reaches only its group: [Ďalekohľady | Celestron] ďalekohľady celestron PHRASE -> ['Ďalekohľady | Celestron']
+PASS keyword reaches only its group: [Ďalekohľady | Celestron] celestron ďalekohľady PHRASE -> ['Ďalekohľady | Celestron']
+PASS keyword reaches only its group: [Ďalekohľady | Celestron] celestron dalekohlady PHRASE -> ['Ďalekohľady | Celestron']
+PASS keyword reaches only its group: [Ďalekohľady | Celestron] binokulár celestron PHRASE -> ['Ďalekohľady | Celestron']
+PASS keyword reaches only its group: [Ďalekohľady | Celestron] celestron binokulár PHRASE -> ['Ďalekohľady | Celestron']
+PASS keyword reaches only its group: [Ďalekohľady | Celestron] binokular celestron PHRASE -> ['Ďalekohľady | Celestron']
+PASS keyword reaches only its group: [Ďalekohľady | Celestron] celestron binokular PHRASE -> ['Ďalekohľady | Celestron']
+PASS keyword reaches only its group: [Ďalekohľady | Delta] delta ďalekohľad PHRASE -> ['Ďalekohľady | Delta']
+PASS keyword reaches only its group: [Ďalekohľady | Delta] dalekohlad delta PHRASE -> ['Ďalekohľady | Delta']
+PASS keyword reaches only its group: [Ďalekohľady | Delta] ďalekohľad delta PHRASE -> ['Ďalekohľady | Delta']
+PASS keyword reaches only its group: [Ďalekohľady | Delta] delta dalekohlad PHRASE -> ['Ďalekohľady | Delta']
+PASS keyword reaches only its group: [Ďalekohľady | Delta] dalekohlady delta PHRASE -> ['Ďalekohľady | Delta']
+PASS keyword reaches only its group: [Ďalekohľady | Delta] delta dalekohlady PHRASE -> ['Ďalekohľady | Delta']
+PASS keyword reaches only its group: [Ďalekohľady | Delta] ďalekohľady delta PHRASE -> ['Ďalekohľady | Delta']
+PASS keyword reaches only its group: [Ďalekohľady | Delta] delta ďalekohľady PHRASE -> ['Ďalekohľady | Delta']
+PASS keyword reaches only its group: [Ďalekohľady | Delta] delta binokular PHRASE -> ['Ďalekohľady | Delta']
+PASS keyword reaches only its group: [Ďalekohľady | Delta] binokular delta PHRASE -> ['Ďalekohľady | Delta']
+PASS keyword reaches only its group: [Ďalekohľady | Delta] binokulár delta PHRASE -> ['Ďalekohľady | Delta']
+PASS keyword reaches only its group: [Ďalekohľady | Delta] delta binokulár PHRASE -> ['Ďalekohľady | Delta']
+PASS keyword reaches only its group: [Ďalekohľady | National Geographic] dalekohlad national geographic PHRASE -> ['Ďalekohľady | National Geographic']
+PASS keyword reaches only its group: [Ďalekohľady | National Geographic] ďalekohľad national geographic PHRASE -> ['Ďalekohľady | National Geographic']
+PASS keyword reaches only its group: [Ďalekohľady | National Geographic] national geographic ďalekohľad PHRASE -> ['Ďalekohľady | National Geographic']
+PASS keyword reaches only its group: [Ďalekohľady | National Geographic] national geographic dalekohlad PHRASE -> ['Ďalekohľady | National Geographic']
+PASS keyword reaches only its group: [Ďalekohľady | National Geographic] dalekohlady national geographic PHRASE -> ['Ďalekohľady | National Geographic']
+PASS keyword reaches only its group: [Ďalekohľady | National Geographic] ďalekohľady national geographic PHRASE -> ['Ďalekohľady | National Geographic']
+PASS keyword reaches only its group: [Ďalekohľady | National Geographic] national geographic dalekohlady PHRASE -> ['Ďalekohľady | National Geographic']
+PASS keyword reaches only its group: [Ďalekohľady | National Geographic] national geographic ďalekohľady PHRASE -> ['Ďalekohľady | National Geographic']
+PASS keyword reaches only its group: [Ďalekohľady | National Geographic] binokular national geographic PHRASE -> ['Ďalekohľady | National Geographic']
+PASS keyword reaches only its group: [Ďalekohľady | National Geographic] binokulár national geographic PHRASE -> ['Ďalekohľady | National Geographic']
+PASS keyword reaches only its group: [Ďalekohľady | National Geographic] national geographic binokular PHRASE -> ['Ďalekohľady | National Geographic']
+PASS keyword reaches only its group: [Ďalekohľady | National Geographic] national geographic binokulár PHRASE -> ['Ďalekohľady | National Geographic']
+PASS keyword reaches only its group: [Ďalekohľady | Discovery] discovery dalekohlad PHRASE -> ['Ďalekohľady | Discovery']
+PASS keyword reaches only its group: [Ďalekohľady | Discovery] dalekohlad discovery PHRASE -> ['Ďalekohľady | Discovery']
+PASS keyword reaches only its group: [Ďalekohľady | Discovery] ďalekohľad discovery PHRASE -> ['Ďalekohľady | Discovery']
+PASS keyword reaches only its group: [Ďalekohľady | Discovery] discovery ďalekohľad PHRASE -> ['Ďalekohľady | Discovery']
+PASS keyword reaches only its group: [Ďalekohľady | Discovery] ďalekohľady discovery PHRASE -> ['Ďalekohľady | Discovery']
+PASS keyword reaches only its group: [Ďalekohľady | Discovery] discovery dalekohlady PHRASE -> ['Ďalekohľady | Discovery']
+PASS keyword reaches only its group: [Ďalekohľady | Discovery] discovery ďalekohľady PHRASE -> ['Ďalekohľady | Discovery']
+PASS keyword reaches only its group: [Ďalekohľady | Discovery] dalekohlady discovery PHRASE -> ['Ďalekohľady | Discovery']
+PASS keyword reaches only its group: [Ďalekohľady | Discovery] discovery binokulár PHRASE -> ['Ďalekohľady | Discovery']
+PASS keyword reaches only its group: [Ďalekohľady | Discovery] binokular discovery PHRASE -> ['Ďalekohľady | Discovery']
+PASS keyword reaches only its group: [Ďalekohľady | Discovery] discovery binokular PHRASE -> ['Ďalekohľady | Discovery']
+PASS keyword reaches only its group: [Ďalekohľady | Discovery] binokulár discovery PHRASE -> ['Ďalekohľady | Discovery']
+PASS keyword reaches only its group: [Ďalekohľady | Meopta] ďalekohľad meopta PHRASE -> ['Ďalekohľady | Meopta']
+PASS keyword reaches only its group: [Ďalekohľady | Meopta] dalekohlad meopta PHRASE -> ['Ďalekohľady | Meopta']
+PASS keyword reaches only its group: [Ďalekohľady | Meopta] meopta ďalekohľad PHRASE -> ['Ďalekohľady | Meopta']
+PASS keyword reaches only its group: [Ďalekohľady | Meopta] meopta dalekohlad PHRASE -> ['Ďalekohľady | Meopta']
+PASS keyword reaches only its group: [Ďalekohľady | Meopta] dalekohlady meopta PHRASE -> ['Ďalekohľady | Meopta']
+PASS keyword reaches only its group: [Ďalekohľady | Meopta] meopta dalekohlady PHRASE -> ['Ďalekohľady | Meopta']
+PASS keyword reaches only its group: [Ďalekohľady | Meopta] ďalekohľady meopta PHRASE -> ['Ďalekohľady | Meopta']
+PASS keyword reaches only its group: [Ďalekohľady | Meopta] meopta ďalekohľady PHRASE -> ['Ďalekohľady | Meopta']
+PASS keyword reaches only its group: [Ďalekohľady | Meopta] binokular meopta PHRASE -> ['Ďalekohľady | Meopta']
+PASS keyword reaches only its group: [Ďalekohľady | Meopta] meopta binokulár PHRASE -> ['Ďalekohľady | Meopta']
+PASS keyword reaches only its group: [Ďalekohľady | Meopta] meopta binokular PHRASE -> ['Ďalekohľady | Meopta']
+PASS keyword reaches only its group: [Ďalekohľady | Meopta] binokulár meopta PHRASE -> ['Ďalekohľady | Meopta']
+PASS keyword reaches only its group: [Mikroskopy | Euromex] euromex mikroskop PHRASE -> ['Mikroskopy | Euromex']
+PASS keyword reaches only its group: [Mikroskopy | Euromex] mikroskop euromex PHRASE -> ['Mikroskopy | Euromex']
+PASS keyword reaches only its group: [Mikroskopy | Euromex] euromex mikroskopy PHRASE -> ['Mikroskopy | Euromex']
+PASS keyword reaches only its group: [Mikroskopy | Euromex] mikroskopy euromex PHRASE -> ['Mikroskopy | Euromex']
+PASS keyword reaches only its group: [Mikroskopy | Euromex] euromex stereomikroskop PHRASE -> ['Mikroskopy | Euromex']
+PASS keyword reaches only its group: [Mikroskopy | Euromex] stereomikroskop euromex PHRASE -> ['Mikroskopy | Euromex']
+PASS keyword reaches only its group: [Mikroskopy | Kern] mikroskop kern PHRASE -> ['Mikroskopy | Kern']
+PASS keyword reaches only its group: [Mikroskopy | Kern] kern mikroskop PHRASE -> ['Mikroskopy | Kern']
+PASS keyword reaches only its group: [Mikroskopy | Kern] kern mikroskopy PHRASE -> ['Mikroskopy | Kern']
+PASS keyword reaches only its group: [Mikroskopy | Kern] mikroskopy kern PHRASE -> ['Mikroskopy | Kern']
+PASS keyword reaches only its group: [Mikroskopy | Kern] kern stereomikroskop PHRASE -> ['Mikroskopy | Kern']
+PASS keyword reaches only its group: [Mikroskopy | Kern] stereomikroskop kern PHRASE -> ['Mikroskopy | Kern']
+PASS keyword reaches only its group: [Mikroskopy | Bresser] bresser mikroskop PHRASE -> ['Mikroskopy | Bresser']
+PASS keyword reaches only its group: [Mikroskopy | Bresser] mikroskop bresser PHRASE -> ['Mikroskopy | Bresser']
+PASS keyword reaches only its group: [Mikroskopy | Bresser] mikroskopy bresser PHRASE -> ['Mikroskopy | Bresser']
+PASS keyword reaches only its group: [Mikroskopy | Bresser] bresser mikroskopy PHRASE -> ['Mikroskopy | Bresser']
+PASS keyword reaches only its group: [Mikroskopy | Bresser] bresser stereomikroskop PHRASE -> ['Mikroskopy | Bresser']
+PASS keyword reaches only its group: [Mikroskopy | Bresser] stereomikroskop bresser PHRASE -> ['Mikroskopy | Bresser']
+PASS keyword reaches only its group: [Mikroskopy | Bresser] bresser erudit PHRASE -> ['Mikroskopy | Bresser']
+PASS keyword reaches only its group: [Mikroskopy | MAGUS] mikroskop magus PHRASE -> ['Mikroskopy | MAGUS']
+PASS keyword reaches only its group: [Mikroskopy | MAGUS] magus mikroskop PHRASE -> ['Mikroskopy | MAGUS']
+PASS keyword reaches only its group: [Mikroskopy | MAGUS] magus mikroskopy PHRASE -> ['Mikroskopy | MAGUS']
+PASS keyword reaches only its group: [Mikroskopy | MAGUS] mikroskopy magus PHRASE -> ['Mikroskopy | MAGUS']
+PASS keyword reaches only its group: [Mikroskopy | MAGUS] stereomikroskop magus PHRASE -> ['Mikroskopy | MAGUS']
+PASS keyword reaches only its group: [Mikroskopy | MAGUS] magus stereomikroskop PHRASE -> ['Mikroskopy | MAGUS']
+PASS keyword reaches only its group: [Mikroskopy | Levenhuk] levenhuk mikroskop PHRASE -> ['Mikroskopy | Levenhuk']
+PASS keyword reaches only its group: [Mikroskopy | Levenhuk] mikroskop levenhuk PHRASE -> ['Mikroskopy | Levenhuk']
+PASS keyword reaches only its group: [Mikroskopy | Levenhuk] levenhuk mikroskopy PHRASE -> ['Mikroskopy | Levenhuk']
+PASS keyword reaches only its group: [Mikroskopy | Levenhuk] mikroskopy levenhuk PHRASE -> ['Mikroskopy | Levenhuk']
+PASS keyword reaches only its group: [Mikroskopy | Levenhuk] stereomikroskop levenhuk PHRASE -> ['Mikroskopy | Levenhuk']
+PASS keyword reaches only its group: [Mikroskopy | Levenhuk] levenhuk stereomikroskop PHRASE -> ['Mikroskopy | Levenhuk']
+PASS keyword reaches only its group: [Mikroskopy | Omegon] mikroskop omegon PHRASE -> ['Mikroskopy | Omegon']
+PASS keyword reaches only its group: [Mikroskopy | Omegon] omegon mikroskop PHRASE -> ['Mikroskopy | Omegon']
+PASS keyword reaches only its group: [Mikroskopy | Omegon] omegon mikroskopy PHRASE -> ['Mikroskopy | Omegon']
+PASS keyword reaches only its group: [Mikroskopy | Omegon] mikroskopy omegon PHRASE -> ['Mikroskopy | Omegon']
+PASS keyword reaches only its group: [Mikroskopy | Omegon] stereomikroskop omegon PHRASE -> ['Mikroskopy | Omegon']
+PASS keyword reaches only its group: [Mikroskopy | Omegon] omegon stereomikroskop PHRASE -> ['Mikroskopy | Omegon']
+PASS keyword reaches only its group: [Mikroskopy | Omegon] omegon binofield PHRASE -> ['Mikroskopy | Omegon']
+PASS keyword reaches only its group: [Mikroskopy | Kelvin] mikroskop kelvin PHRASE -> ['Mikroskopy | Kelvin']
+PASS keyword reaches only its group: [Mikroskopy | Kelvin] kelvin mikroskop PHRASE -> ['Mikroskopy | Kelvin']
+PASS keyword reaches only its group: [Mikroskopy | Kelvin] kelvin mikroskopy PHRASE -> ['Mikroskopy | Kelvin']
+PASS keyword reaches only its group: [Mikroskopy | Kelvin] mikroskopy kelvin PHRASE -> ['Mikroskopy | Kelvin']
+PASS keyword reaches only its group: [Mikroskopy | Kelvin] stereomikroskop kelvin PHRASE -> ['Mikroskopy | Kelvin']
+PASS keyword reaches only its group: [Mikroskopy | Kelvin] kelvin stereomikroskop PHRASE -> ['Mikroskopy | Kelvin']
+PASS keyword reaches only its group: [Mikroskopy | Discovery] discovery mikroskop PHRASE -> ['Mikroskopy | Discovery']
+PASS keyword reaches only its group: [Mikroskopy | Discovery] mikroskop discovery PHRASE -> ['Mikroskopy | Discovery']
+PASS keyword reaches only its group: [Mikroskopy | Discovery] discovery mikroskopy PHRASE -> ['Mikroskopy | Discovery']
+PASS keyword reaches only its group: [Mikroskopy | Discovery] mikroskopy discovery PHRASE -> ['Mikroskopy | Discovery']
+PASS keyword reaches only its group: [Mikroskopy | Discovery] stereomikroskop discovery PHRASE -> ['Mikroskopy | Discovery']
+PASS keyword reaches only its group: [Mikroskopy | Discovery] discovery stereomikroskop PHRASE -> ['Mikroskopy | Discovery']
+PASS keyword reaches only its group: [Predajňa – značka a adresa] sonata optics EXACT -> ['Predajňa – značka a adresa']
+PASS keyword reaches only its group: [Predajňa – značka a adresa] sonata optics bratislava EXACT -> ['Predajňa – značka a adresa']
+PASS keyword reaches only its group: [Predajňa – značka a adresa] sonata optics predajna EXACT -> ['Predajňa – značka a adresa']
+PASS keyword reaches only its group: [Predajňa – značka a adresa] sonata optics predajňa EXACT -> ['Predajňa – značka a adresa']
+PASS keyword reaches only its group: [Predajňa – značka a adresa] sonataoptics EXACT -> ['Predajňa – značka a adresa']
+PASS keyword reaches only its group: [Predajňa – teleskopy] teleskopy bratislava EXACT -> ['Predajňa – teleskopy']
+PASS keyword reaches only its group: [Predajňa – teleskopy] teleskop bratislava EXACT -> ['Predajňa – teleskopy']
+PASS keyword reaches only its group: [Predajňa – teleskopy] teleskop predajna bratislava EXACT -> ['Predajňa – teleskopy']
+PASS keyword reaches only its group: [Predajňa – mikroskopy] mikroskopy bratislava EXACT -> ['Predajňa – mikroskopy']
+PASS keyword reaches only its group: [Predajňa – mikroskopy] mikroskop bratislava EXACT -> ['Predajňa – mikroskopy']
+PASS keyword reaches only its group: [Predajňa – mikroskopy] mikroskop predajna bratislava EXACT -> ['Predajňa – mikroskopy']
+PASS keyword reaches only its group: [Predajňa – ďalekohľady] dalekohlady bratislava EXACT -> ['Predajňa – ďalekohľady']
+PASS keyword reaches only its group: [Predajňa – ďalekohľady] ďalekohľady bratislava EXACT -> ['Predajňa – ďalekohľady']
+PASS keyword reaches only its group: [Predajňa – ďalekohľady] dalekohlad bratislava EXACT -> ['Predajňa – ďalekohľady']
+PASS keyword reaches only its group: [Predajňa – ďalekohľady] dalekohlad predajna bratislava EXACT -> ['Predajňa – ďalekohľady']
+PASS keyword reaches only its group: [Predajňa – poradenstvo a osobný odber] astronomicka predajna PHRASE -> ['Predajňa – poradenstvo a osobný odber']
+PASS keyword reaches only its group: [Predajňa – poradenstvo a osobný odber] predajna teleskopov PHRASE -> ['Predajňa – poradenstvo a osobný odber']
+PASS keyword reaches only its group: [Predajňa – poradenstvo a osobný odber] predajna dalekohladov PHRASE -> ['Predajňa – poradenstvo a osobný odber']
+PASS keyword reaches only its group: [Predajňa – poradenstvo a osobný odber] predajňa teleskopov PHRASE -> ['Predajňa – poradenstvo a osobný odber']
+PASS keyword reaches only its group: [Predajňa – poradenstvo a osobný odber] osobny odber teleskop PHRASE -> ['Predajňa – poradenstvo a osobný odber']
+PASS semantic: "dalekohlad 10x50" -> https://sonataoptics.sk/dalekohlady/dalekohlady-10x50/ (expected https://sonataoptics.sk/dalekohlady/dalekohlady-10x50/)
+PASS semantic: "dalekohlad 10x42" -> https://sonataoptics.sk/dalekohlady/dalekohlady-10x42/ (expected https://sonataoptics.sk/dalekohlady/dalekohlady-10x42/)
+PASS semantic: "dalekohlad 8x42" -> https://sonataoptics.sk/dalekohlady/dalekohlady-8x42/ (expected https://sonataoptics.sk/dalekohlady/dalekohlady-8x42/)
+PASS semantic: "dalekohlad 12x50" -> https://sonataoptics.sk/dalekohlady/dalekohlady-12x50/ (expected https://sonataoptics.sk/dalekohlady/dalekohlady-12x50/)
+PASS semantic: "dalekohlad 8x56" -> https://sonataoptics.sk/dalekohlady/dalekohlady-8x56/ (expected https://sonataoptics.sk/dalekohlady/dalekohlady-8x56/)
+PASS semantic: "ďalekohľad 8x56" -> https://sonataoptics.sk/dalekohlady/dalekohlady-8x56/ (expected https://sonataoptics.sk/dalekohlady/dalekohlady-8x56/)
+PASS semantic: "dalekohlad 10x56" -> None (expected None)
+PASS semantic: "dalekohlad 20x50" -> https://sonataoptics.sk/dalekohlady/dalekohlady-20x50/ (expected https://sonataoptics.sk/dalekohlady/dalekohlady-20x50/)
+PASS semantic: "turisticky dalekohlad 10x42" -> https://sonataoptics.sk/dalekohlady/dalekohlady-10x42/ (expected https://sonataoptics.sk/dalekohlady/dalekohlady-10x42/)
+PASS semantic: "turisticky dalekohlad" -> https://sonataoptics.sk/dalekohlady/turisticke-dalekohlady/ (expected https://sonataoptics.sk/dalekohlady/turisticke-dalekohlady/)
+PASS semantic: "dalekohlad" -> https://sonataoptics.sk/dalekohlady/ (expected https://sonataoptics.sk/dalekohlady/)
+PASS semantic: "teleskop" -> https://sonataoptics.sk/teleskopy/ (expected https://sonataoptics.sk/teleskopy/)
+PASS semantic: "mikroskop pre deti" -> https://sonataoptics.sk/mikroskopy/skolske-a-studentske-mikroskopy/ (expected https://sonataoptics.sk/mikroskopy/skolske-a-studentske-mikroskopy/)
+PASS semantic: "teleskop celestron" -> https://sonataoptics.sk/teleskopy/teleskopy-celestron/ (expected https://sonataoptics.sk/teleskopy/teleskopy-celestron/)
+PASS semantic: "celestron c8" -> https://sonataoptics.sk/teleskopy/teleskopy-celestron/ (expected https://sonataoptics.sk/teleskopy/teleskopy-celestron/)
+PASS semantic: "celestron c8 ota" -> https://sonataoptics.sk/teleskop-celestron-8-sc-xlt-tubus-ota-mit-3-schiene-76mm.html (expected https://sonataoptics.sk/teleskop-celestron-8-sc-xlt-tubus-ota-mit-3-schiene-76mm.html)
+PASS semantic: "celestron nexstar 8se" -> None (expected None)
+PASS semantic: "celestron c8 nexstar ota" -> None (expected None)
+PASS semantic: "celestron astromaster 114eq" -> https://sonataoptics.sk/teleskop-celestron-astromaster-114eq-teleskop.html (expected https://sonataoptics.sk/teleskop-celestron-astromaster-114eq-teleskop.html)
+PASS semantic: "celestron astromaster 114az" -> https://sonataoptics.sk/teleskopy/teleskopy-celestron/ (expected https://sonataoptics.sk/teleskopy/teleskopy-celestron/)
+PASS semantic: "bresser junior teleskop" -> https://sonataoptics.sk/teleskopy/teleskopy-bresser-junior/ (expected https://sonataoptics.sk/teleskopy/teleskopy-bresser-junior/)
+PASS semantic: "bresser junior 70/900" -> https://sonataoptics.sk/bresser-junior-teleskop-ac-70-900-el.html (expected https://sonataoptics.sk/bresser-junior-teleskop-ac-70-900-el.html)
+PASS semantic: "bresser junior 70/400" -> None (expected None)
+PASS semantic: "teleskop bresser" -> https://sonataoptics.sk/teleskopy/teleskopy-bresser/ (expected https://sonataoptics.sk/teleskopy/teleskopy-bresser/)
+PASS semantic: "teleskop bresser junior" -> https://sonataoptics.sk/teleskopy/teleskopy-bresser-junior/ (expected https://sonataoptics.sk/teleskopy/teleskopy-bresser-junior/)
+PASS semantic: "levenhuk karma 10x42" -> https://sonataoptics.sk/dalekohlady/dalekohlady-levenhuk/ (expected https://sonataoptics.sk/dalekohlady/dalekohlady-levenhuk/)
+PASS semantic: "levenhuk karma plus 10x42" -> https://sonataoptics.sk/levenhuk-new-karma-plus-10x42.html (expected https://sonataoptics.sk/levenhuk-new-karma-plus-10x42.html)
+PASS semantic: "levenhuk karma pro 10x42" -> https://sonataoptics.sk/dalekohlady/dalekohlady-levenhuk/ (expected https://sonataoptics.sk/dalekohlady/dalekohlady-levenhuk/)
+PASS semantic: "vortex crossfire hd 12x50" -> None (expected None)
+PASS semantic: "vortex dalekohlad" -> None (expected None)
+PASS semantic: "sky-watcher explorer 130 eq2" -> https://sonataoptics.sk/product-47488.html (expected https://sonataoptics.sk/product-47488.html)
+PASS semantic: "sky-watcher explorer 130p eq2" -> https://sonataoptics.sk/teleskopy/teleskopy-sky-watcher/ (expected https://sonataoptics.sk/teleskopy/teleskopy-sky-watcher/)
+PASS semantic: "bresser erudit basic mono" -> https://sonataoptics.sk/mikroskopy/mikroskopy-bresser/ (expected https://sonataoptics.sk/mikroskopy/mikroskopy-bresser/)
+PASS semantic: "sonata optics" -> https://sonataoptics.sk/kontakt/ (expected https://sonataoptics.sk/kontakt/)
+PASS semantic: "teleskopy bratislava" -> https://sonataoptics.sk/teleskopy/ (expected https://sonataoptics.sk/teleskopy/)
+PASS semantic: "mikroskop bratislava" -> https://sonataoptics.sk/mikroskopy/ (expected https://sonataoptics.sk/mikroskopy/)
+PASS semantic: "optika predajna bratislava okuliare" -> None (expected None)
+PASS semantic: "dalekohlad s nocnym videnim" -> None (expected None)
+PASS semantic: "seestar s50" -> None (expected None)
+PASS landing pages 60/60
+keywords 475, ad groups 66, negatives 409, semantic tests 39; checks 713/713 PASS
