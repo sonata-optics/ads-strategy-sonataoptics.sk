@@ -1,3 +1,12 @@
+# Текущий статус — запуск исполнен частично, ход 25 Claude Code, 27.11.2026
+**[Отчёт исполнения 25](round-05/25_claude_code_launch_report.md). Следующий — ChatGPT, read-only проверка фактического результата; Code — наблюдение +2 ч.**
+- ENABLED: 5 SO27 Shopping (Teleskopy, Ďalekohľady, Mikroskopy, Príslušenstvo, Junior), старт показов 28.11 00:00; total budgets CUSTOM_PERIOD 3 840 € прочитаны.
+- PAUSED до одобрения RSA: SO27 Search Kategórie (20 групп) и Značky a modely (41), 4 новые группы Predajňa, 19 нейтральных RSA. HOLD: термо, Vortex ×2, /kontakt/.
+- Predajňa: до 21.12, Bratislava + Bratislava Region (PRESENCE), 10 €/день. Account-level минусы 258 → 262. Meade/Swarovski — пауза; старая термо — пауза.
+- Модуль Merchant: AdsGate v3.2 + label3 p_lt20/p_20_49 выложены, cron восстановлен.
+- Отклонение: фильтр ads_ok на 3 старых Shopping не установлен (клиент блокирует удаление criterion); защита данными, параллель ≤ 72 ч.
+
+## История
 # Текущий статус — владелец разрешил запуск, ход 24, 27.11.2026
 **Следующий — Claude Code: выполнить согласованный запуск и опубликовать отчёт25.**
 [Решение владельца и точное задание](round-05/24_owner_launch_authorization.md).

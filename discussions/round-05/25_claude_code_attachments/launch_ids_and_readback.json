@@ -1,0 +1,127 @@
+{
+ "executed": "2026-11-27 15:45-16:10 UTC = 16:45-17:10 Europe/Bratislava (account TZ Europe/Prague, same offset); server clock EET (UTC+2)",
+ "so27_campaigns": {
+  "SO27 | SHOP | Teleskopy": {
+   "campaign": "24559028396",
+   "budget": "16125780850",
+   "total_eur": 1056,
+   "ad_group": "203179130820",
+   "status": "ENABLED (start 2026-11-28 00:00)"
+  },
+  "SO27 | SHOP | Ďalekohľady": {
+   "campaign": "24554103324",
+   "budget": "16125780853",
+   "total_eur": 648,
+   "ad_group": "204925757400",
+   "status": "ENABLED (start 28.11)"
+  },
+  "SO27 | SHOP | Mikroskopy": {
+   "campaign": "24559028522",
+   "budget": "16116071516",
+   "total_eur": 360,
+   "ad_group": "206282585990",
+   "status": "ENABLED (start 28.11)"
+  },
+  "SO27 | SHOP | Príslušenstvo a ostatné": {
+   "campaign": "24554102040",
+   "budget": "16116071519",
+   "total_eur": 480,
+   "ad_group": "203179148620",
+   "status": "ENABLED (start 28.11)"
+  },
+  "SO27 | SHOP | Junior výber": {
+   "campaign": "24554101170",
+   "budget": "16125780376",
+   "total_eur": 144,
+   "ad_group": "203179138980",
+   "status": "ENABLED (start 28.11)"
+  },
+  "SO27 | SHOP | Termovízie (pozorovanie)": {
+   "campaign": "24554101167",
+   "budget": "16116071918",
+   "total_eur": 432,
+   "ad_group": "203179137540",
+   "status": "PAUSED = HOLD (no owner-approved thermal SKU)"
+  },
+  "SO27 | SEARCH | Kategórie": {
+   "campaign": "24554101173",
+   "budget": "16125780856",
+   "total_eur": 360,
+   "ad_groups": 20,
+   "status": "PAUSED until own RSA APPROVED (REVIEW_IN_PROGRESS)"
+  },
+  "SO27 | SEARCH | Značky a modely": {
+   "campaign": "24565141321",
+   "budget": "16116071924",
+   "total_eur": 360,
+   "ad_groups": 41,
+   "status": "PAUSED until own RSA APPROVED (REVIEW_IN_PROGRESS)"
+  }
+ },
+ "budgets_readback": {
+  "period": "CUSTOM_PERIOD",
+  "currency": "EUR",
+  "start": "2026-11-28 00:00:00",
+  "end": "2026-12-21 23:59:59",
+  "sum_eur": 3840,
+  "daily_amount": "none (total only)"
+ },
+ "predajna": {
+  "campaign": "24341095320",
+  "geo": [
+   "9062578 Bratislava",
+   "9062586 Bratislava Region"
+  ],
+  "geo_type": "PRESENCE",
+  "end": "2026-12-21 23:59:59",
+  "daily_budget_eur": 10,
+  "new_groups_paused": 4,
+  "new_keywords": 58,
+  "campaign_negatives_added": 24
+ },
+ "legacy": {
+  "24440851839 SHOP Termovízie": "PAUSED (could not be limited to ads_ok in this client)",
+  "24440851881 SHOP Ďalekohľady": "ENABLED, LOW priority 0, scope label0 only; data: 683/683 products ads_ok",
+  "24451885423 SHOP Teleskopy": "ENABLED, LOW, label0 only; data: 820 ads_ok + 1 ads_hold NOT_ELIGIBLE",
+  "24451886281 SHOP Mikroskopy": "ENABLED, LOW, label0 only; data: 791/791 ads_ok"
+ },
+ "old_search_24425793295": {
+  "paused_groups": {
+   "201357433603": "Teleskopy | Meade",
+   "208472855464": "Ďalekohľady | Swarovski"
+  },
+  "neutral_rsas_created_paused": 19,
+  "old_ads_to_pause_after_new_approved": 19,
+  "vortex_202385177435": "untouched (appeal)"
+ },
+ "account_negatives": {
+  "shared_set": "11138889348",
+  "before": 258,
+  "removed": 16,
+  "added": 20,
+  "after": 262
+ },
+ "merchant_module": {
+  "AdsGate": "v3.2",
+  "Catalog": "0.3.8 priceBand",
+  "register": "v3 (hold 35, review 8, ok 0)",
+  "policy_sweep": {
+   "products_read": 7816,
+   "hold": 74,
+   "sticky_hold": 76,
+   "released": 0,
+   "unverified": 0
+  },
+  "scan_labels_sendable": {
+   "ads_ok": 7519,
+   "ads_review": 223,
+   "ads_hold": 74
+  },
+  "label3": {
+   "p_20_49": 1174,
+   "p_lt20": 0
+  },
+  "cron": "frozen 17:50 EET, restored 18:1x EET identical",
+  "backups": "~/backups/so27_launch_20261127/"
+ }
+}

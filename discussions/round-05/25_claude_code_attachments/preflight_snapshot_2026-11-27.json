@@ -1,0 +1,137 @@
+{
+ "taken_at": "2026-11-27T15:49:05Z",
+ "account": {
+  "currency": "EUR",
+  "time_zone": "Europe/Prague"
+ },
+ "enabled_campaigns": [
+  [
+   "24341095320",
+   "NEW26 | SEARCH | Bratislava | Predajňa",
+   "SEARCH",
+   null,
+   "15941714526",
+   5.0,
+   "end 2026-11-30"
+  ],
+  [
+   "24341660055",
+   "NEW26 | SHOPPING | SK | Mikroskopy",
+   "SHOPPING",
+   0,
+   "15947146495",
+   10.0,
+   "end 2026-11-03 (ended)"
+  ],
+  [
+   "24346760069",
+   "NEW26 | SHOPPING | SK | Teleskopy a astrofotografia",
+   "SHOPPING",
+   0,
+   "15936815900",
+   10.0,
+   "end 2026-11-03 (ended)"
+  ],
+  [
+   "24346760072",
+   "NEW26 | SHOPPING | SK | Sonata Junior Lab",
+   "SHOPPING",
+   0,
+   "15936815963",
+   6.0,
+   "end 2026-11-03 (ended)"
+  ],
+  [
+   "24425793295",
+   "NEW26 | SEARCH | SK | Značky × kategórie",
+   "SEARCH",
+   null,
+   "15992319293",
+   5.0,
+   null
+  ],
+  [
+   "24440851839",
+   "SHOP | SK | Termovízie a nočné videnie | CPC 0.40",
+   "SHOPPING",
+   0,
+   "16012091687",
+   21.0,
+   null
+  ],
+  [
+   "24440851881",
+   "SHOP | SK | Ďalekohľady | CPC 0.40",
+   "SHOPPING",
+   0,
+   "16017117321",
+   15.0,
+   null
+  ],
+  [
+   "24451885423",
+   "SHOP | SK | Teleskopy | CPC 0.40",
+   "SHOPPING",
+   0,
+   "16012091702",
+   17.0,
+   null
+  ],
+  [
+   "24451886281",
+   "SHOP | SK | Mikroskopy | CPC 0.40",
+   "SHOPPING",
+   0,
+   "16017117345",
+   9.0,
+   null
+  ]
+ ],
+ "legacy_scopes": {
+  "24440851839": [
+   "2510645826680",
+   "termovízie"
+  ],
+  "24440851881": [
+   "2507722965531",
+   "ďalekohľady a binokuláre"
+  ],
+  "24451885423": [
+   "2510645819400",
+   "teleskopy a hvezdárske ďalekohľady"
+  ],
+  "24451886281": [
+   "999756970947",
+   "mikroskopy"
+  ]
+ },
+ "geo": {
+  "24341095320": "9062578 Bratislava (only)",
+  "others": "2703 Slovakia"
+ },
+ "campaign_negatives": 95,
+ "account_level_list": {
+  "shared_set": "11138889348",
+  "count": 258,
+  "equals_move07_snapshot": true
+ },
+ "account_remove_ids": {
+  "kde": "12707346",
+  "poradiť": "419362090309",
+  "lacno": "365399990",
+  "nie drahé": "2006886891565",
+  "cheap": "10018371",
+  "popis": "31050916",
+  "keyword_text": "363604263836",
+  "slabozrakých": "384106606958",
+  "aký": "3338026195",
+  "ake": "91996411",
+  "funguje": "1095509880",
+  "drony": "780273128",
+  "Čo": "539106730719",
+  "dať": "455146981917",
+  "dracik (BROAD)": "3129400384",
+  "dalekohlad s fotoaparatom (PHRASE)": "2082428628903"
+ },
+ "merchant": "5831333799 feed_label SK"
+}
