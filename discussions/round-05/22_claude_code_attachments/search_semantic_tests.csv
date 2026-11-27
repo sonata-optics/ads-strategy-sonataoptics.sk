@@ -1,0 +1,70 @@
+query,expected,got,groups,result,note
+dalekohlad 10x50,https://sonataoptics.sk/dalekohlady/dalekohlady-10x50/,https://sonataoptics.sk/dalekohlady/dalekohlady-10x50/,Ďalekohľady 10x50,PASS,size
+dalekohlad 10x42,https://sonataoptics.sk/dalekohlady/dalekohlady-10x42/,https://sonataoptics.sk/dalekohlady/dalekohlady-10x42/,Ďalekohľady 10x42,PASS,size (R5-22)
+dalekohlad 8x42,https://sonataoptics.sk/dalekohlady/dalekohlady-8x42/,https://sonataoptics.sk/dalekohlady/dalekohlady-8x42/,Ďalekohľady 8x42,PASS,size (R5-22)
+dalekohlad 12x50,https://sonataoptics.sk/dalekohlady/dalekohlady-12x50/,https://sonataoptics.sk/dalekohlady/dalekohlady-12x50/,Ďalekohľady 12x50,PASS,size (R5-22)
+dalekohlad 8x56,https://sonataoptics.sk/dalekohlady/dalekohlady-8x56/,https://sonataoptics.sk/dalekohlady/dalekohlady-8x56/,Ďalekohľady 8x56,PASS,size (R5-22)
+ďalekohľad 8x56,https://sonataoptics.sk/dalekohlady/dalekohlady-8x56/,https://sonataoptics.sk/dalekohlady/dalekohlady-8x56/,Ďalekohľady 8x56,PASS,size (R5-22)
+dalekohlad 10x56,(no ad),(no ad),-,PASS,no 10x56 page -> no ad rather than a wrong size
+dalekohlad 20x50,https://sonataoptics.sk/dalekohlady/dalekohlady-20x50/,https://sonataoptics.sk/dalekohlady/dalekohlady-20x50/,Ďalekohľady 20x50,PASS,size
+turisticky dalekohlad 10x42,https://sonataoptics.sk/dalekohlady/dalekohlady-10x42/,https://sonataoptics.sk/dalekohlady/dalekohlady-10x42/,Ďalekohľady 10x42,PASS,size wins over purpose
+turisticky dalekohlad,https://sonataoptics.sk/dalekohlady/turisticke-dalekohlady/,https://sonataoptics.sk/dalekohlady/turisticke-dalekohlady/,Turistické ďalekohľady,PASS,purpose
+dalekohlad,https://sonataoptics.sk/dalekohlady/,https://sonataoptics.sk/dalekohlady/,Ďalekohľady,PASS,generic
+teleskop,https://sonataoptics.sk/teleskopy/,https://sonataoptics.sk/teleskopy/,Teleskopy,PASS,generic
+mikroskop pre deti,https://sonataoptics.sk/mikroskopy/skolske-a-studentske-mikroskopy/,https://sonataoptics.sk/mikroskopy/skolske-a-studentske-mikroskopy/,Mikroskopy pre deti a školské,PASS,kids
+teleskop celestron,https://sonataoptics.sk/teleskopy/teleskopy-celestron/,https://sonataoptics.sk/teleskopy/teleskopy-celestron/,Teleskopy | Celestron,PASS,brand
+celestron c8,https://sonataoptics.sk/teleskopy/teleskopy-celestron/,https://sonataoptics.sk/teleskopy/teleskopy-celestron/,Teleskopy | Celestron,PASS,ambiguous family -> brand page (R5-23)
+celestron c8 ota,https://sonataoptics.sk/teleskop-celestron-8-sc-xlt-tubus-ota-mit-3-schiene-76mm.html,https://sonataoptics.sk/teleskop-celestron-8-sc-xlt-tubus-ota-mit-3-schiene-76mm.html,Model | Celestron C8 XLT OTA,PASS,model
+celestron nexstar 8se,(no ad),(no ad),-,PASS,no group for this model; brand phrase does not match
+celestron c8 nexstar ota,(no ad),(no ad),-,PASS,"conflicting variant blocked in model group, designator blocks brand group"
+celestron astromaster 114eq,https://sonataoptics.sk/teleskop-celestron-astromaster-114eq-teleskop.html,https://sonataoptics.sk/teleskop-celestron-astromaster-114eq-teleskop.html,Model | Celestron AstroMaster 114EQ,PASS,model
+celestron astromaster 114az,https://sonataoptics.sk/teleskopy/teleskopy-celestron/,https://sonataoptics.sk/teleskopy/teleskopy-celestron/,Teleskopy | Celestron,PASS,"other variant -> family page, not the EQ PDP"
+bresser junior teleskop,https://sonataoptics.sk/teleskopy/teleskopy-bresser-junior/,https://sonataoptics.sk/teleskopy/teleskopy-bresser-junior/,Teleskopy | Bresser Junior,PASS,ambiguous family -> Junior page (R5-23)
+bresser junior 70/900,https://sonataoptics.sk/bresser-junior-teleskop-ac-70-900-el.html,https://sonataoptics.sk/bresser-junior-teleskop-ac-70-900-el.html,Model | Bresser Junior 70/900 EL,PASS,model
+bresser junior 70/400,(no ad),(no ad),-,PASS,"other variant: model group blocks, family phrase does not match"
+teleskop bresser,https://sonataoptics.sk/teleskopy/teleskopy-bresser/,https://sonataoptics.sk/teleskopy/teleskopy-bresser/,Teleskopy | Bresser,PASS,brand
+teleskop bresser junior,https://sonataoptics.sk/teleskopy/teleskopy-bresser-junior/,https://sonataoptics.sk/teleskopy/teleskopy-bresser-junior/,Teleskopy | Bresser Junior,PASS,"Junior family, not Bresser brand"
+levenhuk karma 10x42,https://sonataoptics.sk/dalekohlady/dalekohlady-levenhuk/,https://sonataoptics.sk/dalekohlady/dalekohlady-levenhuk/,Ďalekohľady | Levenhuk,PASS,ambiguous (PLUS/PRO) -> brand page (R5-23)
+levenhuk karma plus 10x42,https://sonataoptics.sk/levenhuk-new-karma-plus-10x42.html,https://sonataoptics.sk/levenhuk-new-karma-plus-10x42.html,Model | Levenhuk New Karma PLUS 10x42,PASS,model
+levenhuk karma pro 10x42,https://sonataoptics.sk/dalekohlady/dalekohlady-levenhuk/,https://sonataoptics.sk/dalekohlady/dalekohlady-levenhuk/,Ďalekohľady | Levenhuk,PASS,"other generation -> brand page, not PLUS PDP"
+vortex crossfire hd 12x50,https://sonataoptics.sk/alekohlad-vortex-crossfire-hd-12x50-ru-sk.html,https://sonataoptics.sk/alekohlad-vortex-crossfire-hd-12x50-ru-sk.html,Model | Vortex Crossfire HD 12x50,PASS,model
+vortex dalekohlad,https://sonataoptics.sk/dalekohlady/?features_hash=509-53544,https://sonataoptics.sk/dalekohlady/?features_hash=509-53544,Ďalekohľady | Vortex,PASS,owner: Vortex binoculars filter page
+vortex crossfire hd 10x42,https://sonataoptics.sk/dalekohlady/?features_hash=509-53544,https://sonataoptics.sk/dalekohlady/?features_hash=509-53544,Ďalekohľady | Vortex,PASS,other size -> Vortex binoculars page
+vortex crossfire ii 3-9x40,(no ad),(no ad),-,PASS,riflescope (R5-24)
+vortex crossfire red dot,(no ad),(no ad),-,PASS,red dot (R5-24)
+vortex crossfire rifle scope,(no ad),(no ad),-,PASS,riflescope (R5-24)
+vortex crossfire riflescope,(no ad),(no ad),-,PASS,riflescope
+vortex puskohlad,(no ad),(no ad),-,PASS,riflescope SK
+vortex 3-9x40,(no ad),(no ad),-,PASS,scope designation
+vortex crossfire ii,(no ad),(no ad),-,PASS,Crossfire II = riflescope
+vortex crossfire hd 8x42,https://sonataoptics.sk/dalekohlady/?features_hash=509-53544,https://sonataoptics.sk/dalekohlady/?features_hash=509-53544,Ďalekohľady | Vortex,PASS,binocular other size -> Vortex binoculars
+vortex dalekohlad 10x42,https://sonataoptics.sk/dalekohlady/?features_hash=509-53544,https://sonataoptics.sk/dalekohlady/?features_hash=509-53544,Ďalekohľady | Vortex,PASS,binocular
+vortex crossfire,https://sonataoptics.sk/dalekohlady/?features_hash=509-53544,https://sonataoptics.sk/dalekohlady/?features_hash=509-53544,Ďalekohľady | Vortex,PASS,family -> binocular filter
+vortex crossfire hd 12x50 bratislava,(no ad),(no ad),-,PASS,store word: model groups do not serve store queries (documented limit)
+predajna dalekohladov,https://sonataoptics.sk/dalekohlady/,https://sonataoptics.sk/dalekohlady/,Predajňa – ďalekohľady,PASS,R5-25
+vortex crossfire 12 x 50,https://sonataoptics.sk/dalekohlady/?features_hash=509-53544,https://sonataoptics.sk/dalekohlady/?features_hash=509-53544,Ďalekohľady | Vortex,PASS,"spaced size -> filter, not PDP (documented)"
+sky-watcher explorer 130 eq2,https://sonataoptics.sk/product-47488.html,https://sonataoptics.sk/product-47488.html,Model | Sky-Watcher Explorer 130/900 EQ2,PASS,model
+sky-watcher explorer 130p eq2,https://sonataoptics.sk/teleskopy/teleskopy-sky-watcher/,https://sonataoptics.sk/teleskopy/teleskopy-sky-watcher/,Teleskopy | Sky-Watcher,PASS,other variant -> brand page
+bresser erudit basic mono,https://sonataoptics.sk/mikroskopy/mikroskopy-bresser/,https://sonataoptics.sk/mikroskopy/mikroskopy-bresser/,Mikroskopy | Bresser,PASS,other variant -> brand page
+sonata optics,https://sonataoptics.sk/kontakt/,https://sonataoptics.sk/kontakt/,Predajňa – značka a adresa,PASS,store
+teleskopy bratislava,https://sonataoptics.sk/teleskopy/,https://sonataoptics.sk/teleskopy/,Predajňa – teleskopy,PASS,store -> approved category landing
+mikroskop bratislava,https://sonataoptics.sk/mikroskopy/,https://sonataoptics.sk/mikroskopy/,Predajňa – mikroskopy,PASS,store
+optika predajna bratislava okuliare,(no ad),(no ad),-,PASS,eyewear blocked
+dalekohlad s nocnym videnim,(no ad),(no ad),-,PASS,night vision not bought in Search
+seestar s50,(no ad),(no ad),-,PASS,smart telescope not bought
+vortex crossfire montaz,(no ad),(no ad),-,PASS,GEM-05
+vortex crossfire hd 12x50 montaz,(no ad),(no ad),-,PASS,GEM-05
+vortex crossfire hd 12x50,https://sonataoptics.sk/alekohlad-vortex-crossfire-hd-12x50-ru-sk.html,https://sonataoptics.sk/alekohlad-vortex-crossfire-hd-12x50-ru-sk.html,Model | Vortex Crossfire HD 12x50,PASS,model PDP (policy HOLD still applies)
+mikroskop popis,(no ad),(no ad),-,PASS,GEM-04: no positive route (not a guarantee against Google close variants)
+mikroskop cena,https://sonataoptics.sk/mikroskopy/,https://sonataoptics.sk/mikroskopy/,Mikroskopy,PASS,GEM-04 kept
+predajna mikroskopov,https://sonataoptics.sk/mikroskopy/,https://sonataoptics.sk/mikroskopy/,Predajňa – mikroskopy,PASS,GEM-08
+predajňa mikroskopov,https://sonataoptics.sk/mikroskopy/,https://sonataoptics.sk/mikroskopy/,Predajňa – mikroskopy,PASS,GEM-08
+osobny odber dalekohlad,https://sonataoptics.sk/dalekohlady/,https://sonataoptics.sk/dalekohlady/,Predajňa – ďalekohľady,PASS,GEM-08
+osobný odber ďalekohľad,https://sonataoptics.sk/dalekohlady/,https://sonataoptics.sk/dalekohlady/,Predajňa – ďalekohľady,PASS,GEM-08
+teleskop celestron bratislava,https://sonataoptics.sk/teleskopy/,https://sonataoptics.sk/teleskopy/,Predajňa – teleskopy,PASS,GEM-08 brand+category+city -> store telescopes
+dalekohlad 10x42 bratislava,https://sonataoptics.sk/dalekohlady/,https://sonataoptics.sk/dalekohlady/,Predajňa – ďalekohľady,PASS,"GEM-08 size+city -> store binoculars (documented: category page, not the 10x42 page)"
+dalekohlad leica bratislava,https://sonataoptics.sk/dalekohlady/,https://sonataoptics.sk/dalekohlady/,Predajňa – ďalekohľady,PASS,brand+category+city
+predajna mikroskopov okuliare,(no ad),(no ad),-,PASS,eyewear blocked
+predajna dalekohladov na pusku,(no ad),(no ad),-,PASS,weapon wording blocked
+dalekohlad bratislava puskohlad,(no ad),(no ad),-,PASS,weapon wording blocked in store
+celestron bratislava,(no ad),(no ad),-,PASS,documented gap: brand + city without category -> no ad (not a random PDP)
