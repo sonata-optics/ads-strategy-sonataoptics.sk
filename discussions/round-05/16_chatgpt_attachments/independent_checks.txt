@@ -1,0 +1,1 @@
+keywords 494, ad groups 68, negatives 422, semantic tests 40; checks 738/738 PASS

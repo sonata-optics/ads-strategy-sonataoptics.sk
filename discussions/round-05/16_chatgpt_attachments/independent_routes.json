@@ -1,0 +1,86 @@
+[
+ {
+  "query": "vortex dalekohlad",
+  "routes": [
+   [
+    "SO27 | SEARCH | Značky a modely",
+    "Ďalekohľady | Vortex",
+    "https://sonataoptics.sk/dalekohlady/?features_hash=509-53544"
+   ]
+  ]
+ },
+ {
+  "query": "vortex crossfire",
+  "routes": [
+   [
+    "SO27 | SEARCH | Značky a modely",
+    "Ďalekohľady | Vortex",
+    "https://sonataoptics.sk/dalekohlady/?features_hash=509-53544"
+   ]
+  ]
+ },
+ {
+  "query": "vortex crossfire hd 12x50",
+  "routes": [
+   [
+    "SO27 | SEARCH | Značky a modely",
+    "Model | Vortex Crossfire HD 12x50",
+    "https://sonataoptics.sk/alekohlad-vortex-crossfire-hd-12x50-ru-sk.html"
+   ]
+  ]
+ },
+ {
+  "query": "vortex crossfire hd 10x42",
+  "routes": [
+   [
+    "SO27 | SEARCH | Značky a modely",
+    "Ďalekohľady | Vortex",
+    "https://sonataoptics.sk/dalekohlady/?features_hash=509-53544"
+   ]
+  ]
+ },
+ {
+  "query": "vortex crossfire 12x50",
+  "routes": [
+   [
+    "SO27 | SEARCH | Značky a modely",
+    "Model | Vortex Crossfire HD 12x50",
+    "https://sonataoptics.sk/alekohlad-vortex-crossfire-hd-12x50-ru-sk.html"
+   ]
+  ]
+ },
+ {
+  "query": "vortex crossfire hd 12 x 50",
+  "routes": [
+   [
+    "SO27 | SEARCH | Značky a modely",
+    "Ďalekohľady | Vortex",
+    "https://sonataoptics.sk/dalekohlady/?features_hash=509-53544"
+   ]
+  ]
+ },
+ {
+  "query": "vortex crossfire hd 8x42",
+  "routes": [
+   [
+    "SO27 | SEARCH | Značky a modely",
+    "Ďalekohľady | Vortex",
+    "https://sonataoptics.sk/dalekohlady/?features_hash=509-53544"
+   ]
+  ]
+ },
+ {
+  "query": "vortex crossfire hd 12x50 bratislava",
+  "routes": []
+ },
+ {
+  "query": "predajna dalekohladov",
+  "routes": [
+   [
+    "NEW26 | SEARCH | Bratislava | Predajňa",
+    "Predajňa – poradenstvo a osobný odber",
+    "https://sonataoptics.sk/teleskopy/"
+   ]
+  ]
+ }
+]
