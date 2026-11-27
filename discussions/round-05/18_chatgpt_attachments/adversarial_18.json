@@ -1,0 +1,104 @@
+[
+  {
+    "query": "vortex crossfire ii 3-9x40",
+    "routes": []
+  },
+  {
+    "query": "vortex crossfire red dot",
+    "routes": []
+  },
+  {
+    "query": "vortex crossfire rifle scope",
+    "routes": []
+  },
+  {
+    "query": "vortex crossfire hd 12x50 kolimator",
+    "routes": [
+      [
+        "SO27 | SEARCH | Značky a modely",
+        "Model | Vortex Crossfire HD 12x50",
+        "https://sonataoptics.sk/alekohlad-vortex-crossfire-hd-12x50-ru-sk.html"
+      ]
+    ]
+  },
+  {
+    "query": "vortex crossfire hd 12x50 bdc",
+    "routes": [
+      [
+        "SO27 | SEARCH | Značky a modely",
+        "Model | Vortex Crossfire HD 12x50",
+        "https://sonataoptics.sk/alekohlad-vortex-crossfire-hd-12x50-ru-sk.html"
+      ]
+    ]
+  },
+  {
+    "query": "vortex crossfire hd 12x50 3-9x40",
+    "routes": [
+      [
+        "SO27 | SEARCH | Značky a modely",
+        "Model | Vortex Crossfire HD 12x50",
+        "https://sonataoptics.sk/alekohlad-vortex-crossfire-hd-12x50-ru-sk.html"
+      ]
+    ]
+  },
+  {
+    "query": "vortex crossfire hd 12x50 mount",
+    "routes": [
+      [
+        "SO27 | SEARCH | Značky a modely",
+        "Model | Vortex Crossfire HD 12x50",
+        "https://sonataoptics.sk/alekohlad-vortex-crossfire-hd-12x50-ru-sk.html"
+      ]
+    ]
+  },
+  {
+    "query": "vortex crossfire hd 12x50",
+    "routes": [
+      [
+        "SO27 | SEARCH | Značky a modely",
+        "Model | Vortex Crossfire HD 12x50",
+        "https://sonataoptics.sk/alekohlad-vortex-crossfire-hd-12x50-ru-sk.html"
+      ]
+    ]
+  },
+  {
+    "query": "vortex crossfire hd 10x42",
+    "routes": [
+      [
+        "SO27 | SEARCH | Značky a modely",
+        "Ďalekohľady | Vortex",
+        "https://sonataoptics.sk/dalekohlady/?features_hash=509-53544"
+      ]
+    ]
+  },
+  {
+    "query": "vortex dalekohlad",
+    "routes": [
+      [
+        "SO27 | SEARCH | Značky a modely",
+        "Ďalekohľady | Vortex",
+        "https://sonataoptics.sk/dalekohlady/?features_hash=509-53544"
+      ]
+    ]
+  },
+  {
+    "query": "predajna dalekohladov",
+    "routes": [
+      [
+        "NEW26 | SEARCH | Bratislava | Predajňa",
+        "Predajňa – ďalekohľady",
+        "https://sonataoptics.sk/dalekohlady/"
+      ]
+    ]
+  },
+  {
+    "query": "predajňa ďalekohľadov",
+    "routes": [
+      [
+        "NEW26 | SEARCH | Bratislava | Predajňa",
+        "Predajňa – ďalekohľady",
+        "https://sonataoptics.sk/dalekohlady/"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+--- search_package_v2.py
++++ search_package_v2.py
+@@ -111,6 +111,8 @@
+     for g, url, ks, gneg, bgroup, desig in MODELS:
+         for k in ks:
+             kw.append([ZNM, 'Model | ' + g, k, 'EXACT', SITE + url]); kw.append([ZNM, 'Model | ' + g, k, 'PHRASE', SITE + url])
++        if g == 'Vortex Crossfire HD 12x50':
++            gneg = list(dict.fromkeys(gneg + VORTEX_WEAPON_NEG))
+         for t in gneg:
+             neg.append([ZNM, 'Model | ' + g, 'PHRASE', t, 'conflicting size/generation/mount -> not this PDP'])
+         model_designators.setdefault(bgroup, set()).update(desig)
