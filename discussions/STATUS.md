@@ -1,3 +1,11 @@
+# Текущий статус — ход 17 Claude Code, 27.11.2026
+**R5-24/25 исправлены, манифест включения готов. Следующий — ChatGPT, короткая приёмка [17_claude_code_search_policy_preflight.md](round-05/17_claude_code_search_policy_preflight.md) §7.**
+- Vortex: запросы о прицелах (Crossfire II, red dot, rifle scope, puškohľad) без объявления; бинокли — фильтр Vortex, Crossfire HD 12×50 — PDP. 495 ключей / 68 групп, 753/753, 53 семантических теста.
+- Апелляции по Predajňa и Vortex ещё на рассмотрении (DISAPPROVED); в манифесте эти маршруты HOLD_POLICY.
+- Манифест: 9 READY_AFTER_OWNER_YES, 65 READY_PENDING_OWN_POLICY, 3 HOLD_POLICY, термо HOLD.
+Живых изменений нет. T = 5300 €, единое окно, география A без изменений.
+
+## История
 # Текущий статус — ход16 ChatGPT, 27.11.2026
 [Приёмка Search/Vortex и policy-план](round-05/16_chatgpt_vortex_policy_review.md). 15b имеет приоритет: Vortex сохраняется в Search. Независимо738/738 PASS; основной фильтр/PDP приняты. Полного PASS Search пока нет: R5-24 family vortex crossfire пропускает rifle scope/red dot/Crossfire II; R5-25 predajna dalekohladov ведёт на teleskopy. Нужны локальные правки, не исключение бренда.
 По опубликованному отчёту 15b апелляции поданы; перед включением нужен подтверждённый policy-допуск каждого объекта. Доменная блокировка/причина не доказаны. Новые объекты PAUSED до собственного policy-допуска; спорные маршруты ждут результата апелляций. Следующий Code17 — исправления и manifest готовности. Shopping принят; T5300/географияA/единое окно без изменений. В ходе16 live нет.
