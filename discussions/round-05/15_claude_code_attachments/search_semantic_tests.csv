@@ -27,8 +27,9 @@ teleskop bresser junior,https://sonataoptics.sk/teleskopy/teleskopy-bresser-juni
 levenhuk karma 10x42,https://sonataoptics.sk/dalekohlady/dalekohlady-levenhuk/,https://sonataoptics.sk/dalekohlady/dalekohlady-levenhuk/,Ďalekohľady | Levenhuk,PASS,ambiguous (PLUS/PRO) -> brand page (R5-23)
 levenhuk karma plus 10x42,https://sonataoptics.sk/levenhuk-new-karma-plus-10x42.html,https://sonataoptics.sk/levenhuk-new-karma-plus-10x42.html,Model | Levenhuk New Karma PLUS 10x42,PASS,model
 levenhuk karma pro 10x42,https://sonataoptics.sk/dalekohlady/dalekohlady-levenhuk/,https://sonataoptics.sk/dalekohlady/dalekohlady-levenhuk/,Ďalekohľady | Levenhuk,PASS,"other generation -> brand page, not PLUS PDP"
-vortex crossfire hd 12x50,(no ad),(no ad),-,PASS,Vortex not in Search (GUNS disapproval); Shopping only
-vortex dalekohlad,(no ad),(no ad),-,PASS,Vortex not in Search
+vortex crossfire hd 12x50,https://sonataoptics.sk/alekohlad-vortex-crossfire-hd-12x50-ru-sk.html,https://sonataoptics.sk/alekohlad-vortex-crossfire-hd-12x50-ru-sk.html,Model | Vortex Crossfire HD 12x50,PASS,model
+vortex dalekohlad,https://sonataoptics.sk/dalekohlady/?features_hash=509-53544,https://sonataoptics.sk/dalekohlady/?features_hash=509-53544,Ďalekohľady | Vortex,PASS,owner: Vortex binoculars filter page
+vortex crossfire hd 10x42,https://sonataoptics.sk/dalekohlady/?features_hash=509-53544,https://sonataoptics.sk/dalekohlady/?features_hash=509-53544,Ďalekohľady | Vortex,PASS,other size -> Vortex binoculars page
 sky-watcher explorer 130 eq2,https://sonataoptics.sk/product-47488.html,https://sonataoptics.sk/product-47488.html,Model | Sky-Watcher Explorer 130/900 EQ2,PASS,model
 sky-watcher explorer 130p eq2,https://sonataoptics.sk/teleskopy/teleskopy-sky-watcher/,https://sonataoptics.sk/teleskopy/teleskopy-sky-watcher/,Teleskopy | Sky-Watcher,PASS,other variant -> brand page
 bresser erudit basic mono,https://sonataoptics.sk/mikroskopy/mikroskopy-bresser/,https://sonataoptics.sk/mikroskopy/mikroskopy-bresser/,Mikroskopy | Bresser,PASS,other variant -> brand page

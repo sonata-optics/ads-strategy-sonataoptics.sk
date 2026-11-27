@@ -268,6 +268,14 @@ SO27 | SEARCH | Značky a modely,Model | Bresser Junior 70/900 EL,PHRASE,50 360,
 SO27 | SEARCH | Značky a modely,Model | Bresser Junior 70/900 EL,PHRASE,70 400,conflicting size/generation/mount -> not this PDP
 SO27 | SEARCH | Značky a modely,Model | Bresser Junior 70/900 EL,PHRASE,40,conflicting size/generation/mount -> not this PDP
 SO27 | SEARCH | Značky a modely,Model | Bresser Junior 70/900 EL,PHRASE,60/700,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Vortex Crossfire HD 12x50,PHRASE,10x42,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Vortex Crossfire HD 12x50,PHRASE,8x42,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Vortex Crossfire HD 12x50,PHRASE,10x50,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Vortex Crossfire HD 12x50,PHRASE,8x32,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Vortex Crossfire HD 12x50,PHRASE,diamondback,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Vortex Crossfire HD 12x50,PHRASE,viper,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Vortex Crossfire HD 12x50,PHRASE,razor,conflicting size/generation/mount -> not this PDP
+SO27 | SEARCH | Značky a modely,Model | Vortex Crossfire HD 12x50,PHRASE,approach,conflicting size/generation/mount -> not this PDP
 SO27 | SEARCH | Značky a modely,Model | Bresser Condor UR 10x42,PHRASE,8x42,conflicting size/generation/mount -> not this PDP
 SO27 | SEARCH | Značky a modely,Model | Bresser Condor UR 10x42,PHRASE,10x50,conflicting size/generation/mount -> not this PDP
 SO27 | SEARCH | Značky a modely,Model | Bresser Condor UR 10x42,PHRASE,8x32,conflicting size/generation/mount -> not this PDP
@@ -323,6 +331,10 @@ SO27 | SEARCH | Značky a modely,Ďalekohľady | Minox,PHRASE,hvezdarsky,hvezdá
 SO27 | SEARCH | Značky a modely,Ďalekohľady | Minox,PHRASE,hvezdársky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
 SO27 | SEARCH | Značky a modely,Ďalekohľady | Celestron,PHRASE,hvezdarsky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
 SO27 | SEARCH | Značky a modely,Ďalekohľady | Celestron,PHRASE,hvezdársky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Vortex,PHRASE,crossfire 12x50,full model designation belongs to the model group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Vortex,PHRASE,crossfire hd 12x50,full model designation belongs to the model group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Vortex,PHRASE,hvezdarsky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
+SO27 | SEARCH | Značky a modely,Ďalekohľady | Vortex,PHRASE,hvezdársky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
 SO27 | SEARCH | Značky a modely,Ďalekohľady | Delta,PHRASE,hvezdarsky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
 SO27 | SEARCH | Značky a modely,Ďalekohľady | Delta,PHRASE,hvezdársky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
 SO27 | SEARCH | Značky a modely,Ďalekohľady | National Geographic,PHRASE,hvezdarsky,hvezdársky ďalekohľad = telescope -> Teleskopy brand group
@@ -358,11 +370,12 @@ SO27 | SEARCH | Kategórie,,PHRASE,national geographic,brand queries go to Znač
 SO27 | SEARCH | Kategórie,,PHRASE,nikon,brand queries go to Značky a modely
 SO27 | SEARCH | Kategórie,,PHRASE,omegon,brand queries go to Značky a modely
 SO27 | SEARCH | Kategórie,,PHRASE,pulsar,brand queries go to Značky a modely
-SO27 | SEARCH | Kategórie,,PHRASE,sky watcher,brand queries go to Značky a modely
 SO27 | SEARCH | Kategórie,,PHRASE,skywatcher,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,sky watcher,brand queries go to Značky a modely
 SO27 | SEARCH | Kategórie,,PHRASE,sky-watcher,brand queries go to Značky a modely
 SO27 | SEARCH | Kategórie,,PHRASE,swarovski,brand queries go to Značky a modely
 SO27 | SEARCH | Kategórie,,PHRASE,vixen,brand queries go to Značky a modely
+SO27 | SEARCH | Kategórie,,PHRASE,vortex,brand queries go to Značky a modely
 SO27 | SEARCH | Kategórie,,PHRASE,william optics,brand queries go to Značky a modely
 SO27 | SEARCH | Kategórie,,PHRASE,zeiss,brand queries go to Značky a modely
 SO27 | SEARCH | Kategórie,,PHRASE,bratislava,store queries go to Predajňa

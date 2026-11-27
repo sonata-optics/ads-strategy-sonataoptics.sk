@@ -1,0 +1,52 @@
+{
+ "read_at": "2026-11-27T10:41:04.127Z",
+ "entities": 62,
+ "guns_by_campaign": [
+  [
+   "Search | SK | Termovízie | Modely",
+   null,
+   23
+  ],
+  [
+   null,
+   null,
+   5
+  ],
+  [
+   "3.2 Termovizie",
+   null,
+   3
+  ],
+  [
+   "Search | SK | Smart teleskopy",
+   null,
+   3
+  ],
+  [
+   "SEARCH | SK | Adult categories | TEST 02-08 Oct | CAP 105",
+   null,
+   3
+  ],
+  [
+   "NEW26 | SEARCH | SK | Presné modely",
+   null,
+   3
+  ],
+  [
+   "Search | Bratislava | Predajňa Sonata Optics",
+   null,
+   1
+  ],
+  [
+   "Search | SK | Sonata Optics | Značka",
+   null,
+   1
+  ],
+  [
+   "NEW26 | SEARCH | Bratislava | Predajňa",
+   null,
+   1
+  ]
+ ],
+ "note": "read-only get_google_policy_evidence_bundle; Google returned no evidence texts (evidences null)"
+}

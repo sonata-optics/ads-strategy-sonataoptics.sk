@@ -46,7 +46,8 @@ CAT['Digitálne mikroskopy'] = (CAT['Digitálne mikroskopy'][0], [k for k in CAT
 # ---------------- Značky a modely ----------------
 BRANDS = {k: list(v) for k, v in P.BRANDS.items()}
 BRANDS['teleskopy'].append('Bresser Junior'); P.V['Bresser Junior'] = '66472'
-BRANDS['dalekohlady'].remove('Vortex')   # live Vortex RSA DISAPPROVED (GUNS) 26.11 -> no Vortex in Search; Shopping only
+# Owner 27.11: Vortex binoculars MUST be sold in Search; landing = Vortex filter inside binoculars (/dalekohlady/?features_hash=509-53544,
+# no redirect), neutral text without status. Old Vortex RSA on this URL was DISAPPROVED (GUNS) -> appeal first, watch policy after launch.
 MODELS = [  # group, PDP, EXACT/PHRASE keywords with full designation, ad-group negatives (conflicting variants), brand group, designators
  ('Celestron AstroMaster 114EQ', '/teleskop-celestron-astromaster-114eq-teleskop.html', ['celestron astromaster 114eq', 'astromaster 114eq', 'astromaster 114 eq'],
   ['114az', 'az', 'lt', '70', '90', '102', '130'], 'Teleskopy | Celestron', ['114eq', '114 eq']),
@@ -62,6 +63,8 @@ MODELS = [  # group, PDP, EXACT/PHRASE keywords with full designation, ad-group 
   ['eq', '76/700', '70/700', '50/360', '60/700', '90/900'], 'Teleskopy | National Geographic', ['114/900', '114 900']),
  ('Bresser Junior 70/900 EL', '/bresser-junior-teleskop-ac-70-900-el.html', ['bresser junior 70/900', 'bresser junior 70 900', 'bresser junior 70/900 el'],
   ['50/360', '70/400', '50 360', '70 400', '40', '60/700'], 'Teleskopy | Bresser Junior', ['70/900', '70 900']),
+ ('Vortex Crossfire HD 12x50', '/alekohlad-vortex-crossfire-hd-12x50-ru-sk.html', ['vortex crossfire hd 12x50', 'vortex crossfire 12x50', 'crossfire hd 12x50'],
+  ['10x42', '8x42', '10x50', '8x32', 'diamondback', 'viper', 'razor', 'approach'], 'Ďalekohľady | Vortex', ['crossfire hd 12x50', 'crossfire 12x50']),
  ('Bresser Condor UR 10x42', '/bresser-condor-ur-10x42-binoculars.html', ['bresser condor 10x42', 'bresser condor ur 10x42', 'condor ur 10x42'],
   ['8x42', '10x50', '8x32', '12x50', '10x25', '8x25'], 'Ďalekohľady | Bresser', ['condor 10x42', 'condor ur 10x42']),
  ('Levenhuk New Karma PLUS 10x42', '/levenhuk-new-karma-plus-10x42.html', ['levenhuk karma plus 10x42', 'karma plus 10x42', 'levenhuk new karma plus 10x42', 'new karma plus 10x42'],
@@ -74,7 +77,7 @@ MODELS = [  # group, PDP, EXACT/PHRASE keywords with full designation, ad-group 
 FAMILY = {  # ambiguous family queries -> brand/family page (brand group), PHRASE
  'Teleskopy | Celestron': ['celestron c8', 'celestron astromaster', 'celestron starsense'], 'Teleskopy | Sky-Watcher': ['sky-watcher explorer', 'skywatcher explorer'],
  'Teleskopy | Bresser': ['bresser messier'], 'Teleskopy | Bresser Junior': ['bresser junior teleskop', 'teleskop bresser junior'],
- 'Ďalekohľady | Bresser': ['bresser condor'], 'Ďalekohľady | Levenhuk': ['levenhuk karma'],
+ 'Ďalekohľady | Vortex': ['vortex crossfire'], 'Ďalekohľady | Bresser': ['bresser condor'], 'Ďalekohľady | Levenhuk': ['levenhuk karma'],
  'Mikroskopy | Bresser': ['bresser erudit'], 'Mikroskopy | Omegon': ['omegon binofield'], 'Teleskopy | National Geographic': ['national geographic teleskop'],
 }
 STORE = {
@@ -192,7 +195,7 @@ SEM = [  # query, expected url (None = no Search ad expected), note
  ('teleskop bresser junior', U('/teleskopy/?features_hash=509-66472'), 'Junior family, not Bresser brand'),
  ('levenhuk karma 10x42', U('/dalekohlady/?features_hash=509-37169'), 'ambiguous (PLUS/PRO) -> brand page (R5-23)'), ('levenhuk karma plus 10x42', SITE + '/levenhuk-new-karma-plus-10x42.html', 'model'),
  ('levenhuk karma pro 10x42', U('/dalekohlady/?features_hash=509-37169'), 'other generation -> brand page, not PLUS PDP'),
- ('vortex crossfire hd 12x50', None, 'Vortex not in Search (GUNS disapproval); Shopping only'), ('vortex dalekohlad', None, 'Vortex not in Search'),
+ ('vortex crossfire hd 12x50', SITE + '/alekohlad-vortex-crossfire-hd-12x50-ru-sk.html', 'model'), ('vortex dalekohlad', SITE + '/dalekohlady/?features_hash=509-53544', 'owner: Vortex binoculars filter page'), ('vortex crossfire hd 10x42', SITE + '/dalekohlady/?features_hash=509-53544', 'other size -> Vortex binoculars page'),
  ('sky-watcher explorer 130 eq2', SITE + '/product-47488.html', 'model'), ('sky-watcher explorer 130p eq2', U('/teleskopy/?features_hash=509-52381'), 'other variant -> brand page'),
  ('bresser erudit basic mono', U('/mikroskopy/?features_hash=509-37168'), 'other variant -> brand page'),
  ('sonata optics', SITE + '/kontakt/', 'store'), ('teleskopy bratislava', SITE + '/teleskopy/', 'store -> approved category landing'), ('mikroskop bratislava', SITE + '/mikroskopy/', 'store'), ('optika predajna bratislava okuliare', None, 'eyewear blocked'),
