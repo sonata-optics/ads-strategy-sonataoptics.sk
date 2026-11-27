@@ -1,0 +1,1175 @@
+{
+  "passed": 287,
+  "total": 287,
+  "checks": [
+    {
+      "pass": true,
+      "check": "published counts"
+    },
+    {
+      "pass": true,
+      "check": "keyword uniqueness"
+    },
+    {
+      "pass": true,
+      "check": "popis positive removed"
+    },
+    {
+      "pass": true,
+      "check": "cena positive retained"
+    },
+    {
+      "pass": true,
+      "check": "no popis negative in Search CSV"
+    },
+    {
+      "pass": true,
+      "check": "exact 21b text Model | Sky-Watcher Explorer 130/900 EQ2/H1"
+    },
+    {
+      "pass": true,
+      "check": "exact 21b text Teleskopy | National Geographic/H2"
+    },
+    {
+      "pass": true,
+      "check": "exact 21b text Teleskopy | Explore Scientific/H2"
+    },
+    {
+      "pass": true,
+      "check": "exact 21b text Ďalekohľady | National Geographic/H1"
+    },
+    {
+      "pass": true,
+      "check": "exact 21b text Ďalekohľady | National Geographic/H2"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Kategórie', 'Teleskopy')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Kategórie', 'Teleskopy')"
+    },
+    {
+      "pass": true,
+      "check": "category copy has no foreign claims/brands/sizes ('SO27 | SEARCH | Kategórie', 'Teleskopy')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Kategórie', 'Hvezdárske ďalekohľady')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Kategórie', 'Hvezdárske ďalekohľady')"
+    },
+    {
+      "pass": true,
+      "check": "category copy has no foreign claims/brands/sizes ('SO27 | SEARCH | Kategórie', 'Hvezdárske ďalekohľady')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Kategórie', 'Teleskopy pre deti')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Kategórie', 'Teleskopy pre deti')"
+    },
+    {
+      "pass": true,
+      "check": "category copy has no foreign claims/brands/sizes ('SO27 | SEARCH | Kategórie', 'Teleskopy pre deti')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Kategórie', 'Ďalekohľady')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Kategórie', 'Ďalekohľady')"
+    },
+    {
+      "pass": true,
+      "check": "category copy has no foreign claims/brands/sizes ('SO27 | SEARCH | Kategórie', 'Ďalekohľady')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Kategórie', 'Astronomické binokuláre')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Kategórie', 'Astronomické binokuláre')"
+    },
+    {
+      "pass": true,
+      "check": "category copy has no foreign claims/brands/sizes ('SO27 | SEARCH | Kategórie', 'Astronomické binokuláre')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Kategórie', 'Detské ďalekohľady')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Kategórie', 'Detské ďalekohľady')"
+    },
+    {
+      "pass": true,
+      "check": "category copy has no foreign claims/brands/sizes ('SO27 | SEARCH | Kategórie', 'Detské ďalekohľady')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Kategórie', 'Mikroskopy')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Kategórie', 'Mikroskopy')"
+    },
+    {
+      "pass": true,
+      "check": "category copy has no foreign claims/brands/sizes ('SO27 | SEARCH | Kategórie', 'Mikroskopy')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Kategórie', 'Mikroskopy pre deti a školské')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Kategórie', 'Mikroskopy pre deti a školské')"
+    },
+    {
+      "pass": true,
+      "check": "category copy has no foreign claims/brands/sizes ('SO27 | SEARCH | Kategórie', 'Mikroskopy pre deti a školské')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Kategórie', 'Digitálne mikroskopy')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Kategórie', 'Digitálne mikroskopy')"
+    },
+    {
+      "pass": true,
+      "check": "category copy has no foreign claims/brands/sizes ('SO27 | SEARCH | Kategórie', 'Digitálne mikroskopy')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Kategórie', 'Stereomikroskopy')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Kategórie', 'Stereomikroskopy')"
+    },
+    {
+      "pass": true,
+      "check": "category copy has no foreign claims/brands/sizes ('SO27 | SEARCH | Kategórie', 'Stereomikroskopy')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Kategórie', 'Ďalekohľady 10x50')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Kategórie', 'Ďalekohľady 10x50')"
+    },
+    {
+      "pass": true,
+      "check": "category copy has no foreign claims/brands/sizes ('SO27 | SEARCH | Kategórie', 'Ďalekohľady 10x50')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Kategórie', 'Ďalekohľady 10x42')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Kategórie', 'Ďalekohľady 10x42')"
+    },
+    {
+      "pass": true,
+      "check": "category copy has no foreign claims/brands/sizes ('SO27 | SEARCH | Kategórie', 'Ďalekohľady 10x42')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Kategórie', 'Ďalekohľady 8x42')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Kategórie', 'Ďalekohľady 8x42')"
+    },
+    {
+      "pass": true,
+      "check": "category copy has no foreign claims/brands/sizes ('SO27 | SEARCH | Kategórie', 'Ďalekohľady 8x42')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Kategórie', 'Ďalekohľady 12x50')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Kategórie', 'Ďalekohľady 12x50')"
+    },
+    {
+      "pass": true,
+      "check": "category copy has no foreign claims/brands/sizes ('SO27 | SEARCH | Kategórie', 'Ďalekohľady 12x50')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Kategórie', 'Ďalekohľady 8x56')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Kategórie', 'Ďalekohľady 8x56')"
+    },
+    {
+      "pass": true,
+      "check": "category copy has no foreign claims/brands/sizes ('SO27 | SEARCH | Kategórie', 'Ďalekohľady 8x56')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Kategórie', 'Ďalekohľady 20x50')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Kategórie', 'Ďalekohľady 20x50')"
+    },
+    {
+      "pass": true,
+      "check": "category copy has no foreign claims/brands/sizes ('SO27 | SEARCH | Kategórie', 'Ďalekohľady 20x50')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Kategórie', 'Ďalekohľady 8x32')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Kategórie', 'Ďalekohľady 8x32')"
+    },
+    {
+      "pass": true,
+      "check": "category copy has no foreign claims/brands/sizes ('SO27 | SEARCH | Kategórie', 'Ďalekohľady 8x32')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Kategórie', 'Turistické ďalekohľady')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Kategórie', 'Turistické ďalekohľady')"
+    },
+    {
+      "pass": true,
+      "check": "category copy has no foreign claims/brands/sizes ('SO27 | SEARCH | Kategórie', 'Turistické ďalekohľady')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Kategórie', 'Ornitologické ďalekohľady')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Kategórie', 'Ornitologické ďalekohľady')"
+    },
+    {
+      "pass": true,
+      "check": "category copy has no foreign claims/brands/sizes ('SO27 | SEARCH | Kategórie', 'Ornitologické ďalekohľady')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Kategórie', 'Vreckové ďalekohľady')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Kategórie', 'Vreckové ďalekohľady')"
+    },
+    {
+      "pass": true,
+      "check": "category copy has no foreign claims/brands/sizes ('SO27 | SEARCH | Kategórie', 'Vreckové ďalekohľady')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Model | Celestron AstroMaster 114EQ')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Model | Celestron AstroMaster 114EQ')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Model | Celestron StarSense LT 70AZ')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Model | Celestron StarSense LT 70AZ')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Model | Celestron C8 XLT OTA')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Model | Celestron C8 XLT OTA')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Model | Sky-Watcher Explorer 130/900 EQ2')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Model | Sky-Watcher Explorer 130/900 EQ2')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Model | Bresser Messier AR-127S EXOS-2')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Model | Bresser Messier AR-127S EXOS-2')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Model | National Geographic 114/900')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Model | National Geographic 114/900')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Model | Bresser Junior 70/900 EL')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Model | Bresser Junior 70/900 EL')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Model | Vortex Crossfire HD 12x50')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Model | Vortex Crossfire HD 12x50')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Model | Bresser Condor UR 10x42')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Model | Bresser Condor UR 10x42')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Model | Levenhuk New Karma PLUS 10x42')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Model | Levenhuk New Karma PLUS 10x42')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Model | Bresser Erudit Basic Bino')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Model | Bresser Erudit Basic Bino')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Model | Omegon Binofield 40-800x LED')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Model | Omegon Binofield 40-800x LED')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Teleskopy | Sky-Watcher')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Teleskopy | Sky-Watcher')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Teleskopy | Celestron')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Teleskopy | Celestron')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Teleskopy | Omegon')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Teleskopy | Omegon')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Teleskopy | Levenhuk')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Teleskopy | Levenhuk')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Teleskopy | Bresser')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Teleskopy | Bresser')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Teleskopy | William Optics')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Teleskopy | William Optics')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Teleskopy | Vixen')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Teleskopy | Vixen')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Teleskopy | National Geographic')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Teleskopy | National Geographic')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Teleskopy | Explore Scientific')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Teleskopy | Explore Scientific')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Teleskopy | Discovery')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Teleskopy | Discovery')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Teleskopy | Bresser Junior')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Teleskopy | Bresser Junior')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Ďalekohľady | Levenhuk')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Ďalekohľady | Levenhuk')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Ďalekohľady | Omegon')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Ďalekohľady | Omegon')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Ďalekohľady | Bresser')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Ďalekohľady | Bresser')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Ďalekohľady | Leica')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Ďalekohľady | Leica')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Ďalekohľady | Zeiss')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Ďalekohľady | Zeiss')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Ďalekohľady | Minox')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Ďalekohľady | Minox')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Ďalekohľady | Celestron')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Ďalekohľady | Celestron')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Ďalekohľady | Vortex')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Ďalekohľady | Vortex')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Ďalekohľady | Delta')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Ďalekohľady | Delta')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Ďalekohľady | National Geographic')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Ďalekohľady | National Geographic')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Ďalekohľady | Discovery')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Ďalekohľady | Discovery')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Ďalekohľady | Meopta')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Ďalekohľady | Meopta')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Mikroskopy | Euromex')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Mikroskopy | Euromex')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Mikroskopy | Kern')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Mikroskopy | Kern')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Mikroskopy | Bresser')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Mikroskopy | Bresser')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Mikroskopy | MAGUS')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Mikroskopy | MAGUS')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Mikroskopy | Levenhuk')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Mikroskopy | Levenhuk')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Mikroskopy | Omegon')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Mikroskopy | Omegon')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Mikroskopy | Kelvin')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Mikroskopy | Kelvin')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('SO27 | SEARCH | Značky a modely', 'Mikroskopy | Discovery')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('SO27 | SEARCH | Značky a modely', 'Mikroskopy | Discovery')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('NEW26 | SEARCH | Bratislava | Predajňa', 'Predajňa – značka a adresa')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('NEW26 | SEARCH | Bratislava | Predajňa', 'Predajňa – značka a adresa')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('NEW26 | SEARCH | Bratislava | Predajňa', 'Predajňa – teleskopy')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('NEW26 | SEARCH | Bratislava | Predajňa', 'Predajňa – teleskopy')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('NEW26 | SEARCH | Bratislava | Predajňa', 'Predajňa – mikroskopy')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('NEW26 | SEARCH | Bratislava | Predajňa', 'Predajňa – mikroskopy')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('NEW26 | SEARCH | Bratislava | Predajňa', 'Predajňa – ďalekohľady')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('NEW26 | SEARCH | Bratislava | Predajňa', 'Predajňa – ďalekohľady')"
+    },
+    {
+      "pass": true,
+      "check": "lengths ('NEW26 | SEARCH | Bratislava | Predajňa', 'Predajňa – poradenstvo a osobný odber')"
+    },
+    {
+      "pass": true,
+      "check": "asset counts and unique H ('NEW26 | SEARCH | Bratislava | Predajňa', 'Predajňa – poradenstvo a osobný odber')"
+    },
+    {
+      "pass": true,
+      "check": "exact changed group list"
+    },
+    {
+      "pass": true,
+      "check": "before-after values match final RSA"
+    },
+    {
+      "pass": true,
+      "check": "before-after covers ALL changed fields relative to move19"
+    },
+    {
+      "pass": true,
+      "check": "before values match move19"
+    },
+    {
+      "pass": true,
+      "check": "local montaz Ďalekohľady | Vortex"
+    },
+    {
+      "pass": true,
+      "check": "local montaz Model | Vortex Crossfire HD 12x50"
+    },
+    {
+      "pass": true,
+      "check": "scope stays local"
+    },
+    {
+      "pass": true,
+      "check": "manifest exact statuses"
+    },
+    {
+      "pass": true,
+      "check": "manifest covers exactly all 68 Search groups"
+    },
+    {
+      "pass": true,
+      "check": "thin assortment gate"
+    },
+    {
+      "pass": true,
+      "check": "landing inventory exact coverage"
+    },
+    {
+      "pass": true,
+      "check": "published landing report PASS (not fresh live proof)"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: dalekohlad 10x50"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: dalekohlad 10x42"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: dalekohlad 8x42"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: dalekohlad 12x50"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: dalekohlad 8x56"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: ďalekohľad 8x56"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: dalekohlad 10x56"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: dalekohlad 20x50"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: turisticky dalekohlad 10x42"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: turisticky dalekohlad"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: dalekohlad"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: teleskop"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: mikroskop pre deti"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: teleskop celestron"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: celestron c8"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: celestron c8 ota"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: celestron nexstar 8se"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: celestron c8 nexstar ota"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: celestron astromaster 114eq"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: celestron astromaster 114az"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: bresser junior teleskop"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: bresser junior 70/900"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: bresser junior 70/400"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: teleskop bresser"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: teleskop bresser junior"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: levenhuk karma 10x42"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: levenhuk karma plus 10x42"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: levenhuk karma pro 10x42"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: vortex crossfire hd 12x50"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: vortex dalekohlad"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: vortex crossfire hd 10x42"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: vortex crossfire ii 3-9x40"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: vortex crossfire red dot"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: vortex crossfire rifle scope"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: vortex crossfire riflescope"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: vortex puskohlad"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: vortex 3-9x40"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: vortex crossfire ii"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: vortex crossfire hd 8x42"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: vortex dalekohlad 10x42"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: vortex crossfire"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: vortex crossfire hd 12x50 bratislava"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: predajna dalekohladov"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: vortex crossfire 12 x 50"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: sky-watcher explorer 130 eq2"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: sky-watcher explorer 130p eq2"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: bresser erudit basic mono"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: sonata optics"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: teleskopy bratislava"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: mikroskop bratislava"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: optika predajna bratislava okuliare"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: dalekohlad s nocnym videnim"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: seestar s50"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: vortex crossfire montaz"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: vortex crossfire hd 12x50 montaz"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: vortex crossfire hd 12x50"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: mikroskop popis"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: mikroskop cena"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: predajna mikroskopov"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: predajňa mikroskopov"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: osobny odber dalekohlad"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: osobný odber ďalekohľad"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: teleskop celestron bratislava"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: dalekohlad 10x42 bratislava"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: dalekohlad leica bratislava"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: predajna mikroskopov okuliare"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: predajna dalekohladov na pusku"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: dalekohlad bratislava puskohlad"
+    },
+    {
+      "pass": true,
+      "check": "independent CSV route: celestron bratislava"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion vortex crossfire montaz"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion montaz vortex crossfire"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion vortex crossfire montáž"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion montáž vortex crossfire"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion vortex crossfire scope"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion scope vortex crossfire"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion vortex crossfire rifle scope"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion rifle scope vortex crossfire"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion vortex crossfire puškohľad"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion puškohľad vortex crossfire"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion vortex crossfire mrad"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion mrad vortex crossfire"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion vortex crossfire bdc"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion bdc vortex crossfire"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion vortex crossfire hd 12x50 montaz"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion montaz vortex crossfire hd 12x50"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion vortex crossfire hd 12x50 montáž"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion montáž vortex crossfire hd 12x50"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion vortex crossfire hd 12x50 scope"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion scope vortex crossfire hd 12x50"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion vortex crossfire hd 12x50 rifle scope"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion rifle scope vortex crossfire hd 12x50"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion vortex crossfire hd 12x50 puškohľad"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion puškohľad vortex crossfire hd 12x50"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion vortex crossfire hd 12x50 mrad"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion mrad vortex crossfire hd 12x50"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion vortex crossfire hd 12x50 bdc"
+    },
+    {
+      "pass": true,
+      "check": "independent weapon exclusion bdc vortex crossfire hd 12x50"
+    },
+    {
+      "pass": true,
+      "check": "independent store exclusion predajna mikroskopov okuliare"
+    },
+    {
+      "pass": true,
+      "check": "independent store exclusion predajna mikroskopov na pusku"
+    },
+    {
+      "pass": true,
+      "check": "independent store exclusion predajna mikroskopov puškohľad"
+    },
+    {
+      "pass": true,
+      "check": "independent store exclusion osobny odber dalekohlad okuliare"
+    },
+    {
+      "pass": true,
+      "check": "independent store exclusion osobny odber dalekohlad na pusku"
+    },
+    {
+      "pass": true,
+      "check": "independent store exclusion osobny odber dalekohlad puškohľad"
+    },
+    {
+      "pass": true,
+      "check": "independent store exclusion dalekohlad 10x42 bratislava okuliare"
+    },
+    {
+      "pass": true,
+      "check": "independent store exclusion dalekohlad 10x42 bratislava na pusku"
+    },
+    {
+      "pass": true,
+      "check": "independent store exclusion dalekohlad 10x42 bratislava puškohľad"
+    },
+    {
+      "pass": true,
+      "check": "independent store exclusion teleskop celestron bratislava okuliare"
+    },
+    {
+      "pass": true,
+      "check": "independent store exclusion teleskop celestron bratislava na pusku"
+    },
+    {
+      "pass": true,
+      "check": "independent store exclusion teleskop celestron bratislava puškohľad"
+    }
+  ],
+  "source_commit": "ace61d3079e82ac84ccf445392b5c5fadafc44d2",
+  "regeneration": "all six CSVs match as records/multisets; keyword/negative row order differs",
+  "generator_offline": "831/831 PASS",
+  "mutations": {
+    "31_char_headline": "rejected",
+    "91_char_description": "rejected",
+    "mixed_10x42_and_8x42_in_one_headline": "not rejected by Code guard; independent CSV audit rejects"
+  },
+  "child_landing": {
+    "url": "https://sonataoptics.sk/dalekohlady/?features_hash=509-66472",
+    "count": 1,
+    "product": "Bresser Junior 7×30",
+    "pdp": "https://sonataoptics.sk/bresser-junior-7x30-childrens-binoculars.html",
+    "stock_evidence": [
+      "Skladom",
+      "InStock",
+      "Do košíka"
+    ],
+    "price_eur": 29.9,
+    "date": "2026-11-27"
+  }
+}
