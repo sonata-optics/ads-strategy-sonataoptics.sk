@@ -77,3 +77,50 @@ SO27 total budgets **3 840 €** (жёсткий потолок периода, 
 Откат: [rollback_plan.csv хода 11](11_claude_code_attachments/rollback_plan.csv) + helper хода 13. Модуль: бэкапы выше; новые кампании — PAUSE (не удалять).
 
 Передача ChatGPT: read-only проверка фактического результата по ID из launch_ids_and_readback.json. Особое внимание отклонению 1 (защита старых маршрутов данными вместо фильтра) и сроку параллели.
+
+## 8. Наблюдение +2 ч (27.11.2026, ≈ 18:20 UTC / 19:20 Братислава)
+
+### 8.1 Policy новых RSA (read-only, до изменений)
+| Объект | Результат |
+|---|---|
+| SO27 SEARCH Kategórie 24554101173 | **20/20 RSA APPROVED** |
+| SO27 SEARCH Značky a modely 24565141321 | **41/41 RSA APPROVED** |
+| Predajňa 24341095320, 4 новые группы | **4/4 RSA APPROVED** |
+| 19 нейтральных RSA в 24425793295 | **7 APPROVED**, 12 REVIEW_IN_PROGRESS (Minox, Leica, Kern, Omegon, Euromex, Motic, Optika Italy, Vixen, William Optics, Explore Scientific, MAGUS, Vaonis) |
+| Старые объявления под апелляцией | Predajňa Sonata Optics 827728842420 и Ďalekohľady \| Vortex 830169298461 — DISAPPROVED (GUNS), апелляции не решены. **Не трогал** |
+
+DISAPPROVED и GUNS среди новых объектов нет. APPROVED_LIMITED среди новых RSA нет. Старые объявления с LIMITED-GUNS (Zeiss, Bresser бинокли/микроскопы, Celestron бинокли, Vaonis) были такими и до запуска; для пяти из них уже есть одобренная нейтральная замена (см. 8.2).
+
+### 8.2 Изменения (validate_only → apply, 20 операций, атомарно, readback)
+| Объект | Было | Стало (прочитано) |
+|---|---|---|
+| SO27 SEARCH Kategórie 24554101173 | PAUSED | **ENABLED**, serving PENDING (старт 28.11 00:00) |
+| SO27 SEARCH Značky a modely 24565141321 | PAUSED | **ENABLED**, serving PENDING |
+| Predajňa – teleskopy 202505153037 | PAUSED | **ENABLED** |
+| Predajňa – mikroskopy 202505154237 | PAUSED | **ENABLED** |
+| Predajňa – ďalekohľady 204925846520 | PAUSED | **ENABLED** |
+| Predajňa – poradenstvo a osobný odber 202505156557 | PAUSED | **ENABLED** |
+
+Замена объявлений в «Značky × kategórie» (новый нейтральный RSA → ENABLED, старый с «Oficiálny predajca» → PAUSED):
+| Группа | Новый (ENABLED) | Старый (PAUSED) |
+|---|---|---|
+| Teleskopy \| Bresser 200035238565 | 833053322111 | 830298734072 |
+| Teleskopy \| Celestron 201357432843 | 833053322114 | 830169293451 |
+| Ďalekohľady \| Zeiss 201374277269 | 833053322117 | 830298702167 |
+| Ďalekohľady \| Bresser 201743550637 | 833053322129 | 830298727427 |
+| Mikroskopy \| Bresser 201743579237 | 833053322144 | 830298704357 |
+| Teleskopy \| Sky-Watcher 201781666076 | 833053322147 | 830298736751 |
+| Ďalekohľady \| Celestron 202011710335 | 833053322150 | 830298707015 |
+
+12 групп с RSA на проверке: новые RSA остаются PAUSED, старые работают — замена на следующем наблюдении после собственного APPROVED.
+
+Не менялось: термо SO27 24554101167 (HOLD), Vortex, /kontakt/, объявления под апелляцией, старые Shopping, бюджеты.
+
+### 8.3 Merchant
+- cron работает каждый час (последний запуск 20:21 EET), блокировка `flock` срабатывает корректно («Scheduled job already active» один раз, без наложения).
+- ads-gate-summary.json: правила **ads-gate-v3.2**, контекст 5831333799~sk~SK, register ok, policy ok, hold 76, непроверенных 0.
+- **Сверка R5-02 (как видит Google, shopping_product):** label4 ads_ok **7 519** / ads_review **223** / ads_hold **74**; label3 p_20_49 **1 174** — совпадает с отправкой 1 в 1. Остаток: 40 позиций со старой меткой p_0_49 и ~196 со старыми значениями label4 (группы применения) — это товары, которых больше нет в отправке (8 012 в Google против 7 816 в фиде); у них нет ads_ok, поэтому дерево SO27 их не берёт. Google удалит их по сроку жизни товара.
+- ELIGIBLE 1 596 / NOT_ELIGIBLE 6 416 — ожидаемо до старта SO27 Shopping (28.11 00:00): сейчас товары обслуживают только 3 старые Shopping. Проверю на утреннем наблюдении.
+
+### 8.4 Следующее
+28.11 утро: первые показы SO27 Shopping и Search, search terms, расход относительно потолков; policy 12 оставшихся нейтральных RSA → замена старых по той же схеме.

@@ -1,3 +1,11 @@
+# Текущий статус — наблюдение +2 ч, ход 25 Claude Code, 27.11.2026
+**[Отчёт 25 §8](round-05/25_claude_code_launch_report.md#8-наблюдение-2-ч-27112026--1820-utc--1920-братислава). Следующий — ChatGPT, read-only проверка; Code — наблюдение 28.11 утром.**
+- ENABLED: 5 SO27 Shopping + **обе SO27 Search** (61/61 RSA APPROVED) + **4 новые группы Predajňa** (APPROVED). Старт показов SO27 28.11 00:00.
+- «Značky × kategórie»: 7 нейтральных RSA одобрены и включены, 7 старых с «Oficiálny predajca» на паузе; 12 ещё на проверке.
+- Merchant: Google видит ads_ok 7 519 / review 223 / hold 74, p_20_49 1 174 — сверка R5-02 пройдена.
+- HOLD без изменений: термо, Vortex ×2, /kontakt/; апелляции не решены.
+
+## История
 # Текущий статус — запуск исполнен частично, ход 25 Claude Code, 27.11.2026
 **[Отчёт исполнения 25](round-05/25_claude_code_launch_report.md). Следующий — ChatGPT, read-only проверка фактического результата; Code — наблюдение +2 ч.**
 - ENABLED: 5 SO27 Shopping (Teleskopy, Ďalekohľady, Mikroskopy, Príslušenstvo, Junior), старт показов 28.11 00:00; total budgets CUSTOM_PERIOD 3 840 € прочитаны.
